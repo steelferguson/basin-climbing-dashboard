@@ -1,5 +1,6 @@
 from dash import html, dcc, dash_table, Input, Output
-from app import app  # Import the initialized app
+# from app import app  # Import the initialized app
+from src.app import app
 import plotly.express as px
 from pullDataFromCapitan import pull_and_transform_payment_data  # Import the function to pull data
 
