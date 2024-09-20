@@ -124,10 +124,15 @@ def transform_payments_data(df):
     return df
 
 def save_data(df, file_name):
-    df.to_csv('../data/outputs/' + file_name + '.csv', index=False)
+    df.to_csv('data/outputs/' + file_name + '.csv', index=False)
     print(file_name + ' saved in ' + '/data/outputs/')
 
-if __name__ == "__main__":
+def pull_and_transform_payment_data():
     df = get_results_from_api(url_payments, headers)
     df = transform_payments_data(df)
     save_data(df, 'payment_data')
+    return df
+
+if __name__ == "__main__":
+    pull_and_transform_payment_data()
+
