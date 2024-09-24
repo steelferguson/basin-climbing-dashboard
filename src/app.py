@@ -1,5 +1,4 @@
-import html
-from dash import Dash
+from dash import Dash, html
 
 # Initialize the Dash app
 app = Dash(__name__)
@@ -17,3 +16,4 @@ if __name__ == "__main__":
 
 # # Optional: Add external stylesheets, meta tags, etc.
 # app.title = "Basin Climbing Dashboard"
+
