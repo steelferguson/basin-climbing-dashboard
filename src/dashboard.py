@@ -1,6 +1,5 @@
 from dash import html, dcc, dash_table, Input, Output
-# from app import app  # Import the initialized app
-from src.app import app
+from src.app import app  # Import the initialized app
 import plotly.express as px
 from src.pullDataFromCapitan import pull_and_transform_payment_data  # Import the function to pull data
 
@@ -81,8 +80,3 @@ def update_graph(selected_timeframe, is_founder_filter, is_free_membership_filte
     
     # Return data for table and figure for the graph
     return revenue_by_category.to_dict('records'), fig
-
-
-# Run the app
-if __name__ == '__main__':
-    app.run_server(debug=True)
