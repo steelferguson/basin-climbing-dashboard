@@ -10,7 +10,7 @@ app.layout = html.Div("Hello, Dash only!")
 server = app.server
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=True)  # Do not specify `port=8050` or any specific port
 
 
 # from dash import Dash, html
