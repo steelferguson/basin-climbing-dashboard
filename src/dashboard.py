@@ -1,7 +1,7 @@
 from dash import html, dcc, dash_table, Input, Output
 import plotly.express as px
-from pullDataFromCapitan import pullDataFromCapitan as capitan
 from pullSquareAndStripeData import pullSquareAndStripeData as squareAndStripe
+from pullDataFromCapitan import pullDataFromCapitan as capitan
 import pandas as pd
 
 # Get the transformed data from Capitan
