@@ -1,4 +1,13 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Date,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source
+Capitan membership #115944 initial payment: Solo Weekly,120.16,0,0.0,,2024-10-10,New Membership,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #96542 renewal payment: Solo Weekly,32.48,0,0.0,John Morris,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #96543 renewal payment: Solo Weekly,32.48,0,0.0,John Morris,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #78227 renewal payment: Solo Weekly,36.8,0,0.0,ARANTZA TREJO,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #108192 renewal payment: Solo Weekly,38.97,0,0.0,Alaye Baker,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #112244 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #99564 renewal payment: Solo Weekly,32.48,0,0.0,Dan Martin,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #112574 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #112596 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
 Capitan membership #110518 renewal payment: Solo Weekly,38.97,0,0.0,Harry B Amadeo,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
 Capitan membership #109697 freeze payment: Solo Weekly,2.16,0,0.0,,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
 Capitan membership #100135 renewal payment: Solo Weekly,38.97,0,0.0,D Rodriguez Aguirre,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe

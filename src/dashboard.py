@@ -1,3 +1,5 @@
+import sys
+sys.path.append('./src')
 from dash import html, dcc, dash_table, Input, Output
 import plotly.express as px
 from pullSquareAndStripeData import pullSquareAndStripeData as squareAndStripe
