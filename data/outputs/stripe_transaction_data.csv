@@ -1,4 +1,8 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Date,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source
+Capitan membership #110518 renewal payment: Solo Weekly,38.97,0,0.0,Harry B Amadeo,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #109697 freeze payment: Solo Weekly,2.16,0,0.0,,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #100135 renewal payment: Solo Weekly,38.97,0,0.0,D Rodriguez Aguirre,2024-10-10,Membership Renewal,Solo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
+Capitan membership #95834 renewal payment: Duo Weekly,60.62,0,0.0,John D Dale,2024-10-10,Membership Renewal,Duo,weekly,False,False,2024-10-10 00:00:00+00:00,Stripe
 Capitan entry pass #988142: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-09,Day Pass,,,False,False,2024-10-09 00:00:00+00:00,Stripe
 Capitan membership #110391 renewal payment: Solo Weekly,39.4,0,0.0,Angela Pearson,2024-10-09,Membership Renewal,Solo,weekly,False,False,2024-10-09 00:00:00+00:00,Stripe
 Capitan membership #110391 payment retry: Solo Weekly,39.4,0,0.0,Angela Pearson,2024-10-09,Membership Renewal,Solo,weekly,False,False,2024-10-09 00:00:00+00:00,Stripe
