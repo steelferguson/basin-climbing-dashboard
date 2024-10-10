@@ -9,8 +9,8 @@ df = capitan.pull_and_transform_payment_data()
 # df = pd.read_csv('data/outputs/payment_data.csv')
 
 # Get the combined Stripe and Square data
-# df_combined = stripeAndSquare.pull_and_transform_stripe_and_square_data()
-df_combined = pd.read_csv('data/outputs/square_transaction_data.csv')  # Path to your CSV file
+df_combined = stripeAndSquare.pull_and_transform_stripe_and_square_data()
+# df_combined = pd.read_csv('data/outputs/square_transaction_data.csv')  # Path to your CSV file
 
 # Define the layout and callbacks for the app here (don't define the app object itself)
 def create_dashboard(app):
