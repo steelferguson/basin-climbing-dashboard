@@ -1,5 +1,6 @@
 from dash import Dash
-from src.dashboard import create_dashboard  # Import the function to set up the dashboard
+# from oldDashboard import create_dashboard  # Import the function to set up the dashboard
+from dashboard import create_dashboard  # Import the function to set up the dashboard
 
 # Initialize the Dash app
 app = Dash(__name__)
