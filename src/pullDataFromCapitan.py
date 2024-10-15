@@ -99,6 +99,20 @@ class pullDataFromCapitan:
             is_bcf_staff_or_friend = True
         
         return category, membership_size, membership_freq, is_founder, is_bcf_staff_or_friend
+    
+    @staticmethod
+    def categorize_revenue_sub_category(description):
+        description = description.lower()  # Convert to lowercase for case-insensitive matching
+        if "birthday" in description:
+            return "birthday party"
+        elif "comp" in description:
+            return "competition"
+        elif "climbing technique" in description:
+            return "climbing class"
+        elif "belay class" in description:
+            return "belay class"
+        else:
+            return "other"
 
     @staticmethod
     def transform_payments_data(df):
@@ -125,6 +139,8 @@ class pullDataFromCapitan:
         df['amount'] = pd.to_numeric(df['amount'], errors='coerce')
         df['tax_amount'] = pd.to_numeric(df['tax_amount'], errors='coerce')
         df['discount_amount'] = pd.to_numeric(df['discount_amount'], errors='coerce')
+
+        df['revenue_sub_category'] = df['invoice_description'].apply(pullDataFromCapitan.categorize_revenue_sub_category)
         
         return df
 
