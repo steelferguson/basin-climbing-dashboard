@@ -111,6 +111,14 @@ class pullDataFromCapitan:
             return "climbing class"
         elif "belay class" in description:
             return "belay class"
+        elif "field trip" in description:
+            return "private group rental"
+        elif "private group" in description:
+            return "private group rental"
+        elif "transformation" in description:
+            return "fitness class"
+        elif "fitness" in description:
+            return "fitness class"
         else:
             return "other"
 
