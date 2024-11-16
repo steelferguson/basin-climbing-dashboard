@@ -52,19 +52,13 @@ def create_dashboard(app):
         html.H1(children='CAPITAN Revenue by Sub-Category'),
         dcc.Graph(id='capitan-revenue-sub-category-chart'),
 
-        # Total Revenue chart section
-        html.H1(children='Total Revenue Over Time'),
-        dcc.Graph(id='total-revenue-chart'),
+        html.H1(children='Membership Count by Frequency and Size'),
 
-        # Revenue Percentage chart section
-        html.H1(children='Percentage of Revenue by Category'),
-        dcc.Graph(id='revenue-percentage-chart'),
-
-        # Day Pass Count chart section
+        # Add the Day Pass count chart
         html.H1(children='Day Pass Count'),
         dcc.Graph(id='day-pass-count-chart'),  
         
-        html.H1(children='Membership Count by Frequency and Size'),
+        # Checkboxes for membership frequency toggle
         dcc.Checklist(
             id='membership-frequency-toggle',
             options=[
@@ -75,6 +69,8 @@ def create_dashboard(app):
             value=['yearly', 'monthly', 'weekly'],  # Default is all selected
             inline=True
         ),
+
+        # Membership stacked bar chart
         dcc.Graph(id='membership-metrics-stacked-chart'),
     ])
 
@@ -95,43 +91,6 @@ def create_dashboard(app):
         fig = px.bar(revenue_by_sub_category, x='date', y='amount_pre_tax', color='revenue_sub_category',
                     title='Event Revenue by Sub-Category', barmode='stack')
 
-        return fig
-
-    # Callback for Total Revenue chart
-    @app.callback(
-        Output('total-revenue-chart', 'figure'),
-        [Input('timeframe-toggle', 'value')]
-    )
-    def update_total_revenue_chart(selected_timeframe):
-        df_filtered = df_combined.copy()
-        df_filtered['date'] = df_filtered['Date'].dt.to_period(selected_timeframe).dt.start_time
-        total_revenue = df_filtered.groupby('date')['Pre-Tax Amount'].sum().reset_index()
-
-        fig = px.line(total_revenue, x='date', y='Pre-Tax Amount', title='Total Revenue Over Time')
-        return fig
-
-    # Callback for Percentage of Revenue by Category chart
-    @app.callback(
-        Output('revenue-percentage-chart', 'figure'),
-        [Input('timeframe-toggle', 'value')]
-    )
-    def update_revenue_percentage_chart(selected_timeframe):
-        df_filtered = df_combined.copy()
-        df_filtered['date'] = df_filtered['Date'].dt.to_period(selected_timeframe).dt.start_time
-
-        # Group by date and category and sum the revenue
-        revenue_by_category = df_filtered.groupby(['date', 'revenue_category'])['Pre-Tax Amount'].sum().reset_index()
-
-        # Calculate the total revenue per date
-        total_revenue_per_date = revenue_by_category.groupby('date')['Pre-Tax Amount'].sum().reset_index()
-        total_revenue_per_date.columns = ['date', 'total_revenue']
-
-        # Merge to calculate percentages
-        revenue_with_total = pd.merge(revenue_by_category, total_revenue_per_date, on='date')
-        revenue_with_total['percentage'] = (revenue_with_total['Pre-Tax Amount'] / revenue_with_total['total_revenue']) * 100
-
-        fig = px.bar(revenue_with_total, x='date', y='percentage', color='revenue_category',
-                     title='Percentage of Revenue by Category Over Time', barmode='stack')
         return fig
 
     # Callback to update membership metrics stacked bar chart
