@@ -25,6 +25,7 @@ class pullDataFromCapitan:
     ## Dictionaries for processing string in decripitions
     revenue_category_keywords = {
         'day pass': 'Day Pass',
+        'team dues': 'Team', 
         'membership renewal': 'Membership Renewal',
         'new membership': 'New Membership',
         'booking': 'Event Booking',
@@ -105,6 +106,8 @@ class pullDataFromCapitan:
         description = description.lower()  # Convert to lowercase for case-insensitive matching
         if "birthday" in description:
             return "birthday party"
+        elif "team dues" in description:
+            return "team dues"
         elif "comp" in description:
             return "competition"
         elif "climbing technique" in description:

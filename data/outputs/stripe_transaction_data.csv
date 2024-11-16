@@ -1,14 +1,795 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Date,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source
+Capitan entry pass #1043078: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1043072: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1043070: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1043068: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1042885: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1042811: ONLINE 90 day discounted day pass (promo),16.24,0,0.0,Nicole Sulak,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1042803: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,Nicole Sulak,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1042799: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Nicole Sulak,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan reservation #3833804: Top Rope Belay Class,15.0,0,0.0,Brynn Eaton,2024-11-15,Event Booking,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1042359: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Ethan Goertzen,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1042037: ONLINE 90 day discounted day pass (promo),16.24,0,0.0,Steel Ferguson,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1042037: ONLINE 90 day discounted day pass (promo),16.24,0,0.0,Steel Ferguson,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan entry pass #1042037: ONLINE 90 day discounted day pass (promo),16.24,0,0.0,Steel Ferguson,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #116733 renewal payment: Yotuh Comp Team Dues,215.42,0,0.0,,2024-11-15,Team,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #114938 renewal payment: Family Weekly,56.29,0,0.0,,2024-11-15,Membership Renewal,Family,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #112033 renewal payment: Family Weekly,56.29,0,0.0,,2024-11-15,Membership Renewal,Family,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #115077 freeze payment: Duo Weekly,4.33,0,0.0,Joseph Rios,2024-11-15,Membership Renewal,Duo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #119711 renewal payment: Duo Weekly,77.94,0,0.0,Victor Vo,2024-11-15,Membership Renewal,Duo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #112411 renewal payment: Duo Weekly,73.61,0,0.0,Morgan Green,2024-11-15,Membership Renewal,Duo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #112309 renewal payment: Duo Weekly,73.61,0,0.0,Alex Vu,2024-11-15,Membership Renewal,Duo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #117171 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #115048 renewal payment: Solo Weekly,43.3,0,0.0,Matthew Bosang,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #112455 freeze payment: Solo Weekly,2.16,0,0.0,,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #112417 renewal payment: Solo Weekly,43.3,0,0.0,Joshua Johnson,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #112070 renewal payment: Solo Weekly,35.07,0,0.0,Bethany Kerley,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #109831 renewal payment: Solo Weekly,38.97,0,0.0,Kalea J Kim,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #109288 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #99984 renewal payment: Solo Weekly,32.48,0,0.0,Isaac P Baker,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #96715 renewal payment: Solo Weekly,36.8,0,0.0,Luke Tisch,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #96680 renewal payment: Solo Weekly,32.48,0,0.0,Robert Scrivner,2024-11-15,Membership Renewal,Solo,weekly,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan membership #99564 payment retry: Solo Weekly,36.8,0,0.0,James D Martin,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #122009 initial payment: College Student Monthly,57.4,0,0.0,Kelsey Maglio,2024-11-14,New Membership,,Monthly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041559: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041559: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041557: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041554: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041544: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041540: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041539: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041516: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041505: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041500: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1041427: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan reservation #3830590: Top Rope Belay Class,15.0,0,0.0,John K Collins,2024-11-14,Event Booking,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan reservation #3830590: Top Rope Belay Class,15.0,0,0.0,John K Collins,2024-11-14,Event Booking,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan reservation #3830582: Top Rope Belay Class,15.0,0,0.0,,2024-11-14,Event Booking,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1040850: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #121912 initial payment: College Student Monthly,22.4,0,0.0,,2024-11-14,New Membership,,Monthly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #116566 renewal payment: Youth Rec Team Dues,161.29,0,0.0,,2024-11-14,Team,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #116565 renewal payment: Youth Rec Team Dues,161.29,0,0.0,,2024-11-14,Team,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #116563 renewal payment: Youth Rec Team Dues,193.77,0,0.0,,2024-11-14,Team,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #116562 renewal payment: Youth Rec Team Dues,161.29,0,0.0,,2024-11-14,Team,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #111804 renewal payment: Family Weekly,58.46,0,0.0,,2024-11-14,Membership Renewal,Family,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #108303 renewal payment: Family Weekly,77.94,0,0.0,,2024-11-14,Membership Renewal,Family,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #111939 renewal payment: Duo Weekly,70.58,0,0.0,,2024-11-14,Membership Renewal,Duo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #109607 renewal payment: Duo Weekly,73.61,0,0.0,Heath Osborne,2024-11-14,Membership Renewal,Duo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #108312 renewal payment: Duo Weekly,73.61,0,0.0,,2024-11-14,Membership Renewal,Duo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #117016 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #114856 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #114843 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #112244 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #111906 renewal payment: Solo Weekly,43.3,0,0.0,Valerie Slater,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #111843 renewal payment: Solo Weekly,43.3,0,0.0,Laura lee Washington,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #111803 renewal payment: Solo Weekly,38.97,0,0.0,Samuel R Monroy,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #109624 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #109609 renewal payment: Solo Weekly,39.4,0,0.0,Alexius Lauzon,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #109474 renewal payment: Solo Weekly,32.48,0,0.0,Brenda S Lewis,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #102325 renewal payment: Solo Weekly,38.97,0,0.0,Maxwell McGaffin,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #99881 renewal payment: Solo Weekly,36.8,0,0.0,Colton Johnson,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan membership #99855 renewal payment: Solo Weekly,36.8,0,0.0,Daniel Haddock,2024-11-14,Membership Renewal,Solo,weekly,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan entry pass #1040426: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #121867 initial payment: College Student Monthly,23.14,0,0.0,,2024-11-13,New Membership,,Monthly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan entry pass #1040266: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #121839 initial payment: Solo Weekly,60.99,0,0.0,,2024-11-13,New Membership,Solo,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan entry pass #1039976: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan entry pass #1039966: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan reservation #3827646: Top Rope Belay Class,30.0,0,0.0,,2024-11-13,Event Booking,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #121811 initial payment: College Student Monthly,59.54,0,0.0,,2024-11-13,New Membership,,Monthly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan entry pass #1039792: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan entry pass #1039615: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan entry pass #1039615: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #120205 add-on change fee #3826734,2.48,0,0.0,,2024-11-13,Membership Renewal,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan entry pass #1039398: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #111756 renewal payment: Family Weekly,112.58,0,0.0,Daniel Ezell,2024-11-13,Membership Renewal,Family,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #99713 renewal payment: Family Weekly,77.64,0,0.0,Kat mayo,2024-11-13,Membership Renewal,Family,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #92293 renewal payment: Duo Weekly,60.62,0,0.0,Lauren Sereno,2024-11-13,Membership Renewal,Duo,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #116883 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-13,Membership Renewal,Solo,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #114653 renewal payment: Solo Weekly,39.4,0,0.0,,2024-11-13,Membership Renewal,Solo,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #114634 renewal payment: Solo Weekly,39.4,0,0.0,,2024-11-13,Membership Renewal,Solo,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #111737 renewal payment: Solo Weekly,35.07,0,0.0,,2024-11-13,Membership Renewal,Solo,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #108057 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-13,Membership Renewal,Solo,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #108054 renewal payment: Solo Weekly,38.97,0,0.0,Katherine Blandin,2024-11-13,Membership Renewal,Solo,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan membership #121724 initial payment: College Student Monthly,38.97,0,0.0,,2024-11-12,New Membership,,Monthly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan entry pass #1038873: Day Pass with Gear (Adult 14 and Up),19.7,0,0.0,,2024-11-12,Day Pass,,,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #121647 initial payment: College Student Monthly,59.54,0,0.0,,2024-11-12,New Membership,,Monthly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #114289 payment retry: Solo Weekly,35.07,0,0.0,Brynn Eaton,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #111945 renewal payment: Family Weekly,116.91,0,0.0,Jayci Vause,2024-11-12,Membership Renewal,Family,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #119045 renewal payment: Duo Weekly,73.61,0,0.0,,2024-11-12,Membership Renewal,Duo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #116646 renewal payment: Duo Weekly,82.27,0,0.0,Jennifer Esparza,2024-11-12,Membership Renewal,Duo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #99545 renewal payment: Duo Weekly,60.62,0,0.0,Tayler Boisen,2024-11-12,Membership Renewal,Duo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #89596 freeze payment: Solo Weekly,2.16,0,0.0,ELLA  EDWARDS,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #78132 freeze payment: Solo Weekly,2.16,0,0.0,Landon Kuehn,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #119354 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #119065 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #116724 renewal payment: Solo Weekly,35.07,0,0.0,Alecia Johnson,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #114451 renewal payment: Solo Weekly,38.97,0,0.0,Trey Loper,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #114289 renewal payment: Solo Weekly,35.07,0,0.0,,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #111525 renewal payment: Solo Weekly,38.97,0,0.0,Eldon Milton,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #111516 renewal payment: Solo Weekly,39.4,0,0.0,,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #111490 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #99564 renewal payment: Solo Weekly,36.8,0,0.0,Dan Martin,2024-11-12,Membership Renewal,Solo,weekly,False,False,2024-11-12 00:00:00+00:00,Stripe
+Capitan membership #121565 initial payment: Solo Weekly,124.49,0,0.0,,2024-11-11,New Membership,Solo,weekly,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan entry pass #1037889: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-11,Day Pass,,,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan entry pass #1037871: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-11,Day Pass,,,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan membership #121534 initial payment: College Student Monthly,26.11,0,0.0,,2024-11-11,New Membership,,Monthly,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan entry pass #1037840: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-11,Day Pass,,,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan entry pass #1037811: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-11,Day Pass,,,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan entry pass #1037805: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-11,Day Pass,,,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan entry pass #1037766: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-11,Day Pass,,,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan entry pass #1037762: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-11-11,Day Pass,,,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan membership #118924 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-11,Membership Renewal,Solo,weekly,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan membership #114189 renewal payment: Solo Weekly,38.97,0,0.0,Alexis M Long,2024-11-11,Membership Renewal,Solo,weekly,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan membership #114149 renewal payment: Solo Weekly,39.4,0,0.0,,2024-11-11,Membership Renewal,Solo,weekly,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan membership #111373 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-11,Membership Renewal,Solo,weekly,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan membership #99304 renewal payment: Duo Weekly,69.28,0,0.0,William Connor Wroten,2024-11-11,Membership Renewal,Duo,weekly,False,False,2024-11-11 00:00:00+00:00,Stripe
+Capitan entry pass #1036514: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-10,Day Pass,,,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan entry pass #1036356: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-10,Day Pass,,,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan entry pass #1036354: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-10,Day Pass,,,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan entry pass #1036352: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-10,Day Pass,,,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan entry pass #1036292: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-10,Day Pass,,,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan entry pass #1036293: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-10,Day Pass,,,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan entry pass #1036291: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-10,Day Pass,,,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan entry pass #1036290: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-10,Day Pass,,,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan entry pass #1036282: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-10,Day Pass,,,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan membership #111218 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-10,Membership Renewal,Solo,weekly,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan membership #78227 renewal payment: Solo Weekly,36.8,0,0.0,ARANTZA TREJO,2024-11-10,Membership Renewal,Solo,weekly,False,False,2024-11-10 00:00:00+00:00,Stripe
+Capitan entry pass #1034230: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1034203: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1034175: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1034122: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1034119: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1034101: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1034076: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan membership #121187 initial payment: Solo Weekly,52.76,0,0.0,,2024-11-09,New Membership,Solo,weekly,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1033817: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1033690: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Diana Ramirez,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1033679: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-09,Day Pass,,,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan membership #118629 renewal payment: Family Weekly,58.46,0,0.0,,2024-11-09,Membership Renewal,Family,weekly,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan membership #112608 freeze payment: Solo Weekly,2.16,0,0.0,,2024-11-09,Membership Renewal,Solo,weekly,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan membership #111037 renewal payment: Solo Weekly,39.4,0,0.0,emma Bernstein,2024-11-09,Membership Renewal,Solo,weekly,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan membership #111028 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-09,Membership Renewal,Solo,weekly,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan membership #107124 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-09,Membership Renewal,Solo,weekly,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan membership #107116 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-09,Membership Renewal,Solo,weekly,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan membership #101494 renewal payment: Family Weekly,93.1,0,0.0,Aaron S Clark,2024-11-09,Membership Renewal,Family,weekly,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan membership #96554 renewal payment: Solo Weekly,32.48,0,0.0,Samuel Stone,2024-11-09,Membership Renewal,Solo,weekly,False,False,2024-11-09 00:00:00+00:00,Stripe
+Capitan entry pass #1032244: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-08,Day Pass,,,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan entry pass #1032243: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-08,Day Pass,,,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan entry pass #1032226: Day Pass with Gear (Adult 14 and Up),19.7,0,0.0,,2024-11-08,Day Pass,,,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan entry pass #1032181: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-08,Day Pass,,,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan entry pass #1032178: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-08,Day Pass,,,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan entry pass #1032097: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-08,Day Pass,,,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan membership #121074 initial payment: Family Weekly,136.06,0,0.0,,2024-11-08,New Membership,Family,weekly,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan entry pass #1032027: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-08,Day Pass,,,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan entry pass #1032023: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-08,Day Pass,,,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan entry pass #1031992: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-08,Day Pass,,,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan membership #118548 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-08,Membership Renewal,Solo,weekly,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan membership #116092 renewal payment: Solo Weekly,35.07,0,0.0,Tyler Wiens,2024-11-08,Membership Renewal,Solo,weekly,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan membership #110841 renewal payment: Solo Weekly,35.07,0,0.0,,2024-11-08,Membership Renewal,Solo,weekly,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan membership #106909 renewal payment: Solo Weekly,43.3,0,0.0,Harrison Dreyer,2024-11-08,Membership Renewal,Solo,weekly,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan membership #100248 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-08,Membership Renewal,Solo,weekly,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan membership #100230 renewal payment: Duo Weekly,28.14,0,0.0,Aron hawkins,2024-11-08,Membership Renewal,Duo,weekly,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan membership #96378 renewal payment: Solo Weekly,36.8,0,0.0,Jenny Higginbotham,2024-11-08,Membership Renewal,Solo,weekly,False,False,2024-11-08 00:00:00+00:00,Stripe
+Capitan entry pass #1030714: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-07,Day Pass,,,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan entry pass #1030713: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-07,Day Pass,,,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan entry pass #1030638: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-07,Day Pass,,,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan entry pass #1030559: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-07,Day Pass,,,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan entry pass #1030556: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-07,Day Pass,,,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #90927 freeze payment: Solo Weekly,2.16,0,0.0,Raul A Lejarza,2024-11-07,Membership Renewal,Solo,weekly,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #91133 freeze payment: Founders - Solo,2.16,0,0.0,Danielle Sanchez,2024-11-07,Membership Renewal,Solo,monthly,True,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan reservation #3806120: Kids Club - Ages 6-8,25.0,0,0.0,Steel Ferguson,2024-11-07,Event Booking,,,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan reservation #3806107: Kids Club - Ages 3-5,50.0,0,0.0,Steel Ferguson,2024-11-07,Event Booking,,,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan entry pass #1030038: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-07,Day Pass,,,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #118431 renewal payment: Duo Weekly,77.94,0,0.0,,2024-11-07,Membership Renewal,Duo,weekly,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #118296 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-07,Membership Renewal,Solo,weekly,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #118282 renewal payment: Duo Weekly,41.14,0,0.0,,2024-11-07,Membership Renewal,Duo,weekly,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #115944 freeze payment: Solo Weekly,2.16,0,0.0,,2024-11-07,Membership Renewal,Solo,weekly,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #110518 renewal payment: Solo Weekly,38.97,0,0.0,Harry B Amadeo,2024-11-07,Membership Renewal,Solo,weekly,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #101679 freeze payment: Solo Weekly,2.16,0,0.0,Sergio Flores,2024-11-07,Membership Renewal,Solo,weekly,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #100135 renewal payment: Solo Weekly,38.97,0,0.0,D Rodriguez Aguirre,2024-11-07,Membership Renewal,Solo,weekly,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan membership #95834 renewal payment: Duo Weekly,60.62,0,0.0,John D Dale,2024-11-07,Membership Renewal,Duo,weekly,False,False,2024-11-07 00:00:00+00:00,Stripe
+Capitan entry pass #1029493: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan entry pass #1029483: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan membership #120780 initial payment: Solo Weekly,124.49,0,0.0,,2024-11-06,New Membership,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan entry pass #1029388: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan entry pass #1029353: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan entry pass #1029337: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan entry pass #1029088: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan entry pass #1029087: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan reservation #3801892: Top Rope Belay Class,15.0,0,0.0,Lisa Corcoran,2024-11-06,Event Booking,,,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan membership #118206 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan membership #115785 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan membership #110423 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan membership #110407 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan membership #110399 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan membership #110398 renewal payment: Solo Weekly,43.3,0,0.0,LOUISA A MCNAUGHTON,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan membership #110395 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan membership #120604 initial payment: Solo Weekly,62.66,0,0.0,,2024-11-05,New Membership,Solo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #120595 initial payment: Solo Weekly,60.99,0,0.0,,2024-11-05,New Membership,Solo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan entry pass #1028220: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-05,Day Pass,,,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #120594 initial payment: Solo Annual,954.64,0,0.0,,2024-11-05,New Membership,Solo,Annual,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan entry pass #1028206: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-05,Day Pass,,,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan entry pass #1028198: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-05,Day Pass,,,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #120584 initial payment: Solo Weekly,60.99,0,0.0,,2024-11-05,New Membership,Solo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan entry pass #1028161: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-05,Day Pass,,,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan entry pass #1028153: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-05,Day Pass,,,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan entry pass #1028153: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-05,Day Pass,,,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #117956 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-05,Membership Renewal,Solo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #115706 renewal payment: Duo Weekly,77.94,0,0.0,,2024-11-05,Membership Renewal,Duo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #110204 renewal payment: Solo Weekly,43.3,0,0.0,Glen Prior,2024-11-05,Membership Renewal,Solo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #110189 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-05,Membership Renewal,Solo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #109697 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-05,Membership Renewal,Solo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #99879 freeze payment: Solo Weekly,2.16,0,0.0,,2024-11-05,Membership Renewal,Solo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan membership #95216 renewal payment: Solo Weekly,36.8,0,0.0,Garrison Lancster,2024-11-05,Membership Renewal,Solo,weekly,False,False,2024-11-05 00:00:00+00:00,Stripe
+Capitan entry pass #1026986: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-04,Day Pass,,,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #120421 initial payment: Duo Weekly,103.22,0,0.0,,2024-11-04,New Membership,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan entry pass #1026950: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-04,Day Pass,,,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #120395 initial payment: Youth Rec Team Dues,193.77,0,0.0,,2024-11-04,Team,,,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan entry pass #1026866: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-04,Day Pass,,,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan entry pass #1026863: Gear Upgrade,6.5,0,0.0,,2024-11-04,Day Pass,,,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #120347 initial payment: Solo Weekly,42.99,0,0.0,Collin R O'Neill,2024-11-04,New Membership,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan entry pass #1026656: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-04,Day Pass,,,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #112136 payment retry: Duo Weekly,82.27,0,0.0,Ryan Edwards,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan reservation #3794564: Top Rope Belay Class,15.0,0,0.0,,2024-11-04,Event Booking,,,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #120272 initial payment: Solo Weekly,120.16,0,0.0,,2024-11-04,New Membership,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #115537 renewal payment: Duo Weekly,73.61,0,0.0,,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #115499 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #115465 renewal payment: Solo Weekly,38.97,0,0.0,Brian Chen,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #112939 renewal payment: Solo Weekly,32.48,0,0.0,Irvin Harris,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #95097 renewal payment: Solo Weekly,36.8,0,0.0,Alex Michael Scarborough,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #95094 renewal payment: Duo Weekly,60.62,0,0.0,Cora Ayers,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #95092 renewal payment: Duo Weekly,60.62,0,0.0,Gabriel Garcez,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94966 renewal payment: Solo Weekly,32.48,0,0.0,Victor F Torres III,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94904 renewal payment: Family Weekly,77.64,0,0.0,Stephen A Sanchez,2024-11-04,Membership Renewal,Family,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94860 renewal payment: Solo Weekly,32.48,0,0.0,Nicholas C Ladd,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94790 renewal payment: Solo Weekly,32.48,0,0.0,Mary Blair,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94780 renewal payment: Solo Weekly,36.8,0,0.0,Mary g mcgee,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94739 renewal payment: Solo Weekly,32.48,0,0.0,Lauren Powell,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94650 renewal payment: Solo Weekly,32.48,0,0.0,Alexander Davenport,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94447 renewal payment: Solo Weekly,32.48,0,0.0,Roma A Castellanos,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94413 renewal payment: Solo Weekly,32.48,0,0.0,Mallory Grace Craven,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94246 renewal payment: Solo Weekly,36.8,0,0.0,James Johnson,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94225 renewal payment: Duo Weekly,69.28,0,0.0,Collin R O'Neill,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #94196 renewal payment: Duo Weekly,69.28,0,0.0,PEYTON POWERS,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #93793 renewal payment: Solo Weekly,32.48,0,0.0,Cameron Lantz,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #93351 renewal payment: Family Weekly,98.51,0,0.0,Matthew smith,2024-11-04,Membership Renewal,Family,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92990 renewal payment: Solo Weekly,32.48,0,0.0,Mehul Gupta,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92946 renewal payment: Solo Weekly,32.48,0,0.0,caleb sulak,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92945 renewal payment: Solo Weekly,32.48,0,0.0,Dylan Boucher,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92891 renewal payment: Solo Weekly,32.48,0,0.0,Wray Jones,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92801 renewal payment: Duo Weekly,64.95,0,0.0,Taylor Wilcox,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92769 renewal payment: Duo Weekly,60.62,0,0.0,Jared Bissell,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92661 renewal payment: Solo Weekly,32.48,0,0.0,Aiden Grizzard,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92561 renewal payment: Solo Weekly,32.48,0,0.0,Alan Shipp,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92554 renewal payment: Duo Weekly,64.95,0,0.0,Marissa Maguire,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92516 renewal payment: Solo Weekly,32.48,0,0.0,Collin Redepenning,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92306 renewal payment: Solo Weekly,32.48,0,0.0,Hannah Boyd,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92197 renewal payment: Duo Weekly,69.28,0,0.0,Michelle Cola,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92190 renewal payment: Duo Weekly,64.95,0,0.0,Michelle Cola,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92178 renewal payment: Solo Weekly,38.97,0,0.0,Lily Howell,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92139 renewal payment: Solo Weekly,32.48,0,0.0,Alan Ward,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92112 renewal payment: Solo Weekly,32.48,0,0.0,Paige Sullivan,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #92082 renewal payment: Duo Weekly,69.28,0,0.0,Grant Swingler,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #91998 renewal payment: Solo Weekly,32.48,0,0.0,Natasha Marcum,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #91971 renewal payment: Solo Weekly,32.48,0,0.0,Gregory Vanderheiden,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #91969 renewal payment: Duo Weekly,60.62,0,0.0,Nikita D VanderHeiden,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #91890 renewal payment: Solo Weekly,36.8,0,0.0,Anuj Sanghvi,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #91876 renewal payment: Solo Weekly,36.8,0,0.0,Xd Asianman,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #91253 renewal payment: Solo Weekly,32.48,0,0.0,James M Cole,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #91177 renewal payment: Solo Weekly,36.8,0,0.0,Aaron,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #91095 renewal payment: Solo Weekly,32.48,0,0.0,Aaron James,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #91041 renewal payment: Solo Weekly,32.48,0,0.0,Andrew P Crotwell,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #90961 renewal payment: Solo Weekly,36.8,0,0.0,Aidan Bruno,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #90935 renewal payment: Solo Weekly,36.8,0,0.0,anthony martin,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #90927 renewal payment: Solo Weekly,32.48,0,0.0,Raul A Lejarza,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #90893 renewal payment: Solo Weekly,32.48,0,0.0,Marcus R Alvarado,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #90600 renewal payment: Solo Weekly,36.8,0,0.0,Bo Mello,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #90591 renewal payment: Solo Weekly,32.48,0,0.0,Jessica Erhart,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #90190 renewal payment: Solo Weekly,36.8,0,0.0,James Corbin Myers,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #89606 renewal payment: Solo Weekly,32.48,0,0.0,Victor Vo,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #89567 renewal payment: Solo Weekly,32.48,0,0.0,John-Mark McKethan,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #86132 renewal payment: Duo Weekly,60.62,0,0.0,Holly Eaker,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #83210 renewal payment: Solo Weekly,32.48,0,0.0,Mark Nickels,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #82423 renewal payment: Solo Weekly,32.48,0,0.0,Evan Graves,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #79530 renewal payment: Solo Weekly,32.48,0,0.0,Lauren M Roller,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #79446 renewal payment: Solo Weekly,32.48,0,0.0,ZACHARY T DANIEL,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #79444 renewal payment: Family Weekly,98.51,0,0.0,Ben Otis,2024-11-04,Membership Renewal,Family,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #78497 renewal payment: Solo Weekly,36.8,0,0.0,Lisa Corcoran,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #78476 renewal payment: Solo Weekly,36.8,0,0.0,Grayson Palmer,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #78136 renewal payment: Solo Weekly,32.48,0,0.0,Stacy A Kuehn,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #78097 renewal payment: Solo Weekly,36.8,0,0.0,Katherine Scheffrahn,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #78055 renewal payment: Solo Weekly,36.8,0,0.0,Hayden Gee,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #78008 renewal payment: Solo Weekly,32.48,0,0.0,Matthew Vaillancourt,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #77949 renewal payment: Duo Weekly,60.62,0,0.0,Meghan L McInaney,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #77936 renewal payment: Duo Weekly,69.28,0,0.0,Kaitlin Ig,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan membership #120205 initial payment: Duo Weekly,100.25,0,0.0,,2024-11-03,New Membership,Duo,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025568: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan reservation #3792878: Top Rope Belay Class,15.0,0,0.0,,2024-11-03,Event Booking,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025558: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan membership #120194 initial payment: Solo Weekly,82.66,0,0.0,,2024-11-03,New Membership,Solo,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan membership #120193 initial payment: Family Weekly,113.74,0,0.0,,2024-11-03,New Membership,Family,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan membership #120188 initial payment: Duo Weekly,108.91,0,0.0,,2024-11-03,New Membership,Duo,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025522: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025510: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025508: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025495: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025457: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025456: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025423: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025413: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025405: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025372: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025292: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025119: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Jolene Montgomery,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025113: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Jolene Montgomery,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1025113: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,JOLENE MONTGOMERY,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan membership #112740 renewal payment: Family Weekly,56.29,0,0.0,,2024-11-03,Membership Renewal,Family,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan membership #112765 renewal payment: Solo Weekly,43.3,0,0.0,Aaron Ameny,2024-11-03,Membership Renewal,Solo,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan membership #112753 renewal payment: Solo Weekly,43.3,0,0.0,William Benjamin Wells III,2024-11-03,Membership Renewal,Solo,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan entry pass #1023693: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-02,Day Pass,,,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan entry pass #1023604: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-02,Day Pass,,,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan entry pass #1023601: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-02,Day Pass,,,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan entry pass #1023598: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Joshua Johnson,2024-11-02,Day Pass,,,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan entry pass #1023586: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-02,Day Pass,,,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan entry pass #1023564: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-02,Day Pass,,,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan entry pass #1023529: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-02,Day Pass,,,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan entry pass #1023529: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-02,Day Pass,,,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112587 payment retry: Solo Weekly,43.3,0,0.0,BROOKE A FARRELL,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112136 renewal payment: Duo Weekly,82.27,0,0.0,Ryan Edwards,2024-11-02,Membership Renewal,Duo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #119960 initial payment: Family Weekly,11.86,0,0.0,Leah Bower,2024-11-02,New Membership,Family,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #110399 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #108477 renewal payment: Solo Weekly,39.4,0,0.0,Stephen Linnemeier,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #91148 renewal payment: Founders - Family,178.61,0,0.0,Jessica Thigpen,2024-11-02,Membership Renewal,Family,monthly,True,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112136 renewal payment: Duo Weekly,82.27,0,0.0,Ryan Edwards,2024-11-02,Membership Renewal,Duo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112527 payment retry: Duo Weekly,77.94,0,0.0,James G Cotie,2024-11-02,Membership Renewal,Duo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112527 renewal payment: Duo Weekly,77.94,0,0.0,,2024-11-02,Membership Renewal,Duo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112527 renewal payment: Duo Weekly,77.94,0,0.0,,2024-11-02,Membership Renewal,Duo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112586 renewal payment: Family Weekly,67.59,0,0.0,J Purcell,2024-11-02,Membership Renewal,Family,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112611 renewal payment: Duo Weekly,77.94,0,0.0,Brandy Mascheck,2024-11-02,Membership Renewal,Duo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112527 renewal payment: Duo Weekly,77.94,0,0.0,,2024-11-02,Membership Renewal,Duo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112136 renewal payment: Duo Weekly,82.27,0,0.0,Ryan Edwards,2024-11-02,Membership Renewal,Duo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #109085 freeze payment: Solo Weekly,2.16,0,0.0,,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112587 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112554 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112540 renewal payment: Solo Weekly,38.97,0,0.0,MAEVE  Paquette Christensen,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112258 renewal payment: Solo Weekly,43.3,0,0.0,micah devening,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #112215 renewal payment: Solo Weekly,38.97,0,0.0,Michael Morales-Gomez,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan membership #93654 renewal payment: Solo Weekly,38.97,0,0.0,Bradley Kelly,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
+Capitan entry pass #1021942: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan reservation #3785284: Top Rope Belay Class,15.0,0,0.0,,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan reservation #3785224: Top Rope Belay Class,15.0,0,0.0,,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021731: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021730: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan reservation #3784768: Top Rope Belay Class,15.0,0,0.0,Meghan L McInaney,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021662: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021660: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021659: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021658: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021602: Gear Upgrade,6.5,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021561: Youth Day Pass (Under 14y/o),15.16,0,0.0,Ana Barnett,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021504: Day Pass (Adult 14 and Up),21.65,0,0.0,Carolyn Doolittle,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1021338: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan reservation #3783297: Top Rope Belay Class,15.0,0,0.0,Alyssa Pittman,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #119711 initial payment: Duo Weekly,174.28,0,0.0,Victor Vo,2024-11-01,New Membership,Duo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan reservation #3782518: Birthday Party Rental- 2 hours,200.0,0,0.0,Brennan K King,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #114938 renewal payment: Family Weekly,56.29,0,0.0,,2024-11-01,Membership Renewal,Family,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #112033 renewal payment: Family Weekly,56.29,0,0.0,,2024-11-01,Membership Renewal,Family,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #115077 freeze payment: Duo Weekly,4.33,0,0.0,Joseph Rios,2024-11-01,Membership Renewal,Duo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #112411 renewal payment: Duo Weekly,73.61,0,0.0,Morgan Green,2024-11-01,Membership Renewal,Duo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #112309 renewal payment: Duo Weekly,73.61,0,0.0,Alex Vu,2024-11-01,Membership Renewal,Duo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #117171 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #115048 renewal payment: Solo Weekly,43.3,0,0.0,Matthew Bosang,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #112455 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #112417 renewal payment: Solo Weekly,43.3,0,0.0,Joshua Johnson,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #112070 renewal payment: Solo Weekly,35.07,0,0.0,Bethany Kerley,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #109831 renewal payment: Solo Weekly,38.97,0,0.0,Kalea J Kim,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #109288 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #100038 renewal payment: Solo Weekly,32.48,0,0.0,Kelsey Maglio,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #100013 renewal payment: Solo Weekly,32.48,0,0.0,Zachery Barajas,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #99984 renewal payment: Solo Weekly,32.48,0,0.0,Isaac P Baker,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #96715 renewal payment: Solo Weekly,36.8,0,0.0,Luke Tisch,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan membership #96680 renewal payment: Solo Weekly,32.48,0,0.0,Robert Scrivner,2024-11-01,Membership Renewal,Solo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan entry pass #1020429: Halloween Costume Pass,16.24,0,0.0,,2024-10-31,Day Pass,,,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan entry pass #1020426: Halloween Costume Pass,16.24,0,0.0,Ellis Geyer,2024-10-31,Day Pass,,,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan entry pass #1020423: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-31,Day Pass,,,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan entry pass #1020421: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-31,Day Pass,,,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan entry pass #1020420: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-31,Day Pass,,,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan entry pass #1020380: Halloween Costume Pass,16.24,0,0.0,,2024-10-31,Day Pass,,,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan entry pass #1020342: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-31,Day Pass,,,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan entry pass #1020309: Halloween Costume Pass,16.24,0,0.0,,2024-10-31,Day Pass,,,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #111804 renewal payment: Family Weekly,58.46,0,0.0,,2024-10-31,Membership Renewal,Family,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #108303 renewal payment: Family Weekly,116.91,0,0.0,,2024-10-31,Membership Renewal,Family,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #111939 renewal payment: Duo Weekly,70.58,0,0.0,,2024-10-31,Membership Renewal,Duo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #109607 renewal payment: Duo Weekly,73.61,0,0.0,Heath Osborne,2024-10-31,Membership Renewal,Duo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #108312 renewal payment: Duo Weekly,73.61,0,0.0,,2024-10-31,Membership Renewal,Duo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #117016 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #114856 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #114843 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #112244 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #111906 renewal payment: Solo Weekly,43.3,0,0.0,Valerie Slater,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #111843 renewal payment: Solo Weekly,43.3,0,0.0,Laura lee Washington,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #111803 renewal payment: Solo Weekly,38.97,0,0.0,Samuel R Monroy,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #109624 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #109609 renewal payment: Solo Weekly,39.4,0,0.0,Alexius Lauzon,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #109474 renewal payment: Solo Weekly,32.48,0,0.0,Brenda S Lewis,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #102325 renewal payment: Solo Weekly,38.97,0,0.0,Maxwell McGaffin,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #99881 renewal payment: Solo Weekly,36.8,0,0.0,Colton Johnson,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan membership #99855 renewal payment: Solo Weekly,36.8,0,0.0,Daniel Haddock,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
+Capitan reservation #3777738: Top Rope Belay Class,15.0,0,0.0,Jessica Weatherby,2024-10-30,Event Booking,,,False,False,2024-10-30 00:00:00+00:00,Stripe
+Pro-rated Membership Add-on Fee: Solo Weekly,0.62,0,0.0,Matthew Bosang,2024-10-30,Membership Renewal,Solo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan reservation #3775904: Top Rope Belay Class,60.0,0,0.0,jessica r weatherby,2024-10-30,Event Booking,,,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #111756 renewal payment: Family Weekly,112.58,0,0.0,Daniel Ezell,2024-10-30,Membership Renewal,Family,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #99713 renewal payment: Family Weekly,77.64,0,0.0,Kat mayo,2024-10-30,Membership Renewal,Family,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #99689 renewal payment: Duo Weekly,69.28,0,0.0,Leah Bower,2024-10-30,Membership Renewal,Duo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #92293 renewal payment: Duo Weekly,60.62,0,0.0,Lauren Sereno,2024-10-30,Membership Renewal,Duo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #116883 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-30,Membership Renewal,Solo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #114653 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-30,Membership Renewal,Solo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #114634 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-30,Membership Renewal,Solo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #111737 renewal payment: Solo Weekly,35.07,0,0.0,,2024-10-30,Membership Renewal,Solo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #108057 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-30,Membership Renewal,Solo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan membership #108054 renewal payment: Solo Weekly,38.97,0,0.0,Katherine Blandin,2024-10-30,Membership Renewal,Solo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan entry pass #1017890: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-29,Day Pass,,,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #119354 initial payment: Solo Weekly,62.66,0,0.0,,2024-10-29,New Membership,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan entry pass #1017865: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-29,Day Pass,,,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan entry pass #1017836: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-29,Day Pass,,,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan entry pass #1017835: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-29,Day Pass,,,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan entry pass #1017832: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-29,Day Pass,,,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan reservation #3773886: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Allison Allen,2024-10-29,Event Booking,,,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #119065 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-29,New Membership,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #119045 initial payment: Duo Weekly,152.25,0,0.0,,2024-10-29,New Membership,Duo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan reservation #3702252: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Nathen Gabriel,2024-10-29,Event Booking,,,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91159 renewal payment: Founders Business,773.99,0,0.0,Bradley swann,2024-10-29,Membership Renewal,,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91154 renewal payment: Founders - Family,125.57,0,0.0,Adam Goree,2024-10-29,Membership Renewal,Family,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91148 renewal payment: Founders - Family,178.61,0,0.0,Jessica Thigpen,2024-10-29,Membership Renewal,Family,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91140 renewal payment: Founders - Family,178.61,0,0.0,Stephanie Davis,2024-10-29,Membership Renewal,Family,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91139 renewal payment: Founders - Family,232.74,0,0.0,Brian K Claus,2024-10-29,Membership Renewal,Family,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91138 renewal payment: Founders - Family,125.57,0,0.0,Gabriel E RiCharde,2024-10-29,Membership Renewal,Family,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91137 renewal payment: Founders - Family,178.61,0,0.0,Matthew Leslie,2024-10-29,Membership Renewal,Family,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91161 renewal payment: Founders - Duo,124.49,0,0.0,Emily G Rostagno,2024-10-29,Membership Renewal,Duo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91155 renewal payment: Founders - Duo,124.49,0,0.0,Alec Rodriguez,2024-10-29,Membership Renewal,Duo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91152 renewal payment: Founders - Duo,124.49,0,0.0,Marissa Thornton,2024-10-29,Membership Renewal,Duo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91151 renewal payment: Founders - Duo,124.49,0,0.0,Dabid sirbasku,2024-10-29,Membership Renewal,Duo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91147 renewal payment: Founders - Duo,124.49,0,0.0,Ariel Leahy,2024-10-29,Membership Renewal,Duo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91141 renewal payment: Founders - Duo,124.49,0,0.0,Cameron Wechsler,2024-10-29,Membership Renewal,Duo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91135 renewal payment: Founders - Duo,124.49,0,0.0,Emma Crandall,2024-10-29,Membership Renewal,Duo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91167 renewal payment: Founders - Solo,64.95,0,0.0,Daniel Barnhart,2024-10-29,Membership Renewal,Solo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91166 renewal payment: Founders - Solo,64.95,0,0.0,Daniel Barnhart,2024-10-29,Membership Renewal,Solo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91165 renewal payment: Founders - Solo,64.95,0,0.0,Andy Soukup,2024-10-29,Membership Renewal,Solo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91163 renewal payment: Founders - Solo,64.95,0,0.0,Samantha Miller,2024-10-29,Membership Renewal,Solo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91162 renewal payment: Founders - Solo,64.95,0,0.0,Lauren G Jameson,2024-10-29,Membership Renewal,Solo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91160 renewal payment: Founders - Solo,64.95,0,0.0,Mason Young,2024-10-29,Membership Renewal,Solo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91153 renewal payment: Founders - Solo,64.95,0,0.0,Jacob Tentis,2024-10-29,Membership Renewal,Solo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91136 renewal payment: Founders - Solo,64.95,0,0.0,Stuart Smith,2024-10-29,Membership Renewal,Solo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #91133 renewal payment: Founders - Solo,64.95,0,0.0,Danielle Sanchez,2024-10-29,Membership Renewal,Solo,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #111945 renewal payment: Family Weekly,116.91,0,0.0,Jayci Vause,2024-10-29,Membership Renewal,Family,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #116646 renewal payment: Duo Weekly,82.27,0,0.0,Jennifer Esparza,2024-10-29,Membership Renewal,Duo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #99545 renewal payment: Duo Weekly,60.62,0,0.0,Tayler Boisen,2024-10-29,Membership Renewal,Duo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #89596 freeze payment: Solo Weekly,2.16,0,0.0,ELLA  EDWARDS,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #78132 freeze payment: Solo Weekly,2.16,0,0.0,Landon Kuehn,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #116724 renewal payment: Solo Weekly,35.07,0,0.0,Alecia Johnson,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #114451 renewal payment: Solo Weekly,38.97,0,0.0,Trey Loper,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #114289 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #111525 renewal payment: Solo Weekly,38.97,0,0.0,Eldon Milton,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #111516 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #111490 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan membership #99564 renewal payment: Solo Weekly,36.8,0,0.0,Dan Martin,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan entry pass #1016533: Day Pass with Gear (Adult 14 and Up),19.7,0,0.0,,2024-10-28,Day Pass,,,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan membership #118924 initial payment: Solo Weekly,60.99,0,0.0,,2024-10-28,New Membership,Solo,weekly,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan reservation #3699627: Top Rope Belay Class,30.0,0,0.0,Brandy Mascheck,2024-10-28,Event Booking,,,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan entry pass #1016463: Gear Upgrade,6.5,0,0.0,,2024-10-28,Day Pass,,,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan entry pass #1016440: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-28,Day Pass,,,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan reservation #3699463: Top Rope Belay Class,15.0,0,0.0,,2024-10-28,Event Booking,,,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan entry pass #1016399: Day Pass (Adult 14 and Up),21.65,0,0.0,Talan Crain,2024-10-28,Day Pass,,,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan membership #99304 renewal payment: Duo Weekly,69.28,0,0.0,William Connor Wroten,2024-10-28,Membership Renewal,Duo,weekly,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan membership #114189 renewal payment: Solo Weekly,38.97,0,0.0,Alexis M Long,2024-10-28,Membership Renewal,Solo,weekly,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan membership #114149 renewal payment: Solo Weekly,35.07,0,0.0,,2024-10-28,Membership Renewal,Solo,weekly,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan membership #111373 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-28,Membership Renewal,Solo,weekly,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan membership #100726 freeze payment: Solo Weekly,2.16,0,0.0,Kendall Smith,2024-10-28,Membership Renewal,Solo,weekly,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan entry pass #1015036: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan entry pass #1015009: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan entry pass #1015008: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan reservation #3696483: Top Rope Belay Class,30.0,0,0.0,,2024-10-27,Event Booking,,,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan entry pass #1014918: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan entry pass #1014916: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan entry pass #1014850: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Brian Steele,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan entry pass #1014846: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan membership #111117 renewal payment: Family Weekly,155.88,0,0.0,Erin Washburn,2024-10-27,Membership Renewal,Family,weekly,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan membership #111218 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-27,Membership Renewal,Solo,weekly,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan membership #108477 renewal payment: Solo Weekly,39.4,0,0.0,Stephen Linnemeier,2024-10-27,Membership Renewal,Solo,weekly,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan membership #78227 renewal payment: Solo Weekly,36.8,0,0.0,ARANTZA TREJO,2024-10-27,Membership Renewal,Solo,weekly,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan entry pass #1013296: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-26,Day Pass,,,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan entry pass #1013277: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-26,Day Pass,,,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan entry pass #1013276: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-26,Day Pass,,,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan entry pass #1013241: Day Pass with Gear (Adult 14 and Up),19.7,0,0.0,,2024-10-26,Day Pass,,,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan entry pass #1013208: Day Pass with Gear (Adult 14 and Up),19.7,0,0.0,,2024-10-26,Day Pass,,,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan membership #118629 initial payment: Family Weekly,87.26,0,0.0,,2024-10-26,New Membership,Family,weekly,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan entry pass #1013017: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-26,Day Pass,,,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan membership #96378 payment retry: Solo Weekly,36.8,0,0.0,Jenny Higginbotham,2024-10-26,Membership Renewal,Solo,weekly,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan membership #112608 freeze payment: Solo Weekly,2.16,0,0.0,,2024-10-26,Membership Renewal,Solo,weekly,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan membership #101494 renewal payment: Family Weekly,93.1,0,0.0,Aaron S Clark,2024-10-26,Membership Renewal,Family,weekly,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan membership #111037 renewal payment: Solo Weekly,39.4,0,0.0,emma Bernstein,2024-10-26,Membership Renewal,Solo,weekly,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan membership #111028 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-26,Membership Renewal,Solo,weekly,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan membership #107124 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-26,Membership Renewal,Solo,weekly,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan membership #107116 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-26,Membership Renewal,Solo,weekly,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan membership #96554 renewal payment: Solo Weekly,32.48,0,0.0,Samuel Stone,2024-10-26,Membership Renewal,Solo,weekly,False,False,2024-10-26 00:00:00+00:00,Stripe
+Capitan entry pass #1011593: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan entry pass #1011577: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan entry pass #1011576: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #118548 initial payment: Solo Weekly,86.99,0,0.0,,2024-10-25,New Membership,Solo,weekly,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan reservation #3679596: Kids Club - Ages 6-8,25.0,0,0.0,Deanna  Sargent ,2024-10-25,Event Booking,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan entry pass #1011334: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan entry pass #1011332: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #118524 initial payment: Solo Annual,1012.14,0,0.0,,2024-10-25,New Membership,Solo,Annual,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan entry pass #1011246: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan entry pass #1011240: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan reservation #3678658: Top Rope Belay Class,15.0,0,0.0,Zackary gallardo,2024-10-25,Event Booking,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan entry pass #1010968: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan entry pass #1010811: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #113336 renewal payment: Founders - Solo,64.95,0,0.0,Kelli McMahan,2024-10-25,Membership Renewal,Solo,monthly,True,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #100230 renewal payment: Duo Weekly,60.62,0,0.0,Aron hawkins,2024-10-25,Membership Renewal,Duo,weekly,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #116092 renewal payment: Solo Weekly,35.07,0,0.0,Tyler Wiens,2024-10-25,Membership Renewal,Solo,weekly,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #110841 renewal payment: Solo Weekly,35.07,0,0.0,,2024-10-25,Membership Renewal,Solo,weekly,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #106909 renewal payment: Solo Weekly,43.3,0,0.0,Harrison Dreyer,2024-10-25,Membership Renewal,Solo,weekly,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #100248 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-25,Membership Renewal,Solo,weekly,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #96378 renewal payment: Solo Weekly,36.8,0,0.0,Jennifer Higginbotham,2024-10-25,Membership Renewal,Solo,weekly,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan membership #118432 initial payment: Solo Weekly,60.89,0,0.0,,2024-10-24,New Membership,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan membership #118431 initial payment: Duo Weekly,79.58,0,0.0,,2024-10-24,New Membership,Duo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan entry pass #1009949: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-24,Day Pass,,,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan reservation #3676535: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Gordon Robinson,2024-10-24,Event Booking,,,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan entry pass #1009895: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-24,Day Pass,,,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan membership #118296 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-24,New Membership,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan membership #118282 initial payment: Duo Weekly,52.28,0,0.0,,2024-10-24,New Membership,Duo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan entry pass #1009271: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-24,Day Pass,,,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan membership #95834 renewal payment: Duo Weekly,60.62,0,0.0,John D Dale,2024-10-24,Membership Renewal,Duo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan membership #101679 freeze payment: Solo Weekly,2.16,0,0.0,Sergio Flores,2024-10-24,Membership Renewal,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan membership #115944 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-24,Membership Renewal,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan membership #110518 renewal payment: Solo Weekly,38.97,0,0.0,Harry B Amadeo,2024-10-24,Membership Renewal,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan membership #100135 renewal payment: Solo Weekly,38.97,0,0.0,D Rodriguez Aguirre,2024-10-24,Membership Renewal,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan reservation #3673637: Top Rope Belay Class,30.0,0,0.0,,2024-10-23,Event Booking,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan entry pass #1008860: Non-Participant/Spectator Day Pass,5.41,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan entry pass #1008834: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan entry pass #1008832: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #118206 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-23,New Membership,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan entry pass #1008806: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan entry pass #1008740: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan entry pass #1008540: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan reservation #3672003: 8-Week Transformation - 0515am MWF Group 1,200.0,0,0.0,Michelle Cola,2024-10-23,Event Booking,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan entry pass #1008085: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #110398 renewal payment: Solo Weekly,43.3,0,0.0,LOUISA A MCNAUGHTON,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #110398 renewal payment: Solo Weekly,43.3,0,0.0,Louisa McNaughton,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #110398 renewal payment: Solo Weekly,43.3,0,0.0,Louisa McNaughton,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #115785 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #110423 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #110407 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #110399 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #110398 renewal payment: Solo Weekly,43.3,0,0.0,Louisa McNaughton,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan membership #110395 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan reservation #3670639: Top Rope Belay Class,15.0,0,0.0,Jessica Erhart,2024-10-22,Event Booking,,,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan membership #115048 payment retry: Solo Weekly,38.97,0,0.0,Matthew Bosang,2024-10-22,Membership Renewal,Solo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan entry pass #1007568: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-22,Day Pass,,,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan membership #117956 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-22,New Membership,Solo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan membership #115706 renewal payment: Duo Weekly,77.94,0,0.0,,2024-10-22,Membership Renewal,Duo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan membership #99879 freeze payment: Solo Weekly,2.16,0,0.0,,2024-10-22,Membership Renewal,Solo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan membership #110204 renewal payment: Solo Weekly,43.3,0,0.0,Glen Prior,2024-10-22,Membership Renewal,Solo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan membership #110189 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-22,Membership Renewal,Solo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan membership #109697 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-22,Membership Renewal,Solo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan membership #95216 renewal payment: Solo Weekly,36.8,0,0.0,Garrison Lancster,2024-10-22,Membership Renewal,Solo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan entry pass #1006267: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-21,Day Pass,,,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #117916 initial payment: Youth Rec Team Dues,116.26,0,0.0,,2024-10-21,Team,,,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan entry pass #1006194: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-21,Day Pass,,,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #117909 initial payment: Youth Rec Team Dues,193.77,0,0.0,,2024-10-21,Team,,,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan entry pass #1006171: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-21,Day Pass,,,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan entry pass #1006168: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-21,Day Pass,,,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan entry pass #1006146: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-21,Day Pass,,,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan entry pass #1006109: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-21,Day Pass,,,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94904 renewal payment: Family Weekly,77.64,0,0.0,Stephen A Sanchez,2024-10-21,Membership Renewal,Family,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #93351 renewal payment: Family Weekly,98.51,0,0.0,Matthew smith,2024-10-21,Membership Renewal,Family,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #79444 renewal payment: Family Weekly,98.51,0,0.0,Ben Otis,2024-10-21,Membership Renewal,Family,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #115537 renewal payment: Duo Weekly,73.61,0,0.0,,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #95094 renewal payment: Duo Weekly,60.62,0,0.0,Cora Ayers,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #95092 renewal payment: Duo Weekly,60.62,0,0.0,Gabriel Garcez,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94225 renewal payment: Duo Weekly,64.95,0,0.0,Collin R O'Neill,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94196 renewal payment: Duo Weekly,69.28,0,0.0,PEYTON POWERS,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92801 renewal payment: Duo Weekly,64.95,0,0.0,Taylor Wilcox,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92769 renewal payment: Duo Weekly,60.62,0,0.0,Jared Bissell,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92554 renewal payment: Duo Weekly,64.95,0,0.0,Marissa Maguire,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92197 renewal payment: Duo Weekly,69.28,0,0.0,Michelle Cola,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92190 renewal payment: Duo Weekly,64.95,0,0.0,Michelle Cola,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92082 renewal payment: Duo Weekly,69.28,0,0.0,Grant Swingler,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #91969 renewal payment: Duo Weekly,60.62,0,0.0,Nikita D VanderHeiden,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #86132 renewal payment: Duo Weekly,60.62,0,0.0,Holly Eaker,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #81841 renewal payment: Duo Weekly,64.95,0,0.0,Graeson Griffin,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #77949 renewal payment: Duo Weekly,60.62,0,0.0,Meghan L McInaney,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #77936 renewal payment: Duo Weekly,69.28,0,0.0,Kaitlin Ig,2024-10-21,Membership Renewal,Duo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #115499 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #115465 renewal payment: Solo Weekly,38.97,0,0.0,Brian Chen,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #112939 renewal payment: Solo Weekly,32.48,0,0.0,Irvin Harris,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #110391 renewal payment: Solo Weekly,39.4,0,0.0,Angela Pearson,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #95097 renewal payment: Solo Weekly,36.8,0,0.0,Alex Michael Scarborough,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94966 renewal payment: Solo Weekly,32.48,0,0.0,Victor F Torres III,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94860 renewal payment: Solo Weekly,32.48,0,0.0,Nicholas C Ladd,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94790 renewal payment: Solo Weekly,32.48,0,0.0,Mary Blair,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94780 renewal payment: Solo Weekly,36.8,0,0.0,Mary g mcgee,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94739 renewal payment: Solo Weekly,32.48,0,0.0,Lauren Powell,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94650 renewal payment: Solo Weekly,32.48,0,0.0,Alexander Davenport,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94447 renewal payment: Solo Weekly,32.48,0,0.0,Roma A Castellanos,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94413 renewal payment: Solo Weekly,32.48,0,0.0,Mallory Grace Craven,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #94246 renewal payment: Solo Weekly,36.8,0,0.0,James Johnson,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #93793 renewal payment: Solo Weekly,32.48,0,0.0,Cameron Lantz,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #93775 renewal payment: Solo Weekly,32.48,0,0.0,Steven p Hill,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92990 renewal payment: Solo Weekly,32.48,0,0.0,Mehul Gupta,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92946 renewal payment: Solo Weekly,32.48,0,0.0,caleb sulak,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92945 renewal payment: Solo Weekly,32.48,0,0.0,Dylan Boucher,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92891 renewal payment: Solo Weekly,32.48,0,0.0,Wray Jones,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92661 renewal payment: Solo Weekly,32.48,0,0.0,Aiden Grizzard,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92561 renewal payment: Solo Weekly,32.48,0,0.0,Alan Shipp,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92516 renewal payment: Solo Weekly,32.48,0,0.0,Collin Redepenning,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92306 renewal payment: Solo Weekly,32.48,0,0.0,Hannah Boyd,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92178 renewal payment: Solo Weekly,38.97,0,0.0,Lily Howell,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92139 renewal payment: Solo Weekly,32.48,0,0.0,Alan Ward,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #92112 renewal payment: Solo Weekly,32.48,0,0.0,Paige Sullivan,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #91998 renewal payment: Solo Weekly,32.48,0,0.0,Natasha Marcum,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #91971 renewal payment: Solo Weekly,32.48,0,0.0,Gregory Vanderheiden,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #91890 renewal payment: Solo Weekly,36.8,0,0.0,Anuj Sanghvi,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #91876 renewal payment: Solo Weekly,36.8,0,0.0,Xd Asianman,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #91253 renewal payment: Solo Weekly,32.48,0,0.0,James M Cole,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #91177 renewal payment: Solo Weekly,36.8,0,0.0,Aaron,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #91095 renewal payment: Solo Weekly,32.48,0,0.0,Aaron James,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #91041 renewal payment: Solo Weekly,32.48,0,0.0,Andrew P Crotwell,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #90961 renewal payment: Solo Weekly,36.8,0,0.0,Aidan Bruno,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #90935 renewal payment: Solo Weekly,36.8,0,0.0,anthony martin,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #90927 renewal payment: Solo Weekly,32.48,0,0.0,Raul A Lejarza,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #90893 renewal payment: Solo Weekly,32.48,0,0.0,Marcus R Alvarado,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #90600 renewal payment: Solo Weekly,36.8,0,0.0,Bo Mello,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #90591 renewal payment: Solo Weekly,32.48,0,0.0,Jessica Erhart,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #90190 renewal payment: Solo Weekly,36.8,0,0.0,James Corbin Myers,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #89606 renewal payment: Solo Weekly,32.48,0,0.0,Victor Vo,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #89567 renewal payment: Solo Weekly,32.48,0,0.0,John-Mark McKethan,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #83210 renewal payment: Solo Weekly,32.48,0,0.0,Mark Nickels,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #82423 renewal payment: Solo Weekly,32.48,0,0.0,Evan Graves,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #79530 renewal payment: Solo Weekly,32.48,0,0.0,Lauren M Roller,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #79446 renewal payment: Solo Weekly,32.48,0,0.0,ZACHARY T DANIEL,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #78497 renewal payment: Solo Weekly,36.8,0,0.0,Lisa Corcoran,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #78476 renewal payment: Solo Weekly,36.8,0,0.0,Grayson Palmer,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #78136 renewal payment: Solo Weekly,32.48,0,0.0,Stacy A Kuehn,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #78097 renewal payment: Solo Weekly,36.8,0,0.0,Katherine Scheffrahn,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #78055 renewal payment: Solo Weekly,36.8,0,0.0,Hayden Gee,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan membership #78008 renewal payment: Solo Weekly,32.48,0,0.0,Matthew Vaillancourt,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
+Capitan reservation #3664234: Kids Club - Ages 6-8,25.0,0,0.0,Deanna Sargent,2024-10-20,Event Booking,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan reservation #3664018: Top Rope Belay Class,15.0,0,0.0,Rylee Cooper,2024-10-20,Event Booking,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan reservation #3664014: Top Rope Belay Class,15.0,0,0.0,Morgan Green,2024-10-20,Event Booking,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan membership #114451 payment retry: Solo Weekly,38.97,0,0.0,Trey Loper,2024-10-20,Membership Renewal,Solo,weekly,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004803: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004801: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004792: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan membership #117746 initial payment: Solo Weekly,42.99,0,0.0,,2024-10-20,New Membership,Solo,weekly,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan membership #117745 initial payment: Solo Weekly,42.99,0,0.0,Cameron Butler,2024-10-20,New Membership,Solo,weekly,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004789: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,Aaron Morency,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan reservation #3663874: Kids Club - Ages 6-8,25.0,0,0.0,TAYLOR JACKSON,2024-10-20,Event Booking,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004748: Day Pass (Adult 14 and Up),21.65,0,0.0,Austin Norby,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004742: Day Pass (Adult 14 and Up),21.65,0,0.0,Matthew norby,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004745: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004734: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004727: Gear Upgrade,6.5,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004721: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004720: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004717: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan entry pass #1004712: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan membership #112740 renewal payment: Family Weekly,56.29,0,0.0,,2024-10-20,Membership Renewal,Family,weekly,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan membership #112765 renewal payment: Solo Weekly,43.3,0,0.0,Aaron Ameny,2024-10-20,Membership Renewal,Solo,weekly,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan membership #112753 renewal payment: Solo Weekly,43.3,0,0.0,William Benjamin Wells III,2024-10-20,Membership Renewal,Solo,weekly,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan membership #117642 initial payment: Solo Weekly,98.49,0,0.0,,2024-10-19,New Membership,Solo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1002825: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-19,Day Pass,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1002800: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-19,Day Pass,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1002561: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-19,Day Pass,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1002555: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-19,Day Pass,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1002545: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-19,Day Pass,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1002543: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-19,Day Pass,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1002472: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-19,Day Pass,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1002467: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-19,Day Pass,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1002280: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-19,Day Pass,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan reservation #3659151: Birthday Party Rental- 2 hours,216.5,0,0.0,Katherine Stephens,2024-10-19,Event Booking,,,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112136 renewal payment: Duo Weekly,82.27,0,0.0,Ryan Edwards,2024-10-19,Membership Renewal,Duo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112586 renewal payment: Family Weekly,67.59,0,0.0,J Purcell,2024-10-19,Membership Renewal,Family,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112611 renewal payment: Duo Weekly,77.94,0,0.0,Brandy Mascheck,2024-10-19,Membership Renewal,Duo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112527 renewal payment: Duo Weekly,77.94,0,0.0,,2024-10-19,Membership Renewal,Duo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112136 renewal payment: Duo Weekly,82.27,0,0.0,Ryan Edwards,2024-10-19,Membership Renewal,Duo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #109085 freeze payment: Solo Weekly,2.16,0,0.0,,2024-10-19,Membership Renewal,Solo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112608 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-19,Membership Renewal,Solo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112587 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-19,Membership Renewal,Solo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112554 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-19,Membership Renewal,Solo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112540 renewal payment: Solo Weekly,38.97,0,0.0,Maeve Serier,2024-10-19,Membership Renewal,Solo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112258 renewal payment: Solo Weekly,43.3,0,0.0,micah devening,2024-10-19,Membership Renewal,Solo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #112215 renewal payment: Solo Weekly,38.97,0,0.0,Michael Morales-Gomez,2024-10-19,Membership Renewal,Solo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan membership #93654 renewal payment: Solo Weekly,38.97,0,0.0,Bradley Kelly,2024-10-19,Membership Renewal,Solo,weekly,False,False,2024-10-19 00:00:00+00:00,Stripe
+Capitan entry pass #1000897: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-18,Day Pass,,,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan entry pass #1000760: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-18,Day Pass,,,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan entry pass #1000543: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-18,Day Pass,,,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan entry pass #1000517: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-18,Day Pass,,,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan entry pass #1000514: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-18,Day Pass,,,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan entry pass #1000365: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-18,Day Pass,,,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan entry pass #1000354: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-18,Day Pass,,,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #117171 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-18,New Membership,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan entry pass #999809: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-18,Day Pass,,,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #114938 renewal payment: Family Weekly,56.29,0,0.0,,2024-10-18,Membership Renewal,Family,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #112033 renewal payment: Family Weekly,56.29,0,0.0,,2024-10-18,Membership Renewal,Family,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #115077 renewal payment: Duo Weekly,73.61,0,0.0,Joseph Rios,2024-10-18,Membership Renewal,Duo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #112411 renewal payment: Duo Weekly,73.61,0,0.0,Morgan Green,2024-10-18,Membership Renewal,Duo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #112309 renewal payment: Duo Weekly,73.61,0,0.0,Alex Vu,2024-10-18,Membership Renewal,Duo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #112455 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #112417 renewal payment: Solo Weekly,43.3,0,0.0,Joshua Johnson,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #112070 renewal payment: Solo Weekly,35.07,0,0.0,Bethany Kerley,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #109831 renewal payment: Solo Weekly,38.97,0,0.0,Kalea J Kim,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #109288 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #100038 renewal payment: Solo Weekly,32.48,0,0.0,Kelsey Maglio,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #100013 renewal payment: Solo Weekly,32.48,0,0.0,Zachery Barajas,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #99984 renewal payment: Solo Weekly,32.48,0,0.0,Isaac P Baker,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #96715 renewal payment: Solo Weekly,36.8,0,0.0,Luke Tisch,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #96680 renewal payment: Solo Weekly,32.48,0,0.0,Robert Scrivner,2024-10-18,Membership Renewal,Solo,weekly,False,False,2024-10-18 00:00:00+00:00,Stripe
+Capitan membership #117065 initial payment: Family Weekly,245.73,0,0.0,,2024-10-17,New Membership,Family,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #109609 payment retry: Solo Weekly,39.4,0,0.0,Alexius Lauzon,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan entry pass #999019: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-17,Day Pass,,,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan entry pass #999013: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-17,Day Pass,,,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #117016 initial payment: Solo Weekly,120.16,0,0.0,,2024-10-17,New Membership,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Pro-rated Membership Add-on Fee: Solo Weekly,3.71,0,0.0,Dan Martin,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Pro-rated Membership Add-on Fee: Duo Weekly,7.43,0,0.0,Jennifer Esparza,2024-10-17,Membership Renewal,Duo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #111804 renewal payment: Family Weekly,58.46,0,0.0,,2024-10-17,Membership Renewal,Family,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #111939 renewal payment: Duo Weekly,70.58,0,0.0,,2024-10-17,Membership Renewal,Duo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #109607 renewal payment: Duo Weekly,73.61,0,0.0,Heath Osborne,2024-10-17,Membership Renewal,Duo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #114856 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #114843 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #112244 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #111906 renewal payment: Solo Weekly,43.3,0,0.0,Valerie Slater,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #111843 renewal payment: Solo Weekly,43.3,0,0.0,Laura lee Washington,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #111803 renewal payment: Solo Weekly,38.97,0,0.0,Samuel R Monroy,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #109624 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #109609 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #109474 renewal payment: Solo Weekly,32.48,0,0.0,Brenda S Lewis,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #102325 renewal payment: Solo Weekly,38.97,0,0.0,Maxwell McGaffin,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #99881 renewal payment: Solo Weekly,36.8,0,0.0,Colton Johnson,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan membership #99855 renewal payment: Solo Weekly,36.8,0,0.0,Daniel Haddock,2024-10-17,Membership Renewal,Solo,weekly,False,False,2024-10-17 00:00:00+00:00,Stripe
+Capitan entry pass #998094: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan entry pass #998079: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan entry pass #998069: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan entry pass #998056: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan entry pass #998008: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan entry pass #998003: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan entry pass #997982: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan membership #116883 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-16,New Membership,Solo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan entry pass #997945: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan entry pass #997939: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan entry pass #997319: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan reservation #3648592: Top Rope Belay Class,15.0,0,0.0,Celina Pinedo,2024-10-16,Event Booking,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan membership #111756 renewal payment: Family Weekly,112.58,0,0.0,Daniel Ezell,2024-10-16,Membership Renewal,Family,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan membership #99713 renewal payment: Family Weekly,77.64,0,0.0,Kat mayo,2024-10-16,Membership Renewal,Family,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan membership #99689 renewal payment: Duo Weekly,69.28,0,0.0,Leah Bower,2024-10-16,Membership Renewal,Duo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan membership #92293 renewal payment: Duo Weekly,60.62,0,0.0,Lauren Sereno,2024-10-16,Membership Renewal,Duo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan membership #114653 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-16,Membership Renewal,Solo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan membership #114634 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-16,Membership Renewal,Solo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan membership #111737 renewal payment: Solo Weekly,35.07,0,0.0,,2024-10-16,Membership Renewal,Solo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan reservation #3648172: Top Rope Belay Class,30.0,0,0.0,Tatiana Navarro,2024-10-15,Event Booking,,,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan entry pass #996747: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-15,Day Pass,,,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #116733 initial payment: Yotuh Comp Team Dues,265.42,0,0.0,,2024-10-15,Team,,,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #116724 initial payment: Solo Weekly,41.26,0,0.0,Alecia Johnson,2024-10-15,New Membership,Solo,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #116646 initial payment: Duo Weekly,119.23,0,0.0,Jennifer Esparza,2024-10-15,New Membership,Duo,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #114289 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-15,Membership Renewal,Solo,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #111945 renewal payment: Family Weekly,116.91,0,0.0,Jayci Vause,2024-10-15,Membership Renewal,Family,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #111525 renewal payment: Solo Weekly,38.97,0,0.0,Eldon Milton,2024-10-15,Membership Renewal,Solo,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #111516 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-15,Membership Renewal,Solo,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #111490 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-15,Membership Renewal,Solo,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #99564 renewal payment: Solo Weekly,32.48,0,0.0,Dan Martin,2024-10-15,Membership Renewal,Solo,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan membership #99545 renewal payment: Duo Weekly,60.62,0,0.0,Tayler Boisen,2024-10-15,Membership Renewal,Duo,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
 Capitan entry pass #995701: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Amber Sewell,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan entry pass #995700: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Amber Sewell,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan entry pass #995665: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan entry pass #995664: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan entry pass #995586: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan membership #107128 freeze payment: Solo Weekly,2.16,0,0.0,,2024-10-14,Membership Renewal,Solo,weekly,False,False,2024-10-14 00:00:00+00:00,Stripe
-Capitan membership #116566 initial payment: Youth Rec Team Dues,161.29,0,0.0,,2024-10-14,New Membership,,,False,False,2024-10-14 00:00:00+00:00,Stripe
-Capitan membership #116565 initial payment: Youth Rec Team Dues,161.29,0,0.0,,2024-10-14,New Membership,,,False,False,2024-10-14 00:00:00+00:00,Stripe
-Capitan membership #116563 initial payment: Youth Rec Team Dues,193.77,0,0.0,,2024-10-14,New Membership,,,False,False,2024-10-14 00:00:00+00:00,Stripe
-Capitan membership #116562 initial payment: Youth Rec Team Dues,161.29,0,0.0,,2024-10-14,New Membership,,,False,False,2024-10-14 00:00:00+00:00,Stripe
+Capitan membership #116566 initial payment: Youth Rec Team Dues,161.29,0,0.0,,2024-10-14,Team,,,False,False,2024-10-14 00:00:00+00:00,Stripe
+Capitan membership #116565 initial payment: Youth Rec Team Dues,161.29,0,0.0,,2024-10-14,Team,,,False,False,2024-10-14 00:00:00+00:00,Stripe
+Capitan membership #116563 initial payment: Youth Rec Team Dues,193.77,0,0.0,,2024-10-14,Team,,,False,False,2024-10-14 00:00:00+00:00,Stripe
+Capitan membership #116562 initial payment: Youth Rec Team Dues,161.29,0,0.0,,2024-10-14,Team,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan membership #114189 payment retry: Solo Weekly,38.97,0,0.0,Alexis M Long,2024-10-14,Membership Renewal,Solo,weekly,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan entry pass #995473: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan entry pass #995355: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe

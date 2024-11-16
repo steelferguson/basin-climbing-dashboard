@@ -7,6 +7,7 @@ class pullStripeData:
     ## Dictionaries for processing string in decripitions
     revenue_category_keywords = {
         'day pass': 'Day Pass',
+        'team dues': 'Team', 
         'entry pass': 'Day Pass',
         'initial payment': 'New Membership',
         'renewal payment': 'Membership Renewal',

@@ -8,6 +8,7 @@ class pullSquareData:
     ## Dictionaries for processing string in decripitions
     revenue_category_keywords = {
         'day pass': 'Day Pass',
+        'team dues': 'Team', 
         'membership renewal': 'Membership Renewal',
         'new membership': 'New Membership',
         'booking': 'Event Booking',
