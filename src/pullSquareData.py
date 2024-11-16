@@ -14,6 +14,7 @@ class pullSquareData:
         'booking': 'Event Booking',
         'event': 'Event Booking',
         'birthday': 'Event Booking',
+        'retreat': 'Event Booking',
         'pass': 'Day Pass',
         'capitan': 'Day Pass' ## Just for Square
     }
