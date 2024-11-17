@@ -84,9 +84,23 @@ def create_dashboard(app):
         [Input('timeframe-toggle', 'value')]
     )
     def update_capitan_sub_category_chart(selected_timeframe):
-        # Filter for events only
-        df_filtered = df[df['revenue_category'] == 'Event Booking'].copy()
-        
+        # Set the start date to April 1
+        start_date = pd.to_datetime('2024-04-01')
+
+        # Filter for events only and set start date
+        df_filtered = df[(df['revenue_category'] == 'Event Booking') & (df['created_at'] >= start_date)].copy()
+
+        if df_filtered.empty:
+            # If no data is available, create an empty figure with a message
+            fig = px.bar(title='No data available for Event Revenue by Sub-Category')
+            fig.add_annotation(
+                text="No data available for the selected timeframe",
+                xref="paper", yref="paper",
+                showarrow=False,
+                font=dict(size=16)
+            )
+            return fig
+
         # Resample and group the CAPITAN data by revenue_sub_category
         df_filtered['date'] = df_filtered['created_at'].dt.to_period(selected_timeframe).dt.start_time
         revenue_by_sub_category = df_filtered.groupby(['date', 'revenue_sub_category'])['amount_pre_tax'].sum().reset_index()

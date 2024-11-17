@@ -11,11 +11,15 @@ class pullStripeData:
         'entry pass': 'Day Pass',
         'initial payment': 'New Membership',
         'renewal payment': 'Membership Renewal',
+        'fitness':'programming',
+        'transformation':'programming',
+        'climbing technique':'programming',
+        'comp':'programming',
+        'class':'programming',
         'booking': 'Event Booking',
         'event': 'Event Booking',
         'birthday': 'Event Booking',
         'membership': 'Membership Renewal',
-        'class': 'Event Booking',
         'reservation': 'Event Booking'
         # 'capitan': 'Day Pass', ## Just for Square
     }

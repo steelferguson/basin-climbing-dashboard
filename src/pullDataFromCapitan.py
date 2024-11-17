@@ -40,9 +40,9 @@ class pullDataFromCapitan:
         'corporate': 'Corporate'
     }
     membership_frequency_keywords = {
-        'annual': 'Annual',
+        'annual': 'annual',
         'weekly': 'weekly',
-        'monthly': 'Monthly',
+        'monthly': 'monthly',
         'founders': 'monthly' # founders charged monthly
     }
     bcf_fam_friend_keywords = {

@@ -1,4 +1,10 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Total Amount,Date,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source
+Lemon Lime,2.25,0.18,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.43,2024-11-16,Retail,,,False,False,2024-11-16 18:54:17+00:00,Square
+Regular,1.8,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2024-11-16,Retail,,,False,False,2024-11-16 18:54:17+00:00,Square
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2024-11-16,Day Pass,,,False,False,2024-11-16 18:50:07+00:00,Square
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2024-11-16,Day Pass,,,False,False,2024-11-16 18:50:07+00:00,Square
+12 Fl Oz,2.27,0.19,0.98,"Tama Mate, GINGER Mate Sparkling Yerba Mate Tea",2.46,2024-11-16,Retail,,,False,False,2024-11-16 18:11:25+00:00,Square
+CAPITAN: Birthday Party- non-member,185.0,15.26,0.0,CAPITAN: Birthday Party- non-member,200.26,2024-11-16,Event Booking,,,False,False,2024-11-16 17:55:16+00:00,Square
 CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2024-11-16,Day Pass,,,False,False,2024-11-16 17:43:17+00:00,Square
 CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2024-11-16,Day Pass,,,False,False,2024-11-16 17:43:17+00:00,Square
 CAPITAN: Gear Upgrade,6.0,0.99,0.0,CAPITAN: Gear Upgrade,12.99,2024-11-16,Day Pass,,,False,False,2024-11-16 16:57:04+00:00,Square
@@ -298,7 +304,7 @@ CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,3.3,0.0,CAPITAN: Youth Day
 CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2024-11-01,Day Pass,,,False,False,2024-11-01 18:45:32+00:00,Square
 CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2024-11-01,Day Pass,,,False,False,2024-11-01 18:45:32+00:00,Square
 Regular,7.249999999999999,0.6,1.7,Midnight Lightning Chalktopus,7.85,2024-11-01,Retail,,,False,False,2024-11-01 18:44:58+00:00,Square
-6 oz Competition Quality Chalk Bag,12.14,1.0,2.85,Primo Chalk,13.14,2024-11-01,Retail,,,False,False,2024-11-01 18:44:58+00:00,Square
+6 oz Competition Quality Chalk Bag,12.14,1.0,2.85,Primo Chalk,13.14,2024-11-01,programming,,,False,False,2024-11-01 18:44:58+00:00,Square
 Lemon Lime,2.25,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2024-11-01,Retail,,,False,False,2024-11-01 17:51:17+00:00,Square
 US 8/EU 39.5 (green/blue),179.1,14.78,19.9,La Sportiva Womens Skwama Climbing Shoes,193.88,2024-11-01,Retail,,,False,False,2024-11-01 17:46:59+00:00,Square
 CAPITAN: Non-Participant/Spectator Day Pass,5.0,0.41,0.0,CAPITAN: Non-Participant/Spectator Day Pass,5.41,2024-11-01,Day Pass,,,False,False,2024-11-01 17:20:13+00:00,Square
@@ -330,7 +336,7 @@ Regular,2.2800000000000002,0.19,0.97,Fairlife Protein Shake Chocolate 11.5fl oz,
 Cherries & Pistachios,2.0900000000000003,0.17,0.9,Skratch Labs Anytime Energy Bar,2.26,2024-10-31,Retail,,,False,False,2024-10-31 15:26:00+00:00,Square
 CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2024-10-31,Day Pass,,,False,False,2024-10-31 00:32:43+00:00,Square
 Regular,7.65,0.63,0.85,Grangers Odor Eliminator Spray,8.28,2024-10-31,Retail,,,False,False,2024-10-31 00:13:02+00:00,Square
-6 oz Competition Quality Chalk Bag,13.49,1.11,1.5,Primo Chalk,14.6,2024-10-31,Retail,,,False,False,2024-10-31 00:13:02+00:00,Square
+6 oz Competition Quality Chalk Bag,13.49,1.11,1.5,Primo Chalk,14.6,2024-10-31,programming,,,False,False,2024-10-31 00:13:02+00:00,Square
 CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2024-10-31,Day Pass,,,False,False,2024-10-31 00:04:34+00:00,Square
 Regular,1.8,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2024-10-30,Retail,,,False,False,2024-10-30 23:13:05+00:00,Square
 Regular,2.27,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2024-10-30,Retail,,,False,False,2024-10-30 21:09:53+00:00,Square
@@ -1137,7 +1143,7 @@ Chunky Blend Chalk - 1.5oz,4.95,0.41,0.0,Midnight Lightning Chunky Blend Chalk,5
 CAPITAN: Non-Participant/Spectator Day Pass,5.0,0.41,0.0,CAPITAN: Non-Participant/Spectator Day Pass,5.41,2024-09-24,Day Pass,,,False,False,2024-09-24 23:54:30+00:00,Square
 CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2024-09-24,Day Pass,,,False,False,2024-09-24 23:54:30+00:00,Square
 Large,25.0,2.06,0.0,Organic Chalk Bag,27.06,2024-09-24,Retail,,,False,False,2024-09-24 23:33:55+00:00,Square
-6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2024-09-24,Retail,,,False,False,2024-09-24 23:33:55+00:00,Square
+6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2024-09-24,programming,,,False,False,2024-09-24 23:33:55+00:00,Square
 Orange Mango,2.5,0.21,0.0,BodyArmor 20 oz,2.71,2024-09-24,Retail,,,False,False,2024-09-24 22:51:15+00:00,Square
 CAPITAN: Non-Participant/Spectator Day Pass,5.0,1.24,0.0,CAPITAN: Non-Participant/Spectator Day Pass,16.24,2024-09-24,Day Pass,,,False,False,2024-09-24 22:05:26+00:00,Square
 CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2024-09-24,Day Pass,,,False,False,2024-09-24 22:05:26+00:00,Square
@@ -1248,10 +1254,10 @@ Regular,8.0,0.66,0.0,SoiLL Boar Hair Brush 3.0,8.66,2024-09-21,Retail,,,False,Fa
 Regular,1.2,0.1,0.0,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.3,2024-09-21,Retail,,,False,False,2024-09-21 20:36:34+00:00,Square
 Regular,3.25,0.27,0.0,Fairlife Protein Shake Chocolate 11.5fl oz,3.52,2024-09-21,Retail,,,False,False,2024-09-21 20:36:34+00:00,Square
 Orange,1.5,0.12,0.0,Gatorade Thirst Quencher Sports Drink 20oz,1.62,2024-09-21,Retail,,,False,False,2024-09-21 20:28:23+00:00,Square
-CAPITAN: Top Rope Belay Class - 1-hour Belay Class,10.0,0.83,0.0,CAPITAN: Top Rope Belay Class - 1-hour Belay Class,10.83,2024-09-21,Day Pass,,,False,False,2024-09-21 19:35:17+00:00,Square
+CAPITAN: Top Rope Belay Class - 1-hour Belay Class,10.0,0.83,0.0,CAPITAN: Top Rope Belay Class - 1-hour Belay Class,10.83,2024-09-21,programming,,,False,False,2024-09-21 19:35:17+00:00,Square
 Chocolate Chip,1.39,0.11,0.0,Chocolate Chip Organic Baked Whole Grain Energy Snack Bar,1.5,2024-09-21,Retail,,,False,False,2024-09-21 19:35:17+00:00,Square
 Regular,3.25,0.27,0.0,Fairlife Protein Shake Chocolate 11.5fl oz,3.52,2024-09-21,Retail,,,False,False,2024-09-21 19:35:17+00:00,Square
-CAPITAN: Top Rope Belay Class - 1-hour Belay Class,10.0,0.83,0.0,CAPITAN: Top Rope Belay Class - 1-hour Belay Class,10.83,2024-09-21,Day Pass,,,False,False,2024-09-21 19:33:42+00:00,Square
+CAPITAN: Top Rope Belay Class - 1-hour Belay Class,10.0,0.83,0.0,CAPITAN: Top Rope Belay Class - 1-hour Belay Class,10.83,2024-09-21,programming,,,False,False,2024-09-21 19:33:42+00:00,Square
 JTree Mini Climber Salve,8.99,0.74,0.0,Joshua Tree Organic Climbing Salve,9.73,2024-09-21,Retail,,,False,False,2024-09-21 19:33:42+00:00,Square
 Regular,8.95,0.74,0.0,Metolius Finger Tape 1/2 Roll lime green,9.69,2024-09-21,Retail,,,False,False,2024-09-21 19:33:42+00:00,Square
 Glacier Cherry,1.5,0.12,0.0,Gatorade Zero Sugar Thirst Quencher 20oz,1.62,2024-09-21,Retail,,,False,False,2024-09-21 19:25:18+00:00,Square
@@ -1304,7 +1310,7 @@ Regular,20.65,1.7,2.3,Petzl Am'd Triact-Lock Carabiner (gray/orange),22.35,2024-
 Chocolate Chip,1.39,0.11,0.0,Chocolate Chip Organic Baked Whole Grain Energy Snack Bar,1.5,2024-09-20,Retail,,,False,False,2024-09-20 23:03:23+00:00,Square
 RV 10.5/12,152.1,12.55,16.9,SoiLL Stay Climbing Shoe,164.65,2024-09-20,Retail,,,False,False,2024-09-20 22:38:59+00:00,Square
 Blue (B07MLTP3S4),98.95,8.16,11.0,Petzl Grigri Belay Device (blue),107.11,2024-09-20,Retail,,,False,False,2024-09-20 22:30:25+00:00,Square
-6 oz Competition Quality Chalk Bag,13.49,1.11,1.5,Primo Chalk,14.6,2024-09-20,Retail,,,False,False,2024-09-20 22:05:28+00:00,Square
+6 oz Competition Quality Chalk Bag,13.49,1.11,1.5,Primo Chalk,14.6,2024-09-20,programming,,,False,False,2024-09-20 22:05:28+00:00,Square
 Glacier Cherry,1.05,0.09,0.45,Gatorade Zero Sugar Thirst Quencher 20oz,1.14,2024-09-20,Retail,,,False,False,2024-09-20 19:01:24+00:00,Square
 Lemon Lime,1.05,0.09,0.45,Gatorade Thirst Quencher Sports Drink 20oz,1.14,2024-09-20,Retail,,,False,False,2024-09-20 18:26:45+00:00,Square
 EU 41/US 9.5 (red/blue),159.0,13.12,0.0,La Sportiva Womens Kubo Climbing Shoes,172.12,2024-09-20,Retail,,,False,False,2024-09-20 17:15:52+00:00,Square
@@ -1383,7 +1389,7 @@ Sand,18.83,1.55,8.07,8BPLUS PROBAG,20.38,2024-08-22,Retail,,,False,False,2024-08
 1.3 Oz,0.84,0.07,0.36,Bobos Oat Bars Apple Pie Oat Bites,0.91,2024-08-21,Retail,,,False,False,2024-08-21 22:38:23+00:00,Square
 Regular,1.6,0.13,0.69,Cilantro Lime Turkey Stick,1.73,2024-08-21,Retail,,,False,False,2024-08-21 22:38:23+00:00,Square
 JTree Mini Climber Salve,8.09,0.67,0.9,Joshua Tree Organic Climbing Salve,8.76,2024-08-21,Retail,,,False,False,2024-08-21 22:08:14+00:00,Square
-6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2024-08-21,Retail,,,False,False,2024-08-21 10:37:43+00:00,Square
+6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2024-08-21,programming,,,False,False,2024-08-21 10:37:43+00:00,Square
 Chunky Blend Chalk - 9.7oz,18.95,1.56,0.0,Midnight Lightning Chunky Blend Chalk,20.51,2024-08-21,Retail,,,False,False,2024-08-21 00:36:28+00:00,Square
 Chunky Blend Chalk - 1.5oz,4.95,0.41,0.0,Midnight Lightning Chunky Blend Chalk,5.36,2024-08-21,Retail,,,False,False,2024-08-21 00:27:07+00:00,Square
 Regular,1.6,0.13,0.69,Cilantro Lime Turkey Stick,1.73,2024-08-21,Retail,,,False,False,2024-08-21 00:24:22+00:00,Square
@@ -1425,7 +1431,7 @@ Chunky Blend Chalk - 1.5oz,4.95,0.41,0.0,Midnight Lightning Chunky Blend Chalk,5
 Botanist,13.989999999999998,1.15,6.0,Cypher Botanist Chalk Bag,15.14,2024-08-14,Retail,,,False,False,2024-08-14 00:07:25+00:00,Square
 EU 42.5/US 9.5/10.5 (Black/Poppy),99.0,8.17,0.0,La Sportiva Men's Tarantula Climbing Shoe,107.17,2024-08-13,Retail,,,False,False,2024-08-13 23:00:33+00:00,Square
 EU 39.5/US 7/8 (red plum),99.0,8.17,0.0,La Sportiva Womens Tarantula Climbing Shoes,107.17,2024-08-13,Retail,,,False,False,2024-08-13 22:18:19+00:00,Square
-6 oz Competition Quality Chalk Bag,10.49,0.87,4.5,Primo Chalk,11.36,2024-08-12,Retail,,,False,False,2024-08-12 23:20:12+00:00,Square
+6 oz Competition Quality Chalk Bag,10.49,0.87,4.5,Primo Chalk,11.36,2024-08-12,programming,,,False,False,2024-08-12 23:20:12+00:00,Square
 "Kosher (2.4 Ounce Protein Bar, 1 Count) Packaging May Vary",1.46,0.12,0.63,CLIF Bar - Energy Bar - Peanut Butter Banana with Dark Chocolate - Made with Organic Oats - Plant Based Food - Vegetarian,1.58,2024-08-12,Retail,,,False,False,2024-08-12 23:12:03+00:00,Square
 "Kosher (2.4 Ounce Protein Bar, 1 Count) Packaging May Vary",1.46,0.12,0.63,CLIF Bar - Energy Bar - Peanut Butter Banana with Dark Chocolate - Made with Organic Oats - Plant Based Food - Vegetarian,1.58,2024-08-12,Retail,,,False,False,2024-08-12 13:00:47+00:00,Square
 Mess Free Gym Chalk with Easy to Refill Sock,12.99,1.07,0.0,"Friction Labs Magic Pro Chalk Sphere 2.2oz - Premium Moisture-Wicking Chalk Ball for Rock Climbing, Weight Lifting, Gymnastics, & Bowling",14.06,2024-08-12,Retail,,,False,False,2024-08-12 11:57:43+00:00,Square
@@ -1434,7 +1440,7 @@ Box of 16,1.6700000000000002,0.14,0.72,Untapped Organic Maple Raspberry Waffle -
 Regular,8.95,0.74,0.0,Midnight Lightning Chalktopus,9.69,2024-08-11,Retail,,,False,False,2024-08-11 20:26:25+00:00,Square
 Regular,6.99,0.58,0.0,Nuun Daily - Raspberry Lemonade Tabs,7.57,2024-08-11,Retail,,,False,False,2024-08-11 20:26:25+00:00,Square
 US 3-4 (pink),69.95,5.76,0.0,Ocun Kids Ribbit Climbing Shoes - Pink,75.71,2024-08-11,Retail,,,False,False,2024-08-11 20:26:25+00:00,Square
-6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2024-08-11,Retail,,,False,False,2024-08-11 20:26:25+00:00,Square
+6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2024-08-11,programming,,,False,False,2024-08-11 20:26:25+00:00,Square
 Orange,20.95,1.73,0.0,Gnaly Dood Smith Rock Chalk Bag,22.68,2024-08-11,Retail,,,False,False,2024-08-11 19:14:57+00:00,Square
 EU 43/US 10/11 (black/poppy),99.0,8.17,0.0,La Sportiva Men's Tarantula Climbing Shoe,107.17,2024-08-11,Retail,,,False,False,2024-08-11 19:14:57+00:00,Square
 Chunky Blend Chalk - 1.5oz,4.95,0.41,0.0,Midnight Lightning Chunky Blend Chalk,5.36,2024-08-10,Retail,,,False,False,2024-08-10 01:11:12+00:00,Square
@@ -1443,7 +1449,7 @@ JTree Mini Climber Salve,8.99,0.74,0.0,Joshua Tree Organic Climbing Salve,9.73,2
 2.5 oz,9.99,0.82,0.0,Friction Labs Unicorn Dust,10.81,2024-08-09,Retail,,,False,False,2024-08-09 21:54:22+00:00,Square
 Regular,20.95,1.73,0.0,Gnarly Dood Flat Irons Chalk Bag,22.68,2024-08-09,Retail,,,False,False,2024-08-09 21:54:22+00:00,Square
 JTree Mini Climber Salve,8.99,0.74,0.0,Joshua Tree Organic Climbing Salve,9.73,2024-08-09,Retail,,,False,False,2024-08-09 21:54:22+00:00,Square
-6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2024-08-09,Retail,,,False,False,2024-08-09 10:10:37+00:00,Square
+6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2024-08-09,programming,,,False,False,2024-08-09 10:10:37+00:00,Square
 Regular,8.49,0.7,0.0,Primo Odor Orb,9.19,2024-08-09,Retail,,,False,False,2024-08-09 10:06:20+00:00,Square
 Regular,1.6,0.13,0.69,Cilantro Lime Turkey Stick,1.73,2024-08-09,Retail,,,False,False,2024-08-09 02:34:52+00:00,Square
 JTree Mini Climber Salve,8.99,0.74,0.0,Joshua Tree Organic Climbing Salve,9.73,2024-08-09,Retail,,,False,False,2024-08-09 00:56:12+00:00,Square

@@ -11,11 +11,16 @@ class pullSquareData:
         'team dues': 'Team', 
         'membership renewal': 'Membership Renewal',
         'new membership': 'New Membership',
-        'booking': 'Event Booking',
+        'fitness':'programming',
+        'transformation':'programming',
+        'climbing technique':'programming',
+        'comp':'programming',
+        'class':'programming',
         'event': 'Event Booking',
         'birthday': 'Event Booking',
         'retreat': 'Event Booking',
         'pass': 'Day Pass',
+        'booking': 'Event Booking',
         'capitan': 'Day Pass' ## Just for Square
     }
     membership_size_keywords = {

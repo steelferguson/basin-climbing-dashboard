@@ -1,11 +1,18 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Date,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source
+Capitan entry pass #1045118: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
+Capitan entry pass #1045117: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
+Capitan entry pass #1045116: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
+Capitan entry pass #1045114: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
+Capitan entry pass #1045099: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
+Capitan entry pass #1045097: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
+Capitan membership #122249 initial payment: College Student Monthly,49.14,0,0.0,,2024-11-16,New Membership,,Monthly,False,False,2024-11-16 00:00:00+00:00,Stripe
 Capitan entry pass #1045056: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
 Capitan entry pass #1045055: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
 Capitan membership #112136 payment retry: Duo Weekly,82.27,0,0.0,Ryan Edwards,2024-11-16,Membership Renewal,Duo,weekly,False,False,2024-11-16 00:00:00+00:00,Stripe
 Capitan entry pass #1044985: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
 Capitan membership #122240 initial payment: Solo Weekly,120.16,0,0.0,,2024-11-16,New Membership,Solo,weekly,False,False,2024-11-16 00:00:00+00:00,Stripe
 Capitan entry pass #1044937: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
-Capitan reservation #3838888: Top Rope Belay Class,15.0,0,0.0,Alexis M Long,2024-11-16,Event Booking,,,False,False,2024-11-16 00:00:00+00:00,Stripe
+Capitan reservation #3838888: Top Rope Belay Class,15.0,0,0.0,Alexis M Long,2024-11-16,programming,,,False,False,2024-11-16 00:00:00+00:00,Stripe
 Capitan reservation #3838866: Birthday Party Rental- 2 hours,200.0,0,0.0,Amy French,2024-11-16,Event Booking,,,False,False,2024-11-16 00:00:00+00:00,Stripe
 Capitan entry pass #1044872: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
 Capitan entry pass #1044806: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-16,Day Pass,,,False,False,2024-11-16 00:00:00+00:00,Stripe
@@ -32,7 +39,7 @@ Capitan entry pass #1042885: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-15,
 Capitan entry pass #1042811: ONLINE 90 day discounted day pass (promo),16.24,0,0.0,Nicole Sulak,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
 Capitan entry pass #1042803: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,Nicole Sulak,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
 Capitan entry pass #1042799: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Nicole Sulak,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
-Capitan reservation #3833804: Top Rope Belay Class,15.0,0,0.0,Brynn Eaton,2024-11-15,Event Booking,,,False,False,2024-11-15 00:00:00+00:00,Stripe
+Capitan reservation #3833804: Top Rope Belay Class,15.0,0,0.0,Brynn Eaton,2024-11-15,programming,,,False,False,2024-11-15 00:00:00+00:00,Stripe
 Capitan entry pass #1042359: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Ethan Goertzen,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
 Capitan entry pass #1042037: ONLINE 90 day discounted day pass (promo),16.24,0,0.0,Steel Ferguson,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
 Capitan entry pass #1042037: ONLINE 90 day discounted day pass (promo),16.24,0,0.0,Steel Ferguson,2024-11-15,Day Pass,,,False,False,2024-11-15 00:00:00+00:00,Stripe
@@ -67,9 +74,9 @@ Capitan entry pass #1041516: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,
 Capitan entry pass #1041505: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
 Capitan entry pass #1041500: Ladies Night Pass,16.24,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
 Capitan entry pass #1041427: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
-Capitan reservation #3830590: Top Rope Belay Class,15.0,0,0.0,John K Collins,2024-11-14,Event Booking,,,False,False,2024-11-14 00:00:00+00:00,Stripe
-Capitan reservation #3830590: Top Rope Belay Class,15.0,0,0.0,John K Collins,2024-11-14,Event Booking,,,False,False,2024-11-14 00:00:00+00:00,Stripe
-Capitan reservation #3830582: Top Rope Belay Class,15.0,0,0.0,,2024-11-14,Event Booking,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan reservation #3830590: Top Rope Belay Class,15.0,0,0.0,John K Collins,2024-11-14,programming,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan reservation #3830590: Top Rope Belay Class,15.0,0,0.0,John K Collins,2024-11-14,programming,,,False,False,2024-11-14 00:00:00+00:00,Stripe
+Capitan reservation #3830582: Top Rope Belay Class,15.0,0,0.0,,2024-11-14,programming,,,False,False,2024-11-14 00:00:00+00:00,Stripe
 Capitan entry pass #1040850: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-14,Day Pass,,,False,False,2024-11-14 00:00:00+00:00,Stripe
 Capitan membership #121912 initial payment: College Student Monthly,22.4,0,0.0,,2024-11-14,New Membership,,Monthly,False,False,2024-11-14 00:00:00+00:00,Stripe
 Capitan membership #116566 renewal payment: Youth Rec Team Dues,161.29,0,0.0,,2024-11-14,Team,,,False,False,2024-11-14 00:00:00+00:00,Stripe
@@ -100,7 +107,7 @@ Capitan entry pass #1040266: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2
 Capitan membership #121839 initial payment: Solo Weekly,60.99,0,0.0,,2024-11-13,New Membership,Solo,weekly,False,False,2024-11-13 00:00:00+00:00,Stripe
 Capitan entry pass #1039976: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
 Capitan entry pass #1039966: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
-Capitan reservation #3827646: Top Rope Belay Class,30.0,0,0.0,,2024-11-13,Event Booking,,,False,False,2024-11-13 00:00:00+00:00,Stripe
+Capitan reservation #3827646: Top Rope Belay Class,30.0,0,0.0,,2024-11-13,programming,,,False,False,2024-11-13 00:00:00+00:00,Stripe
 Capitan membership #121811 initial payment: College Student Monthly,59.54,0,0.0,,2024-11-13,New Membership,,Monthly,False,False,2024-11-13 00:00:00+00:00,Stripe
 Capitan entry pass #1039792: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
 Capitan entry pass #1039615: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-13,Day Pass,,,False,False,2024-11-13 00:00:00+00:00,Stripe
@@ -222,7 +229,7 @@ Capitan entry pass #1029353: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0
 Capitan entry pass #1029337: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
 Capitan entry pass #1029088: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
 Capitan entry pass #1029087: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-06,Day Pass,,,False,False,2024-11-06 00:00:00+00:00,Stripe
-Capitan reservation #3801892: Top Rope Belay Class,15.0,0,0.0,Lisa Corcoran,2024-11-06,Event Booking,,,False,False,2024-11-06 00:00:00+00:00,Stripe
+Capitan reservation #3801892: Top Rope Belay Class,15.0,0,0.0,Lisa Corcoran,2024-11-06,programming,,,False,False,2024-11-06 00:00:00+00:00,Stripe
 Capitan membership #118206 renewal payment: Solo Weekly,43.3,0,0.0,,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
 Capitan membership #115785 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
 Capitan membership #110423 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-06,Membership Renewal,Solo,weekly,False,False,2024-11-06 00:00:00+00:00,Stripe
@@ -256,7 +263,7 @@ Capitan entry pass #1026863: Gear Upgrade,6.5,0,0.0,,2024-11-04,Day Pass,,,False
 Capitan membership #120347 initial payment: Solo Weekly,42.99,0,0.0,Collin R O'Neill,2024-11-04,New Membership,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
 Capitan entry pass #1026656: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-04,Day Pass,,,False,False,2024-11-04 00:00:00+00:00,Stripe
 Capitan membership #112136 payment retry: Duo Weekly,82.27,0,0.0,Ryan Edwards,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
-Capitan reservation #3794564: Top Rope Belay Class,15.0,0,0.0,,2024-11-04,Event Booking,,,False,False,2024-11-04 00:00:00+00:00,Stripe
+Capitan reservation #3794564: Top Rope Belay Class,15.0,0,0.0,,2024-11-04,programming,,,False,False,2024-11-04 00:00:00+00:00,Stripe
 Capitan membership #120272 initial payment: Solo Weekly,120.16,0,0.0,,2024-11-04,New Membership,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
 Capitan membership #115537 renewal payment: Duo Weekly,73.61,0,0.0,,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
 Capitan membership #115499 renewal payment: Solo Weekly,38.97,0,0.0,,2024-11-04,Membership Renewal,Solo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
@@ -330,7 +337,7 @@ Capitan membership #77949 renewal payment: Duo Weekly,60.62,0,0.0,Meghan L McIna
 Capitan membership #77936 renewal payment: Duo Weekly,69.28,0,0.0,Kaitlin Ig,2024-11-04,Membership Renewal,Duo,weekly,False,False,2024-11-04 00:00:00+00:00,Stripe
 Capitan membership #120205 initial payment: Duo Weekly,100.25,0,0.0,,2024-11-03,New Membership,Duo,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
 Capitan entry pass #1025568: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
-Capitan reservation #3792878: Top Rope Belay Class,15.0,0,0.0,,2024-11-03,Event Booking,,,False,False,2024-11-03 00:00:00+00:00,Stripe
+Capitan reservation #3792878: Top Rope Belay Class,15.0,0,0.0,,2024-11-03,programming,,,False,False,2024-11-03 00:00:00+00:00,Stripe
 Capitan entry pass #1025558: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-03,Day Pass,,,False,False,2024-11-03 00:00:00+00:00,Stripe
 Capitan membership #120194 initial payment: Solo Weekly,82.66,0,0.0,,2024-11-03,New Membership,Solo,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
 Capitan membership #120193 initial payment: Family Weekly,113.74,0,0.0,,2024-11-03,New Membership,Family,weekly,False,False,2024-11-03 00:00:00+00:00,Stripe
@@ -382,11 +389,11 @@ Capitan membership #112258 renewal payment: Solo Weekly,43.3,0,0.0,micah devenin
 Capitan membership #112215 renewal payment: Solo Weekly,38.97,0,0.0,Michael Morales-Gomez,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
 Capitan membership #93654 renewal payment: Solo Weekly,38.97,0,0.0,Bradley Kelly,2024-11-02,Membership Renewal,Solo,weekly,False,False,2024-11-02 00:00:00+00:00,Stripe
 Capitan entry pass #1021942: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
-Capitan reservation #3785284: Top Rope Belay Class,15.0,0,0.0,,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
-Capitan reservation #3785224: Top Rope Belay Class,15.0,0,0.0,,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan reservation #3785284: Top Rope Belay Class,15.0,0,0.0,,2024-11-01,programming,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan reservation #3785224: Top Rope Belay Class,15.0,0,0.0,,2024-11-01,programming,,,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan entry pass #1021731: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan entry pass #1021730: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
-Capitan reservation #3784768: Top Rope Belay Class,15.0,0,0.0,Meghan L McInaney,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan reservation #3784768: Top Rope Belay Class,15.0,0,0.0,Meghan L McInaney,2024-11-01,programming,,,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan entry pass #1021662: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan entry pass #1021660: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan entry pass #1021659: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
@@ -395,7 +402,7 @@ Capitan entry pass #1021602: Gear Upgrade,6.5,0,0.0,,2024-11-01,Day Pass,,,False
 Capitan entry pass #1021561: Youth Day Pass (Under 14y/o),15.16,0,0.0,Ana Barnett,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan entry pass #1021504: Day Pass (Adult 14 and Up),21.65,0,0.0,Carolyn Doolittle,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan entry pass #1021338: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-11-01,Day Pass,,,False,False,2024-11-01 00:00:00+00:00,Stripe
-Capitan reservation #3783297: Top Rope Belay Class,15.0,0,0.0,Alyssa Pittman,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
+Capitan reservation #3783297: Top Rope Belay Class,15.0,0,0.0,Alyssa Pittman,2024-11-01,programming,,,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan membership #119711 initial payment: Duo Weekly,174.28,0,0.0,Victor Vo,2024-11-01,New Membership,Duo,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan reservation #3782518: Birthday Party Rental- 2 hours,200.0,0,0.0,Brennan K King,2024-11-01,Event Booking,,,False,False,2024-11-01 00:00:00+00:00,Stripe
 Capitan membership #114938 renewal payment: Family Weekly,56.29,0,0.0,,2024-11-01,Membership Renewal,Family,weekly,False,False,2024-11-01 00:00:00+00:00,Stripe
@@ -441,9 +448,9 @@ Capitan membership #109474 renewal payment: Solo Weekly,32.48,0,0.0,Brenda S Lew
 Capitan membership #102325 renewal payment: Solo Weekly,38.97,0,0.0,Maxwell McGaffin,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
 Capitan membership #99881 renewal payment: Solo Weekly,36.8,0,0.0,Colton Johnson,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
 Capitan membership #99855 renewal payment: Solo Weekly,36.8,0,0.0,Daniel Haddock,2024-10-31,Membership Renewal,Solo,weekly,False,False,2024-10-31 00:00:00+00:00,Stripe
-Capitan reservation #3777738: Top Rope Belay Class,15.0,0,0.0,Jessica Weatherby,2024-10-30,Event Booking,,,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan reservation #3777738: Top Rope Belay Class,15.0,0,0.0,Jessica Weatherby,2024-10-30,programming,,,False,False,2024-10-30 00:00:00+00:00,Stripe
 Pro-rated Membership Add-on Fee: Solo Weekly,0.62,0,0.0,Matthew Bosang,2024-10-30,Membership Renewal,Solo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
-Capitan reservation #3775904: Top Rope Belay Class,60.0,0,0.0,jessica r weatherby,2024-10-30,Event Booking,,,False,False,2024-10-30 00:00:00+00:00,Stripe
+Capitan reservation #3775904: Top Rope Belay Class,60.0,0,0.0,jessica r weatherby,2024-10-30,programming,,,False,False,2024-10-30 00:00:00+00:00,Stripe
 Capitan membership #111756 renewal payment: Family Weekly,112.58,0,0.0,Daniel Ezell,2024-10-30,Membership Renewal,Family,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
 Capitan membership #99713 renewal payment: Family Weekly,77.64,0,0.0,Kat mayo,2024-10-30,Membership Renewal,Family,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
 Capitan membership #99689 renewal payment: Duo Weekly,69.28,0,0.0,Leah Bower,2024-10-30,Membership Renewal,Duo,weekly,False,False,2024-10-30 00:00:00+00:00,Stripe
@@ -460,10 +467,10 @@ Capitan entry pass #1017865: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-29,
 Capitan entry pass #1017836: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-29,Day Pass,,,False,False,2024-10-29 00:00:00+00:00,Stripe
 Capitan entry pass #1017835: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-29,Day Pass,,,False,False,2024-10-29 00:00:00+00:00,Stripe
 Capitan entry pass #1017832: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-29,Day Pass,,,False,False,2024-10-29 00:00:00+00:00,Stripe
-Capitan reservation #3773886: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Allison Allen,2024-10-29,Event Booking,,,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan reservation #3773886: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Allison Allen,2024-10-29,programming,,,False,False,2024-10-29 00:00:00+00:00,Stripe
 Capitan membership #119065 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-29,New Membership,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
 Capitan membership #119045 initial payment: Duo Weekly,152.25,0,0.0,,2024-10-29,New Membership,Duo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
-Capitan reservation #3702252: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Nathen Gabriel,2024-10-29,Event Booking,,,False,False,2024-10-29 00:00:00+00:00,Stripe
+Capitan reservation #3702252: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Nathen Gabriel,2024-10-29,programming,,,False,False,2024-10-29 00:00:00+00:00,Stripe
 Capitan membership #91159 renewal payment: Founders Business,773.99,0,0.0,Bradley swann,2024-10-29,Membership Renewal,,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
 Capitan membership #91154 renewal payment: Founders - Family,125.57,0,0.0,Adam Goree,2024-10-29,Membership Renewal,Family,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
 Capitan membership #91148 renewal payment: Founders - Family,178.61,0,0.0,Jessica Thigpen,2024-10-29,Membership Renewal,Family,monthly,True,False,2024-10-29 00:00:00+00:00,Stripe
@@ -501,10 +508,10 @@ Capitan membership #111490 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-29,
 Capitan membership #99564 renewal payment: Solo Weekly,36.8,0,0.0,Dan Martin,2024-10-29,Membership Renewal,Solo,weekly,False,False,2024-10-29 00:00:00+00:00,Stripe
 Capitan entry pass #1016533: Day Pass with Gear (Adult 14 and Up),19.7,0,0.0,,2024-10-28,Day Pass,,,False,False,2024-10-28 00:00:00+00:00,Stripe
 Capitan membership #118924 initial payment: Solo Weekly,60.99,0,0.0,,2024-10-28,New Membership,Solo,weekly,False,False,2024-10-28 00:00:00+00:00,Stripe
-Capitan reservation #3699627: Top Rope Belay Class,30.0,0,0.0,Brandy Mascheck,2024-10-28,Event Booking,,,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan reservation #3699627: Top Rope Belay Class,30.0,0,0.0,Brandy Mascheck,2024-10-28,programming,,,False,False,2024-10-28 00:00:00+00:00,Stripe
 Capitan entry pass #1016463: Gear Upgrade,6.5,0,0.0,,2024-10-28,Day Pass,,,False,False,2024-10-28 00:00:00+00:00,Stripe
 Capitan entry pass #1016440: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-28,Day Pass,,,False,False,2024-10-28 00:00:00+00:00,Stripe
-Capitan reservation #3699463: Top Rope Belay Class,15.0,0,0.0,,2024-10-28,Event Booking,,,False,False,2024-10-28 00:00:00+00:00,Stripe
+Capitan reservation #3699463: Top Rope Belay Class,15.0,0,0.0,,2024-10-28,programming,,,False,False,2024-10-28 00:00:00+00:00,Stripe
 Capitan entry pass #1016399: Day Pass (Adult 14 and Up),21.65,0,0.0,Talan Crain,2024-10-28,Day Pass,,,False,False,2024-10-28 00:00:00+00:00,Stripe
 Capitan membership #99304 renewal payment: Duo Weekly,69.28,0,0.0,William Connor Wroten,2024-10-28,Membership Renewal,Duo,weekly,False,False,2024-10-28 00:00:00+00:00,Stripe
 Capitan membership #114189 renewal payment: Solo Weekly,38.97,0,0.0,Alexis M Long,2024-10-28,Membership Renewal,Solo,weekly,False,False,2024-10-28 00:00:00+00:00,Stripe
@@ -514,7 +521,7 @@ Capitan membership #100726 freeze payment: Solo Weekly,2.16,0,0.0,Kendall Smith,
 Capitan entry pass #1015036: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
 Capitan entry pass #1015009: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
 Capitan entry pass #1015008: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
-Capitan reservation #3696483: Top Rope Belay Class,30.0,0,0.0,,2024-10-27,Event Booking,,,False,False,2024-10-27 00:00:00+00:00,Stripe
+Capitan reservation #3696483: Top Rope Belay Class,30.0,0,0.0,,2024-10-27,programming,,,False,False,2024-10-27 00:00:00+00:00,Stripe
 Capitan entry pass #1014918: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
 Capitan entry pass #1014916: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
 Capitan entry pass #1014850: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Brian Steele,2024-10-27,Day Pass,,,False,False,2024-10-27 00:00:00+00:00,Stripe
@@ -548,7 +555,7 @@ Capitan entry pass #1011332: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2
 Capitan membership #118524 initial payment: Solo Annual,1012.14,0,0.0,,2024-10-25,New Membership,Solo,Annual,False,False,2024-10-25 00:00:00+00:00,Stripe
 Capitan entry pass #1011246: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
 Capitan entry pass #1011240: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
-Capitan reservation #3678658: Top Rope Belay Class,15.0,0,0.0,Zackary gallardo,2024-10-25,Event Booking,,,False,False,2024-10-25 00:00:00+00:00,Stripe
+Capitan reservation #3678658: Top Rope Belay Class,15.0,0,0.0,Zackary gallardo,2024-10-25,programming,,,False,False,2024-10-25 00:00:00+00:00,Stripe
 Capitan entry pass #1010968: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
 Capitan entry pass #1010811: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-25,Day Pass,,,False,False,2024-10-25 00:00:00+00:00,Stripe
 Capitan membership #113336 renewal payment: Founders - Solo,64.95,0,0.0,Kelli McMahan,2024-10-25,Membership Renewal,Solo,monthly,True,False,2024-10-25 00:00:00+00:00,Stripe
@@ -561,7 +568,7 @@ Capitan membership #96378 renewal payment: Solo Weekly,36.8,0,0.0,Jennifer Higgi
 Capitan membership #118432 initial payment: Solo Weekly,60.89,0,0.0,,2024-10-24,New Membership,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
 Capitan membership #118431 initial payment: Duo Weekly,79.58,0,0.0,,2024-10-24,New Membership,Duo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
 Capitan entry pass #1009949: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-24,Day Pass,,,False,False,2024-10-24 00:00:00+00:00,Stripe
-Capitan reservation #3676535: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Gordon Robinson,2024-10-24,Event Booking,,,False,False,2024-10-24 00:00:00+00:00,Stripe
+Capitan reservation #3676535: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Gordon Robinson,2024-10-24,programming,,,False,False,2024-10-24 00:00:00+00:00,Stripe
 Capitan entry pass #1009895: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-24,Day Pass,,,False,False,2024-10-24 00:00:00+00:00,Stripe
 Capitan membership #118296 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-24,New Membership,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
 Capitan membership #118282 initial payment: Duo Weekly,52.28,0,0.0,,2024-10-24,New Membership,Duo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
@@ -571,7 +578,7 @@ Capitan membership #101679 freeze payment: Solo Weekly,2.16,0,0.0,Sergio Flores,
 Capitan membership #115944 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-24,Membership Renewal,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
 Capitan membership #110518 renewal payment: Solo Weekly,38.97,0,0.0,Harry B Amadeo,2024-10-24,Membership Renewal,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
 Capitan membership #100135 renewal payment: Solo Weekly,38.97,0,0.0,D Rodriguez Aguirre,2024-10-24,Membership Renewal,Solo,weekly,False,False,2024-10-24 00:00:00+00:00,Stripe
-Capitan reservation #3673637: Top Rope Belay Class,30.0,0,0.0,,2024-10-23,Event Booking,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan reservation #3673637: Top Rope Belay Class,30.0,0,0.0,,2024-10-23,programming,,,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan entry pass #1008860: Non-Participant/Spectator Day Pass,5.41,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan entry pass #1008834: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan entry pass #1008832: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
@@ -579,7 +586,7 @@ Capitan membership #118206 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-23
 Capitan entry pass #1008806: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan entry pass #1008740: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan entry pass #1008540: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
-Capitan reservation #3672003: 8-Week Transformation - 0515am MWF Group 1,200.0,0,0.0,Michelle Cola,2024-10-23,Event Booking,,,False,False,2024-10-23 00:00:00+00:00,Stripe
+Capitan reservation #3672003: 8-Week Transformation - 0515am MWF Group 1,200.0,0,0.0,Michelle Cola,2024-10-23,fitness,,,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan entry pass #1008085: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-23,Day Pass,,,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan membership #110398 renewal payment: Solo Weekly,43.3,0,0.0,LOUISA A MCNAUGHTON,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan membership #110398 renewal payment: Solo Weekly,43.3,0,0.0,Louisa McNaughton,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
@@ -590,7 +597,7 @@ Capitan membership #110407 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-23,M
 Capitan membership #110399 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan membership #110398 renewal payment: Solo Weekly,43.3,0,0.0,Louisa McNaughton,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
 Capitan membership #110395 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-23,Membership Renewal,Solo,weekly,False,False,2024-10-23 00:00:00+00:00,Stripe
-Capitan reservation #3670639: Top Rope Belay Class,15.0,0,0.0,Jessica Erhart,2024-10-22,Event Booking,,,False,False,2024-10-22 00:00:00+00:00,Stripe
+Capitan reservation #3670639: Top Rope Belay Class,15.0,0,0.0,Jessica Erhart,2024-10-22,programming,,,False,False,2024-10-22 00:00:00+00:00,Stripe
 Capitan membership #115048 payment retry: Solo Weekly,38.97,0,0.0,Matthew Bosang,2024-10-22,Membership Renewal,Solo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
 Capitan entry pass #1007568: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-22,Day Pass,,,False,False,2024-10-22 00:00:00+00:00,Stripe
 Capitan membership #117956 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-22,New Membership,Solo,weekly,False,False,2024-10-22 00:00:00+00:00,Stripe
@@ -682,8 +689,8 @@ Capitan membership #78097 renewal payment: Solo Weekly,36.8,0,0.0,Katherine Sche
 Capitan membership #78055 renewal payment: Solo Weekly,36.8,0,0.0,Hayden Gee,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
 Capitan membership #78008 renewal payment: Solo Weekly,32.48,0,0.0,Matthew Vaillancourt,2024-10-21,Membership Renewal,Solo,weekly,False,False,2024-10-21 00:00:00+00:00,Stripe
 Capitan reservation #3664234: Kids Club - Ages 6-8,25.0,0,0.0,Deanna Sargent,2024-10-20,Event Booking,,,False,False,2024-10-20 00:00:00+00:00,Stripe
-Capitan reservation #3664018: Top Rope Belay Class,15.0,0,0.0,Rylee Cooper,2024-10-20,Event Booking,,,False,False,2024-10-20 00:00:00+00:00,Stripe
-Capitan reservation #3664014: Top Rope Belay Class,15.0,0,0.0,Morgan Green,2024-10-20,Event Booking,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan reservation #3664018: Top Rope Belay Class,15.0,0,0.0,Rylee Cooper,2024-10-20,programming,,,False,False,2024-10-20 00:00:00+00:00,Stripe
+Capitan reservation #3664014: Top Rope Belay Class,15.0,0,0.0,Morgan Green,2024-10-20,programming,,,False,False,2024-10-20 00:00:00+00:00,Stripe
 Capitan membership #114451 payment retry: Solo Weekly,38.97,0,0.0,Trey Loper,2024-10-20,Membership Renewal,Solo,weekly,False,False,2024-10-20 00:00:00+00:00,Stripe
 Capitan entry pass #1004803: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
 Capitan entry pass #1004801: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-10-20,Day Pass,,,False,False,2024-10-20 00:00:00+00:00,Stripe
@@ -785,7 +792,7 @@ Capitan membership #116883 initial payment: Solo Weekly,124.49,0,0.0,,2024-10-16
 Capitan entry pass #997945: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
 Capitan entry pass #997939: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
 Capitan entry pass #997319: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-16,Day Pass,,,False,False,2024-10-16 00:00:00+00:00,Stripe
-Capitan reservation #3648592: Top Rope Belay Class,15.0,0,0.0,Celina Pinedo,2024-10-16,Event Booking,,,False,False,2024-10-16 00:00:00+00:00,Stripe
+Capitan reservation #3648592: Top Rope Belay Class,15.0,0,0.0,Celina Pinedo,2024-10-16,programming,,,False,False,2024-10-16 00:00:00+00:00,Stripe
 Capitan membership #111756 renewal payment: Family Weekly,112.58,0,0.0,Daniel Ezell,2024-10-16,Membership Renewal,Family,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
 Capitan membership #99713 renewal payment: Family Weekly,77.64,0,0.0,Kat mayo,2024-10-16,Membership Renewal,Family,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
 Capitan membership #99689 renewal payment: Duo Weekly,69.28,0,0.0,Leah Bower,2024-10-16,Membership Renewal,Duo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
@@ -793,7 +800,7 @@ Capitan membership #92293 renewal payment: Duo Weekly,60.62,0,0.0,Lauren Sereno,
 Capitan membership #114653 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-16,Membership Renewal,Solo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
 Capitan membership #114634 renewal payment: Solo Weekly,39.4,0,0.0,,2024-10-16,Membership Renewal,Solo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
 Capitan membership #111737 renewal payment: Solo Weekly,35.07,0,0.0,,2024-10-16,Membership Renewal,Solo,weekly,False,False,2024-10-16 00:00:00+00:00,Stripe
-Capitan reservation #3648172: Top Rope Belay Class,30.0,0,0.0,Tatiana Navarro,2024-10-15,Event Booking,,,False,False,2024-10-15 00:00:00+00:00,Stripe
+Capitan reservation #3648172: Top Rope Belay Class,30.0,0,0.0,Tatiana Navarro,2024-10-15,programming,,,False,False,2024-10-15 00:00:00+00:00,Stripe
 Capitan entry pass #996747: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-15,Day Pass,,,False,False,2024-10-15 00:00:00+00:00,Stripe
 Capitan membership #116733 initial payment: Yotuh Comp Team Dues,265.42,0,0.0,,2024-10-15,Team,,,False,False,2024-10-15 00:00:00+00:00,Stripe
 Capitan membership #116724 initial payment: Solo Weekly,41.26,0,0.0,Alecia Johnson,2024-10-15,New Membership,Solo,weekly,False,False,2024-10-15 00:00:00+00:00,Stripe
@@ -822,7 +829,7 @@ Capitan reservation #3643370: Birthday Party Rental- 2 hours,216.5,0,0.0,Caitlin
 Capitan entry pass #994738: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan entry pass #994714: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan entry pass #994706: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-14,Day Pass,,,False,False,2024-10-14 00:00:00+00:00,Stripe
-Capitan reservation #3643158: Top Rope Belay Class,15.0,0,0.0,Alan Shipp,2024-10-14,Event Booking,,,False,False,2024-10-14 00:00:00+00:00,Stripe
+Capitan reservation #3643158: Top Rope Belay Class,15.0,0,0.0,Alan Shipp,2024-10-14,programming,,,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan membership #99304 renewal payment: Duo Weekly,69.28,0,0.0,William Connor Wroten,2024-10-14,Membership Renewal,Duo,weekly,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan membership #114189 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-14,Membership Renewal,Solo,weekly,False,False,2024-10-14 00:00:00+00:00,Stripe
 Capitan membership #114149 renewal payment: Solo Weekly,35.07,0,0.0,,2024-10-14,Membership Renewal,Solo,weekly,False,False,2024-10-14 00:00:00+00:00,Stripe
@@ -883,11 +890,11 @@ Capitan entry pass #990372: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-11
 Capitan entry pass #990370: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-11,Day Pass,,,False,False,2024-10-11 00:00:00+00:00,Stripe
 Capitan entry pass #990370: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-11,Day Pass,,,False,False,2024-10-11 00:00:00+00:00,Stripe
 Capitan entry pass #990360: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-11,Day Pass,,,False,False,2024-10-11 00:00:00+00:00,Stripe
-Capitan reservation #3633340: 8-Week Transformation - 0515am MWF Group 1,200.0,0,0.0,,2024-10-11,Event Booking,,,False,False,2024-10-11 00:00:00+00:00,Stripe
+Capitan reservation #3633340: 8-Week Transformation - 0515am MWF Group 1,200.0,0,0.0,,2024-10-11,fitness,,,False,False,2024-10-11 00:00:00+00:00,Stripe
 Capitan entry pass #990297: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-11,Day Pass,,,False,False,2024-10-11 00:00:00+00:00,Stripe
 Capitan entry pass #990290: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-11,Day Pass,,,False,False,2024-10-11 00:00:00+00:00,Stripe
 Capitan entry pass #990286: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-11,Day Pass,,,False,False,2024-10-11 00:00:00+00:00,Stripe
-Capitan reservation #3632698: 8-Week Transformation - 0515am MWF Group 1,200.0,0,0.0,Samantha Miller,2024-10-11,Event Booking,,,False,False,2024-10-11 00:00:00+00:00,Stripe
+Capitan reservation #3632698: 8-Week Transformation - 0515am MWF Group 1,200.0,0,0.0,Samantha Miller,2024-10-11,fitness,,,False,False,2024-10-11 00:00:00+00:00,Stripe
 Capitan entry pass #989796: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-10-11,Day Pass,,,False,False,2024-10-11 00:00:00+00:00,Stripe
 Capitan entry pass #989675: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-10-11,Day Pass,,,False,False,2024-10-11 00:00:00+00:00,Stripe
 Capitan reservation #3632235: Birthday Party Rental- 2 hours,216.5,0,0.0,Maria rolfsen,2024-10-11,Event Booking,,,False,False,2024-10-11 00:00:00+00:00,Stripe
@@ -930,16 +937,16 @@ Capitan membership #110399 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-09,M
 Capitan membership #110398 renewal payment: Solo Weekly,43.3,0,0.0,Louisa McNaughton,2024-10-09,Membership Renewal,Solo,weekly,False,False,2024-10-09 00:00:00+00:00,Stripe
 Capitan membership #110395 renewal payment: Solo Weekly,38.97,0,0.0,,2024-10-09,Membership Renewal,Solo,weekly,False,False,2024-10-09 00:00:00+00:00,Stripe
 Capitan membership #115706 initial payment: Duo Weekly,228.41,0,0.0,,2024-10-08,New Membership,Duo,weekly,False,False,2024-10-08 00:00:00+00:00,Stripe
-Capitan reservation #3623944: Top Rope Belay Class,15.0,0,0.0,,2024-10-08,Event Booking,,,False,False,2024-10-08 00:00:00+00:00,Stripe
+Capitan reservation #3623944: Top Rope Belay Class,15.0,0,0.0,,2024-10-08,programming,,,False,False,2024-10-08 00:00:00+00:00,Stripe
 Capitan entry pass #986647: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-08,Day Pass,,,False,False,2024-10-08 00:00:00+00:00,Stripe
-Capitan reservation #3623938: Top Rope Belay Class,15.0,0,0.0,,2024-10-08,Event Booking,,,False,False,2024-10-08 00:00:00+00:00,Stripe
+Capitan reservation #3623938: Top Rope Belay Class,15.0,0,0.0,,2024-10-08,programming,,,False,False,2024-10-08 00:00:00+00:00,Stripe
 Capitan entry pass #986643: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-08,Day Pass,,,False,False,2024-10-08 00:00:00+00:00,Stripe
 Capitan entry pass #986638: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-08,Day Pass,,,False,False,2024-10-08 00:00:00+00:00,Stripe
-Capitan reservation #3623654: Top Rope Belay Class,15.0,0,0.0,Hayden Gee,2024-10-08,Event Booking,,,False,False,2024-10-08 00:00:00+00:00,Stripe
-Capitan reservation #3623655: Top Rope Belay Class,15.0,0,0.0,Calan Wilson,2024-10-08,Event Booking,,,False,False,2024-10-08 00:00:00+00:00,Stripe
+Capitan reservation #3623654: Top Rope Belay Class,15.0,0,0.0,Hayden Gee,2024-10-08,programming,,,False,False,2024-10-08 00:00:00+00:00,Stripe
+Capitan reservation #3623655: Top Rope Belay Class,15.0,0,0.0,Calan Wilson,2024-10-08,programming,,,False,False,2024-10-08 00:00:00+00:00,Stripe
 Capitan entry pass #986025: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Michelle Gaidusek,2024-10-08,Day Pass,,,False,False,2024-10-08 00:00:00+00:00,Stripe
 Capitan entry pass #986022: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Michelle Gaidusek,2024-10-08,Day Pass,,,False,False,2024-10-08 00:00:00+00:00,Stripe
-Capitan reservation #3622520: Top Rope Belay Class,30.0,0,0.0,Trey Loper,2024-10-08,Event Booking,,,False,False,2024-10-08 00:00:00+00:00,Stripe
+Capitan reservation #3622520: Top Rope Belay Class,30.0,0,0.0,Trey Loper,2024-10-08,programming,,,False,False,2024-10-08 00:00:00+00:00,Stripe
 Capitan membership #110204 renewal payment: Solo Weekly,43.3,0,0.0,Glen Prior,2024-10-08,Membership Renewal,Solo,weekly,False,False,2024-10-08 00:00:00+00:00,Stripe
 Capitan membership #110189 renewal payment: Solo Weekly,43.3,0,0.0,,2024-10-08,Membership Renewal,Solo,weekly,False,False,2024-10-08 00:00:00+00:00,Stripe
 Capitan membership #99879 freeze payment: Solo Weekly,2.16,0,0.0,,2024-10-08,Membership Renewal,Solo,weekly,False,False,2024-10-08 00:00:00+00:00,Stripe
@@ -1190,12 +1197,12 @@ Capitan entry pass #977780: Youth Day Pass (Under 14y/o),15.16,0,0.0,Joseph C Ri
 Capitan entry pass #977753: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-02,Day Pass,,,False,False,2024-10-02 00:00:00+00:00,Stripe
 Capitan membership #111037 payment retry: Solo Weekly,39.4,0,0.0,emma Bernstein,2024-10-02,Membership Renewal,Solo,weekly,False,False,2024-10-02 00:00:00+00:00,Stripe
 Capitan membership #95834 renewal payment: Duo Weekly,60.62,0,0.0,John D Dale,2024-10-02,Membership Renewal,Duo,weekly,False,False,2024-10-02 00:00:00+00:00,Stripe
-Capitan reservation #3602610: Top Rope Belay Class,15.0,0,0.0,Emily worthington,2024-10-02,Event Booking,,,False,False,2024-10-02 00:00:00+00:00,Stripe
-Capitan reservation #3602558: Top Rope Belay Class,15.0,0,0.0,William Worthington,2024-10-02,Event Booking,,,False,False,2024-10-02 00:00:00+00:00,Stripe
+Capitan reservation #3602610: Top Rope Belay Class,15.0,0,0.0,Emily worthington,2024-10-02,programming,,,False,False,2024-10-02 00:00:00+00:00,Stripe
+Capitan reservation #3602558: Top Rope Belay Class,15.0,0,0.0,William Worthington,2024-10-02,programming,,,False,False,2024-10-02 00:00:00+00:00,Stripe
 Capitan membership #112033 renewal payment: Family Weekly,56.29,0,0.0,,2024-10-02,Membership Renewal,Family,weekly,False,False,2024-10-02 00:00:00+00:00,Stripe
 Capitan membership #92293 renewal payment: Duo Weekly,60.62,0,0.0,Lauren Sereno,2024-10-02,Membership Renewal,Duo,weekly,False,False,2024-10-02 00:00:00+00:00,Stripe
 Capitan membership #112070 renewal payment: Solo Weekly,35.07,0,0.0,Bethany Kerley,2024-10-02,Membership Renewal,Solo,weekly,False,False,2024-10-02 00:00:00+00:00,Stripe
-Capitan reservation #3601654: Top Rope Belay Class,15.0,0,0.0,Matthew Vaillancourt,2024-10-01,Event Booking,,,False,False,2024-10-01 00:00:00+00:00,Stripe
+Capitan reservation #3601654: Top Rope Belay Class,15.0,0,0.0,Matthew Vaillancourt,2024-10-01,programming,,,False,False,2024-10-01 00:00:00+00:00,Stripe
 Capitan membership #111525 payment retry: Solo Weekly,38.97,0,0.0,Eldon Milton,2024-10-01,Membership Renewal,Solo,weekly,False,False,2024-10-01 00:00:00+00:00,Stripe
 Capitan entry pass #976514: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-10-01,Day Pass,,,False,False,2024-10-01 00:00:00+00:00,Stripe
 Capitan membership #114451 initial payment: Solo Weekly,120.16,0,0.0,,2024-10-01,New Membership,Solo,weekly,False,False,2024-10-01 00:00:00+00:00,Stripe
@@ -1211,16 +1218,16 @@ Capitan membership #111939 renewal payment: Duo Weekly,70.58,0,0.0,,2024-10-01,M
 Capitan membership #111906 renewal payment: Solo Weekly,43.3,0,0.0,Valerie Slater,2024-10-01,Membership Renewal,Solo,weekly,False,False,2024-10-01 00:00:00+00:00,Stripe
 Capitan membership #111843 renewal payment: Solo Weekly,43.3,0,0.0,Laura lee Washington,2024-10-01,Membership Renewal,Solo,weekly,False,False,2024-10-01 00:00:00+00:00,Stripe
 Capitan membership #111803 renewal payment: Solo Weekly,38.97,0,0.0,Samuel R Monroy,2024-10-01,Membership Renewal,Solo,weekly,False,False,2024-10-01 00:00:00+00:00,Stripe
-Capitan reservation #3597619: 8 Week Adult Climbing Technique Class (Oct 30th Start),350.0,0,0.0,Ben Otis,2024-09-30,Event Booking,,,False,False,2024-09-30 00:00:00+00:00,Stripe
+Capitan reservation #3597619: 8 Week Adult Climbing Technique Class (Oct 30th Start),350.0,0,0.0,Ben Otis,2024-09-30,programming,,,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan entry pass #975398: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-30,Day Pass,,,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan membership #114189 initial payment: Solo Weekly,120.16,0,0.0,,2024-09-30,New Membership,Solo,weekly,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan entry pass #975332: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-30,Day Pass,,,False,False,2024-09-30 00:00:00+00:00,Stripe
-Capitan reservation #3596774: Top Rope Belay Class,10.0,0,0.0,micah devening,2024-09-30,Event Booking,,,False,False,2024-09-30 00:00:00+00:00,Stripe
+Capitan reservation #3596774: Top Rope Belay Class,10.0,0,0.0,micah devening,2024-09-30,programming,,,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan entry pass #975256: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-30,Day Pass,,,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan entry pass #975256: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-30,Day Pass,,,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan membership #114149 initial payment: Solo Weekly,116.26,0,0.0,,2024-09-30,New Membership,Solo,weekly,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan reservation #3595986: Birthday Party Rental- 2 hours,216.5,0,0.0,Ginny Hall,2024-09-30,Event Booking,,,False,False,2024-09-30 00:00:00+00:00,Stripe
-Capitan reservation #3595565: Top Rope Belay Class,10.0,0,0.0,Grayson Palmer,2024-09-30,Event Booking,,,False,False,2024-09-30 00:00:00+00:00,Stripe
+Capitan reservation #3595565: Top Rope Belay Class,10.0,0,0.0,Grayson Palmer,2024-09-30,programming,,,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan membership #111756 renewal payment: Family Weekly,112.58,0,0.0,Daniel Ezell,2024-09-30,Membership Renewal,Family,weekly,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan membership #111737 renewal payment: Solo Weekly,35.07,0,0.0,,2024-09-30,Membership Renewal,Solo,weekly,False,False,2024-09-30 00:00:00+00:00,Stripe
 Capitan membership #108312 renewal payment: Duo Weekly,73.61,0,0.0,,2024-09-30,Membership Renewal,Duo,weekly,False,False,2024-09-30 00:00:00+00:00,Stripe
@@ -1361,7 +1368,7 @@ Capitan entry pass #971821: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-28,D
 Capitan entry pass #971819: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-28,Day Pass,,,False,False,2024-09-28 00:00:00+00:00,Stripe
 Capitan entry pass #971712: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-28,Day Pass,,,False,False,2024-09-28 00:00:00+00:00,Stripe
 Capitan entry pass #971558: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-28,Day Pass,,,False,False,2024-09-28 00:00:00+00:00,Stripe
-Capitan reservation #3587539: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Samantha Miller,2024-09-28,Event Booking,,,False,False,2024-09-28 00:00:00+00:00,Stripe
+Capitan reservation #3587539: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Samantha Miller,2024-09-28,programming,,,False,False,2024-09-28 00:00:00+00:00,Stripe
 Capitan membership #111373 renewal payment: Solo Weekly,38.97,0,0.0,,2024-09-28,Membership Renewal,Solo,weekly,False,False,2024-09-28 00:00:00+00:00,Stripe
 Capitan membership #100726 renewal payment: Solo Weekly,38.97,0,0.0,Kendall Smith,2024-09-28,Membership Renewal,Solo,weekly,False,False,2024-09-28 00:00:00+00:00,Stripe
 Capitan membership #96554 renewal payment: Solo Weekly,32.48,0,0.0,Samuel Stone,2024-09-28,Membership Renewal,Solo,weekly,False,False,2024-09-28 00:00:00+00:00,Stripe
@@ -1372,10 +1379,10 @@ Capitan entry pass #970361: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,20
 Capitan entry pass #970334: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-27,Day Pass,,,False,False,2024-09-27 00:00:00+00:00,Stripe
 Capitan entry pass #970331: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-27,Day Pass,,,False,False,2024-09-27 00:00:00+00:00,Stripe
 Capitan entry pass #970330: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-27,Day Pass,,,False,False,2024-09-27 00:00:00+00:00,Stripe
-Capitan reservation #3587105: Top Rope Belay Class,10.0,0,0.0,,2024-09-27,Event Booking,,,False,False,2024-09-27 00:00:00+00:00,Stripe
+Capitan reservation #3587105: Top Rope Belay Class,10.0,0,0.0,,2024-09-27,programming,,,False,False,2024-09-27 00:00:00+00:00,Stripe
 Capitan entry pass #970300: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-09-27,Day Pass,,,False,False,2024-09-27 00:00:00+00:00,Stripe
 Capitan entry pass #970298: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-09-27,Day Pass,,,False,False,2024-09-27 00:00:00+00:00,Stripe
-Capitan reservation #3587065: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Chloe Baker,2024-09-27,Event Booking,,,False,False,2024-09-27 00:00:00+00:00,Stripe
+Capitan reservation #3587065: 8 Week Adult Climbing Technique Class (Oct 30th Start),175.0,0,0.0,Chloe Baker,2024-09-27,programming,,,False,False,2024-09-27 00:00:00+00:00,Stripe
 Capitan entry pass #970294: Gear Upgrade,6.5,0,0.0,,2024-09-27,Day Pass,,,False,False,2024-09-27 00:00:00+00:00,Stripe
 Capitan entry pass #970261: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-27,Day Pass,,,False,False,2024-09-27 00:00:00+00:00,Stripe
 Capitan entry pass #970259: Day Pass with Gear (Adult 14 and Up),25.33,0,0.0,,2024-09-27,Day Pass,,,False,False,2024-09-27 00:00:00+00:00,Stripe
@@ -1404,22 +1411,22 @@ Capitan entry pass #967623: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-25,D
 Capitan entry pass #967622: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-25,Day Pass,,,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan entry pass #967617: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-25,Day Pass,,,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #113367 initial payment: Solo Weekly,124.49,0,0.0,,2024-09-25,New Membership,Solo,weekly,False,False,2024-09-25 00:00:00+00:00,Stripe
-Capitan reservation #3580898: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Charis Martin,2024-09-25,Event Booking,,,False,False,2024-09-25 00:00:00+00:00,Stripe
-Capitan reservation #3580851: Top Rope Belay Class,10.0,0,0.0,Harrison Dreyer,2024-09-25,Event Booking,,,False,False,2024-09-25 00:00:00+00:00,Stripe
-Capitan reservation #3580826: Top Rope Belay Class,10.0,0,0.0,Aidan Bruno,2024-09-25,Event Booking,,,False,False,2024-09-25 00:00:00+00:00,Stripe
+Capitan reservation #3580898: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Charis Martin,2024-09-25,programming,,,False,False,2024-09-25 00:00:00+00:00,Stripe
+Capitan reservation #3580851: Top Rope Belay Class,10.0,0,0.0,Harrison Dreyer,2024-09-25,programming,,,False,False,2024-09-25 00:00:00+00:00,Stripe
+Capitan reservation #3580826: Top Rope Belay Class,10.0,0,0.0,Aidan Bruno,2024-09-25,programming,,,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #96715 add-on change fee #3580725,2.78,0,0.0,,2024-09-25,Membership Renewal,,,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan entry pass #967579: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-25,Day Pass,,,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #113350 initial payment: Solo Weekly,124.49,0,0.0,,2024-09-25,New Membership,Solo,weekly,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #111804 add-on change fee #3580573,0.93,0,0.0,,2024-09-25,Membership Renewal,,,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #113339 initial payment: Family Annual,2700.84,0,0.0,Max Kopitnik,2024-09-25,New Membership,Family,Annual,False,False,2024-09-25 00:00:00+00:00,Stripe
-Capitan reservation #3580513: 8-Week Transformation - 0515am MWF Group 1,400.0,0,0.0,Trinity Robb,2024-09-25,Event Booking,,,False,False,2024-09-25 00:00:00+00:00,Stripe
+Capitan reservation #3580513: 8-Week Transformation - 0515am MWF Group 1,400.0,0,0.0,Trinity Robb,2024-09-25,fitness,,,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #91158 payment retry: Founders - Solo,64.95,0,0.0,Kelli McMahan,2024-09-25,Membership Renewal,Solo,monthly,True,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #110841 renewal payment: Solo Weekly,35.07,0,0.0,,2024-09-25,Membership Renewal,Solo,weekly,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #106909 renewal payment: Solo Weekly,43.3,0,0.0,Harrison Dreyer,2024-09-25,Membership Renewal,Solo,weekly,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #100248 renewal payment: Solo Weekly,38.97,0,0.0,,2024-09-25,Membership Renewal,Solo,weekly,False,False,2024-09-25 00:00:00+00:00,Stripe
 Capitan membership #100230 renewal payment: Duo Weekly,60.62,0,0.0,Aron hawkins,2024-09-25,Membership Renewal,Duo,weekly,False,False,2024-09-25 00:00:00+00:00,Stripe
-Capitan reservation #3578336: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Leah Berry,2024-09-24,Event Booking,,,False,False,2024-09-24 00:00:00+00:00,Stripe
-Capitan reservation #3578184: Top Rope Belay Class,10.0,0,0.0,Elliot Rockett,2024-09-24,Event Booking,,,False,False,2024-09-24 00:00:00+00:00,Stripe
+Capitan reservation #3578336: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Leah Berry,2024-09-24,programming,,,False,False,2024-09-24 00:00:00+00:00,Stripe
+Capitan reservation #3578184: Top Rope Belay Class,10.0,0,0.0,Elliot Rockett,2024-09-24,programming,,,False,False,2024-09-24 00:00:00+00:00,Stripe
 Capitan entry pass #966384: Gear Upgrade,6.5,0,0.0,,2024-09-24,Day Pass,,,False,False,2024-09-24 00:00:00+00:00,Stripe
 Capitan entry pass #966380: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-24,Day Pass,,,False,False,2024-09-24 00:00:00+00:00,Stripe
 Capitan entry pass #966361: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-24,Day Pass,,,False,False,2024-09-24 00:00:00+00:00,Stripe
@@ -1427,7 +1434,7 @@ Capitan entry pass #966359: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,20
 Capitan entry pass #966337: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-24,Day Pass,,,False,False,2024-09-24 00:00:00+00:00,Stripe
 Capitan membership #113136 initial payment: Solo Weekly,120.16,0,0.0,,2024-09-24,New Membership,Solo,weekly,False,False,2024-09-24 00:00:00+00:00,Stripe
 Capitan entry pass #966306: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-09-24,Day Pass,,,False,False,2024-09-24 00:00:00+00:00,Stripe
-Capitan reservation #3577545: Top Rope Belay Class,10.0,0,0.0,Jayci Vause,2024-09-24,Event Booking,,,False,False,2024-09-24 00:00:00+00:00,Stripe
+Capitan reservation #3577545: Top Rope Belay Class,10.0,0,0.0,Jayci Vause,2024-09-24,programming,,,False,False,2024-09-24 00:00:00+00:00,Stripe
 Capitan membership #91136 renewal payment: Founders - Solo,64.95,0,0.0,Stuart Smith,2024-09-24,Membership Renewal,Solo,monthly,True,False,2024-09-24 00:00:00+00:00,Stripe
 Capitan entry pass #965760: Day Pass (Adult 14 and Up),19.48,0,0.0,,2024-09-24,Day Pass,,,False,False,2024-09-24 00:00:00+00:00,Stripe
 Capitan membership #110518 renewal payment: Solo Weekly,38.97,0,0.0,Harry B Amadeo,2024-09-24,Membership Renewal,Solo,weekly,False,False,2024-09-24 00:00:00+00:00,Stripe
@@ -1438,7 +1445,7 @@ Capitan membership #110398 payment retry: Solo Weekly,43.3,0,0.0,Louisa McNaught
 Capitan membership #112939 initial payment: Solo Weekly,113.67,0,0.0,Irvin Harris,2024-09-23,New Membership,Solo,weekly,False,False,2024-09-23 00:00:00+00:00,Stripe
 Capitan entry pass #965119: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-23,Day Pass,,,False,False,2024-09-23 00:00:00+00:00,Stripe
 Capitan entry pass #965117: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-23,Day Pass,,,False,False,2024-09-23 00:00:00+00:00,Stripe
-Capitan reservation #3574690: Top Rope Belay Class,10.0,0,0.0,Hayden Gee,2024-09-23,Event Booking,,,False,False,2024-09-23 00:00:00+00:00,Stripe
+Capitan reservation #3574690: Top Rope Belay Class,10.0,0,0.0,Hayden Gee,2024-09-23,programming,,,False,False,2024-09-23 00:00:00+00:00,Stripe
 Capitan membership #110423 renewal payment: Solo Weekly,38.97,0,0.0,,2024-09-23,Membership Renewal,Solo,weekly,False,False,2024-09-23 00:00:00+00:00,Stripe
 Capitan membership #110407 renewal payment: Solo Weekly,17.3,0,0.0,,2024-09-23,Membership Renewal,Solo,weekly,False,False,2024-09-23 00:00:00+00:00,Stripe
 Capitan membership #110399 renewal payment: Solo Weekly,43.3,0,0.0,,2024-09-23,Membership Renewal,Solo,weekly,False,False,2024-09-23 00:00:00+00:00,Stripe
@@ -1448,13 +1455,13 @@ Capitan membership #100013 renewal payment: Solo Weekly,32.48,0,0.0,Zachery Bara
 Capitan membership #99984 renewal payment: Solo Weekly,32.48,0,0.0,Isaac P Baker,2024-09-23,Membership Renewal,Solo,weekly,False,False,2024-09-23 00:00:00+00:00,Stripe
 Capitan entry pass #964029: Grand Opening Weekend,10.82,0,0.0,,2024-09-22,Day Pass,,,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan membership #112765 initial payment: Solo Weekly,43.3,0,0.0,Aaron Ameny,2024-09-22,New Membership,Solo,weekly,False,False,2024-09-22 00:00:00+00:00,Stripe
-Capitan reservation #3572144: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Ben Otis,2024-09-22,Event Booking,,,False,False,2024-09-22 00:00:00+00:00,Stripe
+Capitan reservation #3572144: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Ben Otis,2024-09-22,programming,,,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan entry pass #964016: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,Mia Guadalupe Lopez,2024-09-22,Day Pass,,,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan entry pass #964007: Grand Opening Weekend,10.82,0,0.0,,2024-09-22,Day Pass,,,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan entry pass #964006: Grand Opening Weekend,10.82,0,0.0,,2024-09-22,Day Pass,,,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan entry pass #963976: Grand Opening Weekend,10.82,0,0.0,,2024-09-22,Day Pass,,,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan reservation #3571945: Birthday Party Rental- 2 hours,216.5,0,0.0,,2024-09-22,Event Booking,,,False,False,2024-09-22 00:00:00+00:00,Stripe
-Capitan reservation #3571934: 8-Week Adult Climbing Technique Class,150.0,0,0.0,ASHLEY  MEIER,2024-09-22,Event Booking,,,False,False,2024-09-22 00:00:00+00:00,Stripe
+Capitan reservation #3571934: 8-Week Adult Climbing Technique Class,150.0,0,0.0,ASHLEY  MEIER,2024-09-22,programming,,,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan membership #112753 initial payment: Solo Weekly,43.3,0,0.0,William Benjamin Wells III,2024-09-22,New Membership,Solo,weekly,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan entry pass #963923: Grand Opening Weekend,10.82,0,0.0,,2024-09-22,Day Pass,,,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan entry pass #963922: Grand Opening Weekend,10.82,0,0.0,,2024-09-22,Day Pass,,,False,False,2024-09-22 00:00:00+00:00,Stripe
@@ -1466,7 +1473,7 @@ Capitan membership #110189 renewal payment: Solo Weekly,43.3,0,0.0,,2024-09-22,M
 Capitan membership #102325 renewal payment: Solo Weekly,38.97,0,0.0,Maxwell McGaffin,2024-09-22,Membership Renewal,Solo,weekly,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan membership #99881 renewal payment: Solo Weekly,36.8,0,0.0,Colton Johnson,2024-09-22,Membership Renewal,Solo,weekly,False,False,2024-09-22 00:00:00+00:00,Stripe
 Capitan membership #99855 renewal payment: Solo Weekly,36.8,0,0.0,Daniel Haddock,2024-09-22,Membership Renewal,Solo,weekly,False,False,2024-09-22 00:00:00+00:00,Stripe
-Capitan reservation #3568892: Top Rope Belay Class,10.0,0,0.0,,2024-09-21,Event Booking,,,False,False,2024-09-21 00:00:00+00:00,Stripe
+Capitan reservation #3568892: Top Rope Belay Class,10.0,0,0.0,,2024-09-21,programming,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #962102: Gear Upgrade,6.5,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #962087: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #962084: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
@@ -1481,13 +1488,13 @@ Capitan membership #112611 initial payment: Duo Weekly,73.61,0,0.0,Brandy Masche
 Capitan entry pass #962023: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #962022: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #962001: Gear Upgrade,6.5,0,0.0,Landon Kuehn,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
-Capitan reservation #3568525: Top Rope Belay Class,10.0,0,0.0,Brooke Farrell,2024-09-21,Event Booking,,,False,False,2024-09-21 00:00:00+00:00,Stripe
+Capitan reservation #3568525: Top Rope Belay Class,10.0,0,0.0,Brooke Farrell,2024-09-21,programming,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan membership #112608 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-21,New Membership,Solo,weekly,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961995: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961989: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961981: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961957: Youth Day Pass (Under 14y/o),15.16,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
-Capitan reservation #3568378: All levels Bouldering Comp,10.0,0,0.0,Jessica Crenshaw,2024-09-21,Event Booking,,,False,False,2024-09-21 00:00:00+00:00,Stripe
+Capitan reservation #3568378: All levels Bouldering Comp,10.0,0,0.0,Jessica Crenshaw,2024-09-21,programming,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961936: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961931: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961930: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
@@ -1496,9 +1503,9 @@ Capitan entry pass #961922: Gear Upgrade,6.5,0,0.0,,2024-09-21,Day Pass,,,False,
 Capitan entry pass #961921: Gear Upgrade,6.5,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961920: Gear Upgrade,6.5,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961912: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
-Capitan reservation #3568309: All levels Bouldering Comp,10.0,0,0.0,Blake E Birkenfeld,2024-09-21,Event Booking,,,False,False,2024-09-21 00:00:00+00:00,Stripe
+Capitan reservation #3568309: All levels Bouldering Comp,10.0,0,0.0,Blake E Birkenfeld,2024-09-21,programming,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961911: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
-Capitan reservation #3568308: All levels Bouldering Comp,10.0,0,0.0,,2024-09-21,Event Booking,,,False,False,2024-09-21 00:00:00+00:00,Stripe
+Capitan reservation #3568308: All levels Bouldering Comp,10.0,0,0.0,,2024-09-21,programming,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan membership #112591 initial payment: Solo Annual,837.86,0,0.0,,2024-09-21,New Membership,Solo,Annual,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961903: Day Pass (Adult 14 and Up),21.65,0,0.0,Landon Kuehn,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961899: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
@@ -1506,10 +1513,10 @@ Capitan entry pass #961895: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,20
 Capitan membership #112587 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-21,New Membership,Solo,weekly,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961875: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961866: Day Pass (Adult 14 and Up),19.48,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
-Capitan reservation #3568126: All levels Bouldering Comp,10.0,0,0.0,Aubrey laird,2024-09-21,Event Booking,,,False,False,2024-09-21 00:00:00+00:00,Stripe
-Capitan reservation #3568118: All levels Bouldering Comp,10.0,0,0.0,Joe Hauk,2024-09-21,Event Booking,,,False,False,2024-09-21 00:00:00+00:00,Stripe
+Capitan reservation #3568126: All levels Bouldering Comp,10.0,0,0.0,Aubrey laird,2024-09-21,programming,,,False,False,2024-09-21 00:00:00+00:00,Stripe
+Capitan reservation #3568118: All levels Bouldering Comp,10.0,0,0.0,Joe Hauk,2024-09-21,programming,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan membership #112586 initial payment: Family Weekly,55.73,0,0.0,J Purcell,2024-09-21,New Membership,Family,weekly,False,False,2024-09-21 00:00:00+00:00,Stripe
-Capitan reservation #3568060: All levels Bouldering Comp,10.0,0,0.0,Ethan blake,2024-09-21,Event Booking,,,False,False,2024-09-21 00:00:00+00:00,Stripe
+Capitan reservation #3568060: All levels Bouldering Comp,10.0,0,0.0,Ethan blake,2024-09-21,programming,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961749: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961722: Day Pass with Gear (Adult 14 and Up),25.33,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961703: Day Pass with Gear (Adult 14 and Up),25.33,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
@@ -1521,7 +1528,7 @@ Capitan membership #112574 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-21,N
 Capitan membership #112574 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-21,New Membership,Solo,weekly,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961644: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961583: Day Pass with Gear (Adult 14 and Up),25.33,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
-Capitan reservation #3567356: All levels Bouldering Comp,10.0,0,0.0,Tara K Holmes,2024-09-21,Event Booking,,,False,False,2024-09-21 00:00:00+00:00,Stripe
+Capitan reservation #3567356: All levels Bouldering Comp,10.0,0,0.0,Tara K Holmes,2024-09-21,programming,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan entry pass #961440: Gear Upgrade,6.5,0,0.0,,2024-09-21,Day Pass,,,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan membership #112554 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-21,New Membership,Solo,weekly,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan membership #112527 add-on change fee #3567266,4.33,0,0.0,,2024-09-21,Membership Renewal,,,False,False,2024-09-21 00:00:00+00:00,Stripe
@@ -1532,14 +1539,14 @@ Capitan membership #112527 initial payment: Duo Weekly,73.61,0,0.0,,2024-09-21,N
 Capitan membership #109999 renewal payment: Solo Weekly,35.07,0,0.0,Alecia Johnson,2024-09-21,Membership Renewal,Solo,weekly,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan membership #99713 renewal payment: Family Weekly,77.64,0,0.0,Kat mayo,2024-09-21,Membership Renewal,Family,weekly,False,False,2024-09-21 00:00:00+00:00,Stripe
 Capitan membership #99689 renewal payment: Duo Weekly,69.28,0,0.0,Leah Bower,2024-09-21,Membership Renewal,Duo,weekly,False,False,2024-09-21 00:00:00+00:00,Stripe
-Capitan reservation #3565538: All levels Bouldering Comp,10.0,0,0.0,Sadie C Bryant,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3565538: All levels Bouldering Comp,10.0,0,0.0,Sadie C Bryant,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3565538: All levels Bouldering Comp,10.0,0,0.0,Sadie C Bryant,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3565538: All levels Bouldering Comp,10.0,0,0.0,Sadie C Bryant,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3565538: All levels Bouldering Comp,10.0,0,0.0,Sadie C Bryant,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3565538: All levels Bouldering Comp,10.0,0,0.0,Sadie C Bryant,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #112489 initial payment: Solo Annual,930.95,0,0.0,Jon W Poe,2024-09-20,New Membership,Solo,Annual,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #112480 initial payment: Solo Weekly,38.97,0,0.0,,2024-09-20,New Membership,Solo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3565330: All levels Bouldering Comp,10.0,0,0.0,,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3565325: All levels Bouldering Comp,10.0,0,0.0,Maxwell McGaffin,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3565315: All levels Bouldering Comp,10.0,0,0.0,Adam Paul,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3565330: All levels Bouldering Comp,10.0,0,0.0,,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3565325: All levels Bouldering Comp,10.0,0,0.0,Maxwell McGaffin,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3565315: All levels Bouldering Comp,10.0,0,0.0,Adam Paul,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #109609 add-on change fee #3565229,4.64,0,0.0,,2024-09-20,Membership Renewal,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #109831 payment retry: Solo Weekly,38.97,0,0.0,Kalea J Kim,2024-09-20,Membership Renewal,Solo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan entry pass #960083: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-20,Day Pass,,,False,False,2024-09-20 00:00:00+00:00,Stripe
@@ -1547,53 +1554,53 @@ Capitan entry pass #960077: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,20
 Capitan membership #112464 initial payment: Duo Weekly,82.27,0,0.0,,2024-09-20,New Membership,Duo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan entry pass #960043: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-20,Day Pass,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan entry pass #960041: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-20,Day Pass,,,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3564817: All levels Bouldering Comp,10.0,0,0.0,Reily Enox Ellis,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3564817: All levels Bouldering Comp,10.0,0,0.0,Reily Enox Ellis,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #112455 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-20,New Membership,Solo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3564807: Top Rope Belay Class,20.0,0,0.0,PEYTON POWERS,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3564713: All levels Bouldering Comp,10.0,0,0.0,John D Dale,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3564807: Top Rope Belay Class,20.0,0,0.0,PEYTON POWERS,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3564713: All levels Bouldering Comp,10.0,0,0.0,John D Dale,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #94196 add-on change fee #3564711,5.56,0,0.0,,2024-09-20,Membership Renewal,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan entry pass #959991: Youth Day Pass with Gear (Under 14 y/o),21.65,0,0.0,,2024-09-20,Day Pass,,,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3564399: All levels Bouldering Comp,10.0,0,0.0,Jacob Aid,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3564399: All levels Bouldering Comp,10.0,0,0.0,Jacob Aid,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #112417 initial payment: Solo Weekly,43.3,0,0.0,Joshua Johnson,2024-09-20,New Membership,Solo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #112411 initial payment: Duo Weekly,73.61,0,0.0,Morgan Green,2024-09-20,New Membership,Duo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3564023: All levels Bouldering Comp,10.0,0,0.0,Karis Sims,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3564023: All levels Bouldering Comp,10.0,0,0.0,Karis Sims,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan entry pass #959631: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-20,Day Pass,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #112309 initial payment: Duo Weekly,73.61,0,0.0,Alex Vu,2024-09-20,New Membership,Duo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3563551: Top Rope Belay Class,10.0,0,0.0,Leah Bower,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3563551: Top Rope Belay Class,10.0,0,0.0,Leah Bower,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan entry pass #959442: Day Pass (Adult 14 and Up),21.65,0,0.0,Melanie Jagannath,2024-09-20,Day Pass,,,False,False,2024-09-20 00:00:00+00:00,Stripe
-Capitan reservation #3563467: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Staci Smith,2024-09-20,Event Booking,,,False,False,2024-09-20 00:00:00+00:00,Stripe
+Capitan reservation #3563467: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Staci Smith,2024-09-20,programming,,,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #109830 renewal payment: Solo Weekly,38.97,0,0.0,,2024-09-20,Membership Renewal,Solo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #99564 renewal payment: Solo Weekly,32.48,0,0.0,Dan Martin,2024-09-20,Membership Renewal,Solo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #99545 renewal payment: Duo Weekly,60.62,0,0.0,Tayler Boisen,2024-09-20,Membership Renewal,Duo,weekly,False,False,2024-09-20 00:00:00+00:00,Stripe
 Capitan membership #112258 initial payment: Solo Weekly,43.3,0,0.0,micah devening,2024-09-19,New Membership,Solo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #112255 initial payment: Solo Weekly,38.97,0,0.0,Discover - Fun,2024-09-19,New Membership,Solo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3562395: All levels Bouldering Comp,10.0,0,0.0,Max H Figueroa,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3562369: All levels Bouldering Comp,10.0,0,0.0,Landon Kuehn,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3562395: All levels Bouldering Comp,10.0,0,0.0,Max H Figueroa,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3562369: All levels Bouldering Comp,10.0,0,0.0,Landon Kuehn,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan entry pass #958907: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-19,Day Pass,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3562346: All levels Bouldering Comp,10.0,0,0.0,Cameron Lantz,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3562328: All levels Bouldering Comp,10.0,0,0.0,Adam Gilliland,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3562278: All levels Bouldering Comp,10.0,0,0.0,Nikita D VanderHeiden,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3562246: All levels Bouldering Comp,10.0,0,0.0,Fahim A Hedayat,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3562346: All levels Bouldering Comp,10.0,0,0.0,Cameron Lantz,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3562328: All levels Bouldering Comp,10.0,0,0.0,Adam Gilliland,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3562278: All levels Bouldering Comp,10.0,0,0.0,Nikita D VanderHeiden,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3562246: All levels Bouldering Comp,10.0,0,0.0,Fahim A Hedayat,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #91147 payment retry: Founders - Duo,124.49,0,0.0,Ariel Leahy,2024-09-19,Membership Renewal,Duo,monthly,True,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #112244 initial payment: Solo Weekly,38.97,0,0.0,,2024-09-19,New Membership,Solo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan entry pass #958831: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-19,Day Pass,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan entry pass #958830: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-19,Day Pass,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan entry pass #958801: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-19,Day Pass,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #99881 add-on change fee #3561791,0.93,0,0.0,,2024-09-19,Membership Renewal,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3561746: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Emma Crandall,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3561743: All levels Bouldering Comp,10.0,0,0.0,Jessica Erhart,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3561724: All levels Bouldering Comp,10.0,0,0.0,Stacy A Kuehn,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3561662: Top Rope Belay Class,10.0,0,0.0,Gregory M Ramirez,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3561637: Top Rope Belay Class,10.0,0,0.0,ASHLEY  MEIER,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3561634: Top Rope Belay Class,10.0,0,0.0,Susan Amthor,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3561746: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Emma Crandall,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3561743: All levels Bouldering Comp,10.0,0,0.0,Jessica Erhart,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3561724: All levels Bouldering Comp,10.0,0,0.0,Stacy A Kuehn,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3561662: Top Rope Belay Class,10.0,0,0.0,Gregory M Ramirez,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3561637: Top Rope Belay Class,10.0,0,0.0,ASHLEY  MEIER,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3561634: Top Rope Belay Class,10.0,0,0.0,Susan Amthor,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #112215 initial payment: Solo Weekly,38.97,0,0.0,Michael Morales-Gomez,2024-09-19,New Membership,Solo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3561605: 8-Week Adult Climbing Technique Class,300.0,0,0.0,Meghan L McInaney,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3561489: Top Rope Belay Class,30.0,0,0.0,Ariel Leahy,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3561605: 8-Week Adult Climbing Technique Class,300.0,0,0.0,Meghan L McInaney,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3561489: Top Rope Belay Class,30.0,0,0.0,Ariel Leahy,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan entry pass #958682: Gear Upgrade,6.5,0,0.0,,2024-09-19,Day Pass,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan entry pass #958583: Youth Day Pass (Under 14y/o),13.64,0,0.0,,2024-09-19,Day Pass,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan entry pass #958578: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-19,Day Pass,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3560501: All levels Bouldering Comp,10.0,0,0.0,Blake Birkenfeld,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3560393: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Joshua Johnson,2024-09-19,Event Booking,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3560501: All levels Bouldering Comp,10.0,0,0.0,Blake Birkenfeld,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
+Capitan reservation #3560393: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Joshua Johnson,2024-09-19,programming,,,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #112136 initial payment: Duo Weekly,82.27,0,0.0,,2024-09-19,New Membership,Duo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #109624 renewal payment: Solo Weekly,38.97,0,0.0,,2024-09-19,Membership Renewal,Solo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #109609 renewal payment: Solo Weekly,35.07,0,0.0,,2024-09-19,Membership Renewal,Solo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
@@ -1602,9 +1609,9 @@ Capitan membership #109548 renewal payment: Solo Weekly,43.3,0,0.0,Shelby Krumno
 Capitan membership #109474 renewal payment: Solo Weekly,32.48,0,0.0,Brenda S Lewis,2024-09-19,Membership Renewal,Solo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #99304 renewal payment: Duo Weekly,69.28,0,0.0,William Connor Wroten,2024-09-19,Membership Renewal,Duo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
 Capitan membership #93654 renewal payment: Solo Weekly,38.97,0,0.0,Bradley Kelly,2024-09-19,Membership Renewal,Solo,weekly,False,False,2024-09-19 00:00:00+00:00,Stripe
-Capitan reservation #3559274: All levels Bouldering Comp,10.0,0,0.0,Kendall Ladtkow,2024-09-18,Event Booking,,,False,False,2024-09-18 00:00:00+00:00,Stripe
-Capitan reservation #3559220: Top Rope Belay Class,10.0,0,0.0,Katherine Blandin,2024-09-18,Event Booking,,,False,False,2024-09-18 00:00:00+00:00,Stripe
-Capitan reservation #3559199: All levels Bouldering Comp,10.0,0,0.0,Ashton Lawrence,2024-09-18,Event Booking,,,False,False,2024-09-18 00:00:00+00:00,Stripe
+Capitan reservation #3559274: All levels Bouldering Comp,10.0,0,0.0,Kendall Ladtkow,2024-09-18,programming,,,False,False,2024-09-18 00:00:00+00:00,Stripe
+Capitan reservation #3559220: Top Rope Belay Class,10.0,0,0.0,Katherine Blandin,2024-09-18,programming,,,False,False,2024-09-18 00:00:00+00:00,Stripe
+Capitan reservation #3559199: All levels Bouldering Comp,10.0,0,0.0,Ashton Lawrence,2024-09-18,programming,,,False,False,2024-09-18 00:00:00+00:00,Stripe
 Capitan entry pass #957793: Day Pass (Adult 14 and Up),21.65,0,0.0,Robert W Kerley,2024-09-18,Day Pass,,,False,False,2024-09-18 00:00:00+00:00,Stripe
 Capitan membership #96378 add-on change fee #3559120,2.78,0,0.0,Jennifer Higginbothom,2024-09-18,Membership Renewal,,,False,False,2024-09-18 00:00:00+00:00,Stripe
 Capitan membership #112070 initial payment: Solo Weekly,35.07,0,0.0,Bethany Kerley,2024-09-18,New Membership,Solo,weekly,False,False,2024-09-18 00:00:00+00:00,Stripe
@@ -1616,10 +1623,10 @@ Capitan entry pass #957702: Day Pass (Adult 14 and Up),19.48,0,0.0,,2024-09-18,D
 Capitan entry pass #957691: Day Pass with Gear (Adult 14 and Up),25.33,0,0.0,,2024-09-18,Day Pass,,,False,False,2024-09-18 00:00:00+00:00,Stripe
 Capitan membership #111945 add-on change fee #3558668,8.04,0,0.0,,2024-09-18,Membership Renewal,,,False,False,2024-09-18 00:00:00+00:00,Stripe
 Capitan membership #112033 initial payment: Family Weekly,56.29,0,0.0,,2024-09-18,New Membership,Family,weekly,False,False,2024-09-18 00:00:00+00:00,Stripe
-Capitan reservation #3558474: All levels Bouldering Comp,10.0,0,0.0,Gregory Vanderheiden,2024-09-18,Event Booking,,,False,False,2024-09-18 00:00:00+00:00,Stripe
-Capitan reservation #3558447: All levels Bouldering Comp,10.0,0,0.0,Brendon Newton,2024-09-18,Event Booking,,,False,False,2024-09-18 00:00:00+00:00,Stripe
-Capitan reservation #3558443: All levels Bouldering Comp,10.0,0,0.0,Icko X Iben,2024-09-18,Event Booking,,,False,False,2024-09-18 00:00:00+00:00,Stripe
-Capitan reservation #3558441: All levels Bouldering Comp,10.0,0,0.0,Ryan Maldonado,2024-09-18,Event Booking,,,False,False,2024-09-18 00:00:00+00:00,Stripe
+Capitan reservation #3558474: All levels Bouldering Comp,10.0,0,0.0,Gregory Vanderheiden,2024-09-18,programming,,,False,False,2024-09-18 00:00:00+00:00,Stripe
+Capitan reservation #3558447: All levels Bouldering Comp,10.0,0,0.0,Brendon Newton,2024-09-18,programming,,,False,False,2024-09-18 00:00:00+00:00,Stripe
+Capitan reservation #3558443: All levels Bouldering Comp,10.0,0,0.0,Icko X Iben,2024-09-18,programming,,,False,False,2024-09-18 00:00:00+00:00,Stripe
+Capitan reservation #3558441: All levels Bouldering Comp,10.0,0,0.0,Ryan Maldonado,2024-09-18,programming,,,False,False,2024-09-18 00:00:00+00:00,Stripe
 Capitan entry pass #957224: Youth Day Pass (Under 14y/o),15.16,0,0.0,Nancy C Phelan,2024-09-18,Day Pass,,,False,False,2024-09-18 00:00:00+00:00,Stripe
 Capitan membership #111843 add-on change fee #3556969,4.02,0,0.0,,2024-09-18,Membership Renewal,,,False,False,2024-09-18 00:00:00+00:00,Stripe
 Capitan membership #109288 renewal payment: Solo Weekly,38.97,0,0.0,,2024-09-18,Membership Renewal,Solo,weekly,False,False,2024-09-18 00:00:00+00:00,Stripe
@@ -1632,39 +1639,39 @@ Capitan reservation #3556496: Birthday Party Rental- 2 hours,216.5,0,0.0,Chelsea
 Capitan membership #111939 initial payment: Duo Weekly,70.58,0,0.0,,2024-09-17,New Membership,Duo,weekly,False,False,2024-09-17 00:00:00+00:00,Stripe
 Capitan entry pass #956580: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-17,Day Pass,,,False,False,2024-09-17 00:00:00+00:00,Stripe
 Capitan membership #91141 payment retry: Founders - Duo,124.49,0,0.0,Cameron Wechsler,2024-09-17,Membership Renewal,Duo,monthly,True,False,2024-09-17 00:00:00+00:00,Stripe
-Capitan reservation #3556332: All levels Bouldering Comp,10.0,0,0.0,Cruz  vergara,2024-09-17,Event Booking,,,False,False,2024-09-17 00:00:00+00:00,Stripe
-Capitan reservation #3556332: All levels Bouldering Comp,10.0,0,0.0,Cruz  vergara,2024-09-17,Event Booking,,,False,False,2024-09-17 00:00:00+00:00,Stripe
+Capitan reservation #3556332: All levels Bouldering Comp,10.0,0,0.0,Cruz  vergara,2024-09-17,programming,,,False,False,2024-09-17 00:00:00+00:00,Stripe
+Capitan reservation #3556332: All levels Bouldering Comp,10.0,0,0.0,Cruz  vergara,2024-09-17,programming,,,False,False,2024-09-17 00:00:00+00:00,Stripe
 Capitan entry pass #956537: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-17,Day Pass,,,False,False,2024-09-17 00:00:00+00:00,Stripe
 Capitan membership #111906 initial payment: Solo Weekly,43.3,0,0.0,Valerie Slater,2024-09-17,New Membership,Solo,weekly,False,False,2024-09-17 00:00:00+00:00,Stripe
-Capitan reservation #3556024: All levels Bouldering Comp,10.0,0,0.0,Isaiah A Vasquez Flores,2024-09-17,Event Booking,,,False,False,2024-09-17 00:00:00+00:00,Stripe
+Capitan reservation #3556024: All levels Bouldering Comp,10.0,0,0.0,Isaiah A Vasquez Flores,2024-09-17,programming,,,False,False,2024-09-17 00:00:00+00:00,Stripe
 Capitan reservation #3555854: Birthday Party Rental- 2 hours,216.5,0,0.0,Emily Anderson,2024-09-17,Event Booking,,,False,False,2024-09-17 00:00:00+00:00,Stripe
-Capitan reservation #3555782: All levels Bouldering Comp,10.0,0,0.0,Drake Bellucci,2024-09-17,Event Booking,,,False,False,2024-09-17 00:00:00+00:00,Stripe
+Capitan reservation #3555782: All levels Bouldering Comp,10.0,0,0.0,Drake Bellucci,2024-09-17,programming,,,False,False,2024-09-17 00:00:00+00:00,Stripe
 Capitan membership #111843 initial payment: Solo Weekly,38.97,0,0.0,Laura lee Washington,2024-09-17,New Membership,Solo,weekly,False,False,2024-09-17 00:00:00+00:00,Stripe
-Capitan reservation #3555281: All levels Bouldering Comp,10.0,0,0.0,Levi R Durham,2024-09-17,Event Booking,,,False,False,2024-09-17 00:00:00+00:00,Stripe
-Capitan reservation #3555017: All levels Bouldering Comp,10.0,0,0.0,Alex Gill,2024-09-17,Event Booking,,,False,False,2024-09-17 00:00:00+00:00,Stripe
-Capitan reservation #3555004: All levels Bouldering Comp,10.0,0,0.0,Anderson Gillett,2024-09-17,Event Booking,,,False,False,2024-09-17 00:00:00+00:00,Stripe
+Capitan reservation #3555281: All levels Bouldering Comp,10.0,0,0.0,Levi R Durham,2024-09-17,programming,,,False,False,2024-09-17 00:00:00+00:00,Stripe
+Capitan reservation #3555017: All levels Bouldering Comp,10.0,0,0.0,Alex Gill,2024-09-17,programming,,,False,False,2024-09-17 00:00:00+00:00,Stripe
+Capitan reservation #3555004: All levels Bouldering Comp,10.0,0,0.0,Anderson Gillett,2024-09-17,programming,,,False,False,2024-09-17 00:00:00+00:00,Stripe
 Capitan membership #111804 initial payment: Family Weekly,58.46,0,0.0,,2024-09-17,New Membership,Family,weekly,False,False,2024-09-17 00:00:00+00:00,Stripe
 Capitan membership #111803 initial payment: Solo Weekly,38.97,0,0.0,Samuel R Monroy,2024-09-17,New Membership,Solo,weekly,False,False,2024-09-17 00:00:00+00:00,Stripe
 Capitan membership #101494 renewal payment: Family Weekly,93.1,0,0.0,Aaron S Clark,2024-09-17,Membership Renewal,Family,weekly,False,False,2024-09-17 00:00:00+00:00,Stripe
-Capitan reservation #3554107: All levels Bouldering Comp,10.0,0,0.0,Levi Lobbes,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3554056: All levels Bouldering Comp,10.0,0,0.0,Athan,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3553839: All levels Bouldering Comp,10.0,0,0.0,Adam P Celauro,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3554107: All levels Bouldering Comp,10.0,0,0.0,Levi Lobbes,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3554056: All levels Bouldering Comp,10.0,0,0.0,Athan,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3553839: All levels Bouldering Comp,10.0,0,0.0,Adam P Celauro,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
 Capitan membership #111737 initial payment: Solo Weekly,35.07,0,0.0,,2024-09-16,New Membership,Solo,weekly,False,False,2024-09-16 00:00:00+00:00,Stripe
 Capitan entry pass #955471: Gear Upgrade,6.5,0,0.0,Mallory Grace Craven,2024-09-16,Day Pass,,,False,False,2024-09-16 00:00:00+00:00,Stripe
 Capitan entry pass #955430: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-16,Day Pass,,,False,False,2024-09-16 00:00:00+00:00,Stripe
 Capitan entry pass #955429: Day Pass with Gear (Adult 14 and Up),28.14,0,0.0,,2024-09-16,Day Pass,,,False,False,2024-09-16 00:00:00+00:00,Stripe
 Capitan entry pass #955411: Day Pass (Adult 14 and Up),21.65,0,0.0,,2024-09-16,Day Pass,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3553146: All levels Bouldering Comp,10.0,0,0.0,Andrew K Arthur,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3552794: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Alyssa Pittman,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3552395: All levels Bouldering Comp,10.0,0,0.0,,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3552137: All levels Bouldering Comp,10.0,0,0.0,Tyler Wiens,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3551942: All levels Bouldering Comp,10.0,0,0.0,Matthew Vaillancourt,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3551895: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Heather Nessler,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3551798: All levels Bouldering Comp,10.0,0,0.0,Vanesa Carvajal,2024-09-16,Event Booking,,,False,False,2024-09-16 00:00:00+00:00,Stripe
-Capitan reservation #3551336: All levels Bouldering Comp,10.0,0,0.0,Alexander R Pruss,2024-09-15,Event Booking,,,False,False,2024-09-15 00:00:00+00:00,Stripe
-Capitan reservation #3551234: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Leah Bower,2024-09-15,Event Booking,,,False,False,2024-09-15 00:00:00+00:00,Stripe
+Capitan reservation #3553146: All levels Bouldering Comp,10.0,0,0.0,Andrew K Arthur,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3552794: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Alyssa Pittman,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3552395: All levels Bouldering Comp,10.0,0,0.0,,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3552137: All levels Bouldering Comp,10.0,0,0.0,Tyler Wiens,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3551942: All levels Bouldering Comp,10.0,0,0.0,Matthew Vaillancourt,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3551895: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Heather Nessler,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3551798: All levels Bouldering Comp,10.0,0,0.0,Vanesa Carvajal,2024-09-16,programming,,,False,False,2024-09-16 00:00:00+00:00,Stripe
+Capitan reservation #3551336: All levels Bouldering Comp,10.0,0,0.0,Alexander R Pruss,2024-09-15,programming,,,False,False,2024-09-15 00:00:00+00:00,Stripe
+Capitan reservation #3551234: 8-Week Adult Climbing Technique Class,150.0,0,0.0,Leah Bower,2024-09-15,programming,,,False,False,2024-09-15 00:00:00+00:00,Stripe
 Capitan membership #111525 initial payment: Solo Weekly,38.97,0,0.0,,2024-09-15,New Membership,Solo,weekly,False,False,2024-09-15 00:00:00+00:00,Stripe
-Capitan reservation #3551166: All levels Bouldering Comp,10.0,0,0.0,Elijah C. Hall,2024-09-15,Event Booking,,,False,False,2024-09-15 00:00:00+00:00,Stripe
+Capitan reservation #3551166: All levels Bouldering Comp,10.0,0,0.0,Elijah C. Hall,2024-09-15,programming,,,False,False,2024-09-15 00:00:00+00:00,Stripe
 Capitan membership #111516 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-15,New Membership,Solo,weekly,False,False,2024-09-15 00:00:00+00:00,Stripe
 Capitan entry pass #954345: Day Pass with Gear,28.14,0,0.0,,2024-09-15,Day Pass,,,False,False,2024-09-15 00:00:00+00:00,Stripe
 Capitan entry pass #954342: Day Pass,21.65,0,0.0,,2024-09-15,Day Pass,,,False,False,2024-09-15 00:00:00+00:00,Stripe
@@ -1691,28 +1698,28 @@ Capitan membership #100726 renewal payment: Solo Weekly,38.97,0,0.0,Kendall Smit
 Capitan membership #96554 renewal payment: Solo Weekly,32.48,0,0.0,Samuel Stone,2024-09-14,Membership Renewal,Solo,weekly,False,False,2024-09-14 00:00:00+00:00,Stripe
 Capitan membership #96543 renewal payment: Solo Weekly,32.48,0,0.0,John Morris,2024-09-14,Membership Renewal,Solo,weekly,False,False,2024-09-14 00:00:00+00:00,Stripe
 Capitan membership #96542 renewal payment: Solo Weekly,32.48,0,0.0,John Morris,2024-09-14,Membership Renewal,Solo,weekly,False,False,2024-09-14 00:00:00+00:00,Stripe
-Capitan reservation #3544413: All levels Bouldering Comp,10.0,0,0.0,Liam Eckett,2024-09-13,Event Booking,,,False,False,2024-09-13 00:00:00+00:00,Stripe
+Capitan reservation #3544413: All levels Bouldering Comp,10.0,0,0.0,Liam Eckett,2024-09-13,programming,,,False,False,2024-09-13 00:00:00+00:00,Stripe
 Capitan membership #111218 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-13,New Membership,Solo,weekly,False,False,2024-09-13 00:00:00+00:00,Stripe
-Capitan reservation #3544197: All levels Bouldering Comp,10.0,0,0.0,Connor Kantrud,2024-09-13,Event Booking,,,False,False,2024-09-13 00:00:00+00:00,Stripe
+Capitan reservation #3544197: All levels Bouldering Comp,10.0,0,0.0,Connor Kantrud,2024-09-13,programming,,,False,False,2024-09-13 00:00:00+00:00,Stripe
 Capitan entry pass #950730: Day Pass,21.65,0,0.0,,2024-09-13,Day Pass,,,False,False,2024-09-13 00:00:00+00:00,Stripe
 Capitan entry pass #950705: Day Pass,21.65,0,0.0,,2024-09-13,Day Pass,,,False,False,2024-09-13 00:00:00+00:00,Stripe
 Capitan entry pass #950694: Day Pass with Gear,25.33,0,0.0,,2024-09-13,Day Pass,,,False,False,2024-09-13 00:00:00+00:00,Stripe
 Capitan reservation #3543736: Birthday Party Rental- 2 hours,216.5,0,0.0,Jamie Montgomery,2024-09-13,Event Booking,,,False,False,2024-09-13 00:00:00+00:00,Stripe
 Capitan membership #111117 initial payment: Family Weekly,155.88,0,0.0,Erin Washburn,2024-09-13,New Membership,Family,weekly,False,False,2024-09-13 00:00:00+00:00,Stripe
-Capitan reservation #3542480: All levels Bouldering Comp,10.0,0,0.0,Jordon Higginbotham,2024-09-13,Event Booking,,,False,False,2024-09-13 00:00:00+00:00,Stripe
+Capitan reservation #3542480: All levels Bouldering Comp,10.0,0,0.0,Jordon Higginbotham,2024-09-13,programming,,,False,False,2024-09-13 00:00:00+00:00,Stripe
 Capitan membership #108057 renewal payment: Solo Weekly,38.97,0,0.0,,2024-09-13,Membership Renewal,Solo,weekly,False,False,2024-09-13 00:00:00+00:00,Stripe
 Capitan membership #108054 renewal payment: Solo Weekly,38.97,0,0.0,Katherine Blandin,2024-09-13,Membership Renewal,Solo,weekly,False,False,2024-09-13 00:00:00+00:00,Stripe
 Capitan membership #96378 renewal payment: Solo Weekly,32.48,0,0.0,Jenny Higginbotham,2024-09-13,Membership Renewal,Solo,weekly,False,False,2024-09-13 00:00:00+00:00,Stripe
-Capitan reservation #3541516: All levels Bouldering Comp,10.0,0,0.0,Meghan L McInaney,2024-09-12,Event Booking,,,False,False,2024-09-12 00:00:00+00:00,Stripe
+Capitan reservation #3541516: All levels Bouldering Comp,10.0,0,0.0,Meghan L McInaney,2024-09-12,programming,,,False,False,2024-09-12 00:00:00+00:00,Stripe
 Capitan membership #111037 initial payment: Solo Weekly,39.4,0,0.0,,2024-09-12,New Membership,Solo,weekly,False,False,2024-09-12 00:00:00+00:00,Stripe
 Capitan entry pass #949458: Day Pass with Gear,28.14,0,0.0,,2024-09-12,Day Pass,,,False,False,2024-09-12 00:00:00+00:00,Stripe
 Capitan entry pass #949456: Day Pass with Gear,28.14,0,0.0,,2024-09-12,Day Pass,,,False,False,2024-09-12 00:00:00+00:00,Stripe
 Capitan membership #111028 initial payment: Solo Weekly,38.97,0,0.0,,2024-09-12,New Membership,Solo,weekly,False,False,2024-09-12 00:00:00+00:00,Stripe
 Capitan entry pass #949433: Day Pass,21.65,0,0.0,,2024-09-12,Day Pass,,,False,False,2024-09-12 00:00:00+00:00,Stripe
-Capitan reservation #3540809: All levels Bouldering Comp,10.0,0,0.0,Collin R O'Neill,2024-09-12,Event Booking,,,False,False,2024-09-12 00:00:00+00:00,Stripe
+Capitan reservation #3540809: All levels Bouldering Comp,10.0,0,0.0,Collin R O'Neill,2024-09-12,programming,,,False,False,2024-09-12 00:00:00+00:00,Stripe
 Capitan membership #91139 renewal payment: Founders - Family,175.24,0,0.0,Brian K Claus,2024-09-12,Membership Renewal,Family,monthly,True,False,2024-09-12 00:00:00+00:00,Stripe
-Capitan reservation #3539619: All levels Bouldering Comp,10.0,0,0.0,Matthew Guthrie,2024-09-12,Event Booking,,,False,False,2024-09-12 00:00:00+00:00,Stripe
-Capitan reservation #3538471: All levels Bouldering Comp,10.0,0,0.0,William S Ennis,2024-09-12,Event Booking,,,False,False,2024-09-12 00:00:00+00:00,Stripe
+Capitan reservation #3539619: All levels Bouldering Comp,10.0,0,0.0,Matthew Guthrie,2024-09-12,programming,,,False,False,2024-09-12 00:00:00+00:00,Stripe
+Capitan reservation #3538471: All levels Bouldering Comp,10.0,0,0.0,William S Ennis,2024-09-12,programming,,,False,False,2024-09-12 00:00:00+00:00,Stripe
 Capitan membership #100377 renewal payment: Duo Weekly,82.27,0,0.0,Margo Walker,2024-09-12,Membership Renewal,Duo,weekly,False,False,2024-09-12 00:00:00+00:00,Stripe
 Capitan membership #95834 renewal payment: Duo Weekly,60.62,0,0.0,John D Dale,2024-09-12,Membership Renewal,Duo,weekly,False,False,2024-09-12 00:00:00+00:00,Stripe
 Capitan entry pass #948397: Day Pass with Gear,28.14,0,0.0,,2024-09-11,Day Pass,,,False,False,2024-09-11 00:00:00+00:00,Stripe
@@ -1722,17 +1729,17 @@ Capitan membership #110841 initial payment: Solo Weekly,35.07,0,0.0,,2024-09-11,
 Capitan membership #110841 initial payment: Solo Weekly,35.07,0,0.0,,2024-09-11,New Membership,Solo,weekly,False,False,2024-09-11 00:00:00+00:00,Stripe
 Capitan entry pass #948373: Day Pass with Gear,28.14,0,0.0,,2024-09-11,Day Pass,,,False,False,2024-09-11 00:00:00+00:00,Stripe
 Capitan reservation #3537028: Birthday Party Rental- 2 hours,216.5,0,0.0,Trinity Robb,2024-09-11,Event Booking,,,False,False,2024-09-11 00:00:00+00:00,Stripe
-Capitan reservation #3536816: All levels Bouldering Comp,10.0,0,0.0,Lily Howell,2024-09-11,Event Booking,,,False,False,2024-09-11 00:00:00+00:00,Stripe
+Capitan reservation #3536816: All levels Bouldering Comp,10.0,0,0.0,Lily Howell,2024-09-11,programming,,,False,False,2024-09-11 00:00:00+00:00,Stripe
 Capitan reservation #3535630: Birthday Party Rental- 2 hours,216.5,0,0.0,Matthew smith,2024-09-11,Event Booking,,,False,False,2024-09-11 00:00:00+00:00,Stripe
 Capitan membership #100248 renewal payment: Solo Weekly,43.3,0,0.0,,2024-09-11,Membership Renewal,Solo,weekly,False,False,2024-09-11 00:00:00+00:00,Stripe
 Capitan membership #100230 renewal payment: Duo Weekly,60.62,0,0.0,Aron hawkins,2024-09-11,Membership Renewal,Duo,weekly,False,False,2024-09-11 00:00:00+00:00,Stripe
 Capitan entry pass #947151: Day Pass with Gear,28.14,0,0.0,,2024-09-10,Day Pass,,,False,False,2024-09-10 00:00:00+00:00,Stripe
-Capitan reservation #3534241: All levels Bouldering Comp,10.0,0,0.0,Jack Willingham,2024-09-10,Event Booking,,,False,False,2024-09-10 00:00:00+00:00,Stripe
+Capitan reservation #3534241: All levels Bouldering Comp,10.0,0,0.0,Jack Willingham,2024-09-10,programming,,,False,False,2024-09-10 00:00:00+00:00,Stripe
 Capitan membership #110518 initial payment: Solo Weekly,38.97,0,0.0,Harry B Amadeo,2024-09-10,New Membership,Solo,weekly,False,False,2024-09-10 00:00:00+00:00,Stripe
 Capitan membership #107396 renewal payment: Solo Weekly,43.3,0,0.0,Kaylee Pascarella,2024-09-10,Membership Renewal,Solo,weekly,False,False,2024-09-10 00:00:00+00:00,Stripe
 Capitan membership #100135 renewal payment: Solo Weekly,38.97,0,0.0,D Rodriguez Aguirre,2024-09-10,Membership Renewal,Solo,weekly,False,False,2024-09-10 00:00:00+00:00,Stripe
-Capitan reservation #3531880: All levels Bouldering Comp,10.0,0,0.0,Mallory Grace Craven,2024-09-09,Event Booking,,,False,False,2024-09-09 00:00:00+00:00,Stripe
-Capitan reservation #3531800: All levels Bouldering Comp,10.0,0,0.0,Aron hawkins,2024-09-09,Event Booking,,,False,False,2024-09-09 00:00:00+00:00,Stripe
+Capitan reservation #3531880: All levels Bouldering Comp,10.0,0,0.0,Mallory Grace Craven,2024-09-09,programming,,,False,False,2024-09-09 00:00:00+00:00,Stripe
+Capitan reservation #3531800: All levels Bouldering Comp,10.0,0,0.0,Aron hawkins,2024-09-09,programming,,,False,False,2024-09-09 00:00:00+00:00,Stripe
 Capitan membership #110423 initial payment: Solo Weekly,38.97,0,0.0,,2024-09-09,New Membership,Solo,weekly,False,False,2024-09-09 00:00:00+00:00,Stripe
 Capitan membership #110407 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-09,New Membership,Solo,weekly,False,False,2024-09-09 00:00:00+00:00,Stripe
 Capitan entry pass #946147: Day Pass,21.65,0,0.0,,2024-09-09,Day Pass,,,False,False,2024-09-09 00:00:00+00:00,Stripe
@@ -1743,8 +1750,8 @@ Capitan membership #110399 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-09,N
 Capitan membership #110398 initial payment: Solo Weekly,43.3,0,0.0,,2024-09-09,New Membership,Solo,weekly,False,False,2024-09-09 00:00:00+00:00,Stripe
 Capitan membership #110395 initial payment: Solo Weekly,38.97,0,0.0,,2024-09-09,New Membership,Solo,weekly,False,False,2024-09-09 00:00:00+00:00,Stripe
 Capitan membership #110391 initial payment: Solo Weekly,39.4,0,0.0,,2024-09-09,New Membership,Solo,weekly,False,False,2024-09-09 00:00:00+00:00,Stripe
-Capitan reservation #3530736: All levels Bouldering Comp,10.0,0,0.0,Colton Johnson,2024-09-09,Event Booking,,,False,False,2024-09-09 00:00:00+00:00,Stripe
-Capitan reservation #3530666: All levels Bouldering Comp,10.0,0,0.0,Aiden Grizzard,2024-09-09,Event Booking,,,False,False,2024-09-09 00:00:00+00:00,Stripe
+Capitan reservation #3530736: All levels Bouldering Comp,10.0,0,0.0,Colton Johnson,2024-09-09,programming,,,False,False,2024-09-09 00:00:00+00:00,Stripe
+Capitan reservation #3530666: All levels Bouldering Comp,10.0,0,0.0,Aiden Grizzard,2024-09-09,programming,,,False,False,2024-09-09 00:00:00+00:00,Stripe
 Capitan membership #107128 renewal payment: Solo Weekly,38.97,0,0.0,,2024-09-09,Membership Renewal,Solo,weekly,False,False,2024-09-09 00:00:00+00:00,Stripe
 Capitan membership #107124 renewal payment: Solo Weekly,43.3,0,0.0,,2024-09-09,Membership Renewal,Solo,weekly,False,False,2024-09-09 00:00:00+00:00,Stripe
 Capitan membership #107116 renewal payment: Solo Weekly,38.97,0,0.0,,2024-09-09,Membership Renewal,Solo,weekly,False,False,2024-09-09 00:00:00+00:00,Stripe
@@ -1780,11 +1787,11 @@ Capitan entry pass #942860: Gear Upgrade,6.5,0,0.0,,2024-09-07,Day Pass,,,False,
 Capitan entry pass #942859: Day Pass,21.65,0,0.0,,2024-09-07,Day Pass,,,False,False,2024-09-07 00:00:00+00:00,Stripe
 Capitan entry pass #942855: Gear Upgrade,6.5,0,0.0,,2024-09-07,Day Pass,,,False,False,2024-09-07 00:00:00+00:00,Stripe
 Capitan entry pass #942854: Day Pass,21.65,0,0.0,,2024-09-07,Day Pass,,,False,False,2024-09-07 00:00:00+00:00,Stripe
-Capitan reservation #3524477: All levels Bouldering Comp,10.0,0,0.0,Roma A Castellanos,2024-09-07,Event Booking,,,False,False,2024-09-07 00:00:00+00:00,Stripe
+Capitan reservation #3524477: All levels Bouldering Comp,10.0,0,0.0,Roma A Castellanos,2024-09-07,programming,,,False,False,2024-09-07 00:00:00+00:00,Stripe
 Capitan membership #99713 renewal payment: Family Weekly,77.64,0,0.0,Kat mayo,2024-09-07,Membership Renewal,Family,weekly,False,False,2024-09-07 00:00:00+00:00,Stripe
 Capitan membership #99689 renewal payment: Duo Weekly,69.28,0,0.0,Leah Bower,2024-09-07,Membership Renewal,Duo,weekly,False,False,2024-09-07 00:00:00+00:00,Stripe
 Capitan membership #99727 renewal payment: Solo Weekly,36.8,0,0.0,Cameron Butler,2024-09-07,Membership Renewal,Solo,weekly,False,False,2024-09-07 00:00:00+00:00,Stripe
-Capitan reservation #3521373: All levels Bouldering Comp,20.0,0,0.0,Taylor Wilcox,2024-09-06,Event Booking,,,False,False,2024-09-06 00:00:00+00:00,Stripe
+Capitan reservation #3521373: All levels Bouldering Comp,20.0,0,0.0,Taylor Wilcox,2024-09-06,programming,,,False,False,2024-09-06 00:00:00+00:00,Stripe
 Capitan entry pass #940984: Gear Upgrade,6.5,0,0.0,,2024-09-06,Day Pass,,,False,False,2024-09-06 00:00:00+00:00,Stripe
 Capitan entry pass #940982: Military/Teacher/Student/First Responder Day Pass,19.48,0,0.0,,2024-09-06,Day Pass,,,False,False,2024-09-06 00:00:00+00:00,Stripe
 Capitan entry pass #940981: Military/Teacher/Student/First Responder Day Pass,19.48,0,0.0,,2024-09-06,Day Pass,,,False,False,2024-09-06 00:00:00+00:00,Stripe
@@ -1795,13 +1802,13 @@ Capitan reservation #3519326: Birthday Party Rental- 2 hours,108.25,0,0.0,Trinit
 Capitan membership #109697 initial payment: Solo Weekly,38.97,0,0.0,,2024-09-06,New Membership,Solo,weekly,False,False,2024-09-06 00:00:00+00:00,Stripe
 Capitan membership #99545 renewal payment: Duo Weekly,60.62,0,0.0,Tayler Boisen,2024-09-06,Membership Renewal,Duo,weekly,False,False,2024-09-06 00:00:00+00:00,Stripe
 Capitan membership #99564 renewal payment: Solo Weekly,32.48,0,0.0,Dan Martin,2024-09-06,Membership Renewal,Solo,weekly,False,False,2024-09-06 00:00:00+00:00,Stripe
-Capitan reservation #3518142: All levels Bouldering Comp,10.0,0,0.0,Jacob Tentis,2024-09-05,Event Booking,,,False,False,2024-09-05 00:00:00+00:00,Stripe
+Capitan reservation #3518142: All levels Bouldering Comp,10.0,0,0.0,Jacob Tentis,2024-09-05,programming,,,False,False,2024-09-05 00:00:00+00:00,Stripe
 Capitan membership #109624 initial payment: Solo Weekly,38.97,0,0.0,,2024-09-05,New Membership,Solo,weekly,False,False,2024-09-05 00:00:00+00:00,Stripe
 Capitan entry pass #939684: Gear Upgrade,6.5,0,0.0,,2024-09-05,Day Pass,,,False,False,2024-09-05 00:00:00+00:00,Stripe
 Capitan entry pass #939683: Day Pass,21.65,0,0.0,,2024-09-05,Day Pass,,,False,False,2024-09-05 00:00:00+00:00,Stripe
 Capitan entry pass #939679: Gear Upgrade,6.5,0,0.0,,2024-09-05,Day Pass,,,False,False,2024-09-05 00:00:00+00:00,Stripe
 Capitan entry pass #939678: Day Pass,21.65,0,0.0,,2024-09-05,Day Pass,,,False,False,2024-09-05 00:00:00+00:00,Stripe
-Capitan reservation #3517956: All levels Bouldering Comp,10.0,0,0.0,Dylan Charles,2024-09-05,Event Booking,,,False,False,2024-09-05 00:00:00+00:00,Stripe
+Capitan reservation #3517956: All levels Bouldering Comp,10.0,0,0.0,Dylan Charles,2024-09-05,programming,,,False,False,2024-09-05 00:00:00+00:00,Stripe
 Capitan membership #109609 initial payment: Solo Weekly,35.07,0,0.0,,2024-09-05,New Membership,Solo,weekly,False,False,2024-09-05 00:00:00+00:00,Stripe
 Capitan membership #109607 initial payment: Duo Weekly,82.27,0,0.0,Heath Osborne,2024-09-05,New Membership,Duo,weekly,False,False,2024-09-05 00:00:00+00:00,Stripe
 Capitan entry pass #939634: Gear Upgrade,6.5,0,0.0,,2024-09-05,Day Pass,,,False,False,2024-09-05 00:00:00+00:00,Stripe
@@ -1824,7 +1831,7 @@ Capitan entry pass #938628: Day Pass,21.65,0,0.0,,2024-09-04,Day Pass,,,False,Fa
 Capitan entry pass #938619: Gear Upgrade,6.5,0,0.0,,2024-09-04,Day Pass,,,False,False,2024-09-04 00:00:00+00:00,Stripe
 Capitan entry pass #938616: Day Pass,21.65,0,0.0,,2024-09-04,Day Pass,,,False,False,2024-09-04 00:00:00+00:00,Stripe
 Capitan entry pass #938614: Day Pass,21.65,0,0.0,,2024-09-04,Day Pass,,,False,False,2024-09-04 00:00:00+00:00,Stripe
-Capitan reservation #3514830: All levels Bouldering Comp,10.0,0,0.0,Allyson Bayer,2024-09-04,Event Booking,,,False,False,2024-09-04 00:00:00+00:00,Stripe
+Capitan reservation #3514830: All levels Bouldering Comp,10.0,0,0.0,Allyson Bayer,2024-09-04,programming,,,False,False,2024-09-04 00:00:00+00:00,Stripe
 Capitan entry pass #938608: Gear Upgrade,6.5,0,0.0,,2024-09-04,Day Pass,,,False,False,2024-09-04 00:00:00+00:00,Stripe
 Capitan entry pass #938606: Day Pass,21.65,0,0.0,,2024-09-04,Day Pass,,,False,False,2024-09-04 00:00:00+00:00,Stripe
 Capitan membership #109288 initial payment: Solo Weekly,38.97,0,0.0,,2024-09-04,New Membership,Solo,weekly,False,False,2024-09-04 00:00:00+00:00,Stripe
