@@ -183,13 +183,13 @@ class pullDataFromCapitan:
             df_weekly = df[(df['created_at'] >= date - timedelta(days=21)) & (df['created_at'] <= date)]
 
             # Filter yearly solo memberships
-            yearly_solo = df_yearly[(df_yearly['membership_freq'] == 'Annual') & (df_yearly['membership_size'] == 'Solo')]
+            yearly_solo = df_yearly[(df_yearly['membership_freq'] == 'annual') & (df_yearly['membership_size'] == 'Solo')]
 
             # Filter yearly duo memberships
-            yearly_duo = df_yearly[(df_yearly['membership_freq'] == 'Annual') & (df_yearly['membership_size'] == 'Duo')]
+            yearly_duo = df_yearly[(df_yearly['membership_freq'] == 'annual') & (df_yearly['membership_size'] == 'Duo')]
 
             # Filter yearly family memberships
-            yearly_family = df_yearly[(df_yearly['membership_freq'] == 'Annual') & (df_yearly['membership_size'] == 'Family')]
+            yearly_family = df_yearly[(df_yearly['membership_freq'] == 'annual') & (df_yearly['membership_size'] == 'Family')]
 
             # Now repeat the same for monthly and weekly memberships
 
