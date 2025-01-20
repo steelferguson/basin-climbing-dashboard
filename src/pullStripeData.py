@@ -35,7 +35,8 @@ class pullStripeData:
         'annual': 'Annual',
         'weekly': 'weekly',
         'monthly': 'Monthly',
-        'founders': 'monthly' # founders charged monthly
+        'founders': 'monthly', # founders charged monthly
+        'student': 'monthly' # students charged monthly
     }
     bcf_fam_friend_keywords = {
         'bcf family': True,
@@ -109,6 +110,13 @@ class pullStripeData:
         df['Tax Amount'] = pd.to_numeric(df['Tax Amount'], errors='coerce')
         df['Pre-Tax Amount'] = pd.to_numeric(df['Pre-Tax Amount'], errors='coerce')
         df['Data Source'] = 'Stripe'
+
+        # Add a column for day pass count using 'Base Price Amount'
+        df['Day Pass Count'] = df.apply(lambda row: 1
+            if row['revenue_category'] == 'Day Pass' 
+            else 0,
+            axis=1
+        )
         
         return df
 
@@ -137,8 +145,8 @@ class pullStripeData:
         for charge in charges.auto_paging_iter():  # Use pagination for large data
                 created_at = datetime.datetime.fromtimestamp(charge['created'])  # Convert from Unix timestamp
                 total_money = charge['amount'] / 100  # Stripe amounts are in cents
-                pre_tax_money = total_money  # Stripe does not separate pre-tax amount by default
-                tax_money = 0 ## takes way too long ## get_balance_transaction_fees(charge)  # Tax amount
+                pre_tax_money = total_money / (1 + 0.0825) # ESTAMATED
+                tax_money = total_money - pre_tax_money ## takes way too long ## get_balance_transaction_fees(charge)
                 discount_money = charge.get('discount', {}).get('amount', 0) / 100  # Discount amount if available
                 currency = charge['currency']
                 description = charge.get('description', 'No Description')
@@ -148,6 +156,7 @@ class pullStripeData:
                     'Description': description,
                     'Pre-Tax Amount': pre_tax_money,
                     'Tax Amount': tax_money,
+                    'Total Amount': total_money,
                     'Discount Amount': discount_money,
                     'Name': name,
                     'Date': created_at.date(),

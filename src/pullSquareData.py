@@ -83,6 +83,9 @@ class pullSquareData:
             is_bcf_staff_or_friend = True
         
         return category, membership_size, membership_freq, is_founder, is_bcf_staff_or_friend
+    
+    def count_day_passes(revenue_category, base_amount, total_amount):
+        return round(total_amount / base_amount)
 
     def transform_payments_data(df):
         """
@@ -110,6 +113,14 @@ class pullSquareData:
         df['Pre-Tax Amount'] = pd.to_numeric(df['Pre-Tax Amount'], errors='coerce')
         df['Pre-Tax Amount'] = df['Pre-Tax Amount'] - df['Discount Amount']
         df['Data Source'] = 'Square'
+        
+        # Add a column for day pass count using 'Base Price Amount'
+        df['Day Pass Count'] = df.apply(
+            lambda row: round(row['Total Amount'] / row['base_price_amount'])
+            if row['revenue_category'] == 'Day Pass' and row['base_price_amount'] > 0
+            else 0,
+            axis=1
+        )
         
         return df
 
@@ -164,8 +175,9 @@ class pullSquareData:
 
                 # Get the specific amount for each item
                 item_total_money = item.get('total_money', {}).get('amount', 0) / 100  # Convert from cents
-                item_pre_tax_money = item.get('base_price_money', {}).get('amount', 0) / 100  # Pre-tax amount (if available)
+                _item_pre_tax_money = item.get('base_price_money', {}).get('amount', 0) / 100  # Pre-tax amount (if available)
                 item_tax_money = item.get('total_tax_money', {}).get('amount', 0) / 100  # Tax amount for the item
+                item_pre_tax_money = item_total_money - item_tax_money
                 item_discount_money = item.get('total_discount_money', {}).get('amount', 0) / 100  # Discount for the item
 
                 data.append({
@@ -175,7 +187,8 @@ class pullSquareData:
                     'Discount Amount': item_discount_money,
                     'Name': name,
                     'Total Amount': item_total_money,
-                    'Date': created_at
+                    'Date': created_at,
+                    'base_price_amount': _item_pre_tax_money
                 })
         
         # Create a DataFrame

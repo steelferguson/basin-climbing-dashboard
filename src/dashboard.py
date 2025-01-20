@@ -103,10 +103,10 @@ def create_dashboard(app):
 
         # Resample and group the CAPITAN data by revenue_sub_category
         df_filtered['date'] = df_filtered['created_at'].dt.to_period(selected_timeframe).dt.start_time
-        revenue_by_sub_category = df_filtered.groupby(['date', 'revenue_sub_category'])['amount_pre_tax'].sum().reset_index()
+        revenue_by_sub_category = df_filtered.groupby(['date', 'revenue_sub_category'])['amount'].sum().reset_index()
 
         # Create the stacked column chart
-        fig = px.bar(revenue_by_sub_category, x='date', y='amount_pre_tax', color='revenue_sub_category',
+        fig = px.bar(revenue_by_sub_category, x='date', y='amount', color='revenue_sub_category',
                     title='Event Revenue by Sub-Category', barmode='stack')
 
         return fig
@@ -119,9 +119,9 @@ def create_dashboard(app):
     def update_total_revenue_chart(selected_timeframe):
         df_filtered = df_combined.copy()
         df_filtered['date'] = df_filtered['Date'].dt.to_period(selected_timeframe).dt.start_time
-        total_revenue = df_filtered.groupby('date')['Pre-Tax Amount'].sum().reset_index()
+        total_revenue = df_filtered.groupby('date')['Total Amount'].sum().reset_index()
 
-        fig = px.line(total_revenue, x='date', y='Pre-Tax Amount', title='Total Revenue Over Time')
+        fig = px.line(total_revenue, x='date', y='Total Amount', title='Total Revenue Over Time')
         return fig
 
     # Callback for Percentage of Revenue by Category chart
@@ -134,15 +134,15 @@ def create_dashboard(app):
         df_filtered['date'] = df_filtered['Date'].dt.to_period(selected_timeframe).dt.start_time
 
         # Group by date and category and sum the revenue
-        revenue_by_category = df_filtered.groupby(['date', 'revenue_category'])['Pre-Tax Amount'].sum().reset_index()
+        revenue_by_category = df_filtered.groupby(['date', 'revenue_category'])['Total Amount'].sum().reset_index()
 
         # Calculate the total revenue per date
-        total_revenue_per_date = revenue_by_category.groupby('date')['Pre-Tax Amount'].sum().reset_index()
+        total_revenue_per_date = revenue_by_category.groupby('date')['Total Amount'].sum().reset_index()
         total_revenue_per_date.columns = ['date', 'total_revenue']
 
         # Merge to calculate percentages
         revenue_with_total = pd.merge(revenue_by_category, total_revenue_per_date, on='date')
-        revenue_with_total['percentage'] = (revenue_with_total['Pre-Tax Amount'] / revenue_with_total['total_revenue']) * 100
+        revenue_with_total['percentage'] = (revenue_with_total['Total Amount'] / revenue_with_total['total_revenue']) * 100
 
         fig = px.bar(revenue_with_total, x='date', y='percentage', color='revenue_category',
                      title='Percentage of Revenue by Category Over Time', barmode='stack')
@@ -193,14 +193,14 @@ def create_dashboard(app):
         # Filter and resample the Square and Stripe data
         df_filtered = df_combined[df_combined['Data Source'].isin(selected_sources)]
         df_filtered['date'] = df_filtered['Date'].dt.to_period(selected_timeframe).dt.start_time
-        revenue_by_category = df_filtered.groupby(['date', 'revenue_category'])['Pre-Tax Amount'].sum().reset_index()
+        revenue_by_category = df_filtered.groupby(['date', 'revenue_category'])['Total Amount'].sum().reset_index()
 
         # Line chart
-        line_fig = px.line(revenue_by_category, x='date', y='Pre-Tax Amount', color='revenue_category',
+        line_fig = px.line(revenue_by_category, x='date', y='Total Amount', color='revenue_category',
                            title='Square and Stripe Revenue By Category Over Time')
 
         # Stacked column chart
-        stacked_fig = px.bar(revenue_by_category, x='date', y='Pre-Tax Amount', color='revenue_category',
+        stacked_fig = px.bar(revenue_by_category, x='date', y='Total Amount', color='revenue_category',
                              title='Square and Stripe Revenue (Stacked Column)', barmode='stack')
 
         return line_fig, stacked_fig
@@ -216,9 +216,9 @@ def create_dashboard(app):
 
         # Resample and group by date to count the number of day passes
         df_filtered['date'] = df_filtered['Date'].dt.to_period(selected_timeframe).dt.start_time
-        day_pass_count = df_filtered.groupby('date').size().reset_index(name='count')
+        day_pass_sum = df_filtered.groupby('date')['Day Pass Count'].sum().reset_index(name='total_day_passes')
 
         # Create the bar chart
-        fig = px.bar(day_pass_count, x='date', y='count', title='Number of Day Passes Purchased')
+        fig = px.bar(day_pass_sum, x='date', y='total_day_passes', title='Total Day Passes Purchased')
 
         return fig
