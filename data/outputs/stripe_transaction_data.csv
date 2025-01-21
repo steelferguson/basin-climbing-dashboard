@@ -1,4 +1,12 @@
 Description,Pre-Tax Amount,Tax Amount,Total Amount,Discount Amount,Name,Date,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source,Day Pass Count
+Capitan entry pass #1147914: Day Pass (Adult 14 and Up),9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
+Capitan entry pass #1147909: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
+Capitan entry pass #1147907: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
+Capitan entry pass #1147874: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
+Capitan entry pass #1147863: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
+Capitan entry pass #1147859: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
+Capitan membership #134767 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-20,New Membership,Solo,weekly,False,False,2025-01-20 00:00:00+00:00,Stripe,0
+Capitan membership #134766 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-20,New Membership,Solo,weekly,False,False,2025-01-20 00:00:00+00:00,Stripe,0
 Capitan entry pass #1147274: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
 Capitan entry pass #1147267: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
 Capitan entry pass #1147210: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1

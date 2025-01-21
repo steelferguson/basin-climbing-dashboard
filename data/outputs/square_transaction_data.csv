@@ -1,4 +1,37 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Total Amount,Date,base_price_amount,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source,Day Pass Count
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 20:34:31+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 20:34:31+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 20:26:15+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 20:21:15+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 20:20:46+00:00,Square,1
+Purified Drinking Water,2.0,0.16,0.0,Great Value water,2.16,2025-01-20,2.0,Retail,,,False,False,2025-01-20 20:18:17+00:00,Square,0
+CAPITAN: Gear Upgrade,12.0,0.99,0.0,CAPITAN: Gear Upgrade,12.99,2025-01-20,6.0,Day Pass,,,False,False,2025-01-20 19:56:41+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 19:55:21+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 19:55:21+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 19:51:36+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 19:51:36+00:00,Square,3
+CAPITAN: Day Pass with Gear (Adult 14 and Up),41.599999999999994,3.86,5.2,CAPITAN: Day Pass with Gear (Adult 14 and Up),50.66,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 19:41:55+00:00,Square,2
+One Size,7.949999999999999,0.74,1.0,Metolius Climbing Tape Roll White,9.69,2025-01-20,9.95,Retail,,,False,False,2025-01-20 19:35:22+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 19:31:46+00:00,Square,3
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),48.0,4.46,6.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),58.46,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 19:30:45+00:00,Square,3
+CAPITAN: Day Pass (Adult 14 and Up),0.0,1.65,20.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 19:26:52+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),0.0,0.83,10.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),10.83,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 19:26:52+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 19:24:56+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 19:19:53+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 18:41:47+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 18:41:47+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 18:31:43+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 18:31:43+00:00,Square,2
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 18:22:43+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 18:22:43+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 18:01:42+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),80.0,6.6,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),86.6,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 17:36:57+00:00,Square,4
+4.5oz,5.2,0.43,0.0,Pipcorn Cheddar Cheese Balls,5.63,2025-01-20,5.2,Retail,,,False,False,2025-01-20 17:28:54+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),78.0,6.44,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),84.44,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 16:21:54+00:00,Square,3
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 16:12:33+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),104.0,8.58,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),112.58,2025-01-20,26.0,Day Pass,,,False,False,2025-01-20 16:11:18+00:00,Square,4
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 16:11:18+00:00,Square,3
+CAPITAN: Youth Day Pass (Under 14y/o),14.0,1.16,0.0,CAPITAN: Youth Day Pass (Under 14y/o),15.16,2025-01-20,14.0,Day Pass,,,False,False,2025-01-20 16:07:59+00:00,Square,1
 Regular,1.59,0.23,1.2,dripdash black sesame oat milk latte,3.02,2025-01-20,3.99,Retail,,,False,False,2025-01-20 15:09:49+00:00,Square,0
 Regular,12.23,1.65,7.78,Beanie (Mustard),21.66,2025-01-20,27.79,Retail,,,False,False,2025-01-20 13:23:15+00:00,Square,0
 JTree 50mL Climber Salve,20.99,1.73,0.0,Joshua Tree Organic Climbing Salve,22.72,2025-01-19,20.99,Retail,,,False,False,2025-01-19 23:50:36+00:00,Square,0

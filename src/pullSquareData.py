@@ -197,6 +197,78 @@ class pullSquareData:
         # Drop rows where 'Date' is null
         df = df.dropna(subset=['Date'])
         return df
+    
+    def pull_square_invoices(square_token, location_id):
+        """
+        Fetches paid invoices from Square for a specific location, including the date they were paid.
+
+        Parameters:
+        square_token (str): The Square API token.
+        location_id (str): The location ID for which to fetch invoices.
+
+        Returns:
+        pd.DataFrame: A DataFrame containing details of paid invoices.
+        """
+        # Initialize the Square Client with bearer_auth_credentials
+        client = Client(
+            bearer_auth_credentials=BearerAuthCredentials(
+                access_token=square_token
+            ),
+            environment='production'
+        )
+        
+        # Fetch invoices for the location
+        invoices_list = []
+        cursor = None
+        while True:
+            response = client.invoices.list_invoices(location_id=location_id, cursor=cursor)
+            if response.is_success():
+                invoices = response.body.get('invoices', [])
+                invoices_list.extend(invoices)
+                cursor = response.body.get('cursor')
+                if not cursor:
+                    break  # Exit loop when no more pages
+            elif response.is_error():
+                print("Error:", response.errors)
+                break
+
+        # Filter for paid invoices and extract payment details
+        paid_invoices = []
+        for invoice in invoices_list:
+            if invoice.get('status') == 'PAID':
+                payment_requests = invoice.get('payment_requests', [])
+                paid_date = None
+                for request in payment_requests:
+                    if 'completed_at' in request:  # Extract the payment date
+                        paid_date = request['completed_at']
+                        break
+                paid_invoice_amount = request.get('total_completed_amount_money', {}).get('amount', 0) / 100,
+
+                paid_invoices.append({
+                    'Description': 'paid rental invoice',
+                    'Pre-Tax Amount': paid_invoice_amount / (1 + 0.0825), 
+                    'Tax Amount': paid_invoice_amount * 0.0825,
+                    'Discount Amount': 0,
+                    'Name': invoice.get('customer_id'),
+                    'Total Amount': paid_invoice_amount,
+                    'Date': paid_date,
+                    'base_price_amount': 0,
+                    'revenue_category': 'Event Booking',
+                    'membership_size': None,
+                    'membership_freq': None,
+                    'is_founder': None,
+                    'is_free_membership': None,
+                    'date_': paid_date,
+                    'Data Source': 'Square',
+                    'Day Pass Count': None
+                })
+
+        # Create a DataFrame
+        df = pd.DataFrame(paid_invoices)
+        # Convert 'Paid Date' to datetime for consistency
+        df['Paid Date'] = pd.to_datetime(df['Paid Date'], errors='coerce')
+
+        return df
 
     def pull_and_transform_square_payment_data(start_date, end_date):
         # Get your Square Access Token from environment variables
@@ -213,7 +285,13 @@ class pullSquareData:
         df = pullSquareData.pull_square_payments_data_raw(square_token, location_id, end_time, begin_time, limit)
         df = pullSquareData.transform_payments_data(df)
         pullSquareData.save_data(df, 'square_transaction_data')
-        return df
+        # separate API call for paid invoices through Square
+        invoices_df = pullSquareData.pull_square_invoices(square_token, location_id)
+        pullSquareData.save_data(invoices_df, 'square_invoices_data')
+        # combine
+        df_combined = pd.concat([df, invoices_df], ignore_index=True)
+        pullSquareData.save_data(df, 'square_combined_transaction_invoices_data')
+        return df_combined
 
 
 if __name__ == "__main__":
