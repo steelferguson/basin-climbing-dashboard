@@ -238,16 +238,26 @@ class pullSquareData:
             if invoice.get('status') == 'PAID':
                 payment_requests = invoice.get('payment_requests', [])
                 paid_date = None
+
+                # Check each payment request for completed_at
                 for request in payment_requests:
-                    if 'completed_at' in request:  # Extract the payment date
+                    if 'completed_at' in request:  # Extract the first completed payment date
                         paid_date = request['completed_at']
                         break
-                paid_invoice_amount = request.get('total_completed_amount_money', {}).get('amount', 0) / 100,
+                
+                # Fallback: Use the invoice's updated_at field as an alternative date
+                if not paid_date:
+                    paid_date = invoice.get('updated_at')  # Use 'updated_at' as a fallback
+
+                paid_invoice_amount = sum(
+                    request.get('total_completed_amount_money', {}).get('amount', 0)
+                    for request in payment_requests
+                ) / 100  # Convert from cents to dollars
 
                 paid_invoices.append({
                     'Description': 'paid rental invoice',
-                    'Pre-Tax Amount': paid_invoice_amount / (1 + 0.0825), 
-                    'Tax Amount': paid_invoice_amount * 0.0825,
+                    'Pre-Tax Amount': paid_invoice_amount / (1 + 0.0825) if paid_invoice_amount else 0,
+                    'Tax Amount': paid_invoice_amount * 0.0825 if paid_invoice_amount else 0,
                     'Discount Amount': 0,
                     'Name': invoice.get('customer_id'),
                     'Total Amount': paid_invoice_amount,
@@ -265,8 +275,10 @@ class pullSquareData:
 
         # Create a DataFrame
         df = pd.DataFrame(paid_invoices)
-        # Convert 'Paid Date' to datetime for consistency
-        df['Paid Date'] = pd.to_datetime(df['Paid Date'], errors='coerce')
+        # Convert 'Date' to datetime for consistency
+        df['Date'] = pd.to_datetime(df['Date'], errors='coerce', utc=True)
+        # Extract just the date (without time)
+        df['Date'] = df['Date'].dt.date
 
         return df
 
@@ -290,7 +302,7 @@ class pullSquareData:
         pullSquareData.save_data(invoices_df, 'square_invoices_data')
         # combine
         df_combined = pd.concat([df, invoices_df], ignore_index=True)
-        pullSquareData.save_data(df, 'square_combined_transaction_invoices_data')
+        pullSquareData.save_data(df_combined, 'square_combined_transaction_invoices_data')
         return df_combined
 
 
