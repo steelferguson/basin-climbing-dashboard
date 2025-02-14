@@ -1,4 +1,679 @@
 Description,Pre-Tax Amount,Tax Amount,Total Amount,Discount Amount,Name,Date,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source,Day Pass Count
+Capitan membership #115048 payment retry: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Matthew Bosang,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #115048 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Matthew Bosang,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #115048 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Matthew Bosang,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #119045 freeze payment: Duo Weekly,4.0,0.33000000000000007,4.33,0.0,,2025-02-13,Membership Renewal,Duo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Pro-rated Membership Add-on Fee: Family Weekly,3.8614318706697457,0.318568129330254,4.18,0.0,Leah Bower,2025-02-13,Membership Renewal,Family,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan entry pass #1186349: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,23.82,0.0,,2025-02-13,Day Pass,,,False,False,2025-02-13 00:00:00+00:00,Stripe,1
+Capitan entry pass #1186285: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Misty Nissen,2025-02-13,Day Pass,,,False,False,2025-02-13 00:00:00+00:00,Stripe,1
+Capitan entry pass #1186284: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Misty Nissen,2025-02-13,Day Pass,,,False,False,2025-02-13 00:00:00+00:00,Stripe,1
+Capitan membership #140069 initial payment: Family Annual,1375.0023094688222,113.43769053117785,1488.44,0.0,,2025-02-13,New Membership,Family,Annual,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan reservation #4154532: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,,2025-02-13,programming,,,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #137660 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Mia Lopez,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #137642 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Jessica V Hazel,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #134034 renewal payment: Solo Weekly,22.00461893764434,1.8153810623556588,23.82,0.0,,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #134013 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #133942 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Ashton Lind,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #133385 renewal payment: Youth Development Team Dues,188.99769053117782,15.59230946882218,204.59,0.0,Taylor Jackson,2025-02-13,Team,,,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #133350 renewal payment: Youth Rec Team Dues,179.00230946882218,14.767690531177834,193.77,0.0,,2025-02-13,Team,,,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #133294 renewal payment: Youth Development Team Dues,188.99769053117782,15.59230946882218,204.59,0.0,,2025-02-13,Team,,,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #133293 renewal payment: Youth Development Team Dues,159.00230946882218,13.117690531177828,172.12,0.0,,2025-02-13,Team,,,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #133290 renewal payment: Youth Development Team Dues,113.4041570438799,9.3558429561201,122.76,0.0,,2025-02-13,Team,,,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #130497 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Gavin M Morgenegg,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #130397 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Chris Tindell,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #130102 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Aiden Lind,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #125007 renewal payment: Family Weekly,54.004618937644345,4.455381062355656,58.46,0.0,,2025-02-13,Membership Renewal,Family,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #123070 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Mary Cunningham,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #121867 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-13,Membership Renewal,,Monthly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #119045 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,,2025-02-13,Membership Renewal,Duo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #118431 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,,2025-02-13,Membership Renewal,Duo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #115944 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-13,Membership Renewal,Solo,weekly,False,False,2025-02-13 00:00:00+00:00,Stripe,0
+Capitan membership #139983 initial payment: Solo Annual,935.0023094688221,77.1376905311779,1012.14,0.0,,2025-02-12,New Membership,Solo,Annual,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan entry pass #1185427: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,23.82,0.0,,2025-02-12,Day Pass,,,False,False,2025-02-12 00:00:00+00:00,Stripe,1
+Capitan entry pass #1185386: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Maggi Calhoun,2025-02-12,Day Pass,,,False,False,2025-02-12 00:00:00+00:00,Stripe,1
+Capitan membership #137314 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,,2025-02-12,Membership Renewal,Solo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan entry pass #1184974: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Bethany Harrison,2025-02-12,Day Pass,,,False,False,2025-02-12 00:00:00+00:00,Stripe,1
+Capitan membership #112136 payment retry: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Micheal Olson,2025-02-12,Membership Renewal,Duo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #112136 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Ryan Edwards,2025-02-12,Membership Renewal,Duo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #112136 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Ryan Edwards,2025-02-12,Membership Renewal,Duo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #112136 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Ryan Edwards,2025-02-12,Membership Renewal,Duo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #112136 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Ryan Edwards,2025-02-12,Membership Renewal,Duo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan entry pass #1184668: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Billy K Anderson,2025-02-12,Day Pass,,,False,False,2025-02-12 00:00:00+00:00,Stripe,1
+Capitan entry pass #1184667: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Billy K Anderson,2025-02-12,Day Pass,,,False,False,2025-02-12 00:00:00+00:00,Stripe,1
+Capitan membership #139893 initial payment: Solo Weekly,41.09930715935335,3.3906928406466506,44.49,0.0,Mercy  Adams ,2025-02-12,New Membership,Solo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #137436 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Molly Gray,2025-02-12,Membership Renewal,Solo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #137314 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-12,Membership Renewal,Solo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #137287 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Elise Jordan,2025-02-12,Membership Renewal,Solo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #133168 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-12,Membership Renewal,,Monthly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #133149 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-12,Membership Renewal,,Monthly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #122893 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,,2025-02-12,Membership Renewal,Duo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #121647 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,Stefanie Tannous,2025-02-12,Membership Renewal,,Monthly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #118206 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-12,Membership Renewal,Solo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #116724 renewal payment: Solo Weekly,32.39722863741339,2.6727713625866087,35.07,0.0,Alecia Johnson,2025-02-12,Membership Renewal,Solo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #116646 freeze payment: Duo Weekly,4.0,0.33000000000000007,4.33,0.0,Jennifer Esparza,2025-02-12,Membership Renewal,Duo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #114149 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,,2025-02-12,Membership Renewal,Solo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan membership #112455 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-12,Membership Renewal,Solo,weekly,False,False,2025-02-12 00:00:00+00:00,Stripe,0
+Capitan entry pass #1184447: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,STACI M ISTRE,2025-02-11,Day Pass,,,False,False,2025-02-11 00:00:00+00:00,Stripe,1
+Capitan entry pass #1184340: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Misty Guy,2025-02-11,Day Pass,,,False,False,2025-02-11 00:00:00+00:00,Stripe,1
+Capitan membership #139826 initial payment: Youth Development Team Dues,159.00230946882218,13.117690531177828,172.12,0.0,Bradley swann,2025-02-11,Team,,,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan entry pass #1184278: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-11,Day Pass,,,False,False,2025-02-11 00:00:00+00:00,Stripe,1
+Capitan membership #139807 initial payment: Family Weekly,136.99769053117782,11.302309468822187,148.3,0.0,Katelynn A Townsend,2025-02-11,New Membership,Family,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan entry pass #1184243: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Heather E. White,2025-02-11,Day Pass,,,False,False,2025-02-11 00:00:00+00:00,Stripe,1
+[Calendly] Basin 2 Hour Birthday Party Rental with Joy Eichhorn,184.75750577367205,15.242494226327949,200.0,0.0,Joy Eichhorn,2025-02-11,Event Booking,,,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan entry pass #1183704: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Jessie Reid,2025-02-11,Day Pass,,,False,False,2025-02-11 00:00:00+00:00,Stripe,1
+Capitan membership #139735 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-11,New Membership,,Monthly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #135484 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,,2025-02-11,Membership Renewal,Solo,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #127162 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Katherine Cebalo,2025-02-11,Membership Renewal,Solo,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #121534 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-11,Membership Renewal,,Monthly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #120604 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-11,Membership Renewal,Solo,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #120595 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-11,Membership Renewal,Solo,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #120584 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,,2025-02-11,Membership Renewal,Solo,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #120421 renewal payment: Duo Weekly,65.20092378752886,5.3790762124711335,70.58,0.0,,2025-02-11,Membership Renewal,Duo,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #115706 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,,2025-02-11,Membership Renewal,Duo,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #110204 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Glen Prior,2025-02-11,Membership Renewal,Solo,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #95216 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Garrison Lancster,2025-02-11,Membership Renewal,Solo,weekly,False,False,2025-02-11 00:00:00+00:00,Stripe,0
+Capitan membership #139694 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-10,New Membership,,Monthly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan entry pass #1183342: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,Claudia Oggs,2025-02-10,Day Pass,,,False,False,2025-02-10 00:00:00+00:00,Stripe,1
+Capitan membership #139659 initial payment: Youth Comp Team Dues,245.1916859122402,20.228314087759827,265.42,0.0,Andy Soukup,2025-02-10,Team,,,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan entry pass #1183216: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-10,Day Pass,,,False,False,2025-02-10 00:00:00+00:00,Stripe,1
+Capitan membership #136073 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #133382 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #133368 renewal payment: Family Weekly,52.0,4.289999999999999,56.29,0.0,,2025-02-10,Membership Renewal,Family,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #133335 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #129270 renewal payment: Family Weekly,73.99538106235565,6.1046189376443465,80.1,0.0,,2025-02-10,Membership Renewal,Family,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #127075 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Pedro Leao,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #122542 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Andy Garcia Salamanca,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #120347 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Collin R O'Neill,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #117894 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Graeson Griffin,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #115499 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #115465 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Brian Chen,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #112939 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Irvin Harris,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #109697 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #95097 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Alex Michael Scarborough,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94966 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Victor F Torres III,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94904 renewal payment: Family Weekly,71.7228637413395,5.917136258660506,77.64,0.0,Stephen A Sanchez,2025-02-10,Membership Renewal,Family,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94860 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Nicholas C Ladd,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94790 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Mary Blair,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94780 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Mary g mcgee,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94650 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Alexander Davenport,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94447 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Roma A Castellanos,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94413 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Mallory Grace Craven,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94246 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,James d Johnson,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #94196 renewal payment: Duo Weekly,64.0,5.280000000000001,69.28,0.0,PEYTON POWERS,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #93351 renewal payment: Family Weekly,91.00230946882218,7.507690531177829,98.51,0.0,Matthew smith,2025-02-10,Membership Renewal,Family,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92945 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Dylan Boucher,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92891 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Wray Jones,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92801 renewal payment: Duo Weekly,60.0,4.950000000000003,64.95,0.0,Taylor Wilcox,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92769 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Jared Bissell,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92561 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Alan Shipp,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92516 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Collin Redepenning,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92306 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Hannah Boyd,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92197 renewal payment: Duo Weekly,64.0,5.280000000000001,69.28,0.0,Michelle Cola,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92190 renewal payment: Duo Weekly,60.0,4.950000000000003,64.95,0.0,Michelle Cola,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92112 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Paige Sullivan,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #92082 renewal payment: Duo Weekly,64.0,5.280000000000001,69.28,0.0,Grant Swingler,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #91998 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Natasha Marcum,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #91971 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Gregory Vanderheiden,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #91969 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Nikita D VanderHeiden,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #91890 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Anuj Sanghvi,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #91253 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,James M Cole,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #91177 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Aaron,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #91133 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,Danielle Sanchez,2025-02-10,Membership Renewal,Solo,monthly,True,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #91095 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Aaron James,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #90935 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,anthony martin,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #90893 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Marcus R Alvarado,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #90600 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Bo Mello,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #90190 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,James Corbin Myers,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #89567 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,John-Mark McKethan,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #86132 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Holly Eaker,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #83210 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Mark Nickels,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #79530 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Lauren M Roller,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #79444 renewal payment: Family Weekly,91.00230946882218,7.507690531177829,98.51,0.0,Ben Otis,2025-02-10,Membership Renewal,Family,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #78497 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Lisa Corcoran,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #78476 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Grayson Palmer,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #78008 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Matthew Vaillancourt,2025-02-10,Membership Renewal,Solo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #77949 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Meghan L. McInaney,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #77936 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Kaitlin Ig,2025-02-10,Membership Renewal,Duo,weekly,False,False,2025-02-10 00:00:00+00:00,Stripe,0
+Capitan membership #139514 initial payment: Solo Weekly,115.00230946882216,9.487690531177833,124.49,0.0,,2025-02-09,New Membership,Solo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan entry pass #1182101: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Chelsea Myers,2025-02-09,Day Pass,,,False,False,2025-02-09 00:00:00+00:00,Stripe,1
+Capitan entry pass #1182076: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-09,Day Pass,,,False,False,2025-02-09 00:00:00+00:00,Stripe,1
+Capitan membership #135865 add-on change fee #4143394,4.0,0.33000000000000007,4.33,0.0,,2025-02-09,Membership Renewal,,,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #139497 add-on change fee #4143268,4.0,0.33000000000000007,4.33,0.0,,2025-02-09,Membership Renewal,,,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #135631 renewal payment: Family Weekly,86.00461893764434,7.095381062355656,93.1,0.0,Tiffany P Scarborough,2025-02-09,Membership Renewal,Family,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #139497 initial payment: Solo Weekly,111.00230946882216,9.157690531177835,120.16,0.0,,2025-02-09,New Membership,Solo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan entry pass #1181983: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-02-09,Day Pass,,,False,False,2025-02-09 00:00:00+00:00,Stripe,1
+Capitan entry pass #1181590: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Marissa Maguire,2025-02-09,Day Pass,,,False,False,2025-02-09 00:00:00+00:00,Stripe,1
+Capitan membership #135911 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,,2025-02-09,Membership Renewal,Duo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #135898 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Landon Lupfer,2025-02-09,Membership Renewal,Duo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #135894 renewal payment: Family Weekly,56.0,4.619999999999997,60.62,0.0,Michal Peichl,2025-02-09,Membership Renewal,Family,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #135892 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-09,Membership Renewal,Solo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #135884 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-09,Membership Renewal,Solo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #135869 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Savannah Albers,2025-02-09,Membership Renewal,Solo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #135866 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-09,Membership Renewal,Solo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #135865 renewal payment: Family Weekly,86.00461893764434,7.095381062355656,93.1,0.0,Monika Fincher,2025-02-09,Membership Renewal,Family,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #133154 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-09,Membership Renewal,Solo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #126205 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,,2025-02-09,Membership Renewal,Solo,monthly,True,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #122359 renewal payment: Duo Weekly,41.995381062355655,3.464618937644346,45.46,0.0,,2025-02-09,Membership Renewal,Duo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #120205 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Enoch A Adams,2025-02-09,Membership Renewal,Duo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #120194 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-09,Membership Renewal,Solo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #120193 renewal payment: Family Weekly,73.99538106235565,6.1046189376443465,80.1,0.0,,2025-02-09,Membership Renewal,Family,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #120188 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Kristina Brown,2025-02-09,Membership Renewal,Duo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #112753 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,William Benjamin Wells III,2025-02-09,Membership Renewal,Solo,weekly,False,False,2025-02-09 00:00:00+00:00,Stripe,0
+Capitan membership #139358 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-08,New Membership,,Monthly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan reservation #4139559: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,,2025-02-08,programming,,,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan reservation #4139552: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,,2025-02-08,programming,,,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan entry pass #1179769: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-08,Day Pass,,,False,False,2025-02-08 00:00:00+00:00,Stripe,1
+Capitan membership #139347 initial payment: Duo Weekly,100.46189376443418,8.28810623556582,108.75,0.0,,2025-02-08,New Membership,Duo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan entry pass #1179304: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Sara Roberts,2025-02-08,Day Pass,,,False,False,2025-02-08 00:00:00+00:00,Stripe,1
+Capitan entry pass #1179253: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Cody allyn,2025-02-08,Day Pass,,,False,False,2025-02-08 00:00:00+00:00,Stripe,1
+Capitan entry pass #1179009: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Maggi Calhoun,2025-02-08,Day Pass,,,False,False,2025-02-08 00:00:00+00:00,Stripe,1
+Capitan entry pass #1178975: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Christopher Fagner,2025-02-08,Day Pass,,,False,False,2025-02-08 00:00:00+00:00,Stripe,1
+Capitan entry pass #1178795: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Keri Hodson,2025-02-08,Day Pass,,,False,False,2025-02-08 00:00:00+00:00,Stripe,1
+Capitan membership #135719 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-08,Membership Renewal,Solo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #135701 renewal payment: Family Weekly,84.0,6.930000000000007,90.93,0.0,,2025-02-08,Membership Renewal,Family,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #135681 renewal payment: Family Weekly,68.0,5.609999999999999,73.61,0.0,,2025-02-08,Membership Renewal,Family,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #135631 renewal payment: Family Weekly,86.00461893764434,7.095381062355656,93.1,0.0,Tiffany Scarborough,2025-02-08,Membership Renewal,Family,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #132871 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Sebastian JP Mahfood,2025-02-08,Membership Renewal,Solo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #132136 renewal payment: Youth Development Team Dues,188.99769053117782,15.59230946882218,204.59,0.0,Christine MacLachlan,2025-02-08,Team,,,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #122255 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Jonathan  Gutierrez,2025-02-08,Membership Renewal,Solo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #122254 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-08,Membership Renewal,Solo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #119960 renewal payment: Family Weekly,47.15935334872979,3.8906466512702096,51.05,0.0,Leah Bower,2025-02-08,Membership Renewal,Family,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #112611 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,Brandy Mascheck,2025-02-08,Membership Renewal,Duo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #112587 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,BROOKE A FARRELL,2025-02-08,Membership Renewal,Solo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #112586 renewal payment: Family Weekly,62.438799076212476,5.151200923787528,67.59,0.0,J Purcell,2025-02-08,Membership Renewal,Family,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #112554 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-08,Membership Renewal,Solo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #112527 renewal payment: Duo Weekly,38.004618937644345,3.1353810623556555,41.14,0.0,James Cotie,2025-02-08,Membership Renewal,Duo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #112215 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Michael Morales-Gomez,2025-02-08,Membership Renewal,Solo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #112136 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Ryan Edwards,2025-02-08,Membership Renewal,Duo,weekly,False,False,2025-02-08 00:00:00+00:00,Stripe,0
+Capitan membership #139235 initial payment: Solo Weekly,75.00230946882216,6.187690531177836,81.19,0.0,,2025-02-07,New Membership,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #139181 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-07,New Membership,,Monthly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan reservation #4134113: Top Rope Belay Class,27.71362586605081,2.2863741339491916,30.0,0.0,Alaye Baker,2025-02-07,programming,,,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan entry pass #1176564: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,Teagan L Scheidler,2025-02-07,Day Pass,,,False,False,2025-02-07 00:00:00+00:00,Stripe,1
+Capitan entry pass #1176438: Adult 8-Week climbing Technique Class,157.50577367205543,12.994226327944574,170.5,0.0,Timothy Marcyes,2025-02-07,Day Pass,,,False,False,2025-02-07 00:00:00+00:00,Stripe,1
+Capitan membership #139136 initial payment: Solo Annual,935.0023094688221,77.1376905311779,1012.14,0.0,Timothy Marcyes,2025-02-07,New Membership,Solo,Annual,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #135558 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #135508 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Jessica M Kincaid,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #132738 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #132716 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #132690 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,GRACE SINGH,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #132632 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,JAY A HOWARD,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #128817 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #126046 renewal payment: College Student Monthly,27.28868360277136,2.2513163972286385,29.54,0.0,,2025-02-07,Membership Renewal,,Monthly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #126043 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,Jacob t caldwell,2025-02-07,Membership Renewal,,Monthly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #126012 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-07,Membership Renewal,,Monthly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #119711 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,Victor Vo,2025-02-07,Membership Renewal,Duo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #119354 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #115077 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,Joseph Rios,2025-02-07,Membership Renewal,Duo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #115048 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Matthew Bosang,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #112309 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,Alex Vu,2025-02-07,Membership Renewal,Duo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #112033 renewal payment: Family Weekly,52.0,4.289999999999999,56.29,0.0,,2025-02-07,Membership Renewal,Family,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #109288 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #99984 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Isaac P Baker,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #96715 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Luke Tisch,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan membership #96680 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Robert Scrivner,2025-02-07,Membership Renewal,Solo,weekly,False,False,2025-02-07 00:00:00+00:00,Stripe,0
+Capitan entry pass #1175917: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-06,Day Pass,,,False,False,2025-02-06 00:00:00+00:00,Stripe,1
+Capitan reservation #4131620: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,Philippa Tedford,2025-02-06,programming,,,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan entry pass #1175884: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Angela K Magill,2025-02-06,Day Pass,,,False,False,2025-02-06 00:00:00+00:00,Stripe,1
+Capitan entry pass #1175881: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Laramie Adams,2025-02-06,Day Pass,,,False,False,2025-02-06 00:00:00+00:00,Stripe,1
+Capitan membership #139060 initial payment: Solo Weekly,41.71824480369514,3.441755196304854,45.16,0.0,,2025-02-06,New Membership,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan entry pass #1175735: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,23.82,0.0,,2025-02-06,Day Pass,,,False,False,2025-02-06 00:00:00+00:00,Stripe,1
+Capitan membership #135306 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #132466 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #131643 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-06,Membership Renewal,,Monthly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #131612 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-06,Membership Renewal,,Monthly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #126577 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,William Tyson Nickle,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #122737 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,Morgan Green,2025-02-06,Membership Renewal,,Monthly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #121977 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Tayler Boisen,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #114843 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #112244 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #111906 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Valerie Slater,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #111843 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Laura lee Washington,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #111804 renewal payment: Family Weekly,54.004618937644345,4.455381062355656,58.46,0.0,,2025-02-06,Membership Renewal,Family,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #109624 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #109609 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,Alexius Lauzon,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #109607 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,Heath Osborne,2025-02-06,Membership Renewal,Duo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #109474 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Brenda S Lewis,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #108312 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,,2025-02-06,Membership Renewal,Duo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan membership #99855 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Daniel Haddock,2025-02-06,Membership Renewal,Solo,weekly,False,False,2025-02-06 00:00:00+00:00,Stripe,0
+Capitan entry pass #1174699: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Kristina Featherstone,2025-02-05,Day Pass,,,False,False,2025-02-05 00:00:00+00:00,Stripe,1
+Capitan entry pass #1174667: ONLINE 90 day discounted day pass (promo),15.002309468822169,1.2376905311778295,16.24,0.0,William Ferem,2025-02-05,Day Pass,,,False,False,2025-02-05 00:00:00+00:00,Stripe,1
+Capitan reservation #4128013: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,,2025-02-05,programming,,,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan reservation #4127997: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,Jonathan  Gutierrez,2025-02-05,programming,,,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #138880 initial payment: Youth Rec Team Dues,148.99769053117782,12.292309468822168,161.29,0.0,Lorin Sherman,2025-02-05,Team,,,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #134421 payment retry: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Griffin Hunt,2025-02-05,Membership Renewal,Solo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan entry pass #1174346: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-05,Day Pass,,,False,False,2025-02-05 00:00:00+00:00,Stripe,1
+Capitan membership #112136 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Ryan Edwards,2025-02-05,Membership Renewal,Duo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #135198 renewal payment: Duo Weekly,41.995381062355655,3.464618937644346,45.46,0.0,,2025-02-05,Membership Renewal,Duo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #135180 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-05,Membership Renewal,Solo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #135031 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Lauren Freeman,2025-02-05,Membership Renewal,Solo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #126437 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-05,Membership Renewal,Solo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #125720 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-05,Membership Renewal,,Monthly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #121839 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Joshua Stewart,2025-02-05,Membership Renewal,Solo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #114634 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,,2025-02-05,Membership Renewal,Solo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #111756 renewal payment: Family Weekly,104.0,8.579999999999998,112.58,0.0,Daniel Ezell,2025-02-05,Membership Renewal,Family,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #111737 renewal payment: Solo Weekly,32.39722863741339,2.6727713625866087,35.07,0.0,,2025-02-05,Membership Renewal,Solo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #108057 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-05,Membership Renewal,Solo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #108054 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Katherine Blandin,2025-02-05,Membership Renewal,Solo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #99713 renewal payment: Family Weekly,71.7228637413395,5.917136258660506,77.64,0.0,Kat mayo,2025-02-05,Membership Renewal,Family,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #92293 freeze payment: Duo Weekly,4.0,0.33000000000000007,4.33,0.0,Lauren Sereno,2025-02-05,Membership Renewal,Duo,weekly,False,False,2025-02-05 00:00:00+00:00,Stripe,0
+Capitan membership #138734 initial payment: College Student Monthly,47.87990762124711,3.9500923787528848,51.83,0.0,James Cunningham,2025-02-04,New Membership,,Monthly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan reservation #4125022: Intro to Lead Climbing Class,78.52193995381062,6.478060046189384,85.0,0.0,,2025-02-04,programming,,,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Pro-rated Membership Add-on Fee: Duo Weekly,2.863741339491917,0.2362586605080832,3.1,0.0,,2025-02-04,Membership Renewal,Duo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Pro-rated Membership Add-on Fee: Solo Weekly,2.863741339491917,0.2362586605080832,3.1,0.0,Michael Purvis,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Pro-rated Membership Add-on Fee: Duo Weekly,1.4318706697459584,0.1181293302540416,1.55,0.0,Landon Lupfer,2025-02-04,Membership Renewal,Duo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #123174 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Micah Simmons,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #123174 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Micah Simmons,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #138678 initial payment: Solo Weekly,75.00230946882216,6.187690531177836,81.19,0.0,,2025-02-04,New Membership,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan entry pass #1173191: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,modi liu,2025-02-04,Day Pass,,,False,False,2025-02-04 00:00:00+00:00,Stripe,1
+Capitan entry pass #1172763: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,70.36,0.0,Leah Berry,2025-02-04,Day Pass,,,False,False,2025-02-04 00:00:00+00:00,Stripe,1
+Capitan membership #135023 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #135010 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #132029 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,Linsey Cockerell,2025-02-04,Membership Renewal,Duo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #131147 renewal payment: Founders - Family,137.28406466512703,11.32593533487298,148.61,0.0,Renee Jordan Emus,2025-02-04,Membership Renewal,Family,monthly,True,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #123926 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #123834 renewal payment: Family Weekly,73.99538106235565,6.1046189376443465,80.1,0.0,Jessica Jones,2025-02-04,Membership Renewal,Family,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #114451 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Trey Loper,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #114289 renewal payment: Solo Weekly,32.39722863741339,2.6727713625866087,35.07,0.0,Brynn Eaton,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #111525 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Eldon Milton,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #111516 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #109085 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #99564 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,James D Martin,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #95094 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Cora Ayers,2025-02-04,Membership Renewal,Duo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan membership #90927 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Raul A Lejarza,2025-02-04,Membership Renewal,Solo,weekly,False,False,2025-02-04 00:00:00+00:00,Stripe,0
+Capitan reservation #4122088: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,Brian Chen,2025-02-03,programming,,,False,False,2025-02-03 00:00:00+00:00,Stripe,0
+Capitan reservation #4120898: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,Abraham Adams,2025-02-03,programming,,,False,False,2025-02-03 00:00:00+00:00,Stripe,0
+Capitan membership #134706 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,,2025-02-03,Membership Renewal,Duo,weekly,False,False,2025-02-03 00:00:00+00:00,Stripe,0
+Capitan membership #131715 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,,2025-02-03,Membership Renewal,Duo,weekly,False,False,2025-02-03 00:00:00+00:00,Stripe,0
+Capitan membership #99304 renewal payment: Duo Weekly,64.0,5.280000000000001,69.28,0.0,William Connor Wroten,2025-02-03,Membership Renewal,Duo,weekly,False,False,2025-02-03 00:00:00+00:00,Stripe,0
+Capitan membership #123753 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,,2025-02-03,Membership Renewal,Solo,weekly,False,False,2025-02-03 00:00:00+00:00,Stripe,0
+Capitan membership #111373 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-03,Membership Renewal,Solo,weekly,False,False,2025-02-03 00:00:00+00:00,Stripe,0
+Capitan reservation #4118693: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,,2025-02-02,programming,,,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan entry pass #1170911: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan entry pass #1170910: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan entry pass #1170885: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan entry pass #1170867: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan entry pass #1170866: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,23.82,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan entry pass #1170865: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+[Calendly] Basin 2 Hour Birthday Party Rental with Amati Pettes,184.75750577367205,15.242494226327949,200.0,0.0,Amati Pettes,2025-02-02,Event Booking,,,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan entry pass #1170849: Adult 8-Week climbing Technique Class,157.50577367205543,12.994226327944574,170.5,0.0,Celina Pinedo,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan membership #138305 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-02-02,New Membership,,Monthly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan entry pass #1170812: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan entry pass #1170811: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan entry pass #1170718: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,23.82,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan entry pass #1170714: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan entry pass #1170685: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan membership #138290 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Rhiannon Frontiero,2025-02-02,New Membership,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan entry pass #1170680: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-02,Day Pass,,,False,False,2025-02-02 00:00:00+00:00,Stripe,1
+Capitan membership #138290 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Rhiannon Hastings,2025-02-02,New Membership,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #125221 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,Andrew P Crotwell,2025-02-02,Membership Renewal,,Monthly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #131469 renewal payment: Family Weekly,54.004618937644345,4.455381062355656,58.46,0.0,MICHAEL J JARRETT,2025-02-02,Membership Renewal,Family,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #131448 renewal payment: Family Weekly,56.0,4.619999999999997,60.62,0.0,Rachel Lee,2025-02-02,Membership Renewal,Family,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #134635 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-02,Membership Renewal,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #134632 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-02,Membership Renewal,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #134622 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-02,Membership Renewal,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #134617 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-02,Membership Renewal,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #134599 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-02,Membership Renewal,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #134555 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Philippa Tedford,2025-02-02,Membership Renewal,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #116092 renewal payment: Solo Weekly,32.39722863741339,2.6727713625866087,35.07,0.0,Tyler Wiens,2025-02-02,Membership Renewal,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan membership #110398 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,LOUISA A MCNAUGHTON,2025-02-02,Membership Renewal,Solo,weekly,False,False,2025-02-02 00:00:00+00:00,Stripe,0
+Capitan entry pass #1168613: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-02-01,Day Pass,,,False,False,2025-02-01 00:00:00+00:00,Stripe,1
+Capitan entry pass #1168493: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-02-01,Day Pass,,,False,False,2025-02-01 00:00:00+00:00,Stripe,1
+Capitan membership #138081 initial payment: College Student Monthly,29.00692840646651,2.393071593533488,31.4,0.0,,2025-02-01,New Membership,,Monthly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #138077 initial payment: College Student Monthly,42.00461893764434,3.465381062355661,45.47,0.0,,2025-02-01,New Membership,,Monthly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+[Calendly] Basin 2 Hour Birthday Party Rental with Jing Sheng,184.75750577367205,15.242494226327949,200.0,0.0,Jing Sheng,2025-02-01,Event Booking,,,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan entry pass #1168283: Day Pass with Gear (Adult 14 and Up),12.99769053117783,1.072309468822171,14.07,0.0,,2025-02-01,Day Pass,,,False,False,2025-02-01 00:00:00+00:00,Stripe,1
+Capitan entry pass #1168124: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,Alex Gil,2025-02-01,Day Pass,,,False,False,2025-02-01 00:00:00+00:00,Stripe,1
+Capitan entry pass #1168118: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,Alex Gil,2025-02-01,Day Pass,,,False,False,2025-02-01 00:00:00+00:00,Stripe,1
+Capitan membership #125003 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,Maxwell McGaffin,2025-02-01,Membership Renewal,,Monthly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #118629 renewal payment: Family Weekly,86.00461893764434,7.095381062355656,93.1,0.0,,2025-02-01,Membership Renewal,Family,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #101494 renewal payment: Family Weekly,86.00461893764434,7.095381062355656,93.1,0.0,Aaron S Clark,2025-02-01,Membership Renewal,Family,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #134419 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #134417 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #131261 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #127918 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Cameron Butler,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #127236 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #121187 renewal payment: Solo Weekly,32.39722863741339,2.6727713625866087,35.07,0.0,,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #111028 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #107116 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #96554 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Samuel Stone,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #79446 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,ZACHARY T DANIEL,2025-02-01,Membership Renewal,Solo,weekly,False,False,2025-02-01 00:00:00+00:00,Stripe,0
+Capitan membership #137921 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,Grace Ellen White,2025-01-31,New Membership,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #137906 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,Joe Tello,2025-01-31,New Membership,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #137892 initial payment: Family Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,Emily L Knighton,2025-01-31,New Membership,Family,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #137804 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Jordanna woosley,2025-01-31,New Membership,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #94246 payment retry: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,James d Johnson,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan entry pass #1165733: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,23.82,0.0,,2025-01-31,Day Pass,,,False,False,2025-01-31 00:00:00+00:00,Stripe,1
+Capitan reservation #4106866: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,Emma Crandall,2025-01-31,programming,,,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #137765 initial payment: Duo Weekly,17.99538106235566,1.484618937644342,19.48,0.0,,2025-01-31,New Membership,Duo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #137752 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-31,New Membership,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #137740 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-31,New Membership,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #130397 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Chris Tindell,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #134179 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Alaye Baker,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #137702 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,Michael Purvis,2025-01-31,New Membership,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #137694 initial payment: Solo Weekly,45.995381062355655,3.794618937644344,49.79,0.0,,2025-01-31,New Membership,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #130827 renewal payment: Family Weekly,70.00461893764434,5.775381062355663,75.78,0.0,,2025-01-31,Membership Renewal,Family,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #134190 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,,2025-01-31,Membership Renewal,Duo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #100230 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Aron hawkins,2025-01-31,Membership Renewal,Duo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #92178 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Lily Howell,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #134179 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Alaye Baker,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #123187 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Justin Leach,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #123172 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Caryn E Winclechter,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #106909 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Harrison Dreyer,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #100248 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #96378 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Jenny Higginbotham,2025-01-31,Membership Renewal,Solo,weekly,False,False,2025-01-31 00:00:00+00:00,Stripe,0
+Capitan membership #137660 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Mia Lopez,2025-01-30,New Membership,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #137650 initial payment: College Student Monthly,24.997690531177827,2.0623094688221713,27.06,0.0,,2025-01-30,New Membership,,Monthly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #137642 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Jessica V Hazel,2025-01-30,New Membership,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan entry pass #1164379: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-30,Day Pass,,,False,False,2025-01-30 00:00:00+00:00,Stripe,1
+Capitan entry pass #1164377: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-30,Day Pass,,,False,False,2025-01-30 00:00:00+00:00,Stripe,1
+Capitan membership #137601 initial payment: Duo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-30,New Membership,Duo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan entry pass #1164311: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-30,Day Pass,,,False,False,2025-01-30 00:00:00+00:00,Stripe,1
+Capitan entry pass #1164309: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-30,Day Pass,,,False,False,2025-01-30 00:00:00+00:00,Stripe,1
+Capitan membership #137599 initial payment: Family Weekly,61.995381062355655,5.1146189376443445,67.11,0.0,,2025-01-30,New Membership,Family,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan entry pass #1164267: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,23.82,0.0,,2025-01-30,Day Pass,,,False,False,2025-01-30 00:00:00+00:00,Stripe,1
+Capitan entry pass #1164219: Youth Day Pass (Under 14y/o),16.0,1.3200000000000003,17.32,0.0,,2025-01-30,Day Pass,,,False,False,2025-01-30 00:00:00+00:00,Stripe,1
+Capitan membership #137587 initial payment: Solo Annual,840.0,69.29999999999995,909.3,0.0,Glory McBee A McBee,2025-01-30,New Membership,Solo,Annual,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+[Calendly] Basin 2 Hour Birthday Party Rental with Heather Braun,184.75750577367205,15.242494226327949,200.0,0.0,Heather Braun,2025-01-30,Event Booking,,,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan reservation #4103086: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,,2025-01-30,programming,,,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #124842 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-01-30,Membership Renewal,,Monthly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #125007 renewal payment: Family Weekly,54.004618937644345,4.455381062355656,58.46,0.0,,2025-01-30,Membership Renewal,Family,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #87332 renewal payment: Family Weekly,58.43879907621247,4.821200923787529,63.26,0.0,Amanda E Taylor,2025-01-30,Membership Renewal,Family,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #119045 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,,2025-01-30,Membership Renewal,Duo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #118431 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,,2025-01-30,Membership Renewal,Duo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #115944 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,,2025-01-30,Membership Renewal,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #134034 renewal payment: Solo Weekly,22.00461893764434,1.8153810623556588,23.82,0.0,,2025-01-30,Membership Renewal,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #134013 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-30,Membership Renewal,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #133942 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Ashton Lind,2025-01-30,Membership Renewal,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #130497 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Gavin M Morgenegg,2025-01-30,Membership Renewal,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #130397 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Chris Tindell,2025-01-30,Membership Renewal,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #130102 renewal payment: Solo Weekly,12.286374133949192,1.013625866050809,13.3,0.0,Aiden Lind,2025-01-30,Membership Renewal,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #123070 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Mary Cunningham,2025-01-30,Membership Renewal,Solo,weekly,False,False,2025-01-30 00:00:00+00:00,Stripe,0
+Capitan membership #137436 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Molly Gray,2025-01-29,New Membership,Solo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan entry pass #1163200: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-29,Day Pass,,,False,False,2025-01-29 00:00:00+00:00,Stripe,1
+Capitan entry pass #1163047: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,23.82,0.0,,2025-01-29,Day Pass,,,False,False,2025-01-29 00:00:00+00:00,Stripe,1
+Capitan membership #132871 payment retry: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Sebastian JP Mahfood,2025-01-29,Membership Renewal,Solo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan entry pass #1162614: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-01-29,Day Pass,,,False,False,2025-01-29 00:00:00+00:00,Stripe,1
+Capitan membership #137314 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-29,New Membership,Solo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #137287 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Elise Jordan,2025-01-29,New Membership,Solo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91159 renewal payment: Founders Business,715.0023094688222,58.987690531177805,773.99,0.0,Bradley swann,2025-01-29,Membership Renewal,,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91154 renewal payment: Founders - Family,140.0,11.550000000000011,151.55,0.0,Adam Goree,2025-01-29,Membership Renewal,Family,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91140 renewal payment: Founders - Family,164.99769053117785,13.612309468822161,178.61,0.0,Stephanie Davis,2025-01-29,Membership Renewal,Family,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91139 renewal payment: Founders - Family,162.34642032332565,13.393579676674364,175.74,0.0,Brian K Claus,2025-01-29,Membership Renewal,Family,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91138 renewal payment: Founders - Family,115.99999999999999,9.570000000000007,125.57,0.0,Gabriel E RiCharde,2025-01-29,Membership Renewal,Family,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91137 renewal payment: Founders - Family,164.99769053117785,13.612309468822161,178.61,0.0,Matthew Leslie,2025-01-29,Membership Renewal,Family,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91161 renewal payment: Founders - Duo,115.00230946882216,9.487690531177833,124.49,0.0,Emily G Rostagno,2025-01-29,Membership Renewal,Duo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91155 renewal payment: Founders - Duo,115.00230946882216,9.487690531177833,124.49,0.0,Alec Rodriguez,2025-01-29,Membership Renewal,Duo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91152 renewal payment: Founders - Duo,115.00230946882216,9.487690531177833,124.49,0.0,Marissa Thornton,2025-01-29,Membership Renewal,Duo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91151 renewal payment: Founders - Duo,115.00230946882216,9.487690531177833,124.49,0.0,Dabid sirbasku,2025-01-29,Membership Renewal,Duo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91141 renewal payment: Founders - Duo,115.00230946882216,9.487690531177833,124.49,0.0,Cameron Wechsler,2025-01-29,Membership Renewal,Duo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91135 renewal payment: Founders - Duo,115.00230946882216,9.487690531177833,124.49,0.0,Emma Crandall,2025-01-29,Membership Renewal,Duo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91167 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,Daniel Barnhart,2025-01-29,Membership Renewal,Solo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91166 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,Daniel Barnhart,2025-01-29,Membership Renewal,Solo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91165 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,Andy Soukup,2025-01-29,Membership Renewal,Solo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91163 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,Samantha Miller,2025-01-29,Membership Renewal,Solo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91160 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,Mason Young,2025-01-29,Membership Renewal,Solo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91153 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,Jacob Tentis,2025-01-29,Membership Renewal,Solo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #91136 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,Stuart Smith,2025-01-29,Membership Renewal,Solo,monthly,True,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #116646 freeze payment: Duo Weekly,4.0,0.33000000000000007,4.33,0.0,Jennifer Esparza,2025-01-29,Membership Renewal,Duo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #122893 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,,2025-01-29,Membership Renewal,Duo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #118206 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-29,Membership Renewal,Solo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #116724 renewal payment: Solo Weekly,32.39722863741339,2.6727713625866087,35.07,0.0,Alecia Johnson,2025-01-29,Membership Renewal,Solo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #114149 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,,2025-01-29,Membership Renewal,Solo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan membership #112455 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-29,Membership Renewal,Solo,weekly,False,False,2025-01-29 00:00:00+00:00,Stripe,0
+Capitan entry pass #1161934: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,Emma Balaban,2025-01-28,Day Pass,,,False,False,2025-01-28 00:00:00+00:00,Stripe,1
+Capitan entry pass #1161930: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,Elizabeth  Dzina,2025-01-28,Day Pass,,,False,False,2025-01-28 00:00:00+00:00,Stripe,1
+Capitan membership #137226 initial payment: Duo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-28,New Membership,Duo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #137213 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,Caleb Deering,2025-01-28,New Membership,Solo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan entry pass #1160695: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,23.82,0.0,,2025-01-28,Day Pass,,,False,False,2025-01-28 00:00:00+00:00,Stripe,1
+Capitan membership #132738 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,,2025-01-28,Membership Renewal,Solo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #135484 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,,2025-01-28,Membership Renewal,Solo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan entry pass #1160128: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-28,Day Pass,,,False,False,2025-01-28 00:00:00+00:00,Stripe,1
+Capitan membership #120421 renewal payment: Duo Weekly,65.20092378752886,5.3790762124711335,70.58,0.0,,2025-01-28,Membership Renewal,Duo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #115706 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,,2025-01-28,Membership Renewal,Duo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #127162 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Katherine Cebalo,2025-01-28,Membership Renewal,Solo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #120604 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-28,Membership Renewal,Solo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #120595 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-28,Membership Renewal,Solo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #120584 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,,2025-01-28,Membership Renewal,Solo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #110204 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Glen Prior,2025-01-28,Membership Renewal,Solo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #95216 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Garrison Lancster,2025-01-28,Membership Renewal,Solo,weekly,False,False,2025-01-28 00:00:00+00:00,Stripe,0
+Capitan membership #136157 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-27,New Membership,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #136119 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-01-27,New Membership,,Monthly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan entry pass #1159577: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-01-27,Day Pass,,,False,False,2025-01-27 00:00:00+00:00,Stripe,1
+Capitan membership #136092 initial payment: Youth Rec Team Dues,89.49653579676674,7.38346420323326,96.88,0.0,,2025-01-27,Team,,,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #127162 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Katherine Cebalo,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #127162 payment retry: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Katherine Cebalo,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #136073 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-27,New Membership,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan entry pass #1159246: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-27,Day Pass,,,False,False,2025-01-27 00:00:00+00:00,Stripe,1
+Capitan entry pass #1159246: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-27,Day Pass,,,False,False,2025-01-27 00:00:00+00:00,Stripe,1
+Capitan membership #136018 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,Ethan Dorsey,2025-01-27,New Membership,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #133382 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #133368 renewal payment: Family Weekly,54.004618937644345,4.455381062355656,58.46,0.0,,2025-01-27,Membership Renewal,Family,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #133345 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #133335 renewal payment: Solo Weekly,19.17782909930716,1.5821709006928408,20.76,0.0,,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #129270 renewal payment: Family Weekly,73.99538106235565,6.1046189376443465,80.1,0.0,,2025-01-27,Membership Renewal,Family,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #127075 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Pedro Leao,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #122542 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Andy Garcia Salamanca,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #122482 renewal payment: Family Weekly,86.00461893764434,7.095381062355656,93.1,0.0,,2025-01-27,Membership Renewal,Family,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #120347 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Collin R O'Neill,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #117894 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Graeson Griffin,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #115499 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #115465 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Brian Chen,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #112939 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Irvin Harris,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #111037 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,emma Bernstein,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #109697 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #95097 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Alex Michael Scarborough,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94966 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Victor F Torres III,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94904 renewal payment: Family Weekly,71.7228637413395,5.917136258660506,77.64,0.0,Stephen A Sanchez,2025-01-27,Membership Renewal,Family,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94860 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Nicholas C Ladd,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94790 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Mary Blair,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94780 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Mary g mcgee,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94739 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Lauren Powell,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94650 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Alexander Davenport,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94447 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Roma A Castellanos,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94413 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Mallory Grace Craven,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94246 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,James Johnson,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #94196 renewal payment: Duo Weekly,64.0,5.280000000000001,69.28,0.0,PEYTON POWERS,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #93351 renewal payment: Family Weekly,91.00230946882218,7.507690531177829,98.51,0.0,Matthew smith,2025-01-27,Membership Renewal,Family,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92945 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Dylan Boucher,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92891 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Wray Jones,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92801 renewal payment: Duo Weekly,60.0,4.950000000000003,64.95,0.0,Taylor Wilcox,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92769 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Jared Bissell,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92561 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Alan Shipp,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92516 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Collin Redepenning,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92306 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Hannah Boyd,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92197 renewal payment: Duo Weekly,64.0,5.280000000000001,69.28,0.0,Michelle Cola,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92190 renewal payment: Duo Weekly,60.0,4.950000000000003,64.95,0.0,Michelle Cola,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92139 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Alan Ward,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92112 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Paige Sullivan,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #92082 renewal payment: Duo Weekly,64.0,5.280000000000001,69.28,0.0,Grant Swingler,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #91998 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Natasha Marcum,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #91971 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Gregory Vanderheiden,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #91969 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Nikita D VanderHeiden,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #91890 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Anuj Sanghvi,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #91253 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,James M Cole,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #91177 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Aaron,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #91095 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Aaron James,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #90935 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,anthony martin,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #90893 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Marcus R Alvarado,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #90600 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Bo Mello,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #90190 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,James Corbin Myers,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #89567 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,John-Mark McKethan,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #86132 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Holly Eaker,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #83210 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Mark Nickels,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #79530 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Lauren M Roller,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #79444 renewal payment: Family Weekly,91.00230946882218,7.507690531177829,98.51,0.0,Ben Otis,2025-01-27,Membership Renewal,Family,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #78497 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Lisa Corcoran,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #78476 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Grayson Palmer,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #78008 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Matthew Vaillancourt,2025-01-27,Membership Renewal,Solo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #77949 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Meghan L. McInaney,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan membership #77936 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Kaitlin Ig,2025-01-27,Membership Renewal,Duo,weekly,False,False,2025-01-27 00:00:00+00:00,Stripe,0
+Capitan reservation #4091712: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,F Robert Morrison,2025-01-26,programming,,,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #135911 initial payment: Duo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-26,New Membership,Duo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan reservation #4091558: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,Emma Crandall,2025-01-26,programming,,,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #135898 initial payment: Duo Weekly,17.99538106235566,1.484618937644342,19.48,0.0,Landon Lupfer,2025-01-26,New Membership,Duo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #135894 initial payment: Family Weekly,65.99538106235566,5.444618937644336,71.44,0.0,Michal Peichl,2025-01-26,New Membership,Family,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan entry pass #1158237: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-26,Day Pass,,,False,False,2025-01-26 00:00:00+00:00,Stripe,1
+Capitan membership #135892 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-26,New Membership,Solo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan entry pass #1158227: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-26,Day Pass,,,False,False,2025-01-26 00:00:00+00:00,Stripe,1
+Capitan membership #135886 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-26,New Membership,Solo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #135884 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-26,New Membership,Solo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan entry pass #1158201: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,Alexis Sanford,2025-01-26,Day Pass,,,False,False,2025-01-26 00:00:00+00:00,Stripe,1
+Capitan membership #135878 initial payment: Family Annual,1249.9953810623556,103.1246189376443,1353.12,0.0,,2025-01-26,New Membership,Family,Annual,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #135872 initial payment: Duo Annual,1609.9953810623556,132.82461893764435,1742.82,0.0,,2025-01-26,New Membership,Duo,Annual,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #135865 initial payment: Family Weekly,16.0,1.3200000000000003,17.32,0.0,Monika Fincher,2025-01-26,New Membership,Family,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #135866 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-26,New Membership,Solo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan entry pass #1158055: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-26,Day Pass,,,False,False,2025-01-26 00:00:00+00:00,Stripe,1
+[Calendly] Basin 2 Hour Birthday Party Rental with Angie Chase,184.75750577367205,15.242494226327949,200.0,0.0,Angie chase,2025-01-26,Event Booking,,,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #133164 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-26,Membership Renewal,Solo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #133154 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-26,Membership Renewal,Solo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #122359 renewal payment: Duo Weekly,41.995381062355655,3.464618937644346,45.46,0.0,,2025-01-26,Membership Renewal,Duo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #120205 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Enoch A Adams,2025-01-26,Membership Renewal,Duo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #120194 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-26,Membership Renewal,Solo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #120193 renewal payment: Family Weekly,73.99538106235565,6.1046189376443465,80.1,0.0,,2025-01-26,Membership Renewal,Family,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #120188 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Kristina Brown,2025-01-26,Membership Renewal,Duo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #112753 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,William Benjamin Wells III,2025-01-26,Membership Renewal,Solo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #107124 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-26,Membership Renewal,Solo,weekly,False,False,2025-01-26 00:00:00+00:00,Stripe,0
+Capitan membership #135734 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-25,New Membership,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan reservation #4087164: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,,2025-01-25,programming,,,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #135198 add-on change fee #4086919,6.290993071593533,0.5190069284064665,6.81,0.0,,2025-01-25,Membership Renewal,,,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan entry pass #1155768: Youth Day Pass (Under 14y/o),14.004618937644342,1.1553810623556586,15.16,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan entry pass #1155764: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan entry pass #1155763: Day Pass with Gear (Adult 14 and Up),12.99769053117783,1.072309468822171,14.07,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan entry pass #1155761: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan membership #135719 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-25,New Membership,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan entry pass #1155676: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan membership #135701 initial payment: Family Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-25,New Membership,Family,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #135699 initial payment: Solo Weekly,45.995381062355655,3.794618937644344,49.79,0.0,,2025-01-25,New Membership,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan entry pass #1155363: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan entry pass #1155358: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan membership #135681 initial payment: Family Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-25,New Membership,Family,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan entry pass #1155176: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+[Calendly] Basin 2 Hour Birthday Party Rental with Joanna Thomas,184.75750577367205,15.242494226327949,200.0,0.0,Joanna Thomas,2025-01-25,Event Booking,,,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #135670 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-01-25,New Membership,,Monthly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #135669 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-01-25,New Membership,,Monthly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan entry pass #1155100: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan entry pass #1155096: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan entry pass #1155024: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan entry pass #1154808: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan entry pass #1154806: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+Capitan entry pass #1154804: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-25,Day Pass,,,False,False,2025-01-25 00:00:00+00:00,Stripe,1
+[Calendly] Basin 2 Hour Birthday Party Rental with Alyssa Wissinger,184.75750577367205,15.242494226327949,200.0,0.0,Matthew Miller,2025-01-25,Event Booking,,,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #135631 initial payment: Family Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Tiffany Scarborough,2025-01-25,New Membership,Family,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #132912 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,,2025-01-25,Membership Renewal,Duo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #132871 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-25,Membership Renewal,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #132827 renewal payment: Duo Weekly,40.28637413394919,3.3236258660508113,43.61,0.0,,2025-01-25,Membership Renewal,Duo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #122255 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Jonathan  Gutierrez,2025-01-25,Membership Renewal,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #122254 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-25,Membership Renewal,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #122240 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-25,Membership Renewal,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #119960 renewal payment: Family Weekly,47.15935334872979,3.8906466512702096,51.05,0.0,Leah Bower,2025-01-25,Membership Renewal,Family,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #113336 renewal payment: Founders - Solo,60.0,4.950000000000003,64.95,0.0,Kelli McMahan,2025-01-25,Membership Renewal,Solo,monthly,True,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #112611 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,Brandy Mascheck,2025-01-25,Membership Renewal,Duo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #112587 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,BROOKE A FARRELL,2025-01-25,Membership Renewal,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #112586 renewal payment: Family Weekly,62.438799076212476,5.151200923787528,67.59,0.0,J Purcell,2025-01-25,Membership Renewal,Family,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #112554 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-25,Membership Renewal,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #112540 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,MAEVE  Paquette Christensen,2025-01-25,Membership Renewal,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #112527 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,James Cotie,2025-01-25,Membership Renewal,Duo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #112215 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Michael Morales-Gomez,2025-01-25,Membership Renewal,Solo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #112136 renewal payment: Duo Weekly,76.0,6.269999999999996,82.27,0.0,Ryan Edwards,2025-01-25,Membership Renewal,Duo,weekly,False,False,2025-01-25 00:00:00+00:00,Stripe,0
+Capitan membership #135558 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-24,New Membership,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan entry pass #1153298: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-24,Day Pass,,,False,False,2025-01-24 00:00:00+00:00,Stripe,1
+Capitan entry pass #1153295: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-24,Day Pass,,,False,False,2025-01-24 00:00:00+00:00,Stripe,1
+Capitan entry pass #1153293: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-24,Day Pass,,,False,False,2025-01-24 00:00:00+00:00,Stripe,1
+Capitan entry pass #1153291: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-24,Day Pass,,,False,False,2025-01-24 00:00:00+00:00,Stripe,1
+Capitan reservation #4082099: Top Rope Belay Class,13.856812933025404,1.1431870669745958,15.0,0.0,Ryan Davis,2025-01-24,programming,,,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan entry pass #1153174: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-01-24,Day Pass,,,False,False,2025-01-24 00:00:00+00:00,Stripe,1
+Capitan membership #135508 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,Jessica M Kincaid,2025-01-24,New Membership,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan entry pass #1152960: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-24,Day Pass,,,False,False,2025-01-24 00:00:00+00:00,Stripe,1
+Capitan entry pass #1152955: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-24,Day Pass,,,False,False,2025-01-24 00:00:00+00:00,Stripe,1
+Capitan membership #135484 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-24,New Membership,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #135482 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,James Cunningham,2025-01-24,New Membership,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #135479 initial payment: College Student Monthly,6.521939953810623,0.5380600461893765,7.06,0.0,,2025-01-24,New Membership,,Monthly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #135477 initial payment: College Student Monthly,36.52655889145496,3.013441108545038,39.54,0.0,,2025-01-24,New Membership,,Monthly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan entry pass #1152550: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-24,Day Pass,,,False,False,2025-01-24 00:00:00+00:00,Stripe,1
+Capitan membership #132738 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #132716 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #132690 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,GRACE SINGH,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #132632 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,JAY A HOWARD,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #128817 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #119711 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,Victor Vo,2025-01-24,Membership Renewal,Duo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #119354 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #115077 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,Joseph Rios,2025-01-24,Membership Renewal,Duo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #115048 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Matthew Bosang,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #112309 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,Alex Vu,2025-01-24,Membership Renewal,Duo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #112033 renewal payment: Family Weekly,52.0,4.289999999999999,56.29,0.0,,2025-01-24,Membership Renewal,Family,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #109288 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #99984 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Isaac P Baker,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #96715 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Luke Tisch,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #96680 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Robert Scrivner,2025-01-24,Membership Renewal,Solo,weekly,False,False,2025-01-24 00:00:00+00:00,Stripe,0
+Capitan membership #135371 initial payment: Family Annual,2240.0,184.80000000000018,2424.8,0.0,,2025-01-23,New Membership,Family,Annual,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan entry pass #1151651: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-23,Day Pass,,,False,False,2025-01-23 00:00:00+00:00,Stripe,1
+Capitan entry pass #1151649: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,Nathan T Lee,2025-01-23,Day Pass,,,False,False,2025-01-23 00:00:00+00:00,Stripe,1
+Capitan membership #130497 payment retry: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Gavin M Morgenegg,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+[Calendly] Basin 2 Hour Birthday Party Rental with Monica Cloe,184.75750577367205,15.242494226327949,200.0,0.0,Monica Cloe,2025-01-23,Event Booking,,,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #135339 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Molly K Hunt,2025-01-23,New Membership,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #135306 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,,2025-01-23,New Membership,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan entry pass #1151341: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-01-23,Day Pass,,,False,False,2025-01-23 00:00:00+00:00,Stripe,1
+Capitan entry pass #1151341: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-01-23,Day Pass,,,False,False,2025-01-23 00:00:00+00:00,Stripe,1
+Capitan membership #135280 initial payment: Solo Annual,753.9953810623557,62.20461893764434,816.2,0.0,Kimberly Bobbitt,2025-01-23,New Membership,Solo,Annual,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan entry pass #1150933: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-01-23,Day Pass,,,False,False,2025-01-23 00:00:00+00:00,Stripe,1
+Capitan reservation #4076660: Top Rope Belay Class,27.71362586605081,2.2863741339491916,30.0,0.0,James Rains,2025-01-23,programming,,,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #126577 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,William Tyson Nickle,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #132466 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #126577 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,William Tyson Nickle,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #125075 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,,2025-01-23,Membership Renewal,,Monthly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #123309 renewal payment: Youth Comp Team Dues,99.50115473441107,8.20884526558892,107.71,0.0,,2025-01-23,Team,,,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #123308 renewal payment: Youth Comp Team Dues,99.50115473441107,8.20884526558892,107.71,0.0,,2025-01-23,Team,,,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #122706 freeze payment: College Student Monthly,8.0,0.6600000000000001,8.66,0.0,Aiden Grizzard,2025-01-23,Membership Renewal,,Monthly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #121977 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Tayler Boisen,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #114856 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #114843 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #112244 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #111906 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Valerie Slater,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #111843 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Laura lee Washington,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #111804 renewal payment: Family Weekly,54.004618937644345,4.455381062355656,58.46,0.0,,2025-01-23,Membership Renewal,Family,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #109624 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #109609 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,Alexius Lauzon,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #109607 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,Heath Osborne,2025-01-23,Membership Renewal,Duo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #109474 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Brenda S Lewis,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #108312 renewal payment: Duo Weekly,68.0,5.609999999999999,73.61,0.0,,2025-01-23,Membership Renewal,Duo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan membership #99855 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,Daniel Haddock,2025-01-23,Membership Renewal,Solo,weekly,False,False,2025-01-23 00:00:00+00:00,Stripe,0
+Capitan entry pass #1150538: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,,2025-01-22,Day Pass,,,False,False,2025-01-22 00:00:00+00:00,Stripe,1
+Capitan membership #135198 initial payment: Duo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-22,New Membership,Duo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #95834 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,John Dale,2025-01-22,Membership Renewal,Duo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #135180 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-22,New Membership,Solo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan entry pass #1150403: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,21.65,0.0,,2025-01-22,Day Pass,,,False,False,2025-01-22 00:00:00+00:00,Stripe,1
+Capitan membership #121839 payment retry: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Joshua Stewart,2025-01-22,Membership Renewal,Solo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #135031 initial payment: Solo Weekly,13.995381062355658,1.1546189376443419,15.15,0.0,Lauren Freeman,2025-01-22,New Membership,Solo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #126437 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-22,Membership Renewal,Solo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #121839 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,Joshua Stewart,2025-01-22,Membership Renewal,Solo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #114634 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,,2025-01-22,Membership Renewal,Solo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #111756 renewal payment: Family Weekly,104.0,8.579999999999998,112.58,0.0,Daniel Ezell,2025-01-22,Membership Renewal,Family,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #111737 renewal payment: Solo Weekly,32.39722863741339,2.6727713625866087,35.07,0.0,,2025-01-22,Membership Renewal,Solo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #108057 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-22,Membership Renewal,Solo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #108054 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Katherine Blandin,2025-01-22,Membership Renewal,Solo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #99713 renewal payment: Family Weekly,71.7228637413395,5.917136258660506,77.64,0.0,Kat mayo,2025-01-22,Membership Renewal,Family,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan membership #92293 freeze payment: Duo Weekly,4.0,0.33000000000000007,4.33,0.0,Lauren Sereno,2025-01-22,Membership Renewal,Duo,weekly,False,False,2025-01-22 00:00:00+00:00,Stripe,0
+Capitan entry pass #1149201: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-21,Day Pass,,,False,False,2025-01-21 00:00:00+00:00,Stripe,1
+Capitan membership #135023 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-21,New Membership,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #135010 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-21,New Membership,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #135002 initial payment: Solo Weekly,9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-21,New Membership,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan entry pass #1149035: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,Charles DeMarque,2025-01-21,Day Pass,,,False,False,2025-01-21 00:00:00+00:00,Stripe,1
+Capitan entry pass #1149032: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,28.14,0.0,stacie boyls,2025-01-21,Day Pass,,,False,False,2025-01-21 00:00:00+00:00,Stripe,1
+Capitan membership #132029 renewal payment: Duo Weekly,72.0,5.939999999999998,77.94,0.0,,2025-01-21,Membership Renewal,Duo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #123926 renewal payment: Solo Weekly,40.0,3.299999999999997,43.3,0.0,,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #123834 renewal payment: Family Weekly,73.99538106235565,6.1046189376443465,80.1,0.0,Jessica Jones,2025-01-21,Membership Renewal,Family,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #122536 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,59.54,0.0,Bethany Kerley,2025-01-21,Membership Renewal,,Monthly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #117909 renewal payment: Youth Rec Team Dues,179.00230946882218,14.767690531177834,193.77,0.0,,2025-01-21,Team,,,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #114451 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Trey Loper,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #114289 renewal payment: Solo Weekly,32.39722863741339,2.6727713625866087,35.07,0.0,Brynn Eaton,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #112765 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,2.16,0.0,Aaron Ameny,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #111525 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,Eldon Milton,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #111516 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,39.4,0.0,,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #109085 renewal payment: Solo Weekly,36.0,2.969999999999999,38.97,0.0,,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #99564 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,36.8,0.0,James D Martin,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #95094 renewal payment: Duo Weekly,56.0,4.619999999999997,60.62,0.0,Cora Ayers,2025-01-21,Membership Renewal,Duo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #93134 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Robert Cooper,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
+Capitan membership #90927 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,32.48,0.0,Raul A Lejarza,2025-01-21,Membership Renewal,Solo,weekly,False,False,2025-01-21 00:00:00+00:00,Stripe,0
 Capitan entry pass #1147914: Day Pass (Adult 14 and Up),9.995381062355658,0.8246189376443418,10.82,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
 Capitan entry pass #1147909: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1
 Capitan entry pass #1147907: Day Pass (Adult 14 and Up),20.0,1.6499999999999986,21.65,0.0,,2025-01-20,Day Pass,,,False,False,2025-01-20 00:00:00+00:00,Stripe,1

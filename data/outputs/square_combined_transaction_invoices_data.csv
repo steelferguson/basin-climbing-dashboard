@@ -1,4 +1,634 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Total Amount,Date,base_price_amount,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source,Day Pass Count
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-13,20.0,Day Pass,,,False,False,2025-02-13 22:03:21+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),80.0,6.6,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),86.6,2025-02-13,20.0,Day Pass,,,False,False,2025-02-13 22:00:09+00:00,Square,4
+Regular,2.61,0.24,0.32,Fairlife Protein Shake Chocolate 11.5fl oz,3.17,2025-02-13,3.25,Retail,,,False,False,2025-02-13 21:38:45+00:00,Square,0
+(1.2 oz)54,1.75,0.14,0.0,CLIF Zbar - Chocolate Brownie,1.89,2025-02-13,1.75,Retail,,,False,False,2025-02-13 21:29:20+00:00,Square,0
+Regular,3.0,0.25,0.0,Dr. Pepper,3.25,2025-02-13,3.0,Retail,,,False,False,2025-02-13 21:29:20+00:00,Square,0
+Cool Blue,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-13,2.5,Retail,,,False,False,2025-02-13 21:29:20+00:00,Square,0
+"Gluten Free, Non-GMO Heirloom Corn, Non-Artificial, Preservative Free Snacks",4.75,0.39,0.0,Heirloom Sea Salt Mini Popcorn by Pipcorn - 4.5oz,5.14,2025-02-13,4.75,Retail,,,False,False,2025-02-13 21:29:20+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-13,20.0,Day Pass,,,False,False,2025-02-13 20:25:44+00:00,Square,2
+Regular,1.83,0.17,0.23,Cilantro Lime Turkey Stick,2.23,2025-02-13,2.29,Retail,,,False,False,2025-02-13 17:11:46+00:00,Square,0
+Regular,2.61,0.24,0.32,Fairlife Protein Shake Chocolate 11.5fl oz,3.17,2025-02-13,3.25,Retail,,,False,False,2025-02-13 17:11:46+00:00,Square,0
+Regular,0.6799999999999999,0.1,0.52,Pipcorn 971930 0.65 oz Mini Popcorn Truffle Pack of 24,1.3,2025-02-13,1.72,Retail,,,False,False,2025-02-13 16:09:02+00:00,Square,0
+Regular,1.29,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2025-02-13,3.25,Retail,,,False,False,2025-02-13 14:32:13+00:00,Square,0
+9,47.18999999999999,6.81,35.38,UNPARALLEL UP-MOCC,89.38,2025-02-13,117.95,Retail,,,False,False,2025-02-13 13:23:04+00:00,Square,0
+One Size,9.95,0.82,0.0,Metolius Climbing Tape Roll White,10.77,2025-02-13,9.95,Retail,,,False,False,2025-02-13 13:20:45+00:00,Square,0
+Anthracite/Oasis,47.99,6.93,35.98,Edelrid Pinch,90.9,2025-02-13,119.95,Retail,,,False,False,2025-02-13 12:18:12+00:00,Square,0
+Regular,6.8,0.63,0.85,Grangers Odor Eliminator Spray,8.28,2025-02-13,8.5,Retail,,,False,False,2025-02-13 01:25:45+00:00,Square,0
+Regular,7.170000000000001,0.66,0.89,Metolius Finger Tape 1/2 Roll gold,8.72,2025-02-13,8.95,Retail,,,False,False,2025-02-13 01:25:45+00:00,Square,0
+Regular,7.199999999999999,0.67,0.9,SoiLL Eco Distribution Brush,8.77,2025-02-13,9.0,Retail,,,False,False,2025-02-13 01:25:45+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-02-13,20.0,Day Pass,,,False,False,2025-02-13 00:12:03+00:00,Square,3
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-02-12,22.0,Day Pass,,,False,False,2025-02-12 23:44:22+00:00,Square,1
+Regular,4.5,0.37,0.0,Han's Kombucha - Grapefruit Rosemary,4.87,2025-02-12,4.5,Retail,,,False,False,2025-02-12 23:44:22+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-12,26.0,Day Pass,,,False,False,2025-02-12 23:39:37+00:00,Square,1
+Cool Blue,1.0,0.14,0.75,Gatorade Thirst Quencher Sports Drink 20oz,1.89,2025-02-12,2.5,Retail,,,False,False,2025-02-12 23:15:47+00:00,Square,0
+Regular,1.1099999999999999,0.16,0.82,Vita Coco Coconut Water 11.1oz,2.09,2025-02-12,2.75,Retail,,,False,False,2025-02-12 22:33:50+00:00,Square,0
+Regular,1.7200000000000002,0.14,0.0,Pipcorn 971930 0.65 oz Mini Popcorn Truffle Pack of 24,1.86,2025-02-12,1.72,Retail,,,False,False,2025-02-12 21:34:22+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-12,26.0,Day Pass,,,False,False,2025-02-12 21:04:53+00:00,Square,1
+Regular,1.2000000000000002,0.17,0.9,Dr. Pepper,2.27,2025-02-12,3.0,Retail,,,False,False,2025-02-12 21:03:22+00:00,Square,0
+2.4 Ounce (Pack of 12),2.5,0.21,0.0,ClIF Bars: White Chocolate Macadamia,2.71,2025-02-12,2.5,Retail,,,False,False,2025-02-12 18:05:06+00:00,Square,0
+Regular,4.5,0.37,0.0,Han's Kombucha - Raspberry Rose,4.87,2025-02-12,4.5,Retail,,,False,False,2025-02-12 18:05:06+00:00,Square,0
+GF 1 oz (Pack of 20)20,2.29,0.19,0.0,"Primal Beef Stick,Spicy",2.48,2025-02-12,2.29,Retail,,,False,False,2025-02-12 18:05:06+00:00,Square,0
+8.4 oz regular,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-02-12,3.25,Retail,,,False,False,2025-02-12 16:45:23+00:00,Square,0
+Vanilla Latte,1.7899999999999996,0.26,1.35,Great Lakes Cold Brew,3.4,2025-02-12,4.49,Retail,,,False,False,2025-02-12 16:19:52+00:00,Square,0
+5 oz,2.08,0.3,1.56,Pipsnacks Truffle Fries,3.94,2025-02-12,5.2,Retail,,,False,False,2025-02-12 16:19:52+00:00,Square,0
+Peanut Butter & Chocolate,1.21,0.17,0.89,Skratch Labs Anytime Energy Bar,2.27,2025-02-12,2.99,Retail,,,False,False,2025-02-12 16:19:52+00:00,Square,0
+Orange,1.97,0.18,0.24,Skratch Labs Sport Energy Chews,2.39,2025-02-12,2.45,Retail,,,False,False,2025-02-12 14:40:54+00:00,Square,0
+Mocha Latte,3.59,0.33,0.45,Great Lakes Cold Brew,4.37,2025-02-12,4.49,Retail,,,False,False,2025-02-12 13:38:40+00:00,Square,0
+One Size,7.969999999999999,0.74,0.99,Metolius Climbing Tape Roll White,9.7,2025-02-12,9.95,Retail,,,False,False,2025-02-12 13:38:40+00:00,Square,0
+Large,20.0,1.86,2.5,Organic Chalk Bag,24.36,2025-02-12,25.0,Retail,,,False,False,2025-02-12 13:03:43+00:00,Square,0
+Regular,13.590000000000002,1.26,1.7,rungne Magball,16.55,2025-02-12,16.99,Retail,,,False,False,2025-02-12 13:03:43+00:00,Square,0
+Regular,1.8000000000000003,0.26,1.35,Han's Kombucha - Grapefruit Rosemary,3.41,2025-02-12,4.5,Retail,,,False,False,2025-02-12 01:44:59+00:00,Square,0
+Regular,7.15,0.67,0.9,Metolius Finger Tape 1/2 Roll gold,8.72,2025-02-12,8.95,Retail,,,False,False,2025-02-12 01:14:50+00:00,Square,0
+Regular,2.21,0.2,0.27,Vita Coco Coconut Water 11.1oz,2.68,2025-02-12,2.75,Retail,,,False,False,2025-02-12 01:14:50+00:00,Square,0
+12 Fl Oz,2.61,0.24,0.32,"Tama Mate, ROSE Mate Sparkling Yerba Mate Tea",3.17,2025-02-11,3.25,Retail,,,False,False,2025-02-11 23:43:44+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-11,26.0,Day Pass,,,False,False,2025-02-11 23:16:23+00:00,Square,1
+Fruit Punch,1.0,0.14,0.75,Gatorade Thirst Quencher Sports Drink 20oz,1.89,2025-02-11,2.5,Retail,,,False,False,2025-02-11 23:13:23+00:00,Square,0
+Chocolate Chip,2.0,0.19,0.25,Clif Chocolate Chip Energy Bar,2.44,2025-02-11,2.5,Retail,,,False,False,2025-02-11 23:07:11+00:00,Square,0
+8.4fl.oz Sugar Free,2.61,0.24,0.32,Red Bull Energy Drink,3.17,2025-02-11,3.25,Retail,,,False,False,2025-02-11 22:55:08+00:00,Square,0
+12 Fl Oz,1.29,0.19,0.98,"Tama Mate, ROSE Mate Sparkling Yerba Mate Tea",2.46,2025-02-11,3.25,Retail,,,False,False,2025-02-11 22:24:21+00:00,Square,0
+Regular,3.5999999999999996,0.33,0.45,Han's Kombucha - Raspberry Rose,4.38,2025-02-11,4.5,Retail,,,False,False,2025-02-11 21:32:33+00:00,Square,0
+Strawberry,1.0900000000000003,0.16,0.83,BoBo's PB&J's,2.08,2025-02-11,2.75,Retail,,,False,False,2025-02-11 19:33:00+00:00,Square,0
+Regular,1.8000000000000003,0.26,1.35,Han's Kombucha - Raspberry Rose,3.41,2025-02-11,4.5,Retail,,,False,False,2025-02-11 19:33:00+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-11,26.0,Day Pass,,,False,False,2025-02-11 19:17:02+00:00,Square,1
+8.4 oz regular,2.61,0.24,0.32,Red Bull Energy Drink,3.17,2025-02-11,3.25,Retail,,,False,False,2025-02-11 18:11:10+00:00,Square,0
+5 oz,2.08,0.3,1.56,Pipsnacks Truffle Fries,3.94,2025-02-11,5.2,Retail,,,False,False,2025-02-11 18:09:01+00:00,Square,0
+Regular,3.1900000000000004,0.3,0.4,dripdash lavender maple oatmilk latte,3.89,2025-02-11,3.99,Retail,,,False,False,2025-02-11 17:44:44+00:00,Square,0
+Cucumber Lime,15.370000000000001,1.54,3.29,"Skratch Labs Hydration Powder | 20 Servings | Non-GMO, Vegan",20.2,2025-02-11,21.95,Retail,,,False,False,2025-02-11 14:40:41+00:00,Square,0
+Regular,0.9100000000000001,0.13,0.69,Cilantro Lime Turkey Stick,1.73,2025-02-11,2.29,Retail,,,False,False,2025-02-11 01:20:26+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-02-11,26.0,Day Pass,,,False,False,2025-02-11 01:16:09+00:00,Square,1
+8.4 oz regular,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-02-11,3.25,Retail,,,False,False,2025-02-11 00:30:01+00:00,Square,0
+Cool Blue,2.0,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2025-02-11,2.5,Retail,,,False,False,2025-02-11 00:26:56+00:00,Square,0
+12 Fl Oz,2.59,0.24,0.33,"Tama Mate, ROSE Mate Sparkling Yerba Mate Tea",3.16,2025-02-11,3.25,Retail,,,False,False,2025-02-11 00:26:56+00:00,Square,0
+8.4fl.oz Sugar Free,5.199999999999999,0.48,0.65,Red Bull Energy Drink,6.33,2025-02-11,3.25,Retail,,,False,False,2025-02-11 00:07:38+00:00,Square,0
+Chocolate Chip,1.75,0.14,0.0,CLIF Z Bar Chocolate Chip,1.89,2025-02-10,1.75,Retail,,,False,False,2025-02-10 23:40:47+00:00,Square,0
+Lemon Lime,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-10,2.5,Retail,,,False,False,2025-02-10 23:40:47+00:00,Square,0
+Regular,2.0,0.16,0.0,Ozarka Water Bottle 16.9oz,2.16,2025-02-10,2.0,Retail,,,False,False,2025-02-10 23:40:47+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",2.29,0.19,0.0,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.48,2025-02-10,2.29,Retail,,,False,False,2025-02-10 23:40:47+00:00,Square,0
+Chunky Blend Chalk - 1.5oz,3.95,0.37,0.5,Midnight Lightning Chunky Blend Chalk,4.82,2025-02-10,4.95,Retail,,,False,False,2025-02-10 22:45:26+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-10,20.0,Day Pass,,,False,False,2025-02-10 22:40:00+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-10,26.0,Day Pass,,,False,False,2025-02-10 22:08:46+00:00,Square,2
+Blue,7.949999999999999,0.74,1.0,"Metolius 1/2"" Tape Roll",9.69,2025-02-10,9.95,Retail,,,False,False,2025-02-10 21:30:17+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-10,26.0,Day Pass,,,False,False,2025-02-10 21:25:17+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-02-10,22.0,Day Pass,,,False,False,2025-02-10 21:14:04+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-02-10,22.0,Day Pass,,,False,False,2025-02-10 20:49:15+00:00,Square,1
+8.4fl.oz Sugar Free,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-02-10,3.25,Retail,,,False,False,2025-02-10 17:13:10+00:00,Square,0
+Chunky Blend Chalk - 1.5oz,3.9499999999999993,0.36,0.5,Midnight Lightning Chunky Blend Chalk,4.81,2025-02-10,4.95,Retail,,,False,False,2025-02-10 16:44:28+00:00,Square,0
+Regular,3.2,0.3,0.4,Sticker - Basin Sunset Oval,3.9,2025-02-10,4.0,Retail,,,False,False,2025-02-10 16:44:28+00:00,Square,0
+Regular,12.47,1.54,6.24,Metolius Wildlife Comp Color: Wolf,20.25,2025-02-10,24.95,Retail,,,False,False,2025-02-10 16:43:32+00:00,Square,0
+LV 7/8.5,59.60000000000001,8.6,44.7,SoiLL Street LV (Atlantic Blue),112.9,2025-02-10,149.0,Retail,,,False,False,2025-02-10 16:42:13+00:00,Square,0
+GF 1 oz (Pack of 20)20,0.9100000000000001,0.13,0.69,"Primal Beef Stick,Spicy",1.73,2025-02-10,2.29,Retail,,,False,False,2025-02-10 00:31:47+00:00,Square,0
+RV 6.5/8,59.60000000000001,8.6,44.7,SoiLL Street RV Climbing Shoe,112.9,2025-02-09,149.0,Retail,,,False,False,2025-02-09 23:02:37+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-09,26.0,Day Pass,,,False,False,2025-02-09 22:57:11+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-09,26.0,Day Pass,,,False,False,2025-02-09 22:36:47+00:00,Square,1
+Large,20.0,1.86,2.5,Organic Chalk Bag,24.36,2025-02-09,25.0,Retail,,,False,False,2025-02-09 22:33:38+00:00,Square,0
+Regular,13.590000000000002,1.26,1.7,rungne Magball,16.55,2025-02-09,16.99,Retail,,,False,False,2025-02-09 22:33:38+00:00,Square,0
+Small,28.0,2.6,3.5,Basin Hoodie (Black),34.1,2025-02-09,35.0,Retail,,,False,False,2025-02-09 22:14:14+00:00,Square,0
+Regular,6.3500000000000005,0.59,0.8,Midnight Lightning Liquid Chalk Refillable - 50mL,7.74,2025-02-09,7.95,Retail,,,False,False,2025-02-09 22:14:14+00:00,Square,0
+Fruit Punch,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-09,2.5,Retail,,,False,False,2025-02-09 22:09:02+00:00,Square,0
+Regular,0.5999999999999999,0.09,0.45,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.14,2025-02-09,1.5,Retail,,,False,False,2025-02-09 22:03:36+00:00,Square,0
+Orange,0.9900000000000002,0.14,0.73,Skratch Labs Sport Energy Chews,1.86,2025-02-09,2.45,Retail,,,False,False,2025-02-09 22:03:36+00:00,Square,0
+2.4 Ounce (Pack of 12),2.5,0.21,0.0,ClIF Bars: White Chocolate Macadamia,2.71,2025-02-09,2.5,Retail,,,False,False,2025-02-09 21:47:11+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-09,20.0,Day Pass,,,False,False,2025-02-09 21:02:59+00:00,Square,1
+"CAPITAN: $50 DISCOUNT Birthday Party- Non-Member, ONLINE BOOKING",135.0,11.14,0.0,"CAPITAN: $50 DISCOUNT Birthday Party- Non-Member, ONLINE BOOKING",146.14,2025-02-09,135.0,Event Booking,,,False,False,2025-02-09 20:41:15+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-02-09,22.0,Day Pass,,,False,False,2025-02-09 20:38:54+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),80.0,6.6,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),86.6,2025-02-09,20.0,Day Pass,,,False,False,2025-02-09 20:03:55+00:00,Square,4
+EU 41/US 8.5 (goji/neon),127.19999999999999,11.81,15.9,La Sportiva Mens Kubo Climbing Shoes,154.91,2025-02-09,159.0,Retail,,,False,False,2025-02-09 01:22:33+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-09,20.0,Day Pass,,,False,False,2025-02-09 00:45:46+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-09,20.0,Day Pass,,,False,False,2025-02-09 00:40:53+00:00,Square,2
+Regular,4.5,0.37,0.0,Han's Kombucha - Raspberry Rose,4.87,2025-02-09,4.5,Retail,,,False,False,2025-02-09 00:06:57+00:00,Square,0
+GF 1 oz (Pack of 20)20,2.29,0.19,0.0,"Primal Beef Stick,Spicy",2.48,2025-02-09,2.29,Retail,,,False,False,2025-02-09 00:04:50+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-09,26.0,Day Pass,,,False,False,2025-02-09 00:03:38+00:00,Square,2
+CAPITAN: Youth Day Pass (Under 14y/o),25.6,2.38,3.2,CAPITAN: Youth Day Pass (Under 14y/o),31.18,2025-02-09,16.0,Day Pass,,,False,False,2025-02-09 00:02:50+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-09,26.0,Day Pass,,,False,False,2025-02-09 00:01:19+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 23:59:25+00:00,Square,1
+Regular,2.29,0.19,0.0,Lightly Peppered Turkey Stick,2.48,2025-02-08,2.29,Retail,,,False,False,2025-02-08 23:12:36+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 23:04:48+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),15.399999999999999,1.54,3.3,CAPITAN: Day Pass (Adult 14 and Up),20.24,2025-02-08,22.0,Day Pass,,,False,False,2025-02-08 22:49:23+00:00,Square,1
+Regular,4.5,0.37,0.0,Han's Kombucha - Grapefruit Rosemary,4.87,2025-02-08,4.5,Retail,,,False,False,2025-02-08 22:48:30+00:00,Square,0
+Regular,4.5,0.37,0.0,Han's Kombucha - Pineapple Cactus Nectar,4.87,2025-02-08,4.5,Retail,,,False,False,2025-02-08 22:48:30+00:00,Square,0
+Regular,4.5,0.37,0.0,Han's Kombucha - Raspberry Rose,4.87,2025-02-08,4.5,Retail,,,False,False,2025-02-08 22:48:30+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 22:37:37+00:00,Square,2
+Fruit Punch,2.0,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2025-02-08,2.5,Retail,,,False,False,2025-02-08 22:33:40+00:00,Square,0
+Regular,3.5999999999999996,0.33,0.45,Han's Kombucha - Citrus Vanilla Sage,4.38,2025-02-08,4.5,Retail,,,False,False,2025-02-08 22:33:40+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 22:24:32+00:00,Square,2
+Lemon Lime,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-08,2.5,Retail,,,False,False,2025-02-08 22:06:04+00:00,Square,0
+Chocolate Chip,3.5,0.29,0.0,CLIF Z Bar Chocolate Chip,3.79,2025-02-08,1.75,Retail,,,False,False,2025-02-08 21:50:03+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 21:13:19+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-08,20.0,Day Pass,,,False,False,2025-02-08 21:13:19+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 21:10:24+00:00,Square,1
+extra large (XL),25.0,2.06,0.0,Dark Grey T-Shirt,27.06,2025-02-08,25.0,Retail,,,False,False,2025-02-08 20:39:08+00:00,Square,0
+"CAPITAN: $50 DISCOUNT Birthday Party- Non-Member, ONLINE BOOKING",135.0,11.14,0.0,"CAPITAN: $50 DISCOUNT Birthday Party- Non-Member, ONLINE BOOKING",146.14,2025-02-08,135.0,Event Booking,,,False,False,2025-02-08 20:28:11+00:00,Square,0
+CAPITAN: Birthday Party- additional participant,160.0,13.2,0.0,CAPITAN: Birthday Party- additional participant,173.2,2025-02-08,20.0,Event Booking,,,False,False,2025-02-08 20:28:11+00:00,Square,0
+Fruit Punch,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-08,2.5,Retail,,,False,False,2025-02-08 20:27:20+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),44.0,3.63,0.0,CAPITAN: Day Pass (Adult 14 and Up),47.63,2025-02-08,22.0,Day Pass,,,False,False,2025-02-08 20:22:00+00:00,Square,2
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-02-08,22.0,Day Pass,,,False,False,2025-02-08 20:21:38+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-02-08,22.0,Day Pass,,,False,False,2025-02-08 19:56:28+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 19:49:13+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-02-08,20.0,Day Pass,,,False,False,2025-02-08 19:49:13+00:00,Square,3
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 19:39:33+00:00,Square,1
+Regular,3.5999999999999996,0.34,0.45,Han's Kombucha - Pineapple Cactus Nectar,4.39,2025-02-08,4.5,Retail,,,False,False,2025-02-08 19:21:05+00:00,Square,0
+Citrus,0.9899999999999999,0.09,0.13,Klean Freak Single Sachet,1.21,2025-02-08,1.25,Retail,,,False,False,2025-02-08 19:21:05+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-02-08,22.0,Day Pass,,,False,False,2025-02-08 19:11:38+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 19:04:17+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 18:15:12+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-08,20.0,Day Pass,,,False,False,2025-02-08 18:15:12+00:00,Square,1
+M/L (turquoise),27.99,4.04,20.98,Petzl Corax Climbing Harness Turquoise,53.01,2025-02-08,69.95,Retail,,,False,False,2025-02-08 17:40:22+00:00,Square,0
+3 Pack,39.949999999999996,3.71,5.0,GripSaver Plus 3 pack,48.66,2025-02-08,49.95,Retail,,,False,False,2025-02-08 17:31:03+00:00,Square,0
+Non-GMO),1.75,0.14,0.0,Chum Fruit Snacks Peach,1.89,2025-02-08,1.75,Retail,,,False,False,2025-02-08 16:56:32+00:00,Square,0
+Cool Blue,5.0,0.41,0.0,Gatorade Thirst Quencher Sports Drink 20oz,5.41,2025-02-08,2.5,Retail,,,False,False,2025-02-08 16:56:32+00:00,Square,0
+Raspberries and Lemons,2.99,0.25,0.0,Skratch Labs Anytime Energy Bar,3.24,2025-02-08,2.99,Retail,,,False,False,2025-02-08 16:56:32+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",2.29,0.19,0.0,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.48,2025-02-08,2.29,Retail,,,False,False,2025-02-08 16:56:32+00:00,Square,0
+12 Fl Oz,2.61,0.24,0.32,"Tama Mate, GINGER Mate Sparkling Yerba Mate Tea",3.17,2025-02-08,3.25,Retail,,,False,False,2025-02-08 16:41:12+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 16:15:30+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 16:14:56+00:00,Square,1
+Regular,3.5999999999999996,0.34,0.45,Han's Kombucha - Citrus Vanilla Sage,4.39,2025-02-08,4.5,Retail,,,False,False,2025-02-08 16:07:12+00:00,Square,0
+8.4 oz regular,2.59,0.24,0.33,Red Bull Energy Drink,3.16,2025-02-08,3.25,Retail,,,False,False,2025-02-08 16:07:12+00:00,Square,0
+Cool Blue,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-08,2.5,Retail,,,False,False,2025-02-08 16:04:39+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-08,20.0,Day Pass,,,False,False,2025-02-08 16:01:26+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 15:23:37+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-08,20.0,Day Pass,,,False,False,2025-02-08 15:23:37+00:00,Square,1
+Large,14.0,2.02,10.5,Basin Hoodie (Black),26.52,2025-02-08,35.0,Retail,,,False,False,2025-02-08 15:12:17+00:00,Square,0
+Regular,1.2000000000000002,0.17,0.9,Dr. Pepper,2.27,2025-02-08,3.0,Retail,,,False,False,2025-02-08 03:06:48+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 01:38:28+00:00,Square,1
+Regular,2.61,0.24,0.32,Fairlife Protein Shake Chocolate 11.5fl oz,3.17,2025-02-08,3.25,Retail,,,False,False,2025-02-08 01:09:53+00:00,Square,0
+Regular,3.1900000000000004,0.3,0.4,dripdash kyoto iced coffee,3.89,2025-02-08,3.99,Retail,,,False,False,2025-02-08 01:09:53+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 01:08:14+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-08,26.0,Day Pass,,,False,False,2025-02-08 00:54:45+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-08,20.0,Day Pass,,,False,False,2025-02-08 00:39:38+00:00,Square,2
+Regular,0.5999999999999999,0.09,0.45,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.14,2025-02-07,1.5,Retail,,,False,False,2025-02-07 23:49:38+00:00,Square,0
+Raspberry Energy Chews,0.9900000000000002,0.14,0.73,Skratch Labs Sport Energy Chews,1.86,2025-02-07,2.45,Retail,,,False,False,2025-02-07 23:49:38+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",0.9100000000000001,0.13,0.69,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,1.73,2025-02-07,2.29,Retail,,,False,False,2025-02-07 23:49:38+00:00,Square,0
+CAPITAN: Non-Participant/Spectator Day Pass,5.0,0.41,0.0,CAPITAN: Non-Participant/Spectator Day Pass,5.41,2025-02-07,5.0,Day Pass,,,False,False,2025-02-07 23:04:11+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),80.0,6.6,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),86.6,2025-02-07,20.0,Day Pass,,,False,False,2025-02-07 22:37:26+00:00,Square,4
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-07,20.0,Day Pass,,,False,False,2025-02-07 22:12:31+00:00,Square,1
+Regular,4.0,0.33,0.0,Ozarka Water Bottle 16.9oz,4.33,2025-02-07,2.0,Retail,,,False,False,2025-02-07 20:20:46+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-07,20.0,Day Pass,,,False,False,2025-02-07 19:00:40+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),80.0,6.6,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),86.6,2025-02-07,20.0,Day Pass,,,False,False,2025-02-07 18:23:08+00:00,Square,4
+Basin Sticker (small) 11x3,6.0,0.49,0.0,Basin Sticker,6.49,2025-02-07,6.0,Retail,,,False,False,2025-02-07 02:56:52+00:00,Square,0
+Grip and Extensor Trainer,19.950000000000003,1.65,0.0,GripSaver Plus soft,21.6,2025-02-07,19.95,Retail,,,False,False,2025-02-07 02:56:52+00:00,Square,0
+Basin Sticker (small) 11x3,4.8,0.45,0.6,Basin Sticker,5.85,2025-02-07,6.0,Retail,,,False,False,2025-02-07 02:55:52+00:00,Square,0
+3-Pack Multi One Size,15.200000000000001,1.41,1.9,So Ill Holds Strength Trainer 3pk,18.51,2025-02-07,19.0,Retail,,,False,False,2025-02-07 02:55:52+00:00,Square,0
+8.4fl.oz Sugar Free,3.25,0.27,0.0,Red Bull Energy Drink,3.52,2025-02-07,3.25,Retail,,,False,False,2025-02-07 02:33:53+00:00,Square,0
+Regular,6.8,0.63,0.85,Grangers Odor Eliminator Spray,8.28,2025-02-07,8.5,Retail,,,False,False,2025-02-07 01:52:12+00:00,Square,0
+Fruit Punch,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-07,2.5,Retail,,,False,False,2025-02-07 01:17:06+00:00,Square,0
+Raspberry Energy Chews,0.9900000000000002,0.14,0.73,Skratch Labs Sport Energy Chews,1.86,2025-02-07,2.45,Retail,,,False,False,2025-02-07 01:05:33+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",0.9100000000000001,0.13,0.69,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,1.73,2025-02-07,2.29,Retail,,,False,False,2025-02-07 01:05:33+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-02-07,22.0,Day Pass,,,False,False,2025-02-07 00:58:55+00:00,Square,1
+No Description,17.0,1.4,0.0,No Name,18.4,2025-02-07,17.0,Retail,,,False,False,2025-02-07 00:44:13+00:00,Square,0
+Purified Drinking Water,0.7999999999999999,0.12,0.6,Great Value water,1.52,2025-02-06,2.0,Retail,,,False,False,2025-02-06 20:31:42+00:00,Square,0
+Chunky Blend Chalk - 1.5oz,4.95,0.41,0.0,Midnight Lightning Chunky Blend Chalk,5.36,2025-02-06,4.95,Retail,,,False,False,2025-02-06 19:25:28+00:00,Square,0
+Peanut Butter & Chocolate,1.19,0.17,0.9,Skratch Labs Anytime Energy Bar,2.26,2025-02-06,2.99,Retail,,,False,False,2025-02-06 18:02:40+00:00,Square,0
+Regular,1.2,0.11,0.15,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.46,2025-02-06,1.5,Retail,,,False,False,2025-02-06 17:50:47+00:00,Square,0
+Regular,1.83,0.17,0.23,Cilantro Lime Turkey Stick,2.23,2025-02-06,2.29,Retail,,,False,False,2025-02-06 17:50:47+00:00,Square,0
+Raspberry Energy Chews,1.97,0.18,0.24,Skratch Labs Sport Energy Chews,2.39,2025-02-06,2.45,Retail,,,False,False,2025-02-06 17:50:47+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",1.83,0.17,0.23,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.23,2025-02-06,2.29,Retail,,,False,False,2025-02-06 17:50:47+00:00,Square,0
+1.3 Oz,1.2,0.11,0.15,Bobos Oat Bars Apple Pie Oat Bites,1.46,2025-02-06,1.5,Retail,,,False,False,2025-02-06 17:40:41+00:00,Square,0
+Regular,1.83,0.17,0.23,Cilantro Lime Turkey Stick,2.23,2025-02-06,2.29,Retail,,,False,False,2025-02-06 17:40:41+00:00,Square,0
+GF 1 oz (Pack of 20)20,1.83,0.17,0.23,"Primal Beef Stick,Spicy",2.23,2025-02-06,2.29,Retail,,,False,False,2025-02-06 17:40:41+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-06,26.0,Day Pass,,,False,False,2025-02-06 17:18:52+00:00,Square,1
+Strawberry Lemonade,1.4400000000000002,0.14,0.18,Skratch Labs Sport Hydration Drink Mix,1.76,2025-02-06,1.8,Retail,,,False,False,2025-02-06 13:58:23+00:00,Square,0
+Lemon + Lime,1.4400000000000002,0.13,0.18,Skratch Labs Sport Hydration Drink Mix,1.75,2025-02-06,1.8,Retail,,,False,False,2025-02-06 13:58:23+00:00,Square,0
+RV 13/14.5,65.56,8.85,41.72,SoiLL Street RV Climbing Shoe,116.13,2025-02-06,149.0,Retail,,,False,False,2025-02-06 12:18:05+00:00,Square,0
+Cool Blue,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-06,2.5,Retail,,,False,False,2025-02-06 02:36:47+00:00,Square,0
+12oz regular,4.25,0.35,0.0,Red Bull Energy Drink,4.6,2025-02-06,4.25,Retail,,,False,False,2025-02-06 02:32:56+00:00,Square,0
+6.5,70.32,10.15,52.74,UNPARALLEL FLAGSHIP,133.21,2025-02-06,175.8,Retail,,,False,False,2025-02-06 02:02:20+00:00,Square,0
+11/11.5,70.32,10.15,52.74,UNPARALLEL FLAGSHIP,133.21,2025-02-06,175.8,Retail,,,False,False,2025-02-06 01:48:20+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-06,26.0,Day Pass,,,False,False,2025-02-06 01:30:26+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-02-06,26.0,Day Pass,,,False,False,2025-02-06 01:28:52+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-06,26.0,Day Pass,,,False,False,2025-02-06 01:07:59+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-06,26.0,Day Pass,,,False,False,2025-02-06 01:07:26+00:00,Square,1
+9,117.95,9.73,0.0,UNPARALLEL UP-MOCC,127.68,2025-02-06,117.95,Retail,,,False,False,2025-02-06 00:49:08+00:00,Square,0
+Regular,29.950000000000003,2.47,0.0,Gnarly Dood Joshua Tree Chalk Bucket,32.42,2025-02-06,29.95,Retail,,,False,False,2025-02-06 00:37:05+00:00,Square,0
+12 Fl Oz,2.61,0.24,0.32,"Tama Mate, ROSE Mate Sparkling Yerba Mate Tea",3.17,2025-02-05,3.25,Retail,,,False,False,2025-02-05 23:59:09+00:00,Square,0
+4.5 oz,2.08,0.3,1.56,Pipcorn Non-GMO Jalapeñ̃o Cheddar Cheese Balls,3.94,2025-02-05,5.2,Retail,,,False,False,2025-02-05 23:21:18+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-02-05,20.0,Day Pass,,,False,False,2025-02-05 23:03:32+00:00,Square,3
+3 Pack,49.95,4.12,0.0,GripSaver Plus 3 pack,54.07,2025-02-05,49.95,Retail,,,False,False,2025-02-05 22:25:14+00:00,Square,0
+8.4fl.oz Sugar Free,5.199999999999999,0.48,0.65,Red Bull Energy Drink,6.33,2025-02-05,3.25,Retail,,,False,False,2025-02-05 20:47:04+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",2.29,0.19,0.0,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.48,2025-02-05,2.29,Retail,,,False,False,2025-02-05 18:40:54+00:00,Square,0
+Fruit Punch,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-05,2.5,Retail,,,False,False,2025-02-05 18:19:51+00:00,Square,0
+Raspberry Energy Chews,2.4499999999999997,0.2,0.0,Skratch Labs Sport Energy Chews,2.65,2025-02-05,2.45,Retail,,,False,False,2025-02-05 18:19:51+00:00,Square,0
+"Gluten Free, Non-GMO Heirloom Corn, Non-Artificial, Preservative Free Snacks",1.9100000000000001,0.28,1.42,Heirloom Truffle Mini Popcorn by Pipcorn - 4.5oz,3.61,2025-02-05,4.75,Retail,,,False,False,2025-02-05 16:40:14+00:00,Square,0
+Peanut Butter & Chocolate,1.19,0.17,0.9,Skratch Labs Anytime Energy Bar,2.26,2025-02-05,2.99,Retail,,,False,False,2025-02-05 16:40:14+00:00,Square,0
+Regular,1.29,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2025-02-05,3.25,Retail,,,False,False,2025-02-05 16:17:59+00:00,Square,0
+8.4fl.oz Sugar Free,1.3100000000000003,0.19,0.97,Red Bull Energy Drink,2.47,2025-02-05,3.25,Retail,,,False,False,2025-02-05 16:17:59+00:00,Square,0
+Regular,3.1900000000000004,0.3,0.4,dripdash kyoto iced coffee,3.89,2025-02-05,3.99,Retail,,,False,False,2025-02-05 01:07:44+00:00,Square,0
+4.5 oz,4.16,0.39,0.52,Pipcorn Non-GMO Jalapeñ̃o Cheddar Cheese Balls,5.07,2025-02-05,5.2,Retail,,,False,False,2025-02-05 00:48:17+00:00,Square,0
+Chocolate Chip,1.39,0.13,0.18,CLIF Z Bar Chocolate Chip,1.7,2025-02-05,1.75,Retail,,,False,False,2025-02-05 00:04:51+00:00,Square,0
+(1.2 oz)54,1.4100000000000001,0.13,0.17,CLIF Zbar - Chocolate Brownie,1.71,2025-02-05,1.75,Retail,,,False,False,2025-02-05 00:04:51+00:00,Square,0
+Regular,3.25,0.27,0.0,"Tama Mate, MINT Mate Sparkling Yerba Mate Tea",3.52,2025-02-04,3.25,Retail,,,False,False,2025-02-04 23:38:52+00:00,Square,0
+Chocolate Chip,0.71,0.1,0.52,CLIF Z Bar Chocolate Chip,1.33,2025-02-04,1.75,Retail,,,False,False,2025-02-04 21:55:02+00:00,Square,0
+Regular,0.95,0.14,0.72,Honey Stinger Organic Salted Caramel Flavored Waffle,1.81,2025-02-04,2.39,Retail,,,False,False,2025-02-04 21:55:02+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-04,26.0,Day Pass,,,False,False,2025-02-04 21:18:11+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-04,20.0,Day Pass,,,False,False,2025-02-04 21:12:43+00:00,Square,2
+12oz regular,1.6900000000000002,0.25,1.28,Red Bull Energy Drink,3.22,2025-02-04,4.25,Retail,,,False,False,2025-02-04 18:27:16+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-04,26.0,Day Pass,,,False,False,2025-02-04 16:24:54+00:00,Square,1
+Chunky Blend Chalk - 1.5oz,3.95,0.37,0.5,Midnight Lightning Chunky Blend Chalk,4.82,2025-02-04,4.95,Retail,,,False,False,2025-02-04 02:50:29+00:00,Square,0
+Fruit Punch,2.0,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2025-02-04,2.5,Retail,,,False,False,2025-02-04 00:50:22+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-04,26.0,Day Pass,,,False,False,2025-02-04 00:46:11+00:00,Square,1
+6 oz Competition Quality Chalk Bag,11.99,1.11,1.5,Primo Chalk,14.6,2025-02-04,14.99,programming,,,False,False,2025-02-04 00:25:09+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-04,20.0,Day Pass,,,False,False,2025-02-04 00:22:03+00:00,Square,2
+Regular,1.6,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-02-04,2.0,Retail,,,False,False,2025-02-04 00:13:37+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-03,26.0,Day Pass,,,False,False,2025-02-03 22:58:35+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-03,26.0,Day Pass,,,False,False,2025-02-03 22:55:12+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-02-03,26.0,Day Pass,,,False,False,2025-02-03 22:42:57+00:00,Square,1
+GF 1 oz (Pack of 20)20,3.66,0.34,0.46,"Primal Beef Stick,Spicy",4.46,2025-02-03,2.29,Retail,,,False,False,2025-02-03 22:21:23+00:00,Square,0
+Regular,0.7999999999999999,0.12,0.6,Ozarka Water Bottle 16.9oz,1.52,2025-02-03,2.0,Retail,,,False,False,2025-02-03 22:11:44+00:00,Square,0
+Regular,2.0,0.16,0.0,Ozarka Water Bottle 16.9oz,2.16,2025-02-03,2.0,Retail,,,False,False,2025-02-03 22:09:54+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-03,26.0,Day Pass,,,False,False,2025-02-03 22:08:01+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-03,20.0,Day Pass,,,False,False,2025-02-03 22:08:01+00:00,Square,1
+GF 1 oz (Pack of 20)20,2.29,0.19,0.0,"Primal Beef Stick,Spicy",2.48,2025-02-03,2.29,Retail,,,False,False,2025-02-03 16:02:35+00:00,Square,0
+Orange Mango,2.0,0.19,0.25,BodyArmor 20 oz,2.44,2025-02-03,2.5,Retail,,,False,False,2025-02-03 14:16:36+00:00,Square,0
+Large,28.0,2.6,3.5,Basin Hoodie (Black),34.1,2025-02-03,35.0,Retail,,,False,False,2025-02-03 00:04:05+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 23:18:49+00:00,Square,1
+Regular,7.170000000000001,0.67,0.89,Midnight Lightning Chalktopus,8.73,2025-02-02,8.95,Retail,,,False,False,2025-02-02 23:04:53+00:00,Square,0
+6 oz Competition Quality Chalk Bag,11.99,1.11,1.5,Primo Chalk,14.6,2025-02-02,14.99,programming,,,False,False,2025-02-02 23:04:53+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 22:53:40+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),78.0,6.44,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),84.44,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 22:52:20+00:00,Square,3
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),120.0,9.9,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),129.9,2025-02-02,20.0,Day Pass,,,False,False,2025-02-02 22:52:20+00:00,Square,6
+Regular,3.25,0.27,0.0,Fairlife Protein Shake Chocolate 11.5fl oz,3.52,2025-02-02,3.25,Retail,,,False,False,2025-02-02 22:19:04+00:00,Square,0
+Mess Free Gym Chalk with Easy to Refill Sock,12.99,1.07,0.0,"Friction Labs Magic Pro Chalk Sphere 2.2oz - Premium Moisture-Wicking Chalk Ball for Rock Climbing, Weight Lifting, Gymnastics, & Bowling",14.06,2025-02-02,12.99,Retail,,,False,False,2025-02-02 22:19:04+00:00,Square,0
+Regular,24.950000000000003,2.06,0.0,Metolius Wildlife Comp Color: Cougar,27.01,2025-02-02,24.95,Retail,,,False,False,2025-02-02 22:19:04+00:00,Square,0
+Fruit Punch,2.0,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2025-02-02,2.5,Retail,,,False,False,2025-02-02 22:09:58+00:00,Square,0
+CAPITAN: Youth Day Pass (Under 14y/o),16.0,1.32,0.0,CAPITAN: Youth Day Pass (Under 14y/o),17.32,2025-02-02,16.0,Day Pass,,,False,False,2025-02-02 22:01:16+00:00,Square,1
+Green,7.949999999999999,0.74,1.0,"Metolius 1/2"" Tape Roll",9.69,2025-02-02,9.95,Retail,,,False,False,2025-02-02 21:58:13+00:00,Square,0
+Chocolate Chip,2.0,0.19,0.25,Clif Chocolate Chip Energy Bar,2.44,2025-02-02,2.5,Retail,,,False,False,2025-02-02 21:45:29+00:00,Square,0
+One Size,7.949999999999999,0.74,1.0,Metolius Climbing Tape Roll White,9.69,2025-02-02,9.95,Retail,,,False,False,2025-02-02 21:45:29+00:00,Square,0
+12 Fl Oz,2.61,0.24,0.32,"Tama Mate, ROSE Mate Sparkling Yerba Mate Tea",3.17,2025-02-02,3.25,Retail,,,False,False,2025-02-02 21:45:29+00:00,Square,0
+Lemon Lime,4.0,0.37,0.5,Gatorade Thirst Quencher Sports Drink 20oz,4.87,2025-02-02,2.5,Retail,,,False,False,2025-02-02 21:36:41+00:00,Square,0
+Fruit Punch,2.0,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2025-02-02,2.5,Retail,,,False,False,2025-02-02 21:36:41+00:00,Square,0
+Small,35.0,2.89,0.0,Basin Hoodie (Black),37.89,2025-02-02,35.0,Retail,,,False,False,2025-02-02 21:31:56+00:00,Square,0
+8.4fl.oz Sugar Free,2.61,0.24,0.32,Red Bull Energy Drink,3.17,2025-02-02,3.25,Retail,,,False,False,2025-02-02 21:24:48+00:00,Square,0
+12oz regular,3.3899999999999997,0.32,0.43,Red Bull Energy Drink,4.14,2025-02-02,4.25,Retail,,,False,False,2025-02-02 21:24:48+00:00,Square,0
+Regular,1.5,0.12,0.0,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.62,2025-02-02,1.5,Retail,,,False,False,2025-02-02 21:15:51+00:00,Square,0
+"Kosher (2.4 Ounce Protein Bar, 1 Count) Packaging May Vary",2.5,0.21,0.0,CLIF Bar - Energy Bar - Peanut Butter Banana with Dark Chocolate - Made with Organic Oats - Plant Based Food - Vegetarian,2.71,2025-02-02,2.5,Retail,,,False,False,2025-02-02 21:15:51+00:00,Square,0
+Regular,1.8000000000000003,0.26,1.35,Han's Kombucha - Grapefruit Rosemary,3.41,2025-02-02,4.5,Retail,,,False,False,2025-02-02 21:10:16+00:00,Square,0
+Fruit Punch,2.5,0.2,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.7,2025-02-02,2.5,Retail,,,False,False,2025-02-02 21:05:02+00:00,Square,0
+Lemon Lime,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-02,2.5,Retail,,,False,False,2025-02-02 21:05:02+00:00,Square,0
+Fruit Punch,2.5,0.21,0.0,BodyArmor 20 oz,2.71,2025-02-02,2.5,Retail,,,False,False,2025-02-02 21:01:53+00:00,Square,0
+12oz regular,4.25,0.35,0.0,Red Bull Energy Drink,4.6,2025-02-02,4.25,Retail,,,False,False,2025-02-02 21:01:53+00:00,Square,0
+Lemon Lime,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-02,2.5,Retail,,,False,False,2025-02-02 20:58:55+00:00,Square,0
+12oz regular,4.25,0.35,0.0,Red Bull Energy Drink,4.6,2025-02-02,4.25,Retail,,,False,False,2025-02-02 20:58:55+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 20:35:19+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-02-02,20.0,Day Pass,,,False,False,2025-02-02 20:35:19+00:00,Square,3
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 20:32:33+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-02,20.0,Day Pass,,,False,False,2025-02-02 20:32:33+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 20:31:04+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 20:27:29+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 20:25:18+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-02,20.0,Day Pass,,,False,False,2025-02-02 20:14:02+00:00,Square,2
+12oz regular,4.25,0.35,0.0,Red Bull Energy Drink,4.6,2025-02-02,4.25,Retail,,,False,False,2025-02-02 20:11:31+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 20:09:49+00:00,Square,2
+"Gluten Free, Non-GMO Heirloom Corn, Non-Artificial, Preservative Free Snacks",3.7900000000000005,0.35,0.48,Heirloom Truffle Mini Popcorn by Pipcorn - 4.5oz,4.62,2025-02-02,4.75,Retail,,,False,False,2025-02-02 03:00:53+00:00,Square,0
+Regular,1.6,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-02-02,2.0,Retail,,,False,False,2025-02-02 02:39:47+00:00,Square,0
+Lemon Lime,2.0,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2025-02-02,2.5,Retail,,,False,False,2025-02-02 01:45:05+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-02-02,26.0,Day Pass,,,False,False,2025-02-02 01:15:32+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-02,20.0,Day Pass,,,False,False,2025-02-02 01:15:32+00:00,Square,1
+"CAPITAN: $50 DISCOUNT Birthday Party- Non-Member, ONLINE BOOKING",135.0,11.14,0.0,"CAPITAN: $50 DISCOUNT Birthday Party- Non-Member, ONLINE BOOKING",146.14,2025-02-02,135.0,Event Booking,,,False,False,2025-02-02 01:03:55+00:00,Square,0
+Fruit Punch,1.0,0.14,0.75,Gatorade Thirst Quencher Sports Drink 20oz,1.89,2025-02-02,2.5,Retail,,,False,False,2025-02-02 00:17:38+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-01,26.0,Day Pass,,,False,False,2025-02-01 23:48:18+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-01,26.0,Day Pass,,,False,False,2025-02-01 21:41:15+00:00,Square,1
+CAPITAN: Gear Upgrade,12.0,0.99,0.0,CAPITAN: Gear Upgrade,12.99,2025-02-01,4.0,Day Pass,,,False,False,2025-02-01 21:39:22+00:00,Square,3
+Regular,3.5999999999999996,0.33,0.45,Han's Kombucha - Citrus Vanilla Sage,4.38,2025-02-01,4.5,Retail,,,False,False,2025-02-01 21:35:57+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-01,26.0,Day Pass,,,False,False,2025-02-01 21:21:48+00:00,Square,2
+CAPITAN: Youth Day Pass (Under 14y/o),48.0,3.96,0.0,CAPITAN: Youth Day Pass (Under 14y/o),51.96,2025-02-01,16.0,Day Pass,,,False,False,2025-02-01 21:17:50+00:00,Square,3
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,2.14,26.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-02-01,26.0,Day Pass,,,False,False,2025-02-01 21:02:57+00:00,Square,1
+Regular,4.0,0.33,0.0,Ozarka Water Bottle 16.9oz,4.33,2025-02-01,2.0,Retail,,,False,False,2025-02-01 20:46:05+00:00,Square,0
+"CAPITAN: $50 DISCOUNT Birthday Party- Non-Member, ONLINE BOOKING",135.0,11.14,0.0,"CAPITAN: $50 DISCOUNT Birthday Party- Non-Member, ONLINE BOOKING",146.14,2025-02-01,135.0,Event Booking,,,False,False,2025-02-01 20:33:33+00:00,Square,0
+CAPITAN: Birthday Party- additional participant,80.0,6.6,0.0,CAPITAN: Birthday Party- additional participant,86.6,2025-02-01,20.0,Event Booking,,,False,False,2025-02-01 20:33:33+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-01,20.0,Day Pass,,,False,False,2025-02-01 20:04:26+00:00,Square,1
+Orange Mango,2.5,0.21,0.0,BodyArmor 20 oz,2.71,2025-02-01,2.5,Retail,,,False,False,2025-02-01 20:03:37+00:00,Square,0
+Fruit Punch,7.499999999999999,0.61,0.0,BodyArmor 20 oz,8.11,2025-02-01,2.5,Retail,,,False,False,2025-02-01 20:03:37+00:00,Square,0
+Regular,8.0,0.66,0.0,Ozarka Water Bottle 16.9oz,8.66,2025-02-01,2.0,Retail,,,False,False,2025-02-01 20:03:37+00:00,Square,0
+Max,32.9,2.71,0.0,8bplus Character Chalk Bag,35.61,2025-02-01,32.9,Retail,,,False,False,2025-02-01 20:00:22+00:00,Square,0
+6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2025-02-01,14.99,programming,,,False,False,2025-02-01 20:00:22+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",2.29,0.19,0.0,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.48,2025-02-01,2.29,Retail,,,False,False,2025-02-01 19:48:45+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-01,20.0,Day Pass,,,False,False,2025-02-01 19:41:46+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),0.0,1.65,20.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-01,20.0,Day Pass,,,False,False,2025-02-01 19:37:27+00:00,Square,1
+Regular,2.61,0.24,0.32,Fairlife Protein Shake Chocolate 11.5fl oz,3.17,2025-02-01,3.25,Retail,,,False,False,2025-02-01 19:26:50+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),100.0,8.25,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),108.25,2025-02-01,20.0,Day Pass,,,False,False,2025-02-01 19:23:55+00:00,Square,5
+Orange Mango,2.5,0.21,0.0,BodyArmor 20 oz,2.71,2025-02-01,2.5,Retail,,,False,False,2025-02-01 19:01:14+00:00,Square,0
+Regular,2.0,0.16,0.0,Ozarka Water Bottle 16.9oz,2.16,2025-02-01,2.0,Retail,,,False,False,2025-02-01 19:01:14+00:00,Square,0
+12oz regular,4.25,0.35,0.0,Red Bull Energy Drink,4.6,2025-02-01,4.25,Retail,,,False,False,2025-02-01 19:01:14+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-02-01,26.0,Day Pass,,,False,False,2025-02-01 17:43:34+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-01,20.0,Day Pass,,,False,False,2025-02-01 17:43:34+00:00,Square,1
+Regular,6.5,0.53,0.0,Fairlife Protein Shake Chocolate 11.5fl oz,7.03,2025-02-01,3.25,Retail,,,False,False,2025-02-01 17:28:39+00:00,Square,0
+Cool Blue,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-01,2.5,Retail,,,False,False,2025-02-01 17:28:39+00:00,Square,0
+Lemon Lime,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-02-01,2.5,Retail,,,False,False,2025-02-01 17:16:36+00:00,Square,0
+Cool Blue,2.5,0.2,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.7,2025-02-01,2.5,Retail,,,False,False,2025-02-01 17:16:36+00:00,Square,0
+8.4fl.oz Sugar Free,3.25,0.27,0.0,Red Bull Energy Drink,3.52,2025-02-01,3.25,Retail,,,False,False,2025-02-01 17:16:36+00:00,Square,0
+CAPITAN: Non-Participant/Spectator Day Pass,5.0,0.41,0.0,CAPITAN: Non-Participant/Spectator Day Pass,5.41,2025-02-01,5.0,Day Pass,,,False,False,2025-02-01 16:44:42+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-01,20.0,Day Pass,,,False,False,2025-02-01 16:44:42+00:00,Square,2
+Lemon Lime,0.0,0.1,1.25,Gatorade Thirst Quencher Sports Drink 20oz,1.35,2025-02-01,2.5,Retail,,,False,False,2025-02-01 16:32:34+00:00,Square,0
+Orange,0.0,0.1,1.25,Gatorade Thirst Quencher Sports Drink 20oz,1.35,2025-02-01,2.5,Retail,,,False,False,2025-02-01 16:32:34+00:00,Square,0
+Cool Blue,0.0,0.11,1.25,Gatorade Thirst Quencher Sports Drink 20oz,1.36,2025-02-01,2.5,Retail,,,False,False,2025-02-01 16:32:34+00:00,Square,0
+Extra Large,14.0,2.02,10.5,Basin Hoodie (Black),26.52,2025-02-01,35.0,Retail,,,False,False,2025-02-01 16:23:12+00:00,Square,0
+Regular,7.510000000000001,1.09,5.64,Basin Water Bottle,14.24,2025-02-01,18.79,Retail,,,False,False,2025-02-01 16:23:12+00:00,Square,0
+Regular,1.5999999999999999,0.23,1.2,Sticker - Basin Sunset Rectangular,3.03,2025-02-01,4.0,Retail,,,False,False,2025-02-01 16:23:12+00:00,Square,0
+CAPITAN: 5 Climb Punch Pass,89.99,7.42,0.0,CAPITAN: 5 Climb Punch Pass,97.41,2025-02-01,89.99,Day Pass,,,False,False,2025-02-01 16:19:10+00:00,Square,1
+CAPITAN: Non-Participant/Spectator Day Pass,5.0,0.41,0.0,CAPITAN: Non-Participant/Spectator Day Pass,5.41,2025-02-01,5.0,Day Pass,,,False,False,2025-02-01 16:10:59+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-02-01,20.0,Day Pass,,,False,False,2025-02-01 16:10:59+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-02-01,26.0,Day Pass,,,False,False,2025-02-01 16:05:48+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-02-01,20.0,Day Pass,,,False,False,2025-02-01 16:05:48+00:00,Square,2
+Fruit Punch,2.0,0.19,0.25,BodyArmor 20 oz,2.44,2025-02-01,2.5,Retail,,,False,False,2025-02-01 02:03:12+00:00,Square,0
+Fruit Punch,2.0,0.19,0.25,BodyArmor 20 oz,2.44,2025-02-01,2.5,Retail,,,False,False,2025-02-01 01:59:35+00:00,Square,0
+Regular,0.5999999999999999,0.09,0.45,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.14,2025-02-01,1.5,Retail,,,False,False,2025-02-01 01:53:31+00:00,Square,0
+Regular,0.9100000000000001,0.13,0.69,Lightly Peppered Turkey Stick,1.73,2025-02-01,2.29,Retail,,,False,False,2025-02-01 01:53:31+00:00,Square,0
+Raspberry Energy Chews,0.9900000000000002,0.14,0.73,Skratch Labs Sport Energy Chews,1.86,2025-02-01,2.45,Retail,,,False,False,2025-02-01 01:53:31+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",0.9100000000000001,0.13,0.69,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,1.73,2025-02-01,2.29,Retail,,,False,False,2025-02-01 01:42:51+00:00,Square,0
+8.4fl.oz Sugar Free,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-02-01,3.25,Retail,,,False,False,2025-02-01 00:23:59+00:00,Square,0
+Regular,1.6,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-01-31,2.0,Retail,,,False,False,2025-01-31 23:35:16+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-01-31,22.0,Day Pass,,,False,False,2025-01-31 22:50:30+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-31,26.0,Day Pass,,,False,False,2025-01-31 22:50:30+00:00,Square,1
+8.4fl.oz Sugar Free,3.25,0.27,0.0,Red Bull Energy Drink,3.52,2025-01-31,3.25,Retail,,,False,False,2025-01-31 22:50:30+00:00,Square,0
+Regular,1.29,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2025-01-31,3.25,Retail,,,False,False,2025-01-31 22:47:28+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),0.0,0.91,11.0,CAPITAN: Day Pass (Adult 14 and Up),11.91,2025-01-31,22.0,Day Pass,,,False,False,2025-01-31 22:27:01+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),0.0,0.91,11.0,CAPITAN: Day Pass (Adult 14 and Up),11.91,2025-01-31,22.0,Day Pass,,,False,False,2025-01-31 22:25:36+00:00,Square,1
+Fruit Punch,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-01-31,2.5,Retail,,,False,False,2025-01-31 22:15:57+00:00,Square,0
+Orange,2.4499999999999997,0.2,0.0,Skratch Labs Sport Energy Chews,2.65,2025-01-31,2.45,Retail,,,False,False,2025-01-31 22:15:57+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-01-31,26.0,Day Pass,,,False,False,2025-01-31 21:48:33+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-31,20.0,Day Pass,,,False,False,2025-01-31 21:48:33+00:00,Square,1
+Chunky Blend Chalk - 1.5oz,1.9899999999999998,0.29,1.48,Midnight Lightning Chunky Blend Chalk,3.76,2025-01-31,4.95,Retail,,,False,False,2025-01-31 16:16:23+00:00,Square,0
+8.4fl.oz Sugar Free,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-01-31,3.25,Retail,,,False,False,2025-01-31 14:45:05+00:00,Square,0
+8.4fl.oz Sugar Free,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-01-31,3.25,Retail,,,False,False,2025-01-31 02:53:56+00:00,Square,0
+12oz regular,3.4100000000000006,0.32,0.42,Red Bull Energy Drink,4.15,2025-01-31,4.25,Retail,,,False,False,2025-01-31 02:42:24+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-01-31,26.0,Day Pass,,,False,False,2025-01-31 02:14:09+00:00,Square,1
+Fruit Punch,2.5,0.21,0.0,BodyArmor 20 oz,2.71,2025-01-31,2.5,Retail,,,False,False,2025-01-31 02:11:45+00:00,Square,0
+EU 39.5/US 7/8 (Black/Poppy),39.599999999999994,5.72,29.7,La Sportiva Men's Tarantula Climbing Shoe,75.02,2025-01-31,99.0,Retail,,,False,False,2025-01-31 01:40:02+00:00,Square,0
+Regular,1.8000000000000003,0.26,1.35,Han's Kombucha - Pineapple Cactus Nectar,3.41,2025-01-31,4.5,Retail,,,False,False,2025-01-31 01:07:36+00:00,Square,0
+CAPITAN: ONLINE 90 day discounted day pass (promo),14.999999999999998,1.24,0.0,CAPITAN: ONLINE 90 day discounted day pass (promo),16.24,2025-01-31,15.0,Day Pass,,,False,False,2025-01-31 00:44:46+00:00,Square,1
+CAPITAN: ONLINE 90 day discounted day pass (promo),14.999999999999998,1.24,0.0,CAPITAN: ONLINE 90 day discounted day pass (promo),16.24,2025-01-31,15.0,Day Pass,,,False,False,2025-01-31 00:44:00+00:00,Square,1
+CAPITAN: ONLINE 90 day discounted day pass (promo),14.999999999999998,1.24,0.0,CAPITAN: ONLINE 90 day discounted day pass (promo),16.24,2025-01-31,15.0,Day Pass,,,False,False,2025-01-31 00:25:46+00:00,Square,1
+CAPITAN: ONLINE 90 day discounted day pass (promo),14.999999999999998,1.24,0.0,CAPITAN: ONLINE 90 day discounted day pass (promo),16.24,2025-01-31,15.0,Day Pass,,,False,False,2025-01-31 00:24:09+00:00,Square,1
+CAPITAN: ONLINE 90 day discounted day pass (promo),14.999999999999998,1.24,0.0,CAPITAN: ONLINE 90 day discounted day pass (promo),16.24,2025-01-31,15.0,Day Pass,,,False,False,2025-01-31 00:22:04+00:00,Square,1
+CAPITAN: ONLINE 90 day discounted day pass (promo),14.999999999999998,1.24,0.0,CAPITAN: ONLINE 90 day discounted day pass (promo),16.24,2025-01-31,15.0,Day Pass,,,False,False,2025-01-31 00:21:30+00:00,Square,1
+CAPITAN: ONLINE 90 day discounted day pass (promo),14.999999999999998,1.24,0.0,CAPITAN: ONLINE 90 day discounted day pass (promo),16.24,2025-01-31,15.0,Day Pass,,,False,False,2025-01-31 00:17:54+00:00,Square,1
+CAPITAN: PJ PASS!,14.999999999999998,1.24,0.0,CAPITAN: PJ PASS!,16.24,2025-01-31,15.0,Day Pass,,,False,False,2025-01-31 00:05:55+00:00,Square,1
+CAPITAN: ONLINE 90 day discounted day pass (promo),14.999999999999998,1.24,0.0,CAPITAN: ONLINE 90 day discounted day pass (promo),16.24,2025-01-30,15.0,Day Pass,,,False,False,2025-01-30 23:52:39+00:00,Square,1
+CAPITAN: ONLINE 90 day discounted day pass (promo),14.999999999999998,1.24,0.0,CAPITAN: ONLINE 90 day discounted day pass (promo),16.24,2025-01-30,15.0,Day Pass,,,False,False,2025-01-30 23:52:02+00:00,Square,1
+Regular,3.1900000000000004,0.3,0.4,dripdash kyoto iced coffee,3.89,2025-01-30,3.99,Retail,,,False,False,2025-01-30 23:43:40+00:00,Square,0
+Regular,1.1099999999999999,0.16,0.82,Vita Coco Coconut Water 11.1oz,2.09,2025-01-30,2.75,Retail,,,False,False,2025-01-30 22:45:46+00:00,Square,0
+2.5 oz,9.99,0.82,0.0,Friction Labs Unicorn Dust,10.81,2025-01-30,9.99,Retail,,,False,False,2025-01-30 22:38:57+00:00,Square,0
+Regular,0.95,0.14,0.72,Honey Stinger Organic Salted Caramel Flavored Waffle,1.81,2025-01-30,2.39,Retail,,,False,False,2025-01-30 22:37:24+00:00,Square,0
+Peanut Butter & Chocolate,1.21,0.17,0.89,Skratch Labs Anytime Energy Bar,2.27,2025-01-30,2.99,Retail,,,False,False,2025-01-30 22:37:24+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-30,20.0,Day Pass,,,False,False,2025-01-30 21:48:51+00:00,Square,2
+Lemon Lime,2.5,0.21,0.0,Gatorade Zero Sugar Thirst Quencher 20oz,2.71,2025-01-30,2.5,Retail,,,False,False,2025-01-30 18:53:59+00:00,Square,0
+Regular,1.8000000000000003,0.26,1.35,Han's Kombucha - Pineapple Cactus Nectar,3.41,2025-01-30,4.5,Retail,,,False,False,2025-01-30 18:15:22+00:00,Square,0
+6 oz Competition Quality Chalk Bag,14.99,1.24,0.0,Primo Chalk,16.23,2025-01-30,14.99,programming,,,False,False,2025-01-30 17:19:50+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-30,20.0,Day Pass,,,False,False,2025-01-30 16:05:39+00:00,Square,2
+Regular,1.59,0.23,1.2,dripdash lavender maple oatmilk latte,3.02,2025-01-30,3.99,Retail,,,False,False,2025-01-30 14:15:53+00:00,Square,0
+8.4fl.oz Sugar Free,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-01-30,3.25,Retail,,,False,False,2025-01-30 14:12:41+00:00,Square,0
+12oz regular,3.4100000000000006,0.32,0.42,Red Bull Energy Drink,4.15,2025-01-30,4.25,Retail,,,False,False,2025-01-30 02:27:26+00:00,Square,0
+Regular,20.95,1.73,0.0,Gnaly Dood Yosemite Chalk Bag,22.68,2025-01-30,20.95,Retail,,,False,False,2025-01-30 02:26:03+00:00,Square,0
+Chunky Blend Chalk - 1.5oz,4.95,0.41,0.0,Midnight Lightning Chunky Blend Chalk,5.36,2025-01-30,4.95,Retail,,,False,False,2025-01-30 02:26:03+00:00,Square,0
+Regular,24.950000000000003,2.06,0.0,Petzl Verso Lightweight Belay Device (gray),27.01,2025-01-30,24.95,Retail,,,False,False,2025-01-30 02:13:17+00:00,Square,0
+Regular,1.2,0.11,0.15,Bobo's Peanut Butter & Jelly Stuff'd Oat Bites,1.46,2025-01-30,1.5,Retail,,,False,False,2025-01-30 02:01:45+00:00,Square,0
+Regular,1.83,0.17,0.23,Cilantro Lime Turkey Stick,2.23,2025-01-30,2.29,Retail,,,False,False,2025-01-30 02:01:45+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",1.83,0.17,0.23,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.23,2025-01-30,2.29,Retail,,,False,False,2025-01-30 02:01:45+00:00,Square,0
+Cool Blue,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-01-30,2.5,Retail,,,False,False,2025-01-30 01:11:42+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-30,26.0,Day Pass,,,False,False,2025-01-30 00:22:37+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-01-30,26.0,Day Pass,,,False,False,2025-01-30 00:19:37+00:00,Square,2
+CAPITAN: Day Pass (Adult 14 and Up),44.0,3.63,0.0,CAPITAN: Day Pass (Adult 14 and Up),47.63,2025-01-30,22.0,Day Pass,,,False,False,2025-01-30 00:16:43+00:00,Square,2
+CAPITAN: Day Pass (Adult 14 and Up),44.0,3.63,0.0,CAPITAN: Day Pass (Adult 14 and Up),47.63,2025-01-30,22.0,Day Pass,,,False,False,2025-01-30 00:15:31+00:00,Square,2
+12 Fl Oz,2.61,0.24,0.32,"Tama Mate, GINGER Mate Sparkling Yerba Mate Tea",3.17,2025-01-29,3.25,Retail,,,False,False,2025-01-29 23:47:38+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),44.0,3.63,0.0,CAPITAN: Day Pass (Adult 14 and Up),47.63,2025-01-29,22.0,Day Pass,,,False,False,2025-01-29 22:41:13+00:00,Square,2
+4.5oz,5.2,0.43,0.0,Pipcorn Cheddar Cheese Balls,5.63,2025-01-29,5.2,Retail,,,False,False,2025-01-29 19:55:20+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",2.29,0.19,0.0,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.48,2025-01-29,2.29,Retail,,,False,False,2025-01-29 19:55:20+00:00,Square,0
+8.4fl.oz Sugar Free,1.3100000000000003,0.19,0.97,Red Bull Energy Drink,2.47,2025-01-29,3.25,Retail,,,False,False,2025-01-29 19:52:44+00:00,Square,0
+12oz regular,1.6899999999999997,0.24,1.28,Red Bull Energy Drink,3.21,2025-01-29,4.25,Retail,,,False,False,2025-01-29 19:52:44+00:00,Square,0
+"Gluten Free, Non-GMO Heirloom Corn, Non-Artificial, Preservative Free Snacks",1.9100000000000001,0.27,1.42,Heirloom Truffle Mini Popcorn by Pipcorn - 4.5oz,3.6,2025-01-29,4.75,Retail,,,False,False,2025-01-29 19:46:02+00:00,Square,0
+Regular,15.030000000000001,1.4,1.88,Basin Water Bottle,18.31,2025-01-29,18.79,Retail,,,False,False,2025-01-29 19:43:32+00:00,Square,0
+Regular,1.9199999999999997,0.28,1.43,Honey Stinger Organic Salted Caramel Flavored Waffle,3.63,2025-01-29,2.39,Retail,,,False,False,2025-01-29 16:23:55+00:00,Square,0
+JTree Mini Climber Salve,7.1899999999999995,0.67,0.9,Joshua Tree Organic Climbing Salve,8.76,2025-01-29,8.99,Retail,,,False,False,2025-01-29 02:37:01+00:00,Square,0
+Regular,1.6,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-01-29,2.0,Retail,,,False,False,2025-01-29 02:37:01+00:00,Square,0
+Regular,6.8,0.63,0.85,Grangers Odor Eliminator Spray,8.28,2025-01-29,8.5,Retail,,,False,False,2025-01-29 02:21:33+00:00,Square,0
+2.5 oz,7.99,0.74,1.0,Friction Labs Unicorn Dust,9.73,2025-01-29,9.99,Retail,,,False,False,2025-01-29 02:14:13+00:00,Square,0
+Chunky Blend Chalk - 1.5oz,3.9699999999999998,0.37,0.49,Midnight Lightning Chunky Blend Chalk,4.83,2025-01-29,4.95,Retail,,,False,False,2025-01-29 02:14:13+00:00,Square,0
+L (violet),67.95,6.31,8.5,Petzl Women's Selena Climbing Harness,82.76,2025-01-29,84.95,Retail,,,False,False,2025-01-29 02:14:13+00:00,Square,0
+RV 10.5/12,84.5,10.46,42.25,SoiLL Stay Climbing Shoe,137.21,2025-01-29,169.0,Retail,,,False,False,2025-01-29 02:06:29+00:00,Square,0
+Regular,1.83,0.17,0.23,Cilantro Lime Turkey Stick,2.23,2025-01-29,2.29,Retail,,,False,False,2025-01-29 00:26:50+00:00,Square,0
+Regular,1.83,0.17,0.23,Lightly Peppered Meat Sticks Free-Range Turkey,2.23,2025-01-29,2.29,Retail,,,False,False,2025-01-29 00:26:50+00:00,Square,0
+Regular,3.1900000000000004,0.3,0.4,dripdash kyoto iced coffee,3.89,2025-01-29,3.99,Retail,,,False,False,2025-01-29 00:26:50+00:00,Square,0
+12oz regular,1.6900000000000002,0.25,1.28,Red Bull Energy Drink,3.22,2025-01-28,4.25,Retail,,,False,False,2025-01-28 23:25:59+00:00,Square,0
+Regular,1.6,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-01-28,2.0,Retail,,,False,False,2025-01-28 23:25:23+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-01-28,26.0,Day Pass,,,False,False,2025-01-28 22:04:49+00:00,Square,2
+Regular,4.78,0.39,0.0,Honey Stinger Organic Salted Caramel Flavored Waffle,5.17,2025-01-28,2.39,Retail,,,False,False,2025-01-28 20:40:38+00:00,Square,0
+GF 1 oz (Pack of 20)20,0.9100000000000001,0.13,0.69,"Primal Beef Stick,Spicy",1.73,2025-01-28,2.29,Retail,,,False,False,2025-01-28 20:16:18+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-28,20.0,Day Pass,,,False,False,2025-01-28 19:17:32+00:00,Square,2
+Strawberry Banana,2.0,0.18,0.25,BodyArmor 20 oz,2.43,2025-01-28,2.5,Retail,,,False,False,2025-01-28 02:58:10+00:00,Square,0
+Regular,2.61,0.24,0.32,Fairlife Protein Shake Chocolate 11.5fl oz,3.17,2025-01-28,3.25,Retail,,,False,False,2025-01-28 02:58:10+00:00,Square,0
+Regular,3.1900000000000004,0.3,0.4,dripdash lavender maple oatmilk latte,3.89,2025-01-28,3.99,Retail,,,False,False,2025-01-28 02:58:10+00:00,Square,0
+12oz regular,3.4100000000000006,0.32,0.42,Red Bull Energy Drink,4.15,2025-01-28,4.25,Retail,,,False,False,2025-01-28 02:39:00+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-01-28,22.0,Day Pass,,,False,False,2025-01-28 00:46:15+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-01-28,22.0,Day Pass,,,False,False,2025-01-28 00:45:02+00:00,Square,1
+8.4fl.oz Sugar Free,2.61,0.24,0.32,Red Bull Energy Drink,3.17,2025-01-28,3.25,Retail,,,False,False,2025-01-28 00:23:51+00:00,Square,0
+Peanut Butter & Chocolate,2.39,0.22,0.3,Skratch Labs Anytime Energy Bar,2.91,2025-01-28,2.99,Retail,,,False,False,2025-01-28 00:05:50+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-27,26.0,Day Pass,,,False,False,2025-01-27 23:52:08+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-27,26.0,Day Pass,,,False,False,2025-01-27 23:51:19+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-27,26.0,Day Pass,,,False,False,2025-01-27 23:49:41+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),8.800000000000002,1.27,6.6,CAPITAN: Day Pass (Adult 14 and Up),16.67,2025-01-27,22.0,Day Pass,,,False,False,2025-01-27 22:28:55+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-01-27,22.0,Day Pass,,,False,False,2025-01-27 22:16:45+00:00,Square,1
+12oz regular,1.6900000000000002,0.25,1.28,Red Bull Energy Drink,3.22,2025-01-27,4.25,Retail,,,False,False,2025-01-27 20:50:46+00:00,Square,0
+1.3 Oz,1.5,0.12,0.0,Bobos Oat Bars Apple Pie Oat Bites,1.62,2025-01-27,1.5,Retail,,,False,False,2025-01-27 19:13:10+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-27,26.0,Day Pass,,,False,False,2025-01-27 18:57:00+00:00,Square,1
+Regular,4.0,0.33,0.0,Sticker - Basin Sunset Oval,4.33,2025-01-27,4.0,Retail,,,False,False,2025-01-27 01:59:15+00:00,Square,0
+Regular,4.0,0.33,0.0,Sticker - Basin Sunset Rectangular,4.33,2025-01-27,4.0,Retail,,,False,False,2025-01-27 01:59:15+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-01-27,26.0,Day Pass,,,False,False,2025-01-27 01:46:34+00:00,Square,2
+Regular,8.95,0.74,0.0,Metolius Finger Tape 1/2 Roll gold,9.69,2025-01-27,8.95,Retail,,,False,False,2025-01-27 00:35:57+00:00,Square,0
+Regular,2.3899999999999997,0.2,0.0,Honey Stinger Gluten Free Organic Waffle: Cinnamon,2.59,2025-01-26,2.39,Retail,,,False,False,2025-01-26 23:48:15+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-26,26.0,Day Pass,,,False,False,2025-01-26 23:46:53+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-26,26.0,Day Pass,,,False,False,2025-01-26 23:44:36+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-26,26.0,Day Pass,,,False,False,2025-01-26 23:44:03+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 23:38:16+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-26,26.0,Day Pass,,,False,False,2025-01-26 23:37:25+00:00,Square,1
+Regular,8.95,0.74,0.0,Midnight Lightning Chalktopus,9.69,2025-01-26,8.95,Retail,,,False,False,2025-01-26 23:37:25+00:00,Square,0
+Strawberry Banana,2.0,0.19,0.25,BodyArmor 20 oz,2.44,2025-01-26,2.5,Retail,,,False,False,2025-01-26 22:42:11+00:00,Square,0
+(1.2 oz)54,1.75,0.14,0.0,CLIF Zbar - Chocolate Brownie,1.89,2025-01-26,1.75,Retail,,,False,False,2025-01-26 22:30:27+00:00,Square,0
+Regular,2.3899999999999997,0.2,0.0,Honey Stinger Organic Salted Caramel Flavored Waffle,2.59,2025-01-26,2.39,Retail,,,False,False,2025-01-26 22:30:27+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 22:19:56+00:00,Square,1
+Strawberry Banana,2.5,0.2,0.0,BodyArmor 20 oz,2.7,2025-01-26,2.5,Retail,,,False,False,2025-01-26 22:02:07+00:00,Square,0
+Chunky Blend Chalk - 1.5oz,4.95,0.41,0.0,Midnight Lightning Chunky Blend Chalk,5.36,2025-01-26,4.95,Retail,,,False,False,2025-01-26 22:02:07+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 21:51:30+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 21:44:01+00:00,Square,1
+CAPITAN: Youth Day Pass (Under 14y/o),14.0,1.15,0.0,CAPITAN: Youth Day Pass (Under 14y/o),15.15,2025-01-26,14.0,Day Pass,,,False,False,2025-01-26 21:44:01+00:00,Square,1
+No Description,700.0,57.75,0.0,No Name,757.75,2025-01-26,700.0,Retail,,,False,False,2025-01-26 21:25:38+00:00,Square,0
+No Description,900.0,74.25,0.0,No Name,974.25,2025-01-26,900.0,Retail,,,False,False,2025-01-26 21:24:50+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 21:23:45+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-01-26,26.0,Day Pass,,,False,False,2025-01-26 21:03:02+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 21:03:02+00:00,Square,1
+CAPITAN: Birthday Party- additional participant,49.81999999999999,5.36,15.09,CAPITAN: Birthday Party- additional participant,70.27,2025-01-26,20.0,Event Booking,,,False,False,2025-01-26 20:40:44+00:00,Square,0
+CAPITAN: Birthday Party- non-member,115.18,12.38,34.91,CAPITAN: Birthday Party- non-member,162.47,2025-01-26,185.0,Event Booking,,,False,False,2025-01-26 20:40:44+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 20:10:22+00:00,Square,1
+Regular,2.0,0.17,0.0,Ozarka Water Bottle 16.9oz,2.17,2025-01-26,2.0,Retail,,,False,False,2025-01-26 20:10:22+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 20:08:29+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-01-26,26.0,Day Pass,,,False,False,2025-01-26 20:06:28+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),40.0,3.3,0.0,CAPITAN: Day Pass (Adult 14 and Up),43.3,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 20:02:46+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 20:02:46+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 19:57:21+00:00,Square,1
+CAPITAN: Non-Participant/Spectator Day Pass,5.0,0.41,0.0,CAPITAN: Non-Participant/Spectator Day Pass,5.41,2025-01-26,5.0,Day Pass,,,False,False,2025-01-26 01:59:35+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-26,26.0,Day Pass,,,False,False,2025-01-26 01:58:46+00:00,Square,1
+CAPITAN: Birthday Party- Member,125.0,10.31,0.0,CAPITAN: Birthday Party- Member,135.31,2025-01-26,125.0,Event Booking,,,False,False,2025-01-26 01:13:31+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 00:37:02+00:00,Square,2
+Regular,1.5,0.12,0.0,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.62,2025-01-26,1.5,Retail,,,False,False,2025-01-26 00:35:11+00:00,Square,0
+Regular,1.5,0.12,0.0,Bobo's Peanut Butter & Jelly Stuff'd Oat Bites,1.62,2025-01-26,1.5,Retail,,,False,False,2025-01-26 00:35:11+00:00,Square,0
+1.3 Oz,1.5,0.13,0.0,Bobos Oat Bars Apple Pie Oat Bites,1.63,2025-01-26,1.5,Retail,,,False,False,2025-01-26 00:35:11+00:00,Square,0
+Fruit Punch,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-01-26,2.5,Retail,,,False,False,2025-01-26 00:35:11+00:00,Square,0
+Regular,4.5,0.37,0.0,Han's Kombucha - Citrus Vanilla Sage,4.87,2025-01-26,4.5,Retail,,,False,False,2025-01-26 00:35:11+00:00,Square,0
+Regular,1.5,0.12,0.0,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.62,2025-01-26,1.5,Retail,,,False,False,2025-01-26 00:33:48+00:00,Square,0
+Regular,1.5,0.12,0.0,Bobo's Peanut Butter & Jelly Stuff'd Oat Bites,1.62,2025-01-26,1.5,Retail,,,False,False,2025-01-26 00:33:48+00:00,Square,0
+1.3 Oz,1.5,0.12,0.0,Bobos Oat Bars Apple Pie Oat Bites,1.62,2025-01-26,1.5,Retail,,,False,False,2025-01-26 00:33:48+00:00,Square,0
+JTree Mini Climber Salve,8.99,0.75,0.0,Joshua Tree Organic Climbing Salve,9.74,2025-01-26,8.99,Retail,,,False,False,2025-01-26 00:33:48+00:00,Square,0
+Regular,3.0,0.25,0.0,Bites Strawberry 1.3 oz by Bobos Oat Bars,3.25,2025-01-26,1.5,Retail,,,False,False,2025-01-26 00:33:12+00:00,Square,0
+Regular,3.0,0.25,0.0,Bobo's Peanut Butter & Jelly Stuff'd Oat Bites,3.25,2025-01-26,1.5,Retail,,,False,False,2025-01-26 00:33:12+00:00,Square,0
+1.3 Oz,1.5,0.12,0.0,Bobos Oat Bars Apple Pie Oat Bites,1.62,2025-01-26,1.5,Retail,,,False,False,2025-01-26 00:33:12+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),0.0,0.82,10.0,CAPITAN: Day Pass (Adult 14 and Up),10.82,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 00:31:12+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),0.0,0.82,10.0,CAPITAN: Day Pass (Adult 14 and Up),10.82,2025-01-26,20.0,Day Pass,,,False,False,2025-01-26 00:28:38+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-01-26,26.0,Day Pass,,,False,False,2025-01-26 00:25:10+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-01-26,26.0,Day Pass,,,False,False,2025-01-26 00:23:49+00:00,Square,1
+Regular,2.75,0.23,0.0,Vita Coco Coconut Water 11.1oz,2.98,2025-01-26,2.75,Retail,,,False,False,2025-01-26 00:16:24+00:00,Square,0
+Regular,3.99,0.33,0.0,dripdash black sesame oat milk latte,4.32,2025-01-26,3.99,Retail,,,False,False,2025-01-26 00:12:02+00:00,Square,0
+Regular,3.99,0.33,0.0,dripdash lavender maple oatmilk latte,4.32,2025-01-26,3.99,Retail,,,False,False,2025-01-26 00:12:02+00:00,Square,0
+Regular,1.8000000000000003,0.26,1.35,Han's Kombucha - Pineapple Cactus Nectar,3.41,2025-01-26,4.5,Retail,,,False,False,2025-01-26 00:09:06+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 23:53:13+00:00,Square,1
+4.5oz,5.2,0.43,0.0,Pipcorn Cheddar Cheese Balls,5.63,2025-01-25,5.2,Retail,,,False,False,2025-01-25 23:52:24+00:00,Square,0
+One Size,7.949999999999999,0.74,1.0,Metolius Climbing Tape Roll White,9.69,2025-01-25,9.95,Retail,,,False,False,2025-01-25 23:45:29+00:00,Square,0
+EU 40/US 7.5/8.5,127.19999999999999,11.81,15.9,La Sportiva Womens Kubo Climbing Shoes,154.91,2025-01-25,159.0,Retail,,,False,False,2025-01-25 23:41:07+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 23:31:51+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-25,26.0,Day Pass,,,False,False,2025-01-25 23:29:43+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),80.0,6.6,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),86.6,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 23:29:43+00:00,Square,4
+CAPITAN: Day Pass (Adult 14 and Up),0.0,1.65,20.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 22:56:13+00:00,Square,1
+12oz regular,4.25,0.35,0.0,Red Bull Energy Drink,4.6,2025-01-25,4.25,Retail,,,False,False,2025-01-25 21:47:20+00:00,Square,0
+Strawberry Banana,7.499999999999999,0.62,0.0,BodyArmor 20 oz,8.12,2025-01-25,2.5,Retail,,,False,False,2025-01-25 21:33:30+00:00,Square,0
+Fruit Punch,2.5,0.2,0.0,BodyArmor 20 oz,2.7,2025-01-25,2.5,Retail,,,False,False,2025-01-25 21:33:30+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 21:16:08+00:00,Square,1
+8.4fl.oz Sugar Free,3.25,0.27,0.0,Red Bull Energy Drink,3.52,2025-01-25,3.25,Retail,,,False,False,2025-01-25 21:10:59+00:00,Square,0
+No Description,17.0,1.4,0.0,No Name,18.4,2025-01-25,17.0,Retail,,,False,False,2025-01-25 20:57:20+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 20:50:51+00:00,Square,1
+CAPITAN: Birthday Party- Member,125.0,10.31,0.0,CAPITAN: Birthday Party- Member,135.31,2025-01-25,125.0,Event Booking,,,False,False,2025-01-25 20:44:48+00:00,Square,0
+CAPITAN: Birthday Party- additional participant,80.0,6.6,0.0,CAPITAN: Birthday Party- additional participant,86.6,2025-01-25,20.0,Event Booking,,,False,False,2025-01-25 20:44:48+00:00,Square,0
+Strawberry Banana,2.5,0.21,0.0,BodyArmor 20 oz,2.71,2025-01-25,2.5,Retail,,,False,False,2025-01-25 20:43:59+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 20:42:37+00:00,Square,2
+8.4fl.oz Sugar Free,2.61,0.24,0.32,Red Bull Energy Drink,3.17,2025-01-25,3.25,Retail,,,False,False,2025-01-25 20:39:10+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 20:34:44+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 20:16:53+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 20:16:14+00:00,Square,3
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 19:32:31+00:00,Square,2
+Regular,2.3899999999999997,0.2,0.0,Honey Stinger Cookies and Creme Waffle,2.59,2025-01-25,2.39,Retail,,,False,False,2025-01-25 19:31:27+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",2.29,0.19,0.0,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.48,2025-01-25,2.29,Retail,,,False,False,2025-01-25 19:31:02+00:00,Square,0
+Regular,2.3899999999999997,0.2,0.0,Honey Stinger Gluten Free Organic Waffle: Cinnamon,2.59,2025-01-25,2.39,Retail,,,False,False,2025-01-25 19:08:30+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-01-25,26.0,Day Pass,,,False,False,2025-01-25 19:03:00+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 19:03:00+00:00,Square,1
+Fruit Punch,5.0,0.41,0.0,BodyArmor 20 oz,5.41,2025-01-25,2.5,Retail,,,False,False,2025-01-25 18:58:13+00:00,Square,0
+Regular,4.5,0.37,0.0,Han's Kombucha - Grapefruit Rosemary,4.87,2025-01-25,4.5,Retail,,,False,False,2025-01-25 18:58:13+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 18:31:49+00:00,Square,2
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-01-25,26.0,Day Pass,,,False,False,2025-01-25 18:28:40+00:00,Square,2
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 17:14:57+00:00,Square,2
+Regular,22.23,2.06,2.78,Beanie (Grey),27.07,2025-01-25,27.79,Retail,,,False,False,2025-01-25 17:09:41+00:00,Square,0
+Regular,20.77,1.93,2.59,Midnight Lightning Liquid Chalk Refill - 300mL,25.29,2025-01-25,25.95,Retail,,,False,False,2025-01-25 17:09:41+00:00,Square,0
+6 oz Competition Quality Chalk Bag,11.99,1.11,1.5,Primo Chalk,14.6,2025-01-25,14.99,programming,,,False,False,2025-01-25 16:33:47+00:00,Square,0
+8.4fl.oz Sugar Free,2.61,0.24,0.32,Red Bull Energy Drink,3.17,2025-01-25,3.25,Retail,,,False,False,2025-01-25 16:33:47+00:00,Square,0
+Regular,1.2,0.11,0.15,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.46,2025-01-25,1.5,Retail,,,False,False,2025-01-25 16:31:43+00:00,Square,0
+Regular,3.5999999999999996,0.34,0.45,Han's Kombucha - Grapefruit Rosemary,4.39,2025-01-25,4.5,Retail,,,False,False,2025-01-25 16:31:43+00:00,Square,0
+Cool Blue,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-01-25,2.5,Retail,,,False,False,2025-01-25 16:05:44+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-01-25,26.0,Day Pass,,,False,False,2025-01-25 15:02:43+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 15:02:43+00:00,Square,1
+"Kosher (2.4 Ounce Protein Bar, 1 Count) Packaging May Vary",2.0,0.19,0.25,CLIF Bar - Energy Bar - Peanut Butter Banana with Dark Chocolate - Made with Organic Oats - Plant Based Food - Vegetarian,2.44,2025-01-25,2.5,Retail,,,False,False,2025-01-25 02:55:13+00:00,Square,0
+Regular,30.349999999999998,2.82,3.8,Elderid HMS Bulletproof Triple FG Carabiner (Silver),36.97,2025-01-25,37.95,Retail,,,False,False,2025-01-25 02:55:13+00:00,Square,0
+Regular,27.97,2.59,3.49,Petzl Reverso Multi-Purpose Belay Device (red/orange),34.05,2025-01-25,34.95,Retail,,,False,False,2025-01-25 02:55:13+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-25,26.0,Day Pass,,,False,False,2025-01-25 00:35:17+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-01-25,20.0,Day Pass,,,False,False,2025-01-25 00:24:57+00:00,Square,3
+CAPITAN: Top Rope Belay Class - 90-min Belay Class,12.0,1.11,1.5,CAPITAN: Top Rope Belay Class - 90-min Belay Class,14.61,2025-01-25,15.0,programming,,,False,False,2025-01-25 00:19:34+00:00,Square,0
+"Gluten Free, Non-GMO Heirloom Corn, Non-Artificial, Preservative Free Snacks",3.7900000000000005,0.35,0.48,Heirloom Truffle Mini Popcorn by Pipcorn - 4.5oz,4.62,2025-01-25,4.75,Retail,,,False,False,2025-01-25 00:10:33+00:00,Square,0
+4.5oz,4.16,0.39,0.52,Pipcorn Cheddar Cheese Balls,5.07,2025-01-25,5.2,Retail,,,False,False,2025-01-25 00:10:33+00:00,Square,0
+4.5 oz,4.16,0.39,0.52,Pipcorn Non-GMO Jalapeñ̃o Cheddar Cheese Balls,5.07,2025-01-25,5.2,Retail,,,False,False,2025-01-25 00:01:36+00:00,Square,0
+12 Fl Oz,2.61,0.24,0.32,"Tama Mate, ROSE Mate Sparkling Yerba Mate Tea",3.17,2025-01-24,3.25,Retail,,,False,False,2025-01-24 23:52:16+00:00,Square,0
+Regular,2.61,0.24,0.32,"Tama Mate, MINT Mate Sparkling Yerba Mate Tea",3.17,2025-01-24,3.25,Retail,,,False,False,2025-01-24 23:44:33+00:00,Square,0
+CAPITAN: Non-Participant/Spectator Day Pass,5.0,0.41,0.0,CAPITAN: Non-Participant/Spectator Day Pass,5.41,2025-01-24,5.0,Day Pass,,,False,False,2025-01-24 23:32:55+00:00,Square,1
+CAPITAN: 5 Climb Punch Pass,89.99,7.42,0.0,CAPITAN: 5 Climb Punch Pass,97.41,2025-01-24,89.99,Day Pass,,,False,False,2025-01-24 23:32:02+00:00,Square,1
+Regular,3.25,0.27,0.0,Fairlife Protein Shake Chocolate 11.5fl oz,3.52,2025-01-24,3.25,Retail,,,False,False,2025-01-24 23:12:31+00:00,Square,0
+Regular,3.99,0.33,0.0,dripdash kyoto iced coffee,4.32,2025-01-24,3.99,Retail,,,False,False,2025-01-24 23:12:31+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-01-24,26.0,Day Pass,,,False,False,2025-01-24 21:56:51+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),0.0,1.65,20.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-24,20.0,Day Pass,,,False,False,2025-01-24 21:56:51+00:00,Square,1
+Regular,2.0999999999999996,0.21,0.45,Bites Strawberry 1.3 oz by Bobos Oat Bars,2.76,2025-01-24,1.5,Retail,,,False,False,2025-01-24 21:28:59+00:00,Square,0
+1.3 Oz,1.0599999999999998,0.11,0.22,Bobos Oat Bars Apple Pie Oat Bites,1.39,2025-01-24,1.5,Retail,,,False,False,2025-01-24 21:28:59+00:00,Square,0
+Regular,1.2300000000000002,0.12,0.26,CHUM Fruit Strawberry Bites Snacks,1.61,2025-01-24,1.75,Retail,,,False,False,2025-01-24 21:28:59+00:00,Square,0
+Regular,1.5900000000000003,0.16,0.35,Lightly Peppered Turkey Stick,2.1,2025-01-24,2.29,Retail,,,False,False,2025-01-24 21:28:59+00:00,Square,0
+Raspberry Energy Chews,1.71,0.17,0.37,Skratch Labs Sport Energy Chews,2.25,2025-01-24,2.45,Retail,,,False,False,2025-01-24 21:28:59+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",1.6099999999999999,0.16,0.34,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.11,2025-01-24,2.29,Retail,,,False,False,2025-01-24 21:28:59+00:00,Square,0
+Small,14.0,2.02,10.5,Basin Hoodie (Black),26.52,2025-01-24,35.0,Retail,,,False,False,2025-01-24 21:10:04+00:00,Square,0
+Chocolate Chip,2.5,0.21,0.0,Clif Chocolate Chip Energy Bar,2.71,2025-01-24,2.5,Retail,,,False,False,2025-01-24 21:08:18+00:00,Square,0
+12 Fl Oz,3.25,0.26,0.0,"Tama Mate, ROSE Mate Sparkling Yerba Mate Tea",3.51,2025-01-24,3.25,Retail,,,False,False,2025-01-24 21:08:18+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",2.29,0.19,0.0,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.48,2025-01-24,2.29,Retail,,,False,False,2025-01-24 21:08:18+00:00,Square,0
+Regular,1.2,0.11,0.15,Bites Strawberry 1.3 oz by Bobos Oat Bars,1.46,2025-01-24,1.5,Retail,,,False,False,2025-01-24 20:48:37+00:00,Square,0
+Orange Mango,2.0,0.19,0.25,BodyArmor 20 oz,2.44,2025-01-24,2.5,Retail,,,False,False,2025-01-24 20:48:37+00:00,Square,0
+Regular,1.83,0.17,0.23,Lightly Peppered Turkey Stick,2.23,2025-01-24,2.29,Retail,,,False,False,2025-01-24 20:48:37+00:00,Square,0
+Regular,1.6,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-01-24,2.0,Retail,,,False,False,2025-01-24 20:48:37+00:00,Square,0
+Raspberry Energy Chews,1.97,0.18,0.24,Skratch Labs Sport Energy Chews,2.39,2025-01-24,2.45,Retail,,,False,False,2025-01-24 20:48:37+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",3.66,0.34,0.46,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,4.46,2025-01-24,2.29,Retail,,,False,False,2025-01-24 20:48:37+00:00,Square,0
+Chocolate Chip,2.5,0.21,0.0,Clif Chocolate Chip Energy Bar,2.71,2025-01-24,2.5,Retail,,,False,False,2025-01-24 20:40:58+00:00,Square,0
+12oz regular,1.6900000000000002,0.25,1.28,Red Bull Energy Drink,3.22,2025-01-24,4.25,Retail,,,False,False,2025-01-24 19:33:23+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),0.0,0.82,10.0,CAPITAN: Day Pass (Adult 14 and Up),10.82,2025-01-24,20.0,Day Pass,,,False,False,2025-01-24 19:24:32+00:00,Square,1
+Regular,4.0,0.33,0.0,Ozarka Water Bottle 16.9oz,4.33,2025-01-24,2.0,Retail,,,False,False,2025-01-24 19:13:35+00:00,Square,0
+Regular,3.25,0.27,0.0,"Tama Mate, MINT Mate Sparkling Yerba Mate Tea",3.52,2025-01-24,3.25,Retail,,,False,False,2025-01-24 17:56:31+00:00,Square,0
+Regular,2.8699999999999997,0.41,2.15,Honey Stinger Organic Salted Caramel Flavored Waffle,5.43,2025-01-24,2.39,Retail,,,False,False,2025-01-24 16:51:40+00:00,Square,0
+8.4fl.oz Sugar Free,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-01-24,3.25,Retail,,,False,False,2025-01-24 14:19:23+00:00,Square,0
+Chocolate Chip,2.0,0.19,0.25,Clif Chocolate Chip Energy Bar,2.44,2025-01-24,2.5,Retail,,,False,False,2025-01-24 02:28:37+00:00,Square,0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",1.83,0.17,0.23,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,2.23,2025-01-24,2.29,Retail,,,False,False,2025-01-24 02:28:37+00:00,Square,0
+12oz regular,3.4100000000000006,0.32,0.42,Red Bull Energy Drink,4.15,2025-01-24,4.25,Retail,,,False,False,2025-01-24 02:17:02+00:00,Square,0
+Regular,3.5999999999999996,0.33,0.45,Han's Kombucha - Pineapple Cactus Nectar,4.38,2025-01-24,4.5,Retail,,,False,False,2025-01-24 01:53:48+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-01-24,26.0,Day Pass,,,False,False,2025-01-24 01:07:43+00:00,Square,2
+Small,35.0,2.89,0.0,Basin Hoodie (Black),37.89,2025-01-24,35.0,Retail,,,False,False,2025-01-24 00:24:41+00:00,Square,0
+GF 1 oz (Pack of 20)20,0.9100000000000001,0.13,0.69,"Primal Beef Stick,Spicy",1.73,2025-01-24,2.29,Retail,,,False,False,2025-01-24 00:04:50+00:00,Square,0
+Regular,2.0,0.16,0.0,Ozarka Water Bottle 16.9oz,2.16,2025-01-24,2.0,Retail,,,False,False,2025-01-24 00:01:42+00:00,Square,0
+Strawberry Banana,2.5,0.21,0.0,BodyArmor 20 oz,2.71,2025-01-23,2.5,Retail,,,False,False,2025-01-23 23:44:57+00:00,Square,0
+Regular,1.75,0.14,0.0,CHUM Fruit Strawberry Bites Snacks,1.89,2025-01-23,1.75,Retail,,,False,False,2025-01-23 23:14:33+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-23,20.0,Day Pass,,,False,False,2025-01-23 23:13:12+00:00,Square,2
+No Description,144.0,11.88,0.0,No Name,155.88,2025-01-23,144.0,Retail,,,False,False,2025-01-23 23:10:44+00:00,Square,0
+Chocolate Chip,3.5,0.29,0.0,CLIF Z Bar Chocolate Chip,3.79,2025-01-23,1.75,Retail,,,False,False,2025-01-23 22:10:18+00:00,Square,0
+(1.2 oz)54,1.75,0.14,0.0,CLIF Zbar - Chocolate Brownie,1.89,2025-01-23,1.75,Retail,,,False,False,2025-01-23 22:10:18+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-23,26.0,Day Pass,,,False,False,2025-01-23 21:22:50+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-23,20.0,Day Pass,,,False,False,2025-01-23 21:22:50+00:00,Square,2
+Regular,1.29,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2025-01-23,3.25,Retail,,,False,False,2025-01-23 20:37:34+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-23,26.0,Day Pass,,,False,False,2025-01-23 20:22:55+00:00,Square,1
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-01-23,20.0,Day Pass,,,False,False,2025-01-23 20:22:55+00:00,Square,2
+8.4fl.oz Sugar Free,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-01-23,3.25,Retail,,,False,False,2025-01-23 17:42:38+00:00,Square,0
+"Gluten Free, Non-GMO Heirloom Corn, Non-Artificial, Preservative Free Snacks",1.9100000000000001,0.27,1.42,Heirloom Truffle Mini Popcorn by Pipcorn - 4.5oz,3.6,2025-01-23,4.75,Retail,,,False,False,2025-01-23 16:59:24+00:00,Square,0
+Regular,1.83,0.17,0.23,Cilantro Lime Turkey Stick,2.23,2025-01-23,2.29,Retail,,,False,False,2025-01-23 15:16:21+00:00,Square,0
+Gold,7.949999999999999,0.74,1.0,"Metolius 1/2"" Tape Roll",9.69,2025-01-23,9.95,Retail,,,False,False,2025-01-23 01:01:16+00:00,Square,0
+Regular,1.29,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2025-01-23,3.25,Retail,,,False,False,2025-01-23 00:39:19+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-23,20.0,Day Pass,,,False,False,2025-01-23 00:27:02+00:00,Square,1
+CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2025-01-23,20.0,Day Pass,,,False,False,2025-01-23 00:24:04+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-01-23,26.0,Day Pass,,,False,False,2025-01-23 00:23:31+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-01-23,26.0,Day Pass,,,False,False,2025-01-23 00:23:08+00:00,Square,2
+Regular,1.59,0.23,1.2,dripdash black sesame oat milk latte,3.02,2025-01-23,3.99,Retail,,,False,False,2025-01-23 00:19:53+00:00,Square,0
+Cool Blue,1.0,0.14,0.75,Gatorade Thirst Quencher Sports Drink 20oz,1.89,2025-01-23,2.5,Retail,,,False,False,2025-01-23 00:06:34+00:00,Square,0
+Regular,3.8200000000000007,0.35,0.48,Honey Stinger Cookies and Creme Waffle,4.65,2025-01-22,2.39,Retail,,,False,False,2025-01-22 23:55:57+00:00,Square,0
+Regular,1.29,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2025-01-22,3.25,Retail,,,False,False,2025-01-22 23:53:06+00:00,Square,0
+12 Fl Oz,2.61,0.24,0.32,"Tama Mate, GINGER Mate Sparkling Yerba Mate Tea",3.17,2025-01-22,3.25,Retail,,,False,False,2025-01-22 23:43:05+00:00,Square,0
+No Description,17.0,1.4,0.0,No Name,18.4,2025-01-22,17.0,Retail,,,False,False,2025-01-22 23:37:55+00:00,Square,0
+Regular,19.19,1.78,2.4,rungne Magdust,23.37,2025-01-22,23.99,Retail,,,False,False,2025-01-22 23:04:10+00:00,Square,0
+Mess Free Gym Chalk with Easy to Refill Sock,12.99,1.07,0.0,"Friction Labs Magic Pro Chalk Sphere 2.2oz - Premium Moisture-Wicking Chalk Ball for Rock Climbing, Weight Lifting, Gymnastics, & Bowling",14.06,2025-01-22,12.99,Retail,,,False,False,2025-01-22 22:45:28+00:00,Square,0
+No Description,17.0,1.4,0.0,No Name,18.4,2025-01-22,17.0,Retail,,,False,False,2025-01-22 22:15:23+00:00,Square,0
+1lb Bag loose chalk,18.889999999999997,1.89,4.05,Primo Chalk,24.83,2025-01-22,26.99,Retail,,,False,False,2025-01-22 21:47:12+00:00,Square,0
+Eden Green,31.5,3.16,6.75,So Ill Tyvek Rolldown Chalk Bucket,41.41,2025-01-22,45.0,Retail,,,False,False,2025-01-22 21:47:12+00:00,Square,0
+RV 11/12.5,118.30000000000001,11.85,25.35,SoiLL Stay Climbing Shoe,155.5,2025-01-22,169.0,Retail,,,False,False,2025-01-22 21:47:12+00:00,Square,0
+Regular,1.8000000000000003,0.26,1.35,Han's Kombucha - Raspberry Rose,3.41,2025-01-22,4.5,Retail,,,False,False,2025-01-22 20:17:34+00:00,Square,0
+12oz regular,3.4100000000000006,0.32,0.42,Red Bull Energy Drink,4.15,2025-01-22,4.25,Retail,,,False,False,2025-01-22 01:44:28+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),0.0,0.82,10.0,CAPITAN: Day Pass (Adult 14 and Up),10.82,2025-01-22,20.0,Day Pass,,,False,False,2025-01-22 01:25:05+00:00,Square,1
+Regular,2.61,0.24,0.32,Fairlife Protein Shake Chocolate 11.5fl oz,3.17,2025-01-22,3.25,Retail,,,False,False,2025-01-22 00:25:35+00:00,Square,0
+Regular,1.6,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-01-21,2.0,Retail,,,False,False,2025-01-21 23:37:26+00:00,Square,0
+Regular,1.6,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-01-21,2.0,Retail,,,False,False,2025-01-21 23:04:36+00:00,Square,0
+12oz regular,1.6900000000000002,0.25,1.28,Red Bull Energy Drink,3.22,2025-01-21,4.25,Retail,,,False,False,2025-01-21 21:23:34+00:00,Square,0
+Regular,3.1900000000000004,0.3,0.4,dripdash kyoto iced coffee,3.89,2025-01-21,3.99,Retail,,,False,False,2025-01-21 17:10:18+00:00,Square,0
+8.4fl.oz Sugar Free,1.29,0.19,0.98,Red Bull Energy Drink,2.46,2025-01-21,3.25,Retail,,,False,False,2025-01-21 17:08:15+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-01-21,26.0,Day Pass,,,False,False,2025-01-21 00:45:00+00:00,Square,1
+CAPITAN: Day Pass with Gear (Adult 14 and Up),0.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-01-21,26.0,Day Pass,,,False,False,2025-01-21 00:44:17+00:00,Square,1
+Regular,6.4,0.59,0.8,SoiLL Boar Hair Brush 3.0,7.79,2025-01-21,8.0,Retail,,,False,False,2025-01-21 00:23:27+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-01-21,20.0,Day Pass,,,False,False,2025-01-21 00:03:49+00:00,Square,3
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-01-21,20.0,Day Pass,,,False,False,2025-01-21 00:02:25+00:00,Square,3
+Strawberry Banana,2.5,0.21,0.0,BodyArmor 20 oz,2.71,2025-01-20,2.5,Retail,,,False,False,2025-01-20 23:33:35+00:00,Square,0
+1lb Bag loose chalk,21.59,2.0,2.7,Primo Chalk,26.29,2025-01-20,26.99,Retail,,,False,False,2025-01-20 23:33:35+00:00,Square,0
+Regular,2.61,0.24,0.32,"Tama Mate, MINT Mate Sparkling Yerba Mate Tea",3.17,2025-01-20,3.25,Retail,,,False,False,2025-01-20 23:30:37+00:00,Square,0
 Regular,1.6,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-01-20,2.0,Retail,,,False,False,2025-01-20 22:17:04+00:00,Square,0
 CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-01-20,20.0,Day Pass,,,False,False,2025-01-20 22:01:41+00:00,Square,1
 Regular,2.0,0.17,0.0,Ozarka Water Bottle 16.9oz,2.17,2025-01-20,2.0,Retail,,,False,False,2025-01-20 22:01:41+00:00,Square,0
