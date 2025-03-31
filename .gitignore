@@ -70,4 +70,4 @@ pytest_cache/
 # Temporary files
 *.tmp
 *.temp
-*.log
+*.log.DS_Store
