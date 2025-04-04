@@ -44,6 +44,18 @@ class MembershipProjectionCalculator:
             'WKL': 'weekly'
         }
         
+        # Handle prepaid memberships with empty interval
+        interval = membership_data['interval']
+        if not interval and not membership_data['is_recurring']:
+            if membership_data.get('duration_months') == 3:
+                frequency = 'prepaid_3mo'
+            elif membership_data.get('duration_months') == 6:
+                frequency = 'prepaid_6mo'
+            else:
+                frequency = 'unknown'
+        else:
+            frequency = frequency_map.get(interval, 'unknown')
+        
         # Type categorization based on name
         name = membership_data['name'].lower()
         if 'solo' in name:
@@ -63,7 +75,7 @@ class MembershipProjectionCalculator:
         )
         
         return {
-            'frequency': frequency_map.get(membership_data['interval'], 'unknown'),
+            'frequency': frequency,
             'type': membership_type,
             'has_fitness': has_fitness
         }
@@ -142,7 +154,15 @@ class pullCapitanMembershipData:
         all_projections = {}
         membership_summary = {
             'total_memberships': 0,
-            'by_frequency': {'bi_weekly': 0, 'monthly': 0, 'yearly': 0, 'unknown': 0},
+            'by_frequency': {
+                'bi_weekly': 0,
+                'monthly': 0,
+                'yearly': 0,
+                'weekly': 0,
+                'prepaid_3mo': 0,
+                'prepaid_6mo': 0,
+                'unknown': 0
+            },
             'by_type': {'solo': 0, 'duo': 0, 'family': 0, 'other': 0},
             'with_fitness': 0
         }
@@ -289,6 +309,8 @@ if __name__ == "__main__":
         
         # Save to CSV
         df = pd.DataFrame(csv_data)
-        csv_filename = f"data/membership_projections_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+        csv_filename = f"data/outputs/membership_projections_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+        csv_filename_rewrite = "data/outputs/membership_projections.csv"
         df.to_csv(csv_filename, index=False)
+        df.to_csv(csv_filename_rewrite, index=False)
         print(f"\nProjections saved to {csv_filename}")

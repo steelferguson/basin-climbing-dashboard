@@ -4,7 +4,9 @@ from dash import html, dcc, dash_table, Input, Output
 import plotly.express as px
 from pullSquareAndStripeData import pullSquareAndStripeData as squareAndStripe
 from pullDataFromCapitan import pullDataFromCapitan as capitan
+from projections.membership_projections import pullCapitanMembershipData
 import pandas as pd
+from datetime import datetime, timedelta
 
 # Get the transformed data from Capitan
 df = capitan.pull_and_transform_payment_data()
@@ -18,6 +20,24 @@ df = df[df['created_at'] >= '2023-08-01']
 df_combined = squareAndStripe.pull_and_transform_square_and_stripe_data()
 df_combined['Date'] = pd.to_datetime(df_combined['Date'], errors='coerce', utc=True)
 df_combined = df_combined[df_combined['Date'] >= '2023-08-01']
+
+# Get membership projections
+projections, membership_summary = pullCapitanMembershipData.create_comprehensive_projection()
+
+# Convert projections to DataFrame for easier manipulation
+projection_rows = []
+for date, charges in projections.items():
+    for charge in charges:
+        projection_rows.append({
+            'date': pd.to_datetime(date),
+            'amount': charge['amount'],
+            'customer': charge['customer'],
+            'frequency': charge['categories']['frequency'],
+            'type': charge['categories']['type'],
+            'has_fitness': charge['categories']['has_fitness']
+        })
+
+df_projections = pd.DataFrame(projection_rows)
 
 # Define the layout and callbacks for the app here
 def create_dashboard(app):
@@ -48,10 +68,6 @@ def create_dashboard(app):
         dcc.Graph(id='square-stripe-revenue-chart'),
         dcc.Graph(id='square-stripe-revenue-stacked-chart'),
 
-        # CAPITAN Revenue by Event Sub-Category section
-        html.H1(children='CAPITAN Revenue by Sub-Category'),
-        dcc.Graph(id='capitan-revenue-sub-category-chart'),
-
         # Total Revenue chart section
         html.H1(children='Total Revenue Over Time'),
         dcc.Graph(id='total-revenue-chart'),
@@ -64,6 +80,7 @@ def create_dashboard(app):
         html.H1(children='Day Pass Count'),
         dcc.Graph(id='day-pass-count-chart'),  
         
+        # Membership Count chart section
         html.H1(children='Membership Count by Frequency and Size'),
         dcc.Checklist(
             id='membership-frequency-toggle',
@@ -76,40 +93,11 @@ def create_dashboard(app):
             inline=True
         ),
         dcc.Graph(id='membership-metrics-stacked-chart'),
+        
+        # Membership Revenue Projection chart section
+        html.H1(children='Membership Revenue Projections'),
+        dcc.Graph(id='membership-revenue-projection-chart'),
     ])
-
-    # Callback to update CAPITAN data and sub-category chart
-    @app.callback(
-        Output('capitan-revenue-sub-category-chart', 'figure'),
-        [Input('timeframe-toggle', 'value')]
-    )
-    def update_capitan_sub_category_chart(selected_timeframe):
-        # Set the start date to April 1
-        start_date = pd.to_datetime('2024-04-01')
-
-        # Filter for events only and set start date
-        df_filtered = df[(df['revenue_category'] == 'Event Booking') & (df['created_at'] >= start_date)].copy()
-
-        if df_filtered.empty:
-            # If no data is available, create an empty figure with a message
-            fig = px.bar(title='No data available for Event Revenue by Sub-Category')
-            fig.add_annotation(
-                text="No data available for the selected timeframe",
-                xref="paper", yref="paper",
-                showarrow=False,
-                font=dict(size=16)
-            )
-            return fig
-
-        # Resample and group the CAPITAN data by revenue_sub_category
-        df_filtered['date'] = df_filtered['created_at'].dt.to_period(selected_timeframe).dt.start_time
-        revenue_by_sub_category = df_filtered.groupby(['date', 'revenue_sub_category'])['amount'].sum().reset_index()
-
-        # Create the stacked column chart
-        fig = px.bar(revenue_by_sub_category, x='date', y='amount', color='revenue_sub_category',
-                    title='Event Revenue by Sub-Category', barmode='stack')
-
-        return fig
 
     # Callback for Total Revenue chart
     @app.callback(
@@ -221,4 +209,50 @@ def create_dashboard(app):
         # Create the bar chart
         fig = px.bar(day_pass_sum, x='date', y='total_day_passes', title='Total Day Passes Purchased')
 
+        return fig
+        
+    # Callback to update the Membership Revenue Projection chart
+    @app.callback(
+        Output('membership-revenue-projection-chart', 'figure'),
+        [Input('timeframe-toggle', 'value')]
+    )
+    def update_membership_revenue_projection_chart(selected_timeframe):
+        if df_projections.empty:
+            # If no data is available, create an empty figure with a message
+            fig = px.bar(title='No membership projection data available')
+            fig.add_annotation(
+                text="No membership projection data available",
+                xref="paper", yref="paper",
+                showarrow=False,
+                font=dict(size=16)
+            )
+            return fig
+            
+        # Resample the data based on the selected timeframe
+        df_filtered = df_projections.copy()
+        df_filtered['date'] = df_filtered['date'].dt.to_period(selected_timeframe).dt.start_time
+        
+        # Group by date and calculate total revenue
+        revenue_by_date = df_filtered.groupby('date')['amount'].sum().reset_index()
+        
+        # Create the line chart
+        fig = px.line(revenue_by_date, x='date', y='amount', 
+                     title='Membership Revenue Projections',
+                     labels={'amount': 'Projected Revenue ($)', 'date': 'Date'})
+        
+        # Add a bar chart overlay for better visualization
+        fig.add_bar(x=revenue_by_date['date'], y=revenue_by_date['amount'], 
+                   name='Daily Revenue', opacity=0.3)
+        
+        # Add annotations for significant revenue days
+        for i, row in revenue_by_date.iterrows():
+            if row['amount'] > revenue_by_date['amount'].mean() * 1.5:  # Highlight days with revenue > 1.5x average
+                fig.add_annotation(
+                    x=row['date'],
+                    y=row['amount'],
+                    text=f"${row['amount']:.2f}",
+                    showarrow=True,
+                    arrowhead=1
+                )
+        
         return fig

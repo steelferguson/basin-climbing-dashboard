@@ -71,3 +71,6 @@ pytest_cache/
 *.tmp
 *.temp
 *.log.DS_Store
+
+# Data files
+.csv
