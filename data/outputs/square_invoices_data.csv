@@ -1,4 +1,5 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Total Amount,Date,base_price_amount,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,date_,Data Source,Day Pass Count
+paid rental invoice,360.2217090069284,32.17005,0,,389.94,2025-03-17,0,Event Booking,,,,,2025-03-17T15:52:54Z,Square,
 paid rental invoice,785.2193995381062,70.125,0,,850.0,2024-12-05,0,Event Booking,,,,,2024-12-05T17:59:28Z,Square,
 paid rental invoice,3695.150115473441,330.0,0,,4000.0,2024-11-16,0,Event Booking,,,,,2024-11-16T01:08:07Z,Square,
 paid rental invoice,89.99538106235566,8.03715,0,,97.42,2024-10-30,0,Event Booking,,,,,2024-10-30T12:43:21Z,Square,

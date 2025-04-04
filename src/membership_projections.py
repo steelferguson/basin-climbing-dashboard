@@ -39,7 +39,9 @@ class MembershipProjectionCalculator:
         frequency_map = {
             'BWK': 'bi_weekly',
             'MON': 'monthly',
-            'YRL': 'yearly'
+            'YRL': 'yearly',
+            'YEA': 'yearly',
+            'WKL': 'weekly'
         }
         
         # Type categorization based on name
@@ -110,21 +112,32 @@ class pullCapitanMembershipData:
     @staticmethod
     def get_memberships():
         url_memberships, headers = pullCapitanMembershipData.get_base_and_headers()
+        print(f"\nFetching memberships from: {url_memberships}")
         response = requests.get(url_memberships, headers=headers)
         if response.status_code == 200:
             print("Successfully retrieved memberships data.")
-            return response.json()  # Returns the JSON response containing membership data
+            data = response.json()
+            print(f"Total memberships retrieved: {len(data.get('results', []))}")
+            print("Sample of first membership data:")
+            if data.get('results'):
+                pprint.pprint(data['results'][0])
+            return data
         else:
             print(f"Failed to retrieve memberships data. Status code: {response.status_code}")
+            print("Response content:")
+            print(response.text)
             return None
 
     @staticmethod
     def create_comprehensive_projection():
         """Create a comprehensive projection for all active memberships."""
+        print("\nStarting membership data retrieval...")
         membership_data = pullCapitanMembershipData.get_memberships()
         if not membership_data:
+            print("No membership data retrieved.")
             return None
             
+        print(f"\nProcessing {len(membership_data.get('results', []))} memberships...")
         calculator = MembershipProjectionCalculator()
         all_projections = {}
         membership_summary = {
@@ -135,6 +148,7 @@ class pullCapitanMembershipData:
         }
         
         # Process each membership
+        unknown_count = 0
         for membership in membership_data.get('results', []):
             if membership.get('status') == 'ACT':
                 categories = calculator.categorize_membership(membership)
@@ -143,6 +157,27 @@ class pullCapitanMembershipData:
                 membership_summary['by_type'][categories['type']] += 1
                 if categories['has_fitness']:
                     membership_summary['with_fitness'] += 1
+                
+                # Print unknown frequency memberships with more detail
+                if categories['frequency'] == 'unknown':
+                    unknown_count += 1
+                    print("\n" + "="*80)
+                    print(f"UNKNOWN FREQUENCY MEMBERSHIP #{unknown_count} DETAILS")
+                    print("="*80)
+                    print(f"Name: {membership.get('name')}")
+                    print(f"Interval: {membership.get('interval')}")
+                    print(f"Owner: {membership.get('owner_first_name')} {membership.get('owner_last_name')}")
+                    print(f"Amount: ${float(membership.get('billing_amount', 0)):.2f}")
+                    print(f"Status: {membership.get('status')}")
+                    print(f"Start Date: {membership.get('start_date')}")
+                    print(f"End Date: {membership.get('end_date')}")
+                    print("\nAdd-ons:")
+                    for customer_id, add_ons in membership.get('customer_add_ons', {}).items():
+                        for add_on in add_ons:
+                            print(f"  - {add_on.get('name')}: ${float(add_on.get('fee', 0)):.2f}")
+                    print("\nFull API Response:")
+                    pprint.pprint(membership)
+                    print("="*80 + "\n")
                 
                 projection = calculator.create_projection(membership)
                 if projection:
@@ -158,21 +193,6 @@ class pullCapitanMembershipData:
 # Example usage
 if __name__ == "__main__":
     # Test with Shaun's data
-    test_data = {
-        'billing_amount': '36.40',
-        'customer_add_ons': {'1843837': [{'fee': '4', 'name': 'Gear Upgrade'}]},
-        'recurring_discount_amount': '10.000',
-        'status': 'ACT',
-        'interval': 'BWK',
-        'name': 'Solo Weekly',
-        'owner_first_name': 'Shaun',
-        'owner_last_name': 'Bruner',
-        'upcoming_bill_dates': ['2025-04-05', '2025-04-19']
-    }
-    
-    calculator = MembershipProjectionCalculator()
-    charge = calculator.calculate_charge(test_data)
-    print(f"Shaun's bi-weekly charge: ${charge:.2f}")
     
     # Create comprehensive projection
     projections, membership_summary = pullCapitanMembershipData.create_comprehensive_projection()
@@ -211,13 +231,12 @@ if __name__ == "__main__":
                 by_frequency = {}
                 by_type = {}
                 by_fitness = {'with_fitness': 0, 'without_fitness': 0}
-                customers = []
                 
+                # Add to totals
                 for charge in charges:
                     freq = charge['categories']['frequency']
                     type_ = charge['categories']['type']
                     has_fitness = charge['categories']['has_fitness']
-                    customers.append(charge['customer'])
                     
                     by_frequency[freq] = by_frequency.get(freq, 0) + charge['amount']
                     by_type[type_] = by_type.get(type_, 0) + charge['amount']
@@ -233,24 +252,17 @@ if __name__ == "__main__":
                         total_by_fitness['with_fitness'] += charge['amount']
                     else:
                         total_by_fitness['without_fitness'] += charge['amount']
-                
-                # Add row to CSV data
-                csv_row = {
-                    'Date': date,
-                    'Total': total,
-                    'Customers': '; '.join(customers),
-                    'Bi Weekly': by_frequency.get('bi_weekly', 0),
-                    'Monthly': by_frequency.get('monthly', 0),
-                    'Yearly': by_frequency.get('yearly', 0),
-                    'Unknown Frequency': by_frequency.get('unknown', 0),
-                    'Solo': by_type.get('solo', 0),
-                    'Duo': by_type.get('duo', 0),
-                    'Family': by_type.get('family', 0),
-                    'Other': by_type.get('other', 0),
-                    'With Fitness': by_fitness['with_fitness'],
-                    'Without Fitness': by_fitness['without_fitness']
-                }
-                csv_data.append(csv_row)
+                    
+                    # Add individual charge to CSV data
+                    csv_row = {
+                        'Date': date,
+                        'Customer': charge['customer'],
+                        'Amount': charge['amount'],
+                        'Frequency': freq.replace('_', ' ').title(),
+                        'Type': type_.title(),
+                        'Has Fitness': 'Yes' if has_fitness else 'No'
+                    }
+                    csv_data.append(csv_row)
                 
                 print(f"\n{date}: ${total:.2f}")
                 print("  By Frequency:")
@@ -277,6 +289,6 @@ if __name__ == "__main__":
         
         # Save to CSV
         df = pd.DataFrame(csv_data)
-        csv_filename = f"membership_projections_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+        csv_filename = f"data/membership_projections_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
         df.to_csv(csv_filename, index=False)
         print(f"\nProjections saved to {csv_filename}")
