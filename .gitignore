@@ -74,3 +74,5 @@ pytest_cache/
 
 # Data files
 .csv
+.json
+data/cache/

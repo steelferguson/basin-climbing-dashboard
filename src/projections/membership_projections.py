@@ -51,6 +51,8 @@ class MembershipProjectionCalculator:
                 frequency = 'prepaid_3mo'
             elif membership_data.get('duration_months') == 6:
                 frequency = 'prepaid_6mo'
+            elif membership_data.get('duration_months') == 12:
+                frequency = 'prepaid_12mo'
             else:
                 frequency = 'unknown'
         else:
@@ -141,7 +143,7 @@ class pullCapitanMembershipData:
             return None
 
     @staticmethod
-    def create_comprehensive_projection():
+    def create_comprehensive_projection(verbose=False):
         """Create a comprehensive projection for all active memberships."""
         print("\nStarting membership data retrieval...")
         membership_data = pullCapitanMembershipData.get_memberships()
@@ -161,11 +163,17 @@ class pullCapitanMembershipData:
                 'weekly': 0,
                 'prepaid_3mo': 0,
                 'prepaid_6mo': 0,
+                'prepaid_12mo': 0,
                 'unknown': 0
             },
             'by_type': {'solo': 0, 'duo': 0, 'family': 0, 'other': 0},
             'with_fitness': 0
         }
+        
+        # Calculate date range for 5 months (to ensure we have full month data for the 4th month)
+        today = datetime.now()
+        five_months_later = today + timedelta(days=150)  # Approximately 5 months
+        four_months_later = today + timedelta(days=120)  # Approximately 4 months
         
         # Process each membership
         unknown_count = 0
@@ -179,7 +187,7 @@ class pullCapitanMembershipData:
                     membership_summary['with_fitness'] += 1
                 
                 # Print unknown frequency memberships with more detail
-                if categories['frequency'] == 'unknown':
+                if verbose == True and categories['frequency'] == 'unknown':
                     unknown_count += 1
                     print("\n" + "="*80)
                     print(f"UNKNOWN FREQUENCY MEMBERSHIP #{unknown_count} DETAILS")
@@ -201,11 +209,13 @@ class pullCapitanMembershipData:
                 
                 projection = calculator.create_projection(membership)
                 if projection:
-                    # Merge projections by date
+                    # Merge projections by date, including dates within the next 5 months
                     for date, details in projection.items():
-                        if date not in all_projections:
-                            all_projections[date] = []
-                        all_projections[date].append(details)
+                        date_obj = datetime.strptime(date, '%Y-%m-%d')
+                        if today <= date_obj <= five_months_later:
+                            if date not in all_projections:
+                                all_projections[date] = []
+                            all_projections[date].append(details)
         
         # Sort by date
         return dict(sorted(all_projections.items())), membership_summary
@@ -228,10 +238,10 @@ if __name__ == "__main__":
         print(f"\nWith Fitness Add-on: {membership_summary['with_fitness']}")
         print("========================\n")
         
-        print("\n=== Projected Income (Next 3 Months) ===")
+        print("\n=== Projected Income (Next 4 Months) ===")
         total_projected = 0
         current_date = datetime.now()
-        three_months_later = current_date + timedelta(days=90)
+        four_months_later = current_date + timedelta(days=120)
         
         # Prepare data for CSV
         csv_data = []
@@ -243,7 +253,7 @@ if __name__ == "__main__":
         
         for date, charges in projections.items():
             date_obj = datetime.strptime(date, '%Y-%m-%d')
-            if current_date <= date_obj <= three_months_later:
+            if current_date <= date_obj <= four_months_later:
                 total = sum(charge['amount'] for charge in charges)
                 total_projected += total
                 
@@ -295,7 +305,7 @@ if __name__ == "__main__":
                 print(f"    With Fitness: ${by_fitness['with_fitness']:.2f}")
                 print(f"    Without Fitness: ${by_fitness['without_fitness']:.2f}")
         
-        print("\n=== 3-Month Totals by Category ===")
+        print("\n=== 4-Month Totals by Category ===")
         print("By Frequency:")
         for freq, amount in total_by_frequency.items():
             print(f"  {freq.replace('_', ' ').title()}: ${amount:.2f}")
@@ -305,7 +315,7 @@ if __name__ == "__main__":
         print("\nBy Fitness Add-on:")
         print(f"  With Fitness: ${total_by_fitness['with_fitness']:.2f}")
         print(f"  Without Fitness: ${total_by_fitness['without_fitness']:.2f}")
-        print(f"\nTotal projected income (next 3 months): ${total_projected:.2f}")
+        print(f"\nTotal projected income (next 4 months): ${total_projected:.2f}")
         
         # Save to CSV
         df = pd.DataFrame(csv_data)
