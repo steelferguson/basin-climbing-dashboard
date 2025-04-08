@@ -4897,6 +4897,7 @@ paid rental invoice,3695.150115473441,330.0,0.0,,4000.0,2024-11-16,0.0,Event Boo
 paid rental invoice,89.99538106235566,8.03715,0.0,,97.42,2024-10-30,0.0,Event Booking,,,,,2024-10-30T12:43:21Z,Square,
 paid rental invoice,121.93995381062355,10.89,0.0,,132.0,2024-10-28,0.0,Event Booking,,,,,2024-10-28T21:21:17Z,Square,
 paid rental invoice,461.8937644341801,41.25,0.0,,500.0,2024-10-03,0.0,Event Booking,,,,,2024-10-03T15:55:01Z,Square,
+Capitan membership #149849 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-04-08,,New Membership,,Monthly,False,False,2025-04-08 00:00:00+00:00,Stripe,0
 Capitan membership #126046 payment retry: College Student Monthly,55.00230946882217,4.53769053117783,0.0,Max Caldwell,59.54,2025-04-08,,Membership Renewal,,Monthly,False,False,2025-04-08 00:00:00+00:00,Stripe,0
 [Calendly] Basin 2 Hour Birthday Party Rental with Petra Kolar,184.75750577367205,15.242494226327949,0.0,Petra Kolar,200.0,2025-04-08,,Event Booking,,,False,False,2025-04-08 00:00:00+00:00,Stripe,0
 Capitan membership #94790 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Mary Blair,32.48,2025-04-08,,Membership Renewal,Solo,weekly,False,False,2025-04-08 00:00:00+00:00,Stripe,0
