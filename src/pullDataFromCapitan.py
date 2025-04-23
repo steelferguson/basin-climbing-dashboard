@@ -213,58 +213,76 @@ class pullDataFromCapitan:
 
             # Filter yearly solo memberships
             yearly_solo = df_yearly[(df_yearly['membership_freq'] == 'annual') & (df_yearly['membership_size'] == 'Solo')]
-
+            
             # Filter yearly duo memberships
             yearly_duo = df_yearly[(df_yearly['membership_freq'] == 'annual') & (df_yearly['membership_size'] == 'Duo')]
-
+            
             # Filter yearly family memberships
             yearly_family = df_yearly[(df_yearly['membership_freq'] == 'annual') & (df_yearly['membership_size'] == 'Family')]
-
-            # Now repeat the same for monthly and weekly memberships
-
+            
+            # Filter yearly corporate memberships
+            yearly_corporate = df_yearly[(df_yearly['membership_freq'] == 'annual') & (df_yearly['membership_size'] == 'Corporate')]
+            
             # Monthly solo memberships
             monthly_solo = df_monthly[(df_monthly['membership_freq'] == 'monthly') & (df_monthly['membership_size'] == 'Solo')]
-
+            
             # Monthly duo memberships
             monthly_duo = df_monthly[(df_monthly['membership_freq'] == 'monthly') & (df_monthly['membership_size'] == 'Duo')]
-
+            
             # Monthly family memberships
             monthly_family = df_monthly[(df_monthly['membership_freq'] == 'monthly') & (df_monthly['membership_size'] == 'Family')]
-
+            
+            # Monthly corporate memberships
+            monthly_corporate = df_monthly[(df_monthly['membership_freq'] == 'monthly') & (df_monthly['membership_size'] == 'Corporate')]
+            
             # Weekly solo memberships
             weekly_solo = df_weekly[(df_weekly['membership_freq'] == 'weekly') & (df_weekly['membership_size'] == 'Solo')]
-
+            
             # Weekly duo memberships
             weekly_duo = df_weekly[(df_weekly['membership_freq'] == 'weekly') & (df_weekly['membership_size'] == 'Duo')]
-
+            
             # Weekly family memberships
             weekly_family = df_weekly[(df_weekly['membership_freq'] == 'weekly') & (df_weekly['membership_size'] == 'Family')]
-
-            # Get the counts of unique emails for each
+            
+            # Weekly corporate memberships
+            weekly_corporate = df_weekly[(df_weekly['membership_freq'] == 'weekly') & (df_weekly['membership_size'] == 'Corporate')]
+            
+            # Count unique customers for each category
             yearly_solo_count = yearly_solo['customer_email'].nunique()
             yearly_duo_count = yearly_duo['customer_email'].nunique()
             yearly_family_count = yearly_family['customer_email'].nunique()
-
+            yearly_corporate_count = yearly_corporate['customer_email'].nunique()
+            
             monthly_solo_count = monthly_solo['customer_email'].nunique()
             monthly_duo_count = monthly_duo['customer_email'].nunique()
             monthly_family_count = monthly_family['customer_email'].nunique()
-
+            monthly_corporate_count = monthly_corporate['customer_email'].nunique()
+            
             weekly_solo_count = weekly_solo['customer_email'].nunique()
             weekly_duo_count = weekly_duo['customer_email'].nunique()
             weekly_family_count = weekly_family['customer_email'].nunique()
-
-            # Append the results for this date
-            results.append({
-                'date': date,
+            weekly_corporate_count = weekly_corporate['customer_email'].nunique()
+            
+            # Create metrics dictionary
+            metrics = {
                 'yearly_solo': yearly_solo_count,
                 'yearly_duo': yearly_duo_count,
                 'yearly_family': yearly_family_count,
+                'yearly_corporate': yearly_corporate_count,
                 'monthly_solo': monthly_solo_count,
                 'monthly_duo': monthly_duo_count,
                 'monthly_family': monthly_family_count,
+                'monthly_corporate': monthly_corporate_count,
                 'weekly_solo': weekly_solo_count,
                 'weekly_duo': weekly_duo_count,
-                'weekly_family': weekly_family_count
+                'weekly_family': weekly_family_count,
+                'weekly_corporate': weekly_corporate_count,
+            }
+            
+            # Append the results for this date
+            results.append({
+                'date': date,
+                'metrics': metrics
             })
 
         # Convert results to a DataFrame

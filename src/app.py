@@ -8,7 +8,7 @@ import os
 use_cache = os.environ.get('USE_CACHE', 'false').lower() == 'true'
 
 # Set to True to use saved JSON files instead of making API calls
-use_json = False  # Changed to False to fetch fresh data
+use_json = False  # Changed to False to use live data
 
 # Initialize the Dash app
 app = Dash(__name__)

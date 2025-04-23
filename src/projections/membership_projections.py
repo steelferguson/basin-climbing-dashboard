@@ -66,6 +66,8 @@ class MembershipProjectionCalculator:
             membership_type = 'duo'
         elif 'family' in name:
             membership_type = 'family'
+        elif 'corporate' in name or 'tfnb' in name or 'founders business' in name:
+            membership_type = 'corporate'
         else:
             membership_type = 'other'
             
@@ -143,13 +145,16 @@ class pullCapitanMembershipData:
             return None
 
     @staticmethod
-    def create_comprehensive_projection(verbose=False):
+    def create_comprehensive_projection(verbose=False, membership_data=None):
         """Create a comprehensive projection for all active memberships."""
         print("\nStarting membership data retrieval...")
-        membership_data = pullCapitanMembershipData.get_memberships()
-        if not membership_data:
-            print("No membership data retrieved.")
-            return None
+        if membership_data is None:
+            membership_data = pullCapitanMembershipData.get_memberships()
+            if not membership_data:
+                print("No membership data retrieved.")
+                return None
+        else:
+            print("Using provided membership data...")
             
         print(f"\nProcessing {len(membership_data.get('results', []))} memberships...")
         calculator = MembershipProjectionCalculator()
@@ -166,7 +171,7 @@ class pullCapitanMembershipData:
                 'prepaid_12mo': 0,
                 'unknown': 0
             },
-            'by_type': {'solo': 0, 'duo': 0, 'family': 0, 'other': 0},
+            'by_type': {'solo': 0, 'duo': 0, 'family': 0, 'corporate': 0, 'other': 0},
             'with_fitness': 0
         }
         

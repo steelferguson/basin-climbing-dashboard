@@ -106,7 +106,7 @@ def load_or_fetch_data(use_cached_data=False, use_json=False):
                 membership_data = json.load(f)
             
             # Create projections from the loaded data
-            projections, membership_summary = pullCapitanMembershipData.create_comprehensive_projection()
+            projections, membership_summary = pullCapitanMembershipData.create_comprehensive_projection(membership_data=membership_data)
             
             # Convert projections to DataFrame
             projection_rows = []
@@ -291,7 +291,7 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
                     {'label': 'Ended', 'value': 'END'},
                     {'label': 'Frozen', 'value': 'FRZ'}
                 ],
-                value=['ACT'],  # Default to active only
+                value=['ACT', 'END'],  # Default to active and ended
                 inline=True,
                 style={'margin-bottom': '20px'}
             ),
@@ -316,9 +316,10 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
                 options=[
                     {'label': 'Solo', 'value': 'solo'},
                     {'label': 'Duo', 'value': 'duo'},
-                    {'label': 'Family', 'value': 'family'}
+                    {'label': 'Family', 'value': 'family'},
+                    {'label': 'Corporate', 'value': 'corporate'}
                 ],
-                value=['solo', 'duo', 'family'],
+                value=['solo', 'duo', 'family', 'corporate'],
                 inline=True,
                 style={'margin-bottom': '20px'}
             ),
@@ -331,10 +332,12 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
                     {'label': 'Corporate', 'value': 'corporate'},
                     {'label': 'Mid-Day', 'value': 'mid_day'},
                     {'label': 'Fitness Only', 'value': 'fitness_only'},
+                    {'label': 'Has Fitness Addon', 'value': 'has_fitness_addon'},
                     {'label': 'Team Dues', 'value': 'team_dues'},
-                    {'label': 'Include BCF Staff', 'value': 'include_bcf'}
+                    {'label': 'Include BCF Staff', 'value': 'include_bcf'},
+                    {'label': 'Not in a Special Category', 'value': 'not_special'}
                 ],
-                value=['founder', 'college', 'corporate', 'mid_day', 'fitness_only', 'team_dues'],
+                value=['founder', 'college', 'corporate', 'mid_day', 'fitness_only', 'has_fitness_addon', 'team_dues', 'not_special'],
                 inline=True,
                 style={'margin-bottom': '20px'}
             ),
@@ -509,11 +512,11 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
         else:
             end_of_current_month = datetime(today.year, today.month + 1, 1, tzinfo=None) - timedelta(days=1)
         
-        # Get the last day of the 3rd month from now
-        if today.month + 3 > 12:
-            end_of_third_month = datetime(today.year + 1, (today.month + 3) % 12, 1, tzinfo=None) - timedelta(days=1)
+        # Get the last day of the 4th month from now (changed from 3rd to 4th)
+        if today.month + 4 > 12:
+            end_of_fourth_month = datetime(today.year + 1, (today.month + 4) % 12, 1, tzinfo=None) - timedelta(days=1)
         else:
-            end_of_third_month = datetime(today.year, today.month + 3, 1, tzinfo=None) - timedelta(days=1)
+            end_of_fourth_month = datetime(today.year, today.month + 4, 1, tzinfo=None) - timedelta(days=1)
         
         # Get historical data from the current month
         start_of_current_month = datetime(today.year, today.month, 1, tzinfo=None)
@@ -530,7 +533,7 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
         # Filter projection data
         df_filtered = df_projections[
             (df_projections['date'] >= today) & 
-            (df_projections['date'] <= end_of_third_month)
+            (df_projections['date'] <= end_of_fourth_month)
         ].copy()
         
         # Filter by selected frequencies
@@ -638,13 +641,19 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
             height=600,
             plot_bgcolor=chart_colors['background'],
             paper_bgcolor=chart_colors['background'],
-            font_color=chart_colors['text']
+            font_color=chart_colors['text'],
+            hovermode='x unified'  # Add unified hover mode
         )
         
-        # Always show month labels regardless of timeframe
+        # Update x-axis to show specific dates
         fig.update_xaxes(
-            tickformat="%b %Y",
+            tickformat="%b %d, %Y",  # Show month, day, and year
             dtick="M1"
+        )
+        
+        # Update hover template to show specific date
+        fig.update_traces(
+            hovertemplate="%{x|%b %d, %Y}<br>Amount: $%{y:,.2f}<extra></extra>"
         )
         
         return fig
@@ -699,7 +708,7 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
                 size = 'family'
             elif 'duo' in name:
                 size = 'duo'
-            elif 'founders business' in name:
+            elif 'corporate' in name or 'tfnb' in name or 'founders business' in name:
                 size = 'corporate'
             else:
                 size = 'solo'  # Default to solo if not specified
@@ -720,6 +729,7 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
                 frequency = 'bi_weekly'
             elif interval == 'MON':
                 frequency = 'monthly'
+                print(f"Found monthly membership: {name} (interval: {interval})")  # Debug log
             elif interval == 'YRL' or interval == 'YEA':
                 frequency = 'annual'
             elif interval == '3MO':
@@ -730,15 +740,7 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
                 frequency = 'prepaid_12mo'
             else:
                 frequency = 'unknown'
-                # Log details about unknown frequency
-                key = f"{interval}_{membership.get('name', '')}"
-                unknown_frequencies[key] = {
-                    'interval': interval,
-                    'name': membership.get('name'),
-                    'start_date': membership.get('start_date'),
-                    'end_date': membership.get('end_date'),
-                    'billing_amount': membership.get('billing_amount')
-                }
+                print(f"Unknown frequency for membership: {name} (interval: {interval})")  # Debug log
             
             # Get start and end dates
             start_date = pd.to_datetime(membership.get('start_date'), errors='coerce')
@@ -766,7 +768,12 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
                 continue
             if is_fitness_only and 'fitness_only' not in category_toggle:
                 continue
+            if has_fitness_addon and 'has_fitness_addon' not in category_toggle:
+                continue
             if is_team_dues and 'team_dues' not in category_toggle:
+                continue
+            # Fix the not_special logic - only include if not in any special category
+            if 'not_special' not in category_toggle and not any([is_founder, is_college, is_corporate, is_mid_day, is_fitness_only, has_fitness_addon, is_team_dues, is_bcf]):
                 continue
             
             # Debug print for BCF staff memberships
@@ -1085,7 +1092,7 @@ def export_membership_data(membership_data):
             size = 'family'
         elif 'duo' in name:
             size = 'duo'
-        elif 'founders business' in name:
+        elif 'corporate' in name or 'tfnb' in name or 'founders business' in name:
             size = 'corporate'
         else:
             size = 'solo'  # Default to solo if not specified
