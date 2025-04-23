@@ -305,6 +305,29 @@ class pullDataFromCapitan:
         
         return df
 
+    def fetch_and_save_memberships(self):
+        """
+        Fetch memberships data from Capitan API and save as JSON.
+        """
+        url = self.url_base + 'customer-memberships/' + '?page=1&page_size=10000000000'
+        response = self.get_results_from_api(url)
+        
+        if not response:
+            print("Failed to get memberships from Capitan API")
+            return None
+            
+        if 'results' not in response:
+            print("No results found in memberships response")
+            return None
+            
+        memberships = response['results']
+        print(f"Total memberships retrieved: {len(memberships)}")
+        
+        # Save raw response
+        self.save_raw_response(response, 'capitan_customer_memberships')
+        
+        return pd.DataFrame(memberships)
+
     def get_memberships(self):
         """
         Get memberships from Capitan API.

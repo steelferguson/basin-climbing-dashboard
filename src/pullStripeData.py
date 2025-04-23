@@ -146,33 +146,43 @@ class pullStripeData:
                 'gte': int(start_date.timestamp()),  # Start date in Unix timestamp
                 'lte': int(end_date.timestamp())     # End date in Unix timestamp
             },
-            limit=100
+            limit=1000000  # Increased limit to get more transactions
         )
         
+        # Collect all raw data first
+        all_charges = []
+        for charge in charges.auto_paging_iter():
+            all_charges.append(charge)
+        
         # Save raw response
-        self.save_raw_response(charges, 'stripe_payments')
+        self.save_raw_response(all_charges, 'stripe_payments')
         
         data = []
-        for charge in charges.auto_paging_iter():  # Use pagination for large data
-                created_at = datetime.datetime.fromtimestamp(charge['created'])  # Convert from Unix timestamp
-                total_money = charge['amount'] / 100  # Stripe amounts are in cents
-                pre_tax_money = total_money / (1 + 0.0825) # ESTAMATED
-                tax_money = total_money - pre_tax_money ## takes way too long ## get_balance_transaction_fees(charge)
-                discount_money = charge.get('discount', {}).get('amount', 0) / 100  # Discount amount if available
-                currency = charge['currency']
-                description = charge.get('description', 'No Description')
-                name = charge.get('billing_details', {}).get('name', 'No Name')
-                
-                data.append({
-                    'Description': description,
-                    'Pre-Tax Amount': pre_tax_money,
-                    'Tax Amount': tax_money,
-                    'Total Amount': total_money,
-                    'Discount Amount': discount_money,
-                    'Name': name,
-                    'Date': created_at.date(),
-                })
-
+        transaction_count = 0
+        for charge in all_charges:
+            transaction_count += 1
+            created_at = datetime.datetime.fromtimestamp(charge['created'])  # Convert from Unix timestamp
+            total_money = charge['amount'] / 100  # Stripe amounts are in cents
+            pre_tax_money = total_money / (1 + 0.0825) # ESTAMATED
+            tax_money = total_money - pre_tax_money ## takes way too long ## get_balance_transaction_fees(charge)
+            discount_money = charge.get('discount', {}).get('amount', 0) / 100  # Discount amount if available
+            currency = charge['currency']
+            description = charge.get('description', 'No Description')
+            name = charge.get('billing_details', {}).get('name', 'No Name')
+            
+            data.append({
+                'Description': description,
+                'Pre-Tax Amount': pre_tax_money,
+                'Tax Amount': tax_money,
+                'Total Amount': total_money,
+                'Discount Amount': discount_money,
+                'Name': name,
+                'Date': created_at.date(),
+            })
+        
+        print(f"Processed {transaction_count} Stripe transactions")
+        print(f"Created DataFrame with {len(data)} rows")
+        
         # Create DataFrame
         df = pd.DataFrame(data)
         return df
@@ -199,7 +209,7 @@ class pullStripeData:
                 'gte': int(start_date.timestamp()),
                 'lte': int(end_date.timestamp())
             },
-            limit=100
+            limit=1000000
         )
         
         # Save raw response
@@ -208,6 +218,37 @@ class pullStripeData:
         
         return payments.data
 
+    def create_stripe_dataframe(self, stripe_data):
+        """
+        Create a DataFrame from raw Stripe JSON data.
+        
+        Parameters:
+        stripe_data (list): List of Stripe charge objects
+        
+        Returns:
+        pd.DataFrame: DataFrame containing payment data
+        """
+        data = []
+        for charge in stripe_data:  # stripe_data is now a list of charges
+            created_at = datetime.datetime.fromtimestamp(charge['created'])  # Convert from Unix timestamp
+            total_money = charge['amount'] / 100  # Stripe amounts are in cents
+            pre_tax_money = total_money / (1 + 0.0825)  # ESTIMATED
+            tax_money = total_money - pre_tax_money
+            discount_money = charge.get('discount', {}).get('amount', 0) / 100  # Discount amount if available
+            description = charge.get('description', 'No Description')
+            name = charge.get('billing_details', {}).get('name', 'No Name')
+            
+            data.append({
+                'Description': description,
+                'Pre-Tax Amount': pre_tax_money,
+                'Tax Amount': tax_money,
+                'Total Amount': total_money,
+                'Discount Amount': discount_money,
+                'Name': name,
+                'Date': created_at.date(),
+            })
+        
+        return pd.DataFrame(data)
 
 if __name__ == "__main__":
     # Get today's date and calculate the start date for the last year

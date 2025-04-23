@@ -7,11 +7,14 @@ import os
 # Get cache setting from environment variable instead of command line
 use_cache = os.environ.get('USE_CACHE', 'false').lower() == 'true'
 
+# Set to True to use saved JSON files instead of making API calls
+use_json = False  # Changed to False to fetch fresh data
+
 # Initialize the Dash app
 app = Dash(__name__)
 
 # Create the dashboard layout and callbacks
-create_dashboard(app, use_cached_data=use_cache)
+create_dashboard(app, use_cached_data=use_cache, use_json=use_json)
 
 # Expose the Flask server for Gunicorn
 server = app.server

@@ -4,6 +4,8 @@ from dash import html, dcc, dash_table, Input, Output
 import plotly.express as px
 from pullSquareAndStripeData import pullSquareAndStripeData as squareAndStripe
 from pullDataFromCapitan import pullDataFromCapitan as capitan
+from pullSquareData import pullSquareData as square
+from pullStripeData import pullStripeData
 from projections.membership_projections import pullCapitanMembershipData
 import pandas as pd
 from datetime import datetime, timedelta
@@ -11,7 +13,7 @@ import os
 import plotly.graph_objects as go
 import json
 
-def load_or_fetch_data(use_cached_data=False):
+def load_or_fetch_data(use_cached_data=False, use_json=False):
     """Load data from cache if available and use_cached_data is True, otherwise fetch fresh data."""
     cache_dir = 'data/cache'
     os.makedirs(cache_dir, exist_ok=True)
@@ -47,63 +49,157 @@ def load_or_fetch_data(use_cached_data=False):
         return df, df_membership, df_combined, df_projections, membership_data
     else:
         print("Fetching fresh data...")
-        # Get fresh data
-        capitan_instance = capitan()  # Instantiate the class
-        df = capitan_instance.pull_and_transform_payment_data()
-        df_membership = capitan_instance.calculate_membership_metrics(df)
-        df_membership = df_membership[df_membership['date'] >= '2023-08-01']
-        df = df[df['created_at'] >= '2023-08-01']
-        
-        df_combined = squareAndStripe.pull_and_transform_square_and_stripe_data(use_cached_data=use_cached_data)
-        df_combined['Date'] = pd.to_datetime(df_combined['Date'], errors='coerce', utc=True)
-        df_combined = df_combined[df_combined['Date'] >= '2023-08-01']
-        
-        projections, membership_summary = pullCapitanMembershipData.create_comprehensive_projection()
-        
-        # Convert projections to DataFrame
-        projection_rows = []
-        today = datetime.now()
-        five_months_later = today + timedelta(days=150)  # 5 months for complete data
-        
-        for date, charges in projections.items():
-            date_obj = pd.to_datetime(date)
-            if today <= date_obj <= five_months_later:  # Changed to five_months_later
-                for charge in charges:
-                    projection_rows.append({
-                        'date': date_obj,
-                        'amount': charge['amount'],
-                        'customer': charge['customer'],
-                        'frequency': charge['categories']['frequency'],
-                        'type': charge['categories']['type'],
-                        'has_fitness': charge['categories']['has_fitness']
-                    })
-        
-        df_projections = pd.DataFrame(projection_rows)
-        
-        # Get fresh membership data
-        membership_data = pullCapitanMembershipData.get_memberships()
-        
-        # Export current membership data for comparison
-        export_membership_data(membership_data)
-        
-        # Save to cache
-        if use_cached_data:
-            print("Saving data to cache...")
-            df.to_csv(cache_files['capitan'], index=False)
-            df_membership.to_csv(cache_files['membership_metrics'], index=False)
-            df_combined.to_csv(cache_files['square_stripe'], index=False)
-            df_projections.to_csv(cache_files['projections'], index=False)
+        if use_json:
+            print("Using saved JSON files instead of API calls...")
+            # Load Capitan data from JSON
+            with open('data/raw_data/capitan_payments.json', 'r') as f:
+                capitan_data = json.load(f)
+            df = pd.DataFrame(capitan_data['results'])
             
-            # Save membership data to cache
-            with open(cache_files['memberships'], 'w') as f:
-                json.dump(membership_data, f)
+            # Transform Capitan data
+            capitan_instance = capitan()
+            df = capitan_instance.transform_payments_data(df)
+            df = df[df['created_at'] >= '2023-08-01']
+            
+            # Calculate membership metrics from the transformed data
+            df_membership = capitan_instance.calculate_membership_metrics(df)
+            df_membership = df_membership[df_membership['date'] >= '2023-08-01']
+            
+            # Load Square and Stripe data from JSON
+            with open('data/raw_data/square_orders.json', 'r') as f:
+                square_data = json.load(f)
+            with open('data/raw_data/stripe_payments.json', 'r') as f:
+                stripe_data = json.load(f)
+            with open('data/raw_data/square_invoices.json', 'r') as f:
+                square_invoices_data = json.load(f)
+            
+            # Transform the data
+            square_instance = square()
+            stripe_instance = pullStripeData()
+            
+            # Handle Square orders data
+            df_square = square_instance.create_orders_dataframe(square_data['orders'])
+            df_square = square_instance.transform_payments_data(df_square)
+            
+            # Handle Stripe data
+            df_stripe = stripe_instance.create_stripe_dataframe(stripe_data)
+            print(f"Stripe data shape after creation: {df_stripe.shape}")
+            print(f"Stripe data columns: {df_stripe.columns}")
+            print(f"Stripe data sample:\n{df_stripe.head()}")
+            
+            df_stripe = stripe_instance.transform_payments_data(df_stripe)
+            print(f"Stripe data shape after transformation: {df_stripe.shape}")
+            print(f"Stripe data columns after transformation: {df_stripe.columns}")
+            print(f"Stripe data sample after transformation:\n{df_stripe.head()}")
+            
+            # Handle Square invoices data
+            df_square_invoices = square_instance.create_invoices_dataframe(square_invoices_data['invoices'])
+            df_square_invoices = square_instance.transform_payments_data(df_square_invoices)
+            
+            # Combine all data
+            df_combined = pd.concat([df_square, df_stripe, df_square_invoices], ignore_index=True)
+            df_combined['Date'] = pd.to_datetime(df_combined['Date'], errors='coerce', utc=True)
+            df_combined = df_combined[df_combined['Date'] >= '2023-08-01']
+            
+            # Load membership data from JSON
+            with open('data/raw_data/capitan_customer_memberships.json', 'r') as f:
+                membership_data = json.load(f)
+            
+            # Create projections from the loaded data
+            projections, membership_summary = pullCapitanMembershipData.create_comprehensive_projection()
+            
+            # Convert projections to DataFrame
+            projection_rows = []
+            today = datetime.now()
+            five_months_later = today + timedelta(days=150)  # 5 months for complete data
+            
+            for date, charges in projections.items():
+                date_obj = pd.to_datetime(date)
+                if today <= date_obj <= five_months_later:
+                    for charge in charges:
+                        projection_rows.append({
+                            'date': date_obj,
+                            'amount': charge['amount'],
+                            'customer': charge['customer'],
+                            'frequency': charge['categories']['frequency'],
+                            'type': charge['categories']['type'],
+                            'has_fitness': charge['categories']['has_fitness']
+                        })
+            
+            df_projections = pd.DataFrame(projection_rows)
+            
+            # Export current membership data for comparison
+            export_membership_data(membership_data)
+            
+            # Save to cache
+            if use_cached_data:
+                print("Saving data to cache...")
+                df.to_csv(cache_files['capitan'], index=False)
+                df_membership.to_csv(cache_files['membership_metrics'], index=False)
+                df_combined.to_csv(cache_files['square_stripe'], index=False)
+                df_projections.to_csv(cache_files['projections'], index=False)
+                
+                # Save membership data to cache
+                with open(cache_files['memberships'], 'w') as f:
+                    json.dump(membership_data, f)
+        else:
+            # Original code for fetching fresh data from APIs
+            capitan_instance = capitan()
+            df = capitan_instance.pull_and_transform_payment_data()
+            df_membership = capitan_instance.calculate_membership_metrics(df)
+            df_membership = df_membership[df_membership['date'] >= '2023-08-01']
+            df = df[df['created_at'] >= '2023-08-01']
+            
+            df_combined = squareAndStripe.pull_and_transform_square_and_stripe_data(use_cached_data=use_cached_data)
+            df_combined['Date'] = pd.to_datetime(df_combined['Date'], errors='coerce', utc=True)
+            df_combined = df_combined[df_combined['Date'] >= '2023-08-01']
+            
+            projections, membership_summary = pullCapitanMembershipData.create_comprehensive_projection()
+            
+            # Convert projections to DataFrame
+            projection_rows = []
+            today = datetime.now()
+            five_months_later = today + timedelta(days=150)  # 5 months for complete data
+            
+            for date, charges in projections.items():
+                date_obj = pd.to_datetime(date)
+                if today <= date_obj <= five_months_later:
+                    for charge in charges:
+                        projection_rows.append({
+                            'date': date_obj,
+                            'amount': charge['amount'],
+                            'customer': charge['customer'],
+                            'frequency': charge['categories']['frequency'],
+                            'type': charge['categories']['type'],
+                            'has_fitness': charge['categories']['has_fitness']
+                        })
+            
+            df_projections = pd.DataFrame(projection_rows)
+            
+            # Get fresh membership data
+            membership_data = pullCapitanMembershipData.get_memberships()
+            
+            # Export current membership data for comparison
+            export_membership_data(membership_data)
+            
+            # Save to cache
+            if use_cached_data:
+                print("Saving data to cache...")
+                df.to_csv(cache_files['capitan'], index=False)
+                df_membership.to_csv(cache_files['membership_metrics'], index=False)
+                df_combined.to_csv(cache_files['square_stripe'], index=False)
+                df_projections.to_csv(cache_files['projections'], index=False)
+                
+                # Save membership data to cache
+                with open(cache_files['memberships'], 'w') as f:
+                    json.dump(membership_data, f)
         
         return df, df_membership, df_combined, df_projections, membership_data
 
 # Define the layout and callbacks for the app here
-def create_dashboard(app, use_cached_data=False):
+def create_dashboard(app, use_cached_data=False, use_json=False):
     # Load or fetch data
-    df, df_membership, df_combined, df_projections, membership_data = load_or_fetch_data(use_cached_data)
+    df, df_membership, df_combined, df_projections, membership_data = load_or_fetch_data(use_cached_data, use_json)
     
     app.layout = html.Div([
         # Timeframe toggle
