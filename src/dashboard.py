@@ -48,8 +48,9 @@ def load_or_fetch_data(use_cached_data=False):
     else:
         print("Fetching fresh data...")
         # Get fresh data
-        df = capitan.pull_and_transform_payment_data()
-        df_membership = capitan.calculate_membership_metrics(df)
+        capitan_instance = capitan()  # Instantiate the class
+        df = capitan_instance.pull_and_transform_payment_data()
+        df_membership = capitan_instance.calculate_membership_metrics(df)
         df_membership = df_membership[df_membership['date'] >= '2023-08-01']
         df = df[df['created_at'] >= '2023-08-01']
         

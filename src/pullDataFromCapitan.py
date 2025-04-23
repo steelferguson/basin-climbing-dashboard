@@ -50,18 +50,47 @@ class pullDataFromCapitan:
         'bcf staff': True,
     }
 
-    ## Get results from responses
     @staticmethod
-    def get_results_from_api(url, headers):
-        response = requests.get(url, headers=headers)
-        if response.status_code == 200:
-            print("Successful response from " + url)
-        else:
-            print(f"Failed to retrieve data. Status code: {response.status_code}")
-        json_data = response.json()
-        results = json_data['results']
-        df = pd.DataFrame(results)
-        return df
+    def save_raw_response(data, filename):
+        """Save raw API response to a JSON file."""
+        os.makedirs('data/raw_data', exist_ok=True)
+        filepath = f'data/raw_data/{filename}.json'
+        with open(filepath, 'w') as f:
+            json.dump(data, f, indent=2)
+        print(f"Saved raw response to {filepath}")
+
+    def __init__(self):
+        self.base_url = 'https://api.hellocapitan.com/api/'
+        self.headers = {'Authorization': f'token {self.my_token}'}
+
+    def get_results_from_api(self, url):
+        """
+        Make API request and handle response.
+        """
+        try:
+            response = requests.get(url, headers=self.headers)
+            if response.status_code == 200:
+                print("Successful response from " + url)
+            else:
+                print(f"Failed to retrieve data. Status code: {response.status_code}")
+            
+            json_data = response.json()
+            
+            # Determine which type of data we're saving based on the URL
+            if 'customer-memberships' in url:
+                filename = 'capitan_customer_memberships'
+            elif 'payments' in url:
+                filename = 'capitan_payments'
+            else:
+                filename = 'capitan_response'
+            
+            # Save raw response
+            self.save_raw_response(json_data, filename)
+            
+            return json_data
+        except requests.exceptions.RequestException as e:
+            print(f"Error making API request: {e}")
+            return None
 
     # Define a function to categorize transactions and membership types
     @staticmethod
@@ -249,12 +278,52 @@ class pullDataFromCapitan:
         df.to_csv('data/outputs/' + file_name + '.csv', index=False)
         print(file_name + ' saved in ' + '/data/outputs/')
 
-    @staticmethod
-    def pull_and_transform_payment_data():
-        df = pullDataFromCapitan.get_results_from_api(pullDataFromCapitan.url_payments, pullDataFromCapitan.headers)
-        df = pullDataFromCapitan.transform_payments_data(df)
-        pullDataFromCapitan.save_data(df, 'capitan_payment_data')
+    def pull_and_transform_payment_data(self):
+        """
+        Pull and transform payment data from Capitan API.
+        """
+        # Get payments data in a single request with large page size
+        response = self.get_results_from_api(self.url_payments)
+        
+        if not response:
+            print("Failed to get payments data from Capitan API")
+            return None
+            
+        if 'results' not in response:
+            print("No results found in payments response")
+            return None
+            
+        payments = response['results']
+        print(f"Total payments retrieved: {len(payments)}")
+        
+        # Transform payments data
+        df = pd.DataFrame(payments)
+        df = self.transform_payments_data(df)
+        
+        # Save transformed data
+        self.save_data(df, 'capitan_data')
+        
         return df
+
+    def get_memberships(self):
+        """
+        Get memberships from Capitan API.
+        """
+        # Get memberships data in a single request with large page size
+        url = self.url_base + 'customer-memberships/' + '?page=1&page_size=10000000000'
+        response = self.get_results_from_api(url)
+        
+        if not response:
+            print("Failed to get memberships from Capitan API")
+            return None
+            
+        if 'results' not in response:
+            print("No results found in memberships response")
+            return None
+            
+        memberships = response['results']
+        print(f"Total memberships retrieved: {len(memberships)}")
+        return pd.DataFrame(memberships)
 
 if __name__ == "__main__":
     pull_capitan = pullDataFromCapitan()

@@ -25,8 +25,13 @@ class pullSquareAndStripeData:
         print("Fetching fresh Square and Stripe data...")
         end_date = datetime.datetime.now()
         start_date = end_date - datetime.timedelta(days=365)
-        df_stripe = stripe.pull_and_transform_stripe_payment_data(start_date, end_date)
-        df_square = square.pull_and_transform_square_payment_data(start_date, end_date)
+        
+        # Instantiate classes before calling their methods
+        stripe_instance = stripe()
+        square_instance = square()
+        
+        df_stripe = stripe_instance.pull_and_transform_stripe_payment_data(start_date, end_date)
+        df_square = square_instance.pull_and_transform_square_payment_data(start_date, end_date)
         df_combined = pd.concat([df_square, df_stripe], ignore_index=True)
         
         # Save to both cache and outputs

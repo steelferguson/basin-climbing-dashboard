@@ -2,6 +2,7 @@ import stripe
 import os
 import datetime
 import pandas as pd
+import json
 
 class pullStripeData:
     ## Dictionaries for processing string in decripitions
@@ -43,13 +44,20 @@ class pullStripeData:
         'bcf staff': True,
     }
 
-    def save_data(df, file_name):
+    def save_data(self, df, file_name):
         df.to_csv('data/outputs/' + file_name + '.csv', index=False)
         print(file_name + ' saved in ' + '/data/outputs/')
 
+    @staticmethod
+    def save_raw_response(data, filename):
+        """Save raw API response to a JSON file."""
+        os.makedirs('data/raw_data', exist_ok=True)
+        filepath = f'data/raw_data/{filename}.json'
+        with open(filepath, 'w') as f:
+            json.dump(data, f, indent=2)
+        print(f"Saved raw response to {filepath}")
 
-    # Define a function to categorize transactions and membership types
-    def categorize_transaction(description):
+    def categorize_transaction(self, description):
         description = description.lower()  # Make it case-insensitive
         
         # Default values
@@ -60,19 +68,19 @@ class pullStripeData:
         is_bcf_staff_or_friend = False
         
         # Categorize transaction
-        for keyword, cat in pullStripeData.revenue_category_keywords.items():
+        for keyword, cat in self.revenue_category_keywords.items():
             if keyword in description:
                 category = cat
                 break
         
         # Categorize membership type (only if it's a membership-related transaction)
-        for keyword, mem_size in pullStripeData.membership_size_keywords.items():
+        for keyword, mem_size in self.membership_size_keywords.items():
             if keyword in description:
                 membership_size = mem_size
                 break
                 
         # Categorize membership frequency (only if it's a membership-related transaction)
-        for keyword, mem_freq in pullStripeData.membership_frequency_keywords.items():
+        for keyword, mem_freq in self.membership_frequency_keywords.items():
             if keyword in description:
                 membership_freq = mem_freq
                 break
@@ -85,7 +93,7 @@ class pullStripeData:
         
         return category, membership_size, membership_freq, is_founder, is_bcf_staff_or_friend
 
-    def transform_payments_data(df):
+    def transform_payments_data(self, df):
         """
         Transforms the payments data by adding new columns and converting data types.
 
@@ -97,7 +105,7 @@ class pullStripeData:
         """
         # Apply the categorize_transaction function to create new columns
         df[['revenue_category', 'membership_size', 'membership_freq', 'is_founder', 'is_free_membership']] = \
-            df['Description'].apply(lambda x: pd.Series(pullStripeData.categorize_transaction(x)))
+            df['Description'].apply(lambda x: pd.Series(self.categorize_transaction(x)))
 
         # Convert 'Date' to datetime and handle different formats
         df['date_'] = pd.to_datetime(df['Date'], errors='coerce', utc=True)
@@ -120,7 +128,7 @@ class pullStripeData:
         
         return df
 
-    def get_balance_transaction_fees(charge):
+    def get_balance_transaction_fees(self, charge):
         balance_transaction_id = charge.get('balance_transaction')
         if balance_transaction_id:
             balance_transaction = stripe.BalanceTransaction.retrieve(balance_transaction_id)
@@ -131,7 +139,7 @@ class pullStripeData:
                     return fee.get('amount', 0) / 100  # Tax amount in dollars
         return 0
 
-    def pull_stripe_payments_data_raw(stripe_key, start_date, end_date):
+    def pull_stripe_payments_data_raw(self, stripe_key, start_date, end_date):
         stripe.api_key = stripe_key
         charges = stripe.Charge.list(
             created={
@@ -140,6 +148,9 @@ class pullStripeData:
             },
             limit=100
         )
+        
+        # Save raw response
+        self.save_raw_response(charges, 'stripe_payments')
         
         data = []
         for charge in charges.auto_paging_iter():  # Use pagination for large data
@@ -166,15 +177,36 @@ class pullStripeData:
         df = pd.DataFrame(data)
         return df
 
-    def pull_and_transform_stripe_payment_data(start_date, end_date):
+    def pull_and_transform_stripe_payment_data(self, start_date, end_date):
         # Get your Square Access Token from environment variables
         # Set the API key for authentication
         stripe_key = os.getenv('STRIPE_PRODUCTION_API_KEY')
 
-        df = pullStripeData.pull_stripe_payments_data_raw(stripe_key, start_date, end_date)
-        df = pullStripeData.transform_payments_data(df)
-        pullStripeData.save_data(df, 'stripe_transaction_data')
+        df = self.pull_stripe_payments_data_raw(stripe_key, start_date, end_date)
+        df = self.transform_payments_data(df)
+        self.save_data(df, 'stripe_transaction_data')
         return df
+
+    def pull_stripe_payments(stripe_token, start_date, end_date):
+        """
+        Pull Stripe payments for a specific date range.
+        """
+        stripe.api_key = stripe_token
+        
+        # Get payments
+        payments = stripe.Charge.list(
+            created={
+                'gte': int(start_date.timestamp()),
+                'lte': int(end_date.timestamp())
+            },
+            limit=100
+        )
+        
+        # Save raw response
+        pullStripeData.save_raw_response(payments, 'stripe_payments')
+        print(f"Retrieved {len(payments.data)} payments from Stripe API")
+        
+        return payments.data
 
 
 if __name__ == "__main__":

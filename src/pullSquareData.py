@@ -3,6 +3,7 @@ from square.http.auth.o_auth_2 import BearerAuthCredentials
 import os
 import datetime
 import pandas as pd
+import json
 
 class pullSquareData:
     ## Dictionaries for processing string in decripitions
@@ -42,13 +43,13 @@ class pullSquareData:
         'bcf staff': True,
     }
 
-    def save_data(df, file_name):
+    def save_data(self, df, file_name):
         df.to_csv('data/outputs/' + file_name + '.csv', index=False)
         print(file_name + ' saved in ' + '/data/outputs/')
 
 
     # Define a function to categorize transactions and membership types
-    def categorize_transaction(description):
+    def categorize_transaction(self, description):
         description = description.lower()  # Make it case-insensitive
         
         # Default values
@@ -87,7 +88,7 @@ class pullSquareData:
     def count_day_passes(revenue_category, base_amount, total_amount):
         return round(total_amount / base_amount)
 
-    def transform_payments_data(df):
+    def transform_payments_data(self, df):
         """
         Transforms the payments data by adding new columns and converting data types.
 
@@ -99,7 +100,7 @@ class pullSquareData:
         """
         # Apply the categorize_transaction function to create new columns
         df[['revenue_category', 'membership_size', 'membership_freq', 'is_founder', 'is_free_membership']] = \
-            df['Description'].apply(lambda x: pd.Series(pullSquareData.categorize_transaction(x)))
+            df['Description'].apply(lambda x: pd.Series(self.categorize_transaction(x)))
 
         # Convert 'Date' to datetime and handle different formats
         df['date_'] = pd.to_datetime(df['Date'], errors='coerce', utc=True)
@@ -124,46 +125,17 @@ class pullSquareData:
         
         return df
 
-    def pull_square_payments_data_raw(square_token, location_id, end_time, begin_time, limit):
-        # Initialize the Square Client with bearer_auth_credentials
-        client = Client(
-            bearer_auth_credentials=BearerAuthCredentials(
-                access_token=square_token
-            ),
-            environment='production'
-        )
-        body = {
-            "location_ids": [location_id],
-            "query": {
-                "filter": {
-                    "date_time_filter": {
-                        "created_at": {
-                            "start_at": begin_time,
-                            "end_at": end_time
-                        }
-                    }
-                }
-            },
-            "limit": limit
-        }
-
-        # Fetch all orders using pagination
-        orders_list = []
-        while True:
-            result = client.orders.search_orders(body=body)
-            if result.is_success():
-                orders = result.body.get('orders', [])
-                orders_list.extend(orders)
-                cursor = result.body.get('cursor')
-                if cursor:
-                    body['cursor'] = cursor  # Update body with cursor for next page
-                else:
-                    break  # Exit loop when no more pages
-            elif result.is_error():
-                print("Error:", result.errors)
-                break
-
-        # Extract relevant data for DataFrame
+    @staticmethod
+    def create_orders_dataframe(orders_list):
+        """
+        Create a DataFrame from a list of Square orders.
+        
+        Parameters:
+        orders_list (list): List of Square order objects
+        
+        Returns:
+        pd.DataFrame: DataFrame containing the processed order data
+        """
         data = []
         for order in orders_list:
             created_at = order.get('created_at')  # Order creation date
@@ -192,23 +164,13 @@ class pullSquareData:
                 })
         
         # Create a DataFrame
-        df= pd.DataFrame(data)
+        df = pd.DataFrame(data)
         df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
         # Drop rows where 'Date' is null
         df = df.dropna(subset=['Date'])
         return df
-    
-    def pull_square_invoices(square_token, location_id):
-        """
-        Fetches paid invoices from Square for a specific location, including the date they were paid.
 
-        Parameters:
-        square_token (str): The Square API token.
-        location_id (str): The location ID for which to fetch invoices.
-
-        Returns:
-        pd.DataFrame: A DataFrame containing details of paid invoices.
-        """
+    def pull_square_payments_data_raw(self, square_token, location_id, end_time, begin_time, limit):
         # Initialize the Square Client with bearer_auth_credentials
         client = Client(
             bearer_auth_credentials=BearerAuthCredentials(
@@ -216,73 +178,118 @@ class pullSquareData:
             ),
             environment='production'
         )
-        
-        # Fetch invoices for the location
-        invoices_list = []
-        cursor = None
+        body = {
+            "location_ids": [location_id],
+            "query": {
+                "filter": {
+                    "date_time_filter": {
+                        "created_at": {
+                            "start_at": begin_time,
+                            "end_at": end_time
+                        }
+                    }
+                }
+            },
+            "limit": limit
+        }
+
+        # Fetch all orders using pagination
+        orders_list = []
+        all_orders = []
         while True:
-            response = client.invoices.list_invoices(location_id=location_id, cursor=cursor)
-            if response.is_success():
-                invoices = response.body.get('invoices', [])
-                invoices_list.extend(invoices)
-                cursor = response.body.get('cursor')
-                if not cursor:
+            result = client.orders.search_orders(body=body)
+            if result.is_success():
+                orders = result.body.get('orders', [])
+                orders_list.extend(orders)
+                all_orders.extend(orders)
+                cursor = result.body.get('cursor')
+                if cursor:
+                    body['cursor'] = cursor  # Update body with cursor for next page
+                else:
                     break  # Exit loop when no more pages
-            elif response.is_error():
-                print("Error:", response.errors)
+            elif result.is_error():
+                print("Error:", result.errors)
                 break
 
-        # Filter for paid invoices and extract payment details
-        paid_invoices = []
+        # Save all orders in a single JSON file
+        self.save_raw_response({'orders': all_orders}, 'square_orders')
+        
+        # Create DataFrame from orders list
+        return self.create_orders_dataframe(orders_list)
+
+    @staticmethod
+    def save_raw_response(data, filename):
+        """Save raw API response to a JSON file."""
+        os.makedirs('data/raw_data', exist_ok=True)
+        filepath = f'data/raw_data/{filename}.json'
+        with open(filepath, 'w') as f:
+            json.dump(data, f, indent=2)
+        print(f"Saved raw response to {filepath}")
+
+    @staticmethod
+    def create_invoices_dataframe(invoices_list):
+        """
+        Create a DataFrame from a list of Square invoices.
+        
+        Parameters:
+        invoices_list (list): List of Square invoice objects
+        
+        Returns:
+        pd.DataFrame: DataFrame containing the processed invoice data
+        """
+        data = []
         for invoice in invoices_list:
-            if invoice.get('status') == 'PAID':
-                payment_requests = invoice.get('payment_requests', [])
-                paid_date = None
-
-                # Check each payment request for completed_at
-                for request in payment_requests:
-                    if 'completed_at' in request:  # Extract the first completed payment date
-                        paid_date = request['completed_at']
-                        break
+            if invoice.get('status') == 'PAID':  # Filter for paid invoices
+                created_at = invoice.get('created_at')
+                total_money = invoice.get('amount_paid', {}).get('amount', 0) / 100
+                pre_tax_money = total_money / (1 + 0.0825)
+                tax_money = total_money - pre_tax_money
+                description = invoice.get('title', 'No Description')
+                name = invoice.get('customer_id', 'No Name')
                 
-                # Fallback: Use the invoice's updated_at field as an alternative date
-                if not paid_date:
-                    paid_date = invoice.get('updated_at')  # Use 'updated_at' as a fallback
-
-                paid_invoice_amount = sum(
-                    request.get('total_completed_amount_money', {}).get('amount', 0)
-                    for request in payment_requests
-                ) / 100  # Convert from cents to dollars
-
-                paid_invoices.append({
-                    'Description': 'paid rental invoice',
-                    'Pre-Tax Amount': paid_invoice_amount / (1 + 0.0825) if paid_invoice_amount else 0,
-                    'Tax Amount': paid_invoice_amount * 0.0825 if paid_invoice_amount else 0,
+                data.append({
+                    'Description': description,
+                    'Pre-Tax Amount': pre_tax_money,
+                    'Tax Amount': tax_money,
+                    'Total Amount': total_money,
                     'Discount Amount': 0,
-                    'Name': invoice.get('customer_id'),
-                    'Total Amount': paid_invoice_amount,
-                    'Date': paid_date,
-                    'base_price_amount': 0,
-                    'revenue_category': 'Event Booking',
-                    'membership_size': None,
-                    'membership_freq': None,
-                    'is_founder': None,
-                    'is_free_membership': None,
-                    'date_': paid_date,
-                    'Data Source': 'Square',
-                    'Day Pass Count': None
+                    'Name': name,
+                    'Date': created_at,
+                    'base_price_amount': pre_tax_money
                 })
+        
+        return pd.DataFrame(data)
 
-        # Create a DataFrame
-        df = pd.DataFrame(paid_invoices)
-        # Convert 'Date' to datetime for consistency
-        df['Date'] = pd.to_datetime(df['Date'], errors='coerce', utc=True)
-        # Extract just the date (without time)
-        df['Date'] = df['Date'].dt.date
+    def pull_square_invoices(self, square_token, location_id):
+        """
+        Pull Square invoices for a specific location and save raw response.
+        Returns a DataFrame of paid invoices.
+        """
+        # Initialize Square client
+        client = Client(
+            bearer_auth_credentials=BearerAuthCredentials(square_token),
+            environment='production'
+        )
+        
+        # Get invoices
+        result = client.invoices.list_invoices(
+            location_id=location_id
+        )
+        
+        if result.is_success():
+            # Save raw response (all invoices)
+            self.save_raw_response(result.body, 'square_invoices')
+            
+            invoices_list = result.body.get('invoices', [])
+            print(f"Retrieved {len(invoices_list)} invoices from Square API")
+            
+            # Create DataFrame from invoices (only paid ones)
+            return self.create_invoices_dataframe(invoices_list)
+        else:
+            print(f"Error retrieving Square invoices: {result.errors}")
+            return []
 
-        return df
-
-    def pull_and_transform_square_payment_data(start_date, end_date):
+    def pull_and_transform_square_payment_data(self, start_date, end_date):
         # Get your Square Access Token from environment variables
         square_token = os.getenv('SQUARE_PRODUCTION_API_TOKEN')
         # Define the location ID
@@ -294,17 +301,32 @@ class pullSquareData:
 
         # Set the maximum limit to 1000
         limit = 1000
-        df = pullSquareData.pull_square_payments_data_raw(square_token, location_id, end_time, begin_time, limit)
-        df = pullSquareData.transform_payments_data(df)
-        pullSquareData.save_data(df, 'square_transaction_data')
+        df = self.pull_square_payments_data_raw(square_token, location_id, end_time, begin_time, limit)
+        df = self.transform_payments_data(df)
+        self.save_data(df, 'square_transaction_data')
         # separate API call for paid invoices through Square
-        invoices_df = pullSquareData.pull_square_invoices(square_token, location_id)
-        pullSquareData.save_data(invoices_df, 'square_invoices_data')
+        invoices_df = self.pull_square_invoices(square_token, location_id)
+        self.save_data(invoices_df, 'square_invoices_data')
         # combine
         df_combined = pd.concat([df, invoices_df], ignore_index=True)
-        pullSquareData.save_data(df_combined, 'square_combined_transaction_invoices_data')
+        self.save_data(df_combined, 'square_combined_transaction_invoices_data')
         return df_combined
 
+    @staticmethod
+    def create_dataframe_from_json(filepath):
+        """
+        Create a DataFrame from a saved JSON file containing Square orders.
+        
+        Parameters:
+        filepath (str): Path to the JSON file
+        
+        Returns:
+        pd.DataFrame: DataFrame containing the processed order data
+        """
+        with open(filepath, 'r') as f:
+            data = json.load(f)
+            orders_list = data.get('orders', [])
+            return pullSquareData.create_orders_dataframe(orders_list)
 
 if __name__ == "__main__":
     # Get today's date and calculate the start date for the last year

@@ -1,0 +1,519 @@
+{
+  "invoices": [
+    {
+      "id": "inv:0-ChAcLBgnqg0fE87SKRUoX-rVEN4N",
+      "version": 2,
+      "location_id": "L37KDMNNG84EA",
+      "order_id": "UIe0BPcCam47qiuX9K33AzbOnU8YY",
+      "payment_requests": [
+        {
+          "uid": "c8533075-56d8-402f-8c40-1d4d3908f8cc",
+          "request_type": "BALANCE",
+          "due_date": "2025-03-08",
+          "tipping_enabled": false,
+          "computed_amount_money": {
+            "amount": 38994,
+            "currency": "USD"
+          },
+          "total_completed_amount_money": {
+            "amount": 38994,
+            "currency": "USD"
+          },
+          "reminders": [
+            {
+              "uid": "451bcad2-af39-444b-9f82-db0ebce23ff3",
+              "relative_scheduled_days": -7,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "f60541d1-fda4-4794-a77c-dd0fa6441015",
+              "relative_scheduled_days": 0,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "afda2c9c-47fb-45d9-85c2-6c5ad8002709",
+              "relative_scheduled_days": 1,
+              "status": "SENT",
+              "sent_at": "2025-03-09T16:04:36Z"
+            },
+            {
+              "uid": "be6a0817-077c-4dc4-aecf-a7ed35859215",
+              "relative_scheduled_days": 3,
+              "status": "SENT",
+              "sent_at": "2025-03-11T16:06:22Z"
+            }
+          ],
+          "automatic_payment_source": "NONE"
+        }
+      ],
+      "primary_recipient": {
+        "customer_id": "AQ08CP123DJ19E929QV95VAHAR",
+        "given_name": "Upward",
+        "family_name": "bound",
+        "email_address": "agallegos@mclennan.edu",
+        "address": {
+          "country": "US"
+        }
+      },
+      "invoice_number": "000007",
+      "title": "Upward Bound climbing day",
+      "description": "Deposit for 40 climbers to come in on June 12th!",
+      "public_url": "https://app.squareup.com/pay-invoice/inv:0-ChAcLBgnqg0fE87SKRUoX-rVEN4N",
+      "status": "PAID",
+      "timezone": "America/Chicago",
+      "created_at": "2025-03-05T00:56:06Z",
+      "updated_at": "2025-03-17T15:52:54Z",
+      "accepted_payment_methods": {
+        "card": true,
+        "square_gift_card": false,
+        "bank_account": false,
+        "buy_now_pay_later": false,
+        "cash_app_pay": true
+      },
+      "delivery_method": "EMAIL",
+      "sale_or_service_date": "2025-06-12",
+      "store_payment_method_enabled": false,
+      "creator_team_member_id": "TMug8ePjbyR4L202"
+    },
+    {
+      "id": "inv:0-ChAeKNFAydvorvJq3xo6zqDXEN4N",
+      "version": 0,
+      "location_id": "L37KDMNNG84EA",
+      "order_id": "86NQMHTjl2J8Eu0gJtZM3qtD7oUZY",
+      "payment_requests": [
+        {
+          "uid": "e188da6d-3242-4d54-8110-5be774b8ab66",
+          "request_type": "BALANCE",
+          "due_date": "2025-01-17",
+          "tipping_enabled": false,
+          "computed_amount_money": {
+            "amount": 81188,
+            "currency": "USD"
+          },
+          "total_completed_amount_money": {
+            "amount": 0,
+            "currency": "USD"
+          },
+          "reminders": [
+            {
+              "uid": "e32b8a82-b798-471c-bc60-cb7596cfb693",
+              "relative_scheduled_days": -7,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "c69ba9ae-41a2-4b1a-ad25-9970e80102b3",
+              "relative_scheduled_days": 0,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "625488bd-f987-4cb8-8f1d-ebb2709e7214",
+              "relative_scheduled_days": 1,
+              "status": "SENT",
+              "sent_at": "2025-01-18T16:04:31Z"
+            },
+            {
+              "uid": "c71490f7-943f-47f6-b708-67a009c33bfb",
+              "relative_scheduled_days": 3,
+              "status": "SENT",
+              "sent_at": "2025-01-20T16:03:37Z"
+            }
+          ],
+          "automatic_payment_source": "NONE"
+        }
+      ],
+      "primary_recipient": {
+        "customer_id": "NGFJE7V3MGNVG7CZM8DDM6MT70",
+        "given_name": "Erika",
+        "family_name": "Averitt",
+        "email_address": "accountspayable@tfnbtx.com",
+        "address": {
+          "country": "US"
+        }
+      },
+      "invoice_number": "000006",
+      "title": "TFNB event deposit",
+      "description": "",
+      "public_url": "https://app.squareup.com/pay-invoice/inv:0-ChAeKNFAydvorvJq3xo6zqDXEN4N",
+      "next_payment_amount_money": {
+        "amount": 81188,
+        "currency": "USD"
+      },
+      "status": "UNPAID",
+      "timezone": "America/Chicago",
+      "created_at": "2025-01-17T16:05:33Z",
+      "updated_at": "2025-01-20T16:04:26Z",
+      "accepted_payment_methods": {
+        "card": true,
+        "square_gift_card": false,
+        "bank_account": false,
+        "buy_now_pay_later": false,
+        "cash_app_pay": true
+      },
+      "delivery_method": "EMAIL",
+      "store_payment_method_enabled": false,
+      "creator_team_member_id": "TMug8ePjbyR4L202"
+    },
+    {
+      "id": "inv:0-ChDqK3oS9cVVX-zHwMGgSjDnEN4N",
+      "version": 2,
+      "location_id": "L37KDMNNG84EA",
+      "order_id": "u7ZwUwkB7ZxN9ylrvOWKCU58MvaZY",
+      "payment_requests": [
+        {
+          "uid": "fefbd265-09bf-409d-be0f-e34a5f1bde3e",
+          "request_type": "BALANCE",
+          "due_date": "2024-12-05",
+          "tipping_enabled": false,
+          "computed_amount_money": {
+            "amount": 85000,
+            "currency": "USD"
+          },
+          "total_completed_amount_money": {
+            "amount": 85000,
+            "currency": "USD"
+          },
+          "reminders": [
+            {
+              "uid": "7c4b977c-6014-4297-aeea-38691b485b10",
+              "relative_scheduled_days": -7,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "0f25670b-1d31-493e-bdb0-002f18904c31",
+              "relative_scheduled_days": 0,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "f9ed33df-9d28-424c-9cf3-5a5e7c7a50ea",
+              "relative_scheduled_days": 1,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "45424bda-83b5-44f1-a536-32cb2eb5f150",
+              "relative_scheduled_days": 3,
+              "status": "NOT_APPLICABLE"
+            }
+          ],
+          "automatic_payment_source": "NONE"
+        }
+      ],
+      "primary_recipient": {
+        "customer_id": "N33JK3VF0X1E505XZDJF1NSGW0",
+        "given_name": "Krista",
+        "family_name": "Weathers",
+        "email_address": "krista.weathers@valorprep.com",
+        "company_name": "Valor Preparatory Academy",
+        "address": {
+          "country": "US"
+        }
+      },
+      "invoice_number": "000005",
+      "title": "Valor Prep December 5th Event Remaining Balance",
+      "description": "Hello,\n\nThis invoice is for the remaining balance for the following private event:\nValor Prep, Thursday, Dec 5th from 5:30-8:30\nPlease reach out to Jess@basinclimbing.com with any questions.\n\nClimb on!\nThe Basin Team",
+      "public_url": "https://app.squareup.com/pay-invoice/inv:0-ChDqK3oS9cVVX-zHwMGgSjDnEN4N",
+      "status": "PAID",
+      "timezone": "America/Chicago",
+      "created_at": "2024-12-05T16:56:14Z",
+      "updated_at": "2024-12-05T17:59:28Z",
+      "accepted_payment_methods": {
+        "card": true,
+        "square_gift_card": false,
+        "bank_account": false,
+        "buy_now_pay_later": false,
+        "cash_app_pay": true
+      },
+      "delivery_method": "EMAIL",
+      "store_payment_method_enabled": false,
+      "creator_team_member_id": "TMug8ePjbyR4L202"
+    },
+    {
+      "id": "inv:0-ChApFA0qyXM9nTc3EtiOa7j5EN4N",
+      "version": 3,
+      "location_id": "L37KDMNNG84EA",
+      "order_id": "4qaUPybRsWwb4BMTO4PoPqK2ywIZY",
+      "payment_requests": [
+        {
+          "uid": "5362667c-8bd1-4f4f-8bf4-876880483f6a",
+          "request_type": "BALANCE",
+          "due_date": "2024-12-08",
+          "tipping_enabled": false,
+          "computed_amount_money": {
+            "amount": 400000,
+            "currency": "USD"
+          },
+          "total_completed_amount_money": {
+            "amount": 400000,
+            "currency": "USD"
+          },
+          "reminders": [
+            {
+              "uid": "32892406-1928-4b39-a3f6-3f818559c9d9",
+              "relative_scheduled_days": -7,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "e8652afd-8b8e-4521-9170-419193dca8ae",
+              "relative_scheduled_days": 0,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "00c5441c-d5eb-4d96-aa80-052c3d5fc55b",
+              "relative_scheduled_days": 1,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "77481667-205b-44f3-8c0a-de71b2921dc6",
+              "relative_scheduled_days": 3,
+              "status": "NOT_APPLICABLE"
+            }
+          ],
+          "automatic_payment_source": "NONE"
+        }
+      ],
+      "primary_recipient": {
+        "customer_id": "CAH4E682P7WRKS8G23DA8HPV8G",
+        "given_name": "Zeta",
+        "family_name": "Chi Chapter of ADPi",
+        "email_address": "vpmebayloradpi@gmail.com",
+        "address": {
+          "country": "US"
+        }
+      },
+      "invoice_number": "000004",
+      "title": "ADPi\u2019s Chapter Retreat x Basin",
+      "description": "This invoice is for the ADPi Chapter Retreat at Basin Climbing and Fitness on February 15, 2025, 6pm-10pm.",
+      "public_url": "https://app.squareup.com/pay-invoice/inv:0-ChApFA0qyXM9nTc3EtiOa7j5EN4N",
+      "status": "PAID",
+      "timezone": "America/Chicago",
+      "created_at": "2024-11-08T22:28:32Z",
+      "updated_at": "2024-11-16T01:08:07Z",
+      "accepted_payment_methods": {
+        "card": true,
+        "square_gift_card": false,
+        "bank_account": false,
+        "buy_now_pay_later": false,
+        "cash_app_pay": true
+      },
+      "delivery_method": "EMAIL",
+      "store_payment_method_enabled": false,
+      "creator_team_member_id": "TMug8ePjbyR4L202"
+    },
+    {
+      "id": "inv:0-ChBGAAf6XS7B-eBd_-OnyCF0EN4N",
+      "version": 1,
+      "location_id": "L37KDMNNG84EA",
+      "order_id": "ivGO2QmGY3dnZULi4MVxoTj5tLZZY",
+      "payment_requests": [
+        {
+          "uid": "a5fe20f3-a7d5-4d78-9dd1-fae237fc471f",
+          "request_type": "BALANCE",
+          "due_date": "2024-10-28",
+          "tipping_enabled": false,
+          "computed_amount_money": {
+            "amount": 9742,
+            "currency": "USD"
+          },
+          "total_completed_amount_money": {
+            "amount": 9742,
+            "currency": "USD"
+          },
+          "reminders": [
+            {
+              "uid": "ce0f20e4-8ab2-4b38-ac65-48edf3813d3e",
+              "relative_scheduled_days": -7,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "3ee1de06-79ca-4882-bde0-41298e6e3110",
+              "relative_scheduled_days": 0,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "7ad44438-d874-452c-8489-a87cd32bcd1d",
+              "relative_scheduled_days": 1,
+              "status": "SENT",
+              "sent_at": "2024-10-29T16:03:37Z"
+            },
+            {
+              "uid": "1f94e6b7-6e0b-43d2-9baa-8ea55471bd61",
+              "relative_scheduled_days": 3,
+              "status": "NOT_APPLICABLE"
+            }
+          ],
+          "automatic_payment_source": "NONE"
+        }
+      ],
+      "primary_recipient": {
+        "customer_id": "2Q2YRJ07F32WGEPVJYKTB14J6W",
+        "given_name": "Kate",
+        "family_name": "Poe",
+        "email_address": "kpoekate@gmail.com",
+        "phone_number": "9728387957"
+      },
+      "invoice_number": "000003",
+      "title": "Room Reservation Fee",
+      "description": "Thank you for reserving a private space at Basin for your special event! This reservation is for the Beta room from 6-8pm on November 16th.",
+      "public_url": "https://app.squareup.com/pay-invoice/inv:0-ChBGAAf6XS7B-eBd_-OnyCF0EN4N",
+      "status": "PAID",
+      "timezone": "America/Chicago",
+      "created_at": "2024-10-28T21:43:02Z",
+      "updated_at": "2024-10-30T12:43:21Z",
+      "accepted_payment_methods": {
+        "card": true,
+        "square_gift_card": false,
+        "bank_account": false,
+        "buy_now_pay_later": false,
+        "cash_app_pay": true
+      },
+      "delivery_method": "EMAIL",
+      "store_payment_method_enabled": false,
+      "creator_team_member_id": "TMug8ePjbyR4L202"
+    },
+    {
+      "id": "inv:0-ChCR7fsPxjFPoUGq_zWg5hL5EN4N",
+      "version": 1,
+      "location_id": "L37KDMNNG84EA",
+      "order_id": "M84jGpwbguFdIII5BcOTKvx3Q27YY",
+      "payment_requests": [
+        {
+          "uid": "d9598065-0d16-440d-990e-20ed1a9a532b",
+          "request_type": "BALANCE",
+          "due_date": "2024-10-28",
+          "tipping_enabled": false,
+          "computed_amount_money": {
+            "amount": 13200,
+            "currency": "USD"
+          },
+          "total_completed_amount_money": {
+            "amount": 13200,
+            "currency": "USD"
+          },
+          "reminders": [
+            {
+              "uid": "85e5e22a-4443-4217-9adb-1a256de05c53",
+              "relative_scheduled_days": -7,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "d29b1734-1402-40cc-891c-b5ab04d59a3f",
+              "relative_scheduled_days": 0,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "aed227d1-40a6-4aaf-9d34-cc753e244f0c",
+              "relative_scheduled_days": 1,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "8123c1be-0d17-404c-abb6-e245d05c7b07",
+              "relative_scheduled_days": 3,
+              "status": "NOT_APPLICABLE"
+            }
+          ],
+          "automatic_payment_source": "NONE"
+        }
+      ],
+      "primary_recipient": {
+        "customer_id": "GVMAGP4VVZHA3SW5XK4MWY57X8",
+        "given_name": "Liz",
+        "family_name": "Duerr",
+        "email_address": "baylorgain@gmail.com",
+        "address": {
+          "country": "US"
+        }
+      },
+      "invoice_number": "000002",
+      "title": "GAIN Event",
+      "description": "GAIN event on 10/29 at 6pm. 2 hour session with a Basin instructor.",
+      "public_url": "https://app.squareup.com/pay-invoice/inv:0-ChCR7fsPxjFPoUGq_zWg5hL5EN4N",
+      "status": "PAID",
+      "timezone": "America/Chicago",
+      "created_at": "2024-10-28T21:11:40Z",
+      "updated_at": "2024-10-28T21:21:17Z",
+      "accepted_payment_methods": {
+        "card": true,
+        "square_gift_card": false,
+        "bank_account": false,
+        "buy_now_pay_later": false,
+        "cash_app_pay": true
+      },
+      "delivery_method": "EMAIL",
+      "store_payment_method_enabled": false,
+      "creator_team_member_id": "TMug8ePjbyR4L202"
+    },
+    {
+      "id": "inv:0-ChBOu8YntA3v2Z3vzNeNxAVAEN4N",
+      "version": 2,
+      "location_id": "L37KDMNNG84EA",
+      "order_id": "ssYFxejE5wph4O2Q5OdNMxo9u5EZY",
+      "payment_requests": [
+        {
+          "uid": "f50f08ca-ba59-486f-8cdd-9fce85c5eeb7",
+          "request_type": "BALANCE",
+          "due_date": "2024-10-04",
+          "tipping_enabled": false,
+          "computed_amount_money": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "total_completed_amount_money": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "reminders": [
+            {
+              "uid": "d4107411-277b-43c9-84c4-49b44f06f67c",
+              "relative_scheduled_days": -7,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "8270710c-5452-4a7a-a1a0-be32d01cd403",
+              "relative_scheduled_days": 0,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "826df690-e3f6-44ed-8f49-c68aef1be1b3",
+              "relative_scheduled_days": 1,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "be359266-5ae8-40b5-9142-79e8b9fcda5d",
+              "relative_scheduled_days": 3,
+              "status": "NOT_APPLICABLE"
+            }
+          ],
+          "automatic_payment_source": "NONE"
+        }
+      ],
+      "primary_recipient": {
+        "customer_id": "N33JK3VF0X1E505XZDJF1NSGW0",
+        "given_name": "Krista",
+        "family_name": "Weathers",
+        "email_address": "krista.weathers@valorprep.com",
+        "company_name": "Valor Preparatory Academy",
+        "address": {
+          "country": "US"
+        }
+      },
+      "invoice_number": "000001",
+      "title": "Private Event Deposit",
+      "description": "Hello,\n\nThis invoice is for the non-refundable deposit for the following private event:\nValor Prep, Thursday, Dec 5th from 5:30-8:30\nPlease reach out to Jess@basinclimbing.com with any questions.\n\nClimb on!\nThe Basin Team",
+      "public_url": "https://app.squareup.com/pay-invoice/inv:0-ChBOu8YntA3v2Z3vzNeNxAVAEN4N",
+      "status": "PAID",
+      "timezone": "America/Chicago",
+      "created_at": "2024-10-02T22:14:05Z",
+      "updated_at": "2024-10-03T15:55:01Z",
+      "accepted_payment_methods": {
+        "card": true,
+        "square_gift_card": false,
+        "bank_account": false,
+        "buy_now_pay_later": false,
+        "cash_app_pay": true
+      },
+      "delivery_method": "EMAIL",
+      "sale_or_service_date": "2024-12-05",
+      "store_payment_method_enabled": false,
+      "creator_team_member_id": "TMug8ePjbyR4L202"
+    }
+  ]
+}
