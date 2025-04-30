@@ -102,6 +102,38 @@ class pullSquareData:
         df[['revenue_category', 'membership_size', 'membership_freq', 'is_founder', 'is_free_membership']] = \
             df['Description'].apply(lambda x: pd.Series(self.categorize_transaction(x)))
 
+        # Add sub-category classification
+        df['sub_category'] = ''
+        df['sub_category_detail'] = ''
+
+        # Classify camps
+        df.loc[df['Description'].str.contains('Summer Camp', case=False, na=False), 'sub_category'] = 'camps'
+        df.loc[df['Description'].str.contains('Summer Camp', case=False, na=False), 'sub_category_detail'] = df['Description'].str.extract(r'(Summer Camp Session \d+)', expand=False)
+
+        # Classify birthday parties
+        birthday_patterns = {
+            'Birthday Party- non-member': 'second payment',
+            'Birthday Party- Member': 'second payment',
+            'Birthday Party- additional participant': 'second payment',
+            '[Calendly] Basin 2 Hour Birthday': 'initial payment', # from calendly
+            'Birthday Party Rental- 2 hours': 'initial payment', # from capitan (old)
+            'Basin 2 Hour Birthday Party Rental': 'initial payment' # more flexible calendly pattern
+        }
+        for pattern, detail in birthday_patterns.items():
+            mask = df['Description'].str.contains(pattern, case=False, na=False)
+            df.loc[mask, 'sub_category'] = 'birthday'
+            df.loc[mask, 'sub_category_detail'] = detail
+
+        # Classify fitness classes
+        fitness_patterns = {
+            'HYROX CLASS': 'hyrox',
+            '8 week transformation': 'transformation'
+        }
+        for pattern, detail in fitness_patterns.items():
+            mask = df['Description'].str.contains(pattern, case=False, na=False)
+            df.loc[mask, 'sub_category'] = 'fitness'
+            df.loc[mask, 'sub_category_detail'] = detail
+
         # Convert 'Date' to datetime and handle different formats
         df['date_'] = pd.to_datetime(df['Date'], errors='coerce', utc=True)
 
@@ -109,13 +141,12 @@ class pullSquareData:
         df['Date'] = df['date_'].dt.date
 
         # Convert the amounts columns to numeric values (handles strings and errors)
-        # df['Total Amount'] = pd.to_numeric(df['Total Amount'], errors='coerce')
         df['Tax Amount'] = pd.to_numeric(df['Tax Amount'], errors='coerce')
         df['Pre-Tax Amount'] = pd.to_numeric(df['Pre-Tax Amount'], errors='coerce')
-        df['Pre-Tax Amount'] = df['Pre-Tax Amount'] - df['Discount Amount']
         df['Data Source'] = 'Square'
-        
+
         # Add a column for day pass count using 'Base Price Amount'
+        # square allows for multiple day passes to be purchased at once
         df['Day Pass Count'] = df.apply(
             lambda row: round(row['Total Amount'] / row['base_price_amount'])
             if row['revenue_category'] == 'Day Pass' and row['base_price_amount'] > 0

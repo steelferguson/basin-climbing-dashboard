@@ -348,6 +348,38 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
         html.H1(children='Youth Teams Membership',
                 style={'color': '#213B3F', 'marginTop': '30px'}),
         dcc.Graph(id='youth-teams-chart'),
+
+        # Birthday Rentals section
+        html.H1(children='Birthday Rentals',
+                style={'color': '#213B3F', 'marginTop': '30px'}),
+        html.Div([
+            dcc.Graph(id='birthday-participants-chart'),
+            dcc.Graph(id='birthday-revenue-chart')
+        ], style={
+            'backgroundColor': '#F5F5F5',
+            'padding': '20px',
+            'borderRadius': '10px',
+            'marginBottom': '40px'
+        }),
+
+        # Camps Revenue section
+        html.H1(children='Camps Revenue',
+                style={'color': '#213B3F', 'marginTop': '30px'}),
+        html.Div([
+            html.Div([
+                html.H2("Camp Session Purchases", style={'textAlign': 'center', 'marginBottom': '20px'}),
+                dcc.Graph(id='camp-sessions-chart')
+            ], style={'marginBottom': '40px'}),
+            html.Div([
+                html.H2("Camp Revenue", style={'textAlign': 'center', 'marginBottom': '20px'}),
+                dcc.Graph(id='camp-revenue-chart')
+            ], style={'marginBottom': '40px'})
+        ], style={
+            'backgroundColor': '#F5F5F5',
+            'padding': '20px',
+            'borderRadius': '10px',
+            'marginBottom': '40px'
+        }),
     ], style={
         'margin': '0 auto',
         'maxWidth': '1200px',
@@ -1058,6 +1090,208 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
             xaxis_title='Date',
             yaxis_title='Number of Team Members',
             hovermode='x unified',
+            plot_bgcolor=chart_colors['background'],
+            paper_bgcolor=chart_colors['background'],
+            font_color=chart_colors['text']
+        )
+        
+        return fig
+
+    # Callback for Birthday Participants chart
+    @app.callback(
+        Output('birthday-participants-chart', 'figure'),
+        [Input('timeframe-toggle', 'value')]
+    )
+    def update_birthday_participants_chart(selected_timeframe):
+        # Filter for birthday transactions
+        df_filtered = df_combined[df_combined['sub_category'] == 'birthday'].copy()
+        df_filtered['date'] = df_filtered['Date'].dt.to_period(selected_timeframe).dt.start_time
+        
+        # Group by date and sub_category_detail to count transactions
+        birthday_counts = df_filtered.groupby(['date', 'sub_category_detail']).size().unstack(fill_value=0)
+        
+        # Create the clustered column chart
+        fig = go.Figure()
+        
+        # Add bars for initial payments
+        fig.add_trace(go.Bar(
+            x=birthday_counts.index,
+            y=birthday_counts.get('initial payment', 0),
+            name='Initial Payment',
+            marker_color=chart_colors['quaternary']  # dark teal
+        ))
+        
+        # Add bars for second payments
+        fig.add_trace(go.Bar(
+            x=birthday_counts.index,
+            y=birthday_counts.get('second payment', 0),
+            name='Second Payment',
+            marker_color=chart_colors['primary']  # rust
+        ))
+        
+        # Update layout
+        fig.update_layout(
+            title='Birthday Party Participants',
+            xaxis_title='Date',
+            yaxis_title='Number of Transactions',
+            barmode='group',
+            plot_bgcolor=chart_colors['background'],
+            paper_bgcolor=chart_colors['background'],
+            font_color=chart_colors['text']
+        )
+        
+        return fig
+
+    # Callback for Birthday Revenue chart
+    @app.callback(
+        Output('birthday-revenue-chart', 'figure'),
+        [Input('timeframe-toggle', 'value')]
+    )
+    def update_birthday_revenue_chart(selected_timeframe):
+        # Filter for birthday transactions
+        df_filtered = df_combined[df_combined['sub_category'] == 'birthday'].copy()
+        df_filtered['date'] = df_filtered['Date'].dt.to_period(selected_timeframe).dt.start_time
+        
+        # Calculate total revenue by date
+        birthday_revenue = df_filtered.groupby('date')['Total Amount'].sum().reset_index()
+        
+        # Create the line chart
+        fig = px.line(birthday_revenue, x='date', y='Total Amount', title='Birthday Party Revenue')
+        
+        # Update trace color
+        fig.update_traces(line_color=chart_colors['quaternary'])  # dark teal
+        
+        # Update layout
+        fig.update_layout(
+            plot_bgcolor=chart_colors['background'],
+            paper_bgcolor=chart_colors['background'],
+            font_color=chart_colors['text']
+        )
+        
+        return fig
+
+    # Callback for Camp Sessions chart
+    @app.callback(
+        Output('camp-sessions-chart', 'figure'),
+        [Input('timeframe-toggle', 'value')]
+    )
+    def update_camp_sessions_chart(selected_timeframe):
+        # Filter for camp sessions
+        camp_data = df_combined[df_combined['sub_category'] == 'camps'].copy()
+        
+        if camp_data.empty:
+            fig = px.bar(title='No camp session data available')
+            fig.add_annotation(
+                text="No camp session data available",
+                xref="paper", yref="paper",
+                showarrow=False,
+                font=dict(size=16)
+            )
+            return fig
+
+        # Convert dates to the selected timeframe and format them nicely
+        camp_data['date'] = camp_data['Date'].dt.to_period(selected_timeframe).dt.start_time
+        camp_data['formatted_date'] = camp_data['date'].dt.strftime('%b %Y')  # Format as "Jan 2024"
+        
+        # Extract session number and start date from description
+        camp_data['session_number'] = camp_data['Description'].str.extract(r'Session (\d+)')
+        camp_data['start_date'] = camp_data['Description'].str.extract(r'(\d{1,2}/\d{1,2}/\d{4})')
+        
+        # Create a combined label with session number and start date
+        camp_data['session_label'] = camp_data.apply(
+            lambda x: f"Session {x['session_number']} ({x['start_date']})" 
+            if pd.notna(x['session_number']) and pd.notna(x['start_date']) 
+            else f"Session {x['session_number']}" if pd.notna(x['session_number'])
+            else x['Description'].replace('Summer Camp ', ''), 
+            axis=1
+        )
+        
+        # Group by session and purchase period
+        camp_counts = camp_data.groupby(['session_label', 'formatted_date']).size().reset_index(name='count')
+        
+        # Create stacked bar chart
+        fig = px.bar(
+            camp_counts,
+            x='session_label',
+            y='count',
+            color='formatted_date',
+            title='Camp Session Purchases by Session and Purchase Period',
+            labels={
+                'session_label': 'Camp Session',
+                'count': 'Number of Purchases',
+                'formatted_date': 'Purchase Period'
+            },
+            color_discrete_sequence=[
+                chart_colors['primary'],    # rust
+                chart_colors['secondary'],  # gold
+                chart_colors['tertiary'],   # sage
+                chart_colors['quaternary'], # dark teal
+                '#8B4229',  # darker rust
+                '#BAA052',  # darker gold
+                '#96A682',  # darker sage
+                '#1A2E31'   # darker teal
+            ]
+        )
+        
+        # Format the date display in the legend
+        fig.update_traces(
+            hovertemplate="<br>".join([
+                "Session: %{x}",
+                "Purchase Period: %{customdata[0]}",
+                "Number of Purchases: %{y}"
+            ]),
+            customdata=camp_counts[['formatted_date']].values
+        )
+        
+        fig.update_layout(
+            barmode='stack',
+            xaxis_title='Camp Session',
+            yaxis_title='Number of Purchases',
+            legend_title='Purchase Period',
+            height=500,
+            plot_bgcolor=chart_colors['background'],
+            paper_bgcolor=chart_colors['background'],
+            font_color=chart_colors['text']
+        )
+        
+        return fig
+
+    # Callback for Camp Revenue chart
+    @app.callback(
+        Output('camp-revenue-chart', 'figure'),
+        [Input('timeframe-toggle', 'value')]
+    )
+    def update_camp_revenue_chart(selected_timeframe):
+        # Filter for camp sessions
+        camp_data = df_combined[df_combined['sub_category'] == 'camps'].copy()
+        
+        if camp_data.empty:
+            fig = px.bar(title='No camp session data available')
+            fig.add_annotation(
+                text="No camp session data available",
+                xref="paper", yref="paper",
+                showarrow=False,
+                font=dict(size=16)
+            )
+            return fig
+
+        # Convert dates to the selected timeframe and group by date
+        camp_data['date'] = camp_data['Date'].dt.to_period(selected_timeframe).dt.start_time
+        camp_revenue = camp_data.groupby('date')['Total Amount'].sum().reset_index()
+        
+        # Create the bar chart
+        fig = px.line(
+            camp_revenue, 
+            x='date', 
+            y='Total Amount', 
+            title='Camp Session Revenue Over Time'
+        )
+        
+        # Update trace color
+        fig.update_traces(line_color=chart_colors['quaternary'])  # dark teal
+        
+        # Update layout
+        fig.update_layout(
             plot_bgcolor=chart_colors['background'],
             paper_bgcolor=chart_colors['background'],
             font_color=chart_colors['text']
