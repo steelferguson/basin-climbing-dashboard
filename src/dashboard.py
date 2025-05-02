@@ -20,18 +20,16 @@ def load_or_fetch_data(use_cached_data=False, use_json=False):
     
     # Define cache file paths
     cache_files = {
-        'capitan': f'{cache_dir}/capitan_data.csv',
         'membership_metrics': f'{cache_dir}/membership_metrics.csv',
         'square_stripe': f'{cache_dir}/square_stripe_data.csv',
         'projections': f'{cache_dir}/projections_data.csv',
-        'memberships': f'{cache_dir}/memberships.json'  # New cache file for membership data
+        'memberships': f'{cache_dir}/memberships.json'  # Cache file for membership data
     }
     
     # Check if all cache files exist and use_cached_data is True
     if use_cached_data and all(os.path.exists(f) for f in cache_files.values()):
         print("Using cached data...")
         # Load cached data
-        df = pd.read_csv(cache_files['capitan'])
         df_membership = pd.read_csv(cache_files['membership_metrics'])
         df_combined = pd.read_csv(cache_files['square_stripe'])
         df_projections = pd.read_csv(cache_files['projections'])
@@ -41,30 +39,15 @@ def load_or_fetch_data(use_cached_data=False, use_json=False):
             membership_data = json.load(f)
         
         # Convert date columns back to datetime
-        df['created_at'] = pd.to_datetime(df['created_at'])
         df_membership['date'] = pd.to_datetime(df_membership['date'])
         df_combined['Date'] = pd.to_datetime(df_combined['Date'])
         df_projections['date'] = pd.to_datetime(df_projections['date'])
         
-        return df, df_membership, df_combined, df_projections, membership_data
+        return df_membership, df_combined, df_projections, membership_data
     else:
         print("Fetching fresh data...")
         if use_json:
             print("Using saved JSON files instead of API calls...")
-            # Load Capitan data from JSON
-            with open('data/raw_data/capitan_payments.json', 'r') as f:
-                capitan_data = json.load(f)
-            df = pd.DataFrame(capitan_data['results'])
-            
-            # Transform Capitan data
-            capitan_instance = capitan()
-            df = capitan_instance.transform_payments_data(df)
-            df = df[df['created_at'] >= '2023-08-01']
-            
-            # Calculate membership metrics from the transformed data
-            df_membership = capitan_instance.calculate_membership_metrics(df)
-            df_membership = df_membership[df_membership['date'] >= '2023-08-01']
-            
             # Load Square and Stripe data from JSON
             with open('data/raw_data/square_orders.json', 'r') as f:
                 square_data = json.load(f)
@@ -134,7 +117,6 @@ def load_or_fetch_data(use_cached_data=False, use_json=False):
             # Save to cache
             if use_cached_data:
                 print("Saving data to cache...")
-                df.to_csv(cache_files['capitan'], index=False)
                 df_membership.to_csv(cache_files['membership_metrics'], index=False)
                 df_combined.to_csv(cache_files['square_stripe'], index=False)
                 df_projections.to_csv(cache_files['projections'], index=False)
@@ -144,15 +126,18 @@ def load_or_fetch_data(use_cached_data=False, use_json=False):
                     json.dump(membership_data, f)
         else:
             # Original code for fetching fresh data from APIs
-            capitan_instance = capitan()
-            df = capitan_instance.pull_and_transform_payment_data()
-            df_membership = capitan_instance.calculate_membership_metrics(df)
-            df_membership = df_membership[df_membership['date'] >= '2023-08-01']
-            df = df[df['created_at'] >= '2023-08-01']
-            
             df_combined = squareAndStripe.pull_and_transform_square_and_stripe_data(use_cached_data=use_cached_data)
             df_combined['Date'] = pd.to_datetime(df_combined['Date'], errors='coerce', utc=True)
             df_combined = df_combined[df_combined['Date'] >= '2023-08-01']
+            
+            # Get fresh membership data
+            membership_data = pullCapitanMembershipData.get_memberships()
+            
+            # Create a DataFrame for membership metrics
+            df_membership = pd.DataFrame({
+                'date': pd.date_range(start='2023-08-01', end=datetime.now(), freq='D'),
+                'metrics': [{} for _ in range(len(pd.date_range(start='2023-08-01', end=datetime.now(), freq='D')))]
+            })
             
             projections, membership_summary = pullCapitanMembershipData.create_comprehensive_projection()
             
@@ -176,16 +161,12 @@ def load_or_fetch_data(use_cached_data=False, use_json=False):
             
             df_projections = pd.DataFrame(projection_rows)
             
-            # Get fresh membership data
-            membership_data = pullCapitanMembershipData.get_memberships()
-            
             # Export current membership data for comparison
             export_membership_data(membership_data)
             
             # Save to cache
             if use_cached_data:
                 print("Saving data to cache...")
-                df.to_csv(cache_files['capitan'], index=False)
                 df_membership.to_csv(cache_files['membership_metrics'], index=False)
                 df_combined.to_csv(cache_files['square_stripe'], index=False)
                 df_projections.to_csv(cache_files['projections'], index=False)
@@ -194,12 +175,12 @@ def load_or_fetch_data(use_cached_data=False, use_json=False):
                 with open(cache_files['memberships'], 'w') as f:
                     json.dump(membership_data, f)
         
-        return df, df_membership, df_combined, df_projections, membership_data
+        return df_membership, df_combined, df_projections, membership_data
 
 # Define the layout and callbacks for the app here
 def create_dashboard(app, use_cached_data=False, use_json=False):
     # Load or fetch data
-    df, df_membership, df_combined, df_projections, membership_data = load_or_fetch_data(use_cached_data, use_json)
+    df_membership, df_combined, df_projections, membership_data = load_or_fetch_data(use_cached_data, use_json)
     
     app.layout = html.Div([
         # Timeframe toggle

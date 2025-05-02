@@ -1,4 +1,21 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Total Amount,Date,base_price_amount,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,sub_category,sub_category_detail,date_,Data Source,Day Pass Count
+Regular,1.67,0.14,0.72,Honey Stinger Organic Salted Caramel Flavored Waffle,1.81,2025-05-01,2.39,Retail,,,False,False,,,2025-05-01 20:52:51+00:00,Square,0
+Lemon Lime,2.25,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2025-05-01,2.5,Retail,,,False,False,,,2025-05-01 20:26:09+00:00,Square,0
+Fruit Punch,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-05-01,2.5,Retail,,,False,False,,,2025-05-01 17:05:31+00:00,Square,0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-05-01,26.0,Day Pass,,,False,False,,,2025-05-01 16:10:28+00:00,Square,2
+Unisex Adult,12.95,1.07,0.0,Petzl Spirit Carabiner Bent (green),14.02,2025-05-01,12.95,Retail,,,False,False,,,2025-05-01 12:36:56+00:00,Square,0
+M,29.999999999999996,2.48,0.0,Cowboy Hat Basin Shirt,32.48,2025-05-01,30.0,Retail,,,False,False,,,2025-05-01 01:54:24+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-05-01,22.0,Day Pass,,,False,False,,,2025-05-01 00:27:00+00:00,Square,1
+S,27.0,2.23,3.0,Cowboy Hat Basin Shirt,29.23,2025-05-01,30.0,Retail,,,False,False,,,2025-05-01 00:07:45+00:00,Square,0
+Regular,1.4,0.11,0.6,Ozarka Water Bottle 16.9oz,1.51,2025-04-30,2.0,Retail,,,False,False,,,2025-04-30 22:35:34+00:00,Square,0
+8.4 oz regular,2.27,0.19,0.98,Red Bull Energy Drink,2.46,2025-04-30,3.25,Retail,,,False,False,,,2025-04-30 22:35:34+00:00,Square,0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-04-30,22.0,Day Pass,,,False,False,,,2025-04-30 22:20:09+00:00,Square,1
+Regular,2.2800000000000002,0.19,0.97,Fairlife Protein Shake Chocolate 11.5fl oz,2.47,2025-04-30,3.25,Retail,,,False,False,,,2025-04-30 22:19:02+00:00,Square,0
+Fruit Punch,1.75,0.14,0.75,Gatorade Thirst Quencher Sports Drink 20oz,1.89,2025-04-30,2.5,Retail,,,False,False,,,2025-04-30 22:19:02+00:00,Square,0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-04-30,20.0,Day Pass,,,False,False,,,2025-04-30 21:10:25+00:00,Square,1
+Cherry Twist,2.0300000000000002,0.17,0.22,Alani Nu Energy Drink (Mini size),2.2,2025-04-30,2.25,Retail,,,False,False,,,2025-04-30 20:51:03+00:00,Square,0
+Orange Kiss,1.58,0.13,0.67,Alani Nu Energy Drink (Mini size),1.71,2025-04-30,2.25,Retail,,,False,False,,,2025-04-30 19:14:48+00:00,Square,0
+Regular,1.67,0.14,0.72,Honey Stinger Organic Salted Caramel Flavored Waffle,1.81,2025-04-30,2.39,Retail,,,False,False,,,2025-04-30 19:14:48+00:00,Square,0
 Regular,29.7,2.45,3.3,Basin 5-Panel Hat,32.15,2025-04-30,33.0,Retail,,,False,False,,,2025-04-30 01:42:47+00:00,Square,0
 Regular,41.349999999999994,3.41,4.6,Elderid Jul2,44.76,2025-04-30,45.95,Retail,,,False,False,,,2025-04-30 01:41:17+00:00,Square,0
 "Green, M",14.999999999999998,1.24,15.0,Comfort Colors Basin Tee,16.24,2025-04-30,30.0,Retail,,,False,False,,,2025-04-30 00:08:51+00:00,Square,0
