@@ -1,6 +1,84 @@
 {
   "invoices": [
     {
+      "id": "inv:0-ChA-bGGTzRDuCXiMb-zT_Ov1EN4N",
+      "version": 0,
+      "location_id": "L37KDMNNG84EA",
+      "order_id": "Mmt5cRZ0xdkaIWne8LMbtz53eYDZY",
+      "payment_requests": [
+        {
+          "uid": "6f697b8c-78f0-4a2a-9a6c-4343b6ba7400",
+          "request_type": "BALANCE",
+          "due_date": "2025-05-02",
+          "tipping_enabled": false,
+          "computed_amount_money": {
+            "amount": 32475,
+            "currency": "USD"
+          },
+          "total_completed_amount_money": {
+            "amount": 0,
+            "currency": "USD"
+          },
+          "reminders": [
+            {
+              "uid": "3b1a4676-e5ed-489e-b0c4-2408afc178e7",
+              "relative_scheduled_days": -7,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "c4370988-fcc5-4b59-a151-845a79bd13c7",
+              "relative_scheduled_days": 0,
+              "status": "NOT_APPLICABLE"
+            },
+            {
+              "uid": "daa28547-4e64-4600-90b5-f87b3c8b2509",
+              "relative_scheduled_days": 1,
+              "status": "SENT",
+              "sent_at": "2025-05-03T16:08:33Z"
+            },
+            {
+              "uid": "722558a8-1284-4d8f-8eb8-5fa5e0d7a0c5",
+              "relative_scheduled_days": 3,
+              "status": "SENT",
+              "sent_at": "2025-05-05T16:08:21Z"
+            }
+          ],
+          "automatic_payment_source": "NONE"
+        }
+      ],
+      "primary_recipient": {
+        "customer_id": "GSN26TQ3GYTBEH5GANA9FZ7GW0",
+        "given_name": "Shelby",
+        "family_name": "Herring",
+        "email_address": "shelbeyh@thecovewaco.org",
+        "address": {
+          "country": "US"
+        }
+      },
+      "invoice_number": "000008",
+      "title": "The Cove",
+      "description": "Invoice for 10 climbers",
+      "public_url": "https://app.squareup.com/pay-invoice/inv:0-ChA-bGGTzRDuCXiMb-zT_Ov1EN4N",
+      "next_payment_amount_money": {
+        "amount": 32475,
+        "currency": "USD"
+      },
+      "status": "UNPAID",
+      "timezone": "America/Chicago",
+      "created_at": "2025-05-02T22:53:51Z",
+      "updated_at": "2025-05-05T16:08:55Z",
+      "accepted_payment_methods": {
+        "card": true,
+        "square_gift_card": false,
+        "bank_account": false,
+        "buy_now_pay_later": false,
+        "cash_app_pay": true
+      },
+      "delivery_method": "EMAIL",
+      "store_payment_method_enabled": false,
+      "creator_team_member_id": "TMug8ePjbyR4L202"
+    },
+    {
       "id": "inv:0-ChAcLBgnqg0fE87SKRUoX-rVEN4N",
       "version": 2,
       "location_id": "L37KDMNNG84EA",

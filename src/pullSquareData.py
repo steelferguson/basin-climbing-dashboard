@@ -17,6 +17,7 @@ class pullSquareData:
         'climbing technique':'programming',
         'comp':'programming',
         'class':'programming',
+        'camp':'programming',
         'event': 'Event Booking',
         'birthday': 'Event Booking',
         'retreat': 'Event Booking',

@@ -17,6 +17,7 @@ class pullStripeData:
         'climbing technique':'programming',
         'comp':'programming',
         'class':'programming',
+        'camp':'programming',
         'booking': 'Event Booking',
         'event': 'Event Booking',
         'birthday': 'Event Booking',

@@ -202,6 +202,18 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
             }
         ),
 
+        # Data source toggle for all revenue charts
+        dcc.Checklist(
+            id='source-toggle',
+            options=[
+                {'label': 'Square', 'value': 'Square'},
+                {'label': 'Stripe', 'value': 'Stripe'}
+            ],
+            value=['Square', 'Stripe'],
+            inline=True,
+            style={'marginBottom': '20px'}
+        ),
+
         # Total Revenue chart section
         html.H1(children='Total Revenue Over Time',
                 style={'color': '#213B3F', 'marginTop': '30px'}),
@@ -211,16 +223,6 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
         html.Div([
             html.H1(children='Square and Stripe Revenue Analysis',
                     style={'color': '#213B3F', 'marginTop': '30px'}),
-            dcc.Checklist(
-                id='source-toggle',
-                options=[
-                    {'label': 'Square', 'value': 'Square'},
-                    {'label': 'Stripe', 'value': 'Stripe'}
-                ],
-                value=['Square', 'Stripe'],
-                inline=True,
-                style={'marginBottom': '20px'}
-            ),
             dcc.Graph(id='square-stripe-revenue-chart'),
             dcc.Graph(id='square-stripe-revenue-stacked-chart'),
             dcc.Graph(id='revenue-percentage-chart'),
@@ -395,10 +397,11 @@ def create_dashboard(app, use_cached_data=False, use_json=False):
     # Callback for Total Revenue chart
     @app.callback(
         Output('total-revenue-chart', 'figure'),
-        [Input('timeframe-toggle', 'value')]
+        [Input('timeframe-toggle', 'value'),
+         Input('source-toggle', 'value')]
     )
-    def update_total_revenue_chart(selected_timeframe):
-        df_filtered = df_combined.copy()
+    def update_total_revenue_chart(selected_timeframe, selected_sources):
+        df_filtered = df_combined[df_combined['Data Source'].isin(selected_sources)].copy()
         df_filtered['date'] = df_filtered['Date'].dt.to_period(selected_timeframe).dt.start_time
         total_revenue = df_filtered.groupby('date')['Total Amount'].sum().reset_index()
 

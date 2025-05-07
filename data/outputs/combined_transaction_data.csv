@@ -1,4 +1,126 @@
 Description,Pre-Tax Amount,Tax Amount,Discount Amount,Name,Total Amount,Date,base_price_amount,revenue_category,membership_size,membership_freq,is_founder,is_free_membership,sub_category,sub_category_detail,date_,Data Source,Day Pass Count
+8.4fl.oz Sugar Free,2.9299999999999997,0.24,0.32,Red Bull Energy Drink,3.17,2025-05-07,3.25,Retail,,,False,False,,,2025-05-07 00:09:21+00:00,Square,0.0
+Peach,2.0300000000000002,0.17,0.22,Alani Nu Energy Drink (Mini size),2.2,2025-05-07,2.25,Retail,,,False,False,,,2025-05-07 00:06:28+00:00,Square,0.0
+1.3 Oz,1.5,0.12,0.0,Bobos Oat Bars Apple Pie Oat Bites,1.62,2025-05-06,1.5,Retail,,,False,False,,,2025-05-06 23:20:04+00:00,Square,0.0
+Regular,4.0,0.33,0.0,Ozarka Water Bottle 16.9oz,4.33,2025-05-06,2.0,Retail,,,False,False,,,2025-05-06 23:20:04+00:00,Square,0.0
+Cherries & Pistachios,2.99,0.25,0.0,Skratch Labs Anytime Energy Bar,3.24,2025-05-06,2.99,Retail,,,False,False,,,2025-05-06 23:20:04+00:00,Square,0.0
+Peach,1.5699999999999998,0.13,0.68,Alani Nu Energy Drink (Mini size),1.7,2025-05-06,2.25,Retail,,,False,False,,,2025-05-06 21:45:39+00:00,Square,0.0
+Eden Green,31.5,2.6,13.5,So Ill Tyvek Rolldown Chalk Bucket,34.1,2025-05-06,45.0,Retail,,,False,False,,,2025-05-06 21:18:28+00:00,Square,0.0
+(1.2 oz)54,1.75,0.14,0.0,CLIF Zbar - Chocolate Brownie,1.89,2025-05-06,1.75,Retail,,,False,False,,,2025-05-06 21:13:33+00:00,Square,0.0
+Regular,3.25,0.27,0.0,Fairlife Protein Shake Chocolate 11.5fl oz,3.52,2025-05-06,3.25,Retail,,,False,False,,,2025-05-06 21:13:33+00:00,Square,0.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-05-06,26.0,Day Pass,,,False,False,,,2025-05-06 21:12:16+00:00,Square,1.0
+Black,2.63,0.22,1.12,BeeKeeper Coffee,2.85,2025-05-06,3.75,Retail,,,False,False,,,2025-05-06 21:05:58+00:00,Square,0.0
+Chunky Blend Chalk - 1.5oz,4.45,0.37,0.5,Midnight Lightning Chunky Blend Chalk,4.82,2025-05-06,4.95,Retail,,,False,False,,,2025-05-06 14:53:58+00:00,Square,0.0
+Peach,2.0300000000000002,0.17,0.22,Alani Nu Energy Drink (Mini size),2.2,2025-05-06,2.25,Retail,,,False,False,,,2025-05-06 00:18:20+00:00,Square,0.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),13.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-05-06,26.0,Day Pass,,,False,False,,,2025-05-06 00:17:22+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),13.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-05-06,26.0,Day Pass,,,False,False,,,2025-05-06 00:16:00+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),13.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-05-06,26.0,Day Pass,,,False,False,,,2025-05-06 00:14:56+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),13.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-05-06,26.0,Day Pass,,,False,False,,,2025-05-06 00:14:09+00:00,Square,1.0
+CAPITAN: Day Pass (Adult 14 and Up),11.0,0.91,11.0,CAPITAN: Day Pass (Adult 14 and Up),11.91,2025-05-06,22.0,Day Pass,,,False,False,,,2025-05-06 00:12:32+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),13.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-05-06,26.0,Day Pass,,,False,False,,,2025-05-06 00:10:51+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),13.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-05-06,26.0,Day Pass,,,False,False,,,2025-05-06 00:09:42+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),13.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-05-06,26.0,Day Pass,,,False,False,,,2025-05-06 00:08:43+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),13.0,1.07,13.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),14.07,2025-05-06,26.0,Day Pass,,,False,False,,,2025-05-06 00:07:42+00:00,Square,1.0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-05-06,22.0,Day Pass,,,False,False,,,2025-05-06 00:06:19+00:00,Square,1.0
+"Gold, M",27.0,2.23,3.0,Comfort Colors Basin Tee,29.23,2025-05-05,30.0,Retail,,,False,False,,,2025-05-05 23:52:46+00:00,Square,0.0
+Screw-Lock (B019QNNJX6),16.96,1.4,2.99,Petzl William Screw Carabiner (gray),18.36,2025-05-05,19.95,Retail,,,False,False,,,2025-05-05 22:34:46+00:00,Square,0.0
+8.4 oz regular,2.27,0.19,0.98,Red Bull Energy Drink,2.46,2025-05-05,3.25,Retail,,,False,False,,,2025-05-05 21:52:36+00:00,Square,0.0
+8.4fl.oz Sugar Free,2.9299999999999997,0.24,0.32,Red Bull Energy Drink,3.17,2025-05-05,3.25,Retail,,,False,False,,,2025-05-05 21:25:45+00:00,Square,0.0
+8.4fl.oz Sugar Free,2.92,0.24,0.33,Red Bull Energy Drink,3.16,2025-05-05,3.25,Retail,,,False,False,,,2025-05-05 21:25:45+00:00,Square,0.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2025-05-05,26.0,Day Pass,,,False,False,,,2025-05-05 21:15:36+00:00,Square,1.0
+Fruit Punch,1.75,0.14,0.75,BodyArmor 20 oz,1.89,2025-05-05,2.5,Retail,,,False,False,,,2025-05-05 20:31:04+00:00,Square,0.0
+LV 10/11.5,125.29999999999998,10.34,53.7,SoiLL Torque LV (Coral Pink),135.64,2025-05-05,179.0,Retail,,,False,False,,,2025-05-05 20:16:33+00:00,Square,0.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-05-05,26.0,Day Pass,,,False,False,,,2025-05-05 15:58:21+00:00,Square,2.0
+Revel Berry,4.5,0.37,0.0,Guayaki Yerba Mate,4.87,2025-05-05,4.5,Retail,,,False,False,,,2025-05-05 13:24:37+00:00,Square,0.0
+Regular,8.05,0.66,0.9,Midnight Lightning Chalktopus,8.71,2025-05-04,8.95,Retail,,,False,False,,,2025-05-04 23:45:02+00:00,Square,0.0
+CAPITAN: Youth Day Pass (Under 14y/o),32.0,2.64,0.0,CAPITAN: Youth Day Pass (Under 14y/o),34.64,2025-05-04,16.0,Day Pass,,,False,False,,,2025-05-04 23:02:44+00:00,Square,2.0
+Regular,6.0,0.5,0.0,Ozarka Water Bottle 16.9oz,6.5,2025-05-04,2.0,Retail,,,False,False,,,2025-05-04 23:02:44+00:00,Square,0.0
+"Kosher (2.4 Ounce Protein Bar, 1 Count) Packaging May Vary",2.25,0.19,0.25,CLIF Bar - Energy Bar - Peanut Butter Banana with Dark Chocolate - Made with Organic Oats - Plant Based Food - Vegetarian,2.44,2025-05-04,2.5,Retail,,,False,False,,,2025-05-04 22:56:07+00:00,Square,0.0
+S,14.999999999999998,1.24,15.0,Cowboy Hat Basin Shirt,16.24,2025-05-04,30.0,Retail,,,False,False,,,2025-05-04 22:13:50+00:00,Square,0.0
+Regular,2.27,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2025-05-04,3.25,Retail,,,False,False,,,2025-05-04 22:12:37+00:00,Square,0.0
+One Size,9.95,0.82,0.0,Metolius Climbing Tape Roll White,10.77,2025-05-04,9.95,Retail,,,False,False,,,2025-05-04 22:08:46+00:00,Square,0.0
+(1.2 oz)54,1.75,0.14,0.0,CLIF Zbar - Chocolate Brownie,1.89,2025-05-04,1.75,Retail,,,False,False,,,2025-05-04 20:55:57+00:00,Square,0.0
+Regular,4.0,0.33,0.0,Ozarka Water Bottle 16.9oz,4.33,2025-05-04,2.0,Retail,,,False,False,,,2025-05-04 20:50:51+00:00,Square,0.0
+Regular,4.0,0.33,0.0,Ozarka Water Bottle 16.9oz,4.33,2025-05-04,2.0,Retail,,,False,False,,,2025-05-04 20:26:03+00:00,Square,0.0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,0.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-05-04,22.0,Day Pass,,,False,False,,,2025-05-04 19:55:28+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-05-04,26.0,Day Pass,,,False,False,,,2025-05-04 19:49:34+00:00,Square,1.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-05-04,20.0,Day Pass,,,False,False,,,2025-05-04 19:49:34+00:00,Square,1.0
+One Size,9.95,0.82,0.0,Metolius Climbing Tape Roll White,10.77,2025-05-04,9.95,Retail,,,False,False,,,2025-05-04 19:47:46+00:00,Square,0.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-05-04,20.0,Day Pass,,,False,False,,,2025-05-04 19:37:08+00:00,Square,1.0
+Regular,29.7,2.45,3.3,Basin 5-Panel Hat,32.15,2025-05-04,33.0,Retail,,,False,False,,,2025-05-04 19:22:11+00:00,Square,0.0
+Blue,8.95,0.74,1.0,"Metolius 1/2"" Tape Roll",9.69,2025-05-04,9.95,Retail,,,False,False,,,2025-05-04 19:22:11+00:00,Square,0.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-05-04,26.0,Day Pass,,,False,False,,,2025-05-04 19:21:01+00:00,Square,2.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-05-04,20.0,Day Pass,,,False,False,,,2025-05-04 19:21:01+00:00,Square,2.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-05-04,26.0,Day Pass,,,False,False,,,2025-05-04 19:16:55+00:00,Square,1.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-05-04,20.0,Day Pass,,,False,False,,,2025-05-04 19:16:55+00:00,Square,1.0
+CAPITAN: Day Pass (Adult 14 and Up),44.0,3.63,0.0,CAPITAN: Day Pass (Adult 14 and Up),47.63,2025-05-04,22.0,Day Pass,,,False,False,,,2025-05-04 19:06:10+00:00,Square,2.0
+1 (navy blue),79.95,6.59,0.0,Petzl Corax,86.54,2025-05-04,79.95,Retail,,,False,False,,,2025-05-04 19:06:10+00:00,Square,0.0
+Triact-Lock (B01N67A6E6),24.950000000000003,2.06,0.0,Petzl SM'D TRIACT-LOCK,27.01,2025-05-04,24.95,Retail,,,False,False,,,2025-05-04 19:06:10+00:00,Square,0.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),78.0,6.43,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),84.43,2025-05-04,26.0,Day Pass,,,False,False,,,2025-05-04 19:02:24+00:00,Square,3.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-05-04,20.0,Day Pass,,,False,False,,,2025-05-04 19:02:24+00:00,Square,1.0
+CAPITAN: Birthday Party- non-member,185.0,15.26,0.0,CAPITAN: Birthday Party- non-member,200.26,2025-05-04,185.0,Event Booking,,,False,False,birthday,second payment,2025-05-04 02:02:51+00:00,Square,0.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-05-04,26.0,Day Pass,,,False,False,,,2025-05-04 01:06:18+00:00,Square,2.0
+Cool Blue,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-05-04,2.5,Retail,,,False,False,,,2025-05-04 00:50:40+00:00,Square,0.0
+Unisex Adult,9.07,0.75,3.88,Petzl Spirit Carabiner Bent (blue),9.82,2025-05-04,12.95,Retail,,,False,False,,,2025-05-04 00:33:20+00:00,Square,0.0
+CAPITAN: Birthday Party- non-member,185.0,15.26,0.0,CAPITAN: Birthday Party- non-member,200.26,2025-05-04,185.0,Event Booking,,,False,False,birthday,second payment,2025-05-04 00:03:49+00:00,Square,0.0
+Cherry Twist,2.0300000000000002,0.17,0.22,Alani Nu Energy Drink (Mini size),2.2,2025-05-03,2.25,Retail,,,False,False,,,2025-05-03 23:52:11+00:00,Square,0.0
+8.4 oz regular,2.9299999999999997,0.24,0.32,Red Bull Energy Drink,3.17,2025-05-03,3.25,Retail,,,False,False,,,2025-05-03 23:16:29+00:00,Square,0.0
+Cool Blue,2.25,0.18,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.43,2025-05-03,2.5,Retail,,,False,False,,,2025-05-03 22:56:56+00:00,Square,0.0
+Fruit Punch,2.25,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2025-05-03,2.5,Retail,,,False,False,,,2025-05-03 22:56:56+00:00,Square,0.0
+Regular,18.0,1.48,0.0,Ozarka Water Bottle 16.9oz,19.48,2025-05-03,2.0,Retail,,,False,False,,,2025-05-03 22:41:03+00:00,Square,0.0
+Regular,2.0,0.16,0.0,Ozarka Water Bottle 16.9oz,2.16,2025-05-03,2.0,Retail,,,False,False,,,2025-05-03 22:32:25+00:00,Square,0.0
+Enlighten Mint,4.05,0.33,0.45,Guayaki Yerba Mate,4.38,2025-05-03,4.5,Retail,,,False,False,,,2025-05-03 22:26:55+00:00,Square,0.0
+3-Pack Multi One Size,17.1,1.41,1.9,So Ill Holds Strength Trainer 3pk,18.51,2025-05-03,19.0,Retail,,,False,False,,,2025-05-03 22:26:04+00:00,Square,0.0
+Peach,2.0300000000000002,0.17,0.22,Alani Nu Energy Drink (Mini size),2.2,2025-05-03,2.25,Retail,,,False,False,,,2025-05-03 22:24:26+00:00,Square,0.0
+Regular,2.92,0.24,0.33,Fairlife Protein Shake Chocolate 11.5fl oz,3.16,2025-05-03,3.25,Retail,,,False,False,,,2025-05-03 22:24:26+00:00,Square,0.0
+Regular,2.27,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2025-05-03,3.25,Retail,,,False,False,,,2025-05-03 21:59:48+00:00,Square,0.0
+Unisex Adult,11.649999999999999,0.96,1.3,Petzl Spirit Carabiner Bent (blue),12.61,2025-05-03,12.95,Retail,,,False,False,,,2025-05-03 21:51:53+00:00,Square,0.0
+Fruit Punch,2.5,0.2,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.7,2025-05-03,2.5,Retail,,,False,False,,,2025-05-03 20:39:02+00:00,Square,0.0
+Cool Blue,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-05-03,2.5,Retail,,,False,False,,,2025-05-03 20:39:02+00:00,Square,0.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),18.2,1.5,7.8,CAPITAN: Day Pass with Gear (Adult 14 and Up),19.7,2025-05-03,26.0,Day Pass,,,False,False,,,2025-05-03 20:11:54+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-05-03,26.0,Day Pass,,,False,False,,,2025-05-03 20:02:05+00:00,Square,2.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),60.0,4.95,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),64.95,2025-05-03,20.0,Day Pass,,,False,False,,,2025-05-03 20:02:05+00:00,Square,3.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-05-03,20.0,Day Pass,,,False,False,,,2025-05-03 19:25:19+00:00,Square,2.0
+CAPITAN: Birthday Party- Member,125.0,10.31,0.0,CAPITAN: Birthday Party- Member,135.31,2025-05-03,125.0,Event Booking,,,False,False,birthday,second payment,2025-05-03 19:24:00+00:00,Square,0.0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",1.6,0.13,0.69,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,1.73,2025-05-03,2.29,Retail,,,False,False,,,2025-05-03 19:18:44+00:00,Square,0.0
+M,29.999999999999996,2.48,0.0,Cowboy Hat Basin Shirt,32.48,2025-05-03,30.0,Retail,,,False,False,,,2025-05-03 18:22:25+00:00,Square,0.0
+Revel Berry,3.1500000000000004,0.26,1.35,Guayaki Yerba Mate,3.41,2025-05-03,4.5,Retail,,,False,False,,,2025-05-03 15:17:19+00:00,Square,0.0
+Black,2.63,0.22,1.12,BeeKeeper Coffee,2.85,2025-05-03,3.75,Retail,,,False,False,,,2025-05-03 15:15:08+00:00,Square,0.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),28.0,2.31,12.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),30.31,2025-05-03,20.0,Day Pass,,,False,False,,,2025-05-03 15:12:40+00:00,Square,2.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-05-03,20.0,Day Pass,,,False,False,,,2025-05-03 15:06:29+00:00,Square,2.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),40.0,3.3,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),43.3,2025-05-03,20.0,Day Pass,,,False,False,,,2025-05-03 14:36:41+00:00,Square,2.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.15,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.15,2025-05-03,26.0,Day Pass,,,False,False,,,2025-05-03 14:14:52+00:00,Square,1.0
+CAPITAN: Youth Day Pass with Gear (Under 14 y/o),20.0,1.65,0.0,CAPITAN: Youth Day Pass with Gear (Under 14 y/o),21.65,2025-05-03,20.0,Day Pass,,,False,False,,,2025-05-03 14:14:52+00:00,Square,1.0
+CAPITAN: Day Pass (Adult 14 and Up),44.0,3.63,0.0,CAPITAN: Day Pass (Adult 14 and Up),47.63,2025-05-03,22.0,Day Pass,,,False,False,,,2025-05-03 14:14:00+00:00,Square,2.0
+CAPITAN: Day Pass (Adult 14 and Up),19.8,1.63,2.2,CAPITAN: Day Pass (Adult 14 and Up),21.43,2025-05-03,22.0,Day Pass,,,False,False,,,2025-05-03 14:12:14+00:00,Square,1.0
+Regular,1.8,0.15,0.2,Ozarka Water Bottle 16.9oz,1.95,2025-05-03,2.0,Retail,,,False,False,,,2025-05-03 01:43:41+00:00,Square,0.0
+(1.2 oz)54,1.5699999999999998,0.13,0.18,CLIF Zbar - Chocolate Brownie,1.7,2025-05-03,1.75,Retail,,,False,False,,,2025-05-03 01:27:18+00:00,Square,0.0
+Chunky Blend Chalk - 1.5oz,4.46,0.37,0.49,Midnight Lightning Chunky Blend Chalk,4.83,2025-05-03,4.95,Retail,,,False,False,,,2025-05-03 01:15:44+00:00,Square,0.0
+M/L (blue),58.45,4.82,6.5,Petzl BOREO - Robust Versatile Mountain Sports Helmet,63.27,2025-05-03,64.95,Retail,,,False,False,,,2025-05-03 01:15:44+00:00,Square,0.0
+(1.2 oz)54,1.5699999999999998,0.13,0.18,CLIF Zbar - Chocolate Brownie,1.7,2025-05-03,1.75,Retail,,,False,False,,,2025-05-03 01:04:51+00:00,Square,0.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),78.0,6.44,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),84.44,2025-05-03,26.0,Day Pass,,,False,False,,,2025-05-03 00:53:31+00:00,Square,3.0
+"Whole30 Approved, Certified Paleo, Keto-Friendly, and Gluten-Free Meat Snack with 6g of Protein",1.6,0.13,0.69,The New Primal Classic Beef Stick - 1 oz Meat Stick - 100% Grass-Fed Beef Snack,1.73,2025-05-03,2.29,Retail,,,False,False,,,2025-05-03 00:46:19+00:00,Square,0.0
+Chunky Blend Chalk - 1.5oz,8.91,0.74,0.99,Midnight Lightning Chunky Blend Chalk,9.65,2025-05-03,4.95,Retail,,,False,False,,,2025-05-03 00:01:42+00:00,Square,0.0
+CAPITAN: Day Pass (Adult 14 and Up),22.0,1.82,22.0,CAPITAN: Day Pass (Adult 14 and Up),23.82,2025-05-03,22.0,Day Pass,,,False,False,,,2025-05-03 00:00:33+00:00,Square,1.0
+Cool Blue,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-05-02,2.5,Retail,,,False,False,,,2025-05-02 22:04:00+00:00,Square,0.0
+2.5 oz,6.99,0.58,3.0,Friction Labs Unicorn Dust,7.57,2025-05-02,9.99,Retail,,,False,False,,,2025-05-02 21:31:17+00:00,Square,0.0
+M,14.999999999999998,1.24,15.0,Cowboy Hat Basin Shirt,16.24,2025-05-02,30.0,Retail,,,False,False,,,2025-05-02 20:48:59+00:00,Square,0.0
+S,14.999999999999998,1.24,15.0,Cowboy Hat Basin Shirt,16.24,2025-05-02,30.0,Retail,,,False,False,,,2025-05-02 20:48:59+00:00,Square,0.0
+"Gold, S",21.0,1.73,9.0,Comfort Colors Basin Tee,22.73,2025-05-02,30.0,Retail,,,False,False,,,2025-05-02 20:48:00+00:00,Square,0.0
+Regular,1.67,0.14,0.72,Honey Stinger Organic Salted Caramel Flavored Waffle,1.81,2025-05-02,2.39,Retail,,,False,False,,,2025-05-02 17:38:32+00:00,Square,0.0
+8.4 oz regular,2.2800000000000002,0.19,0.97,Red Bull Energy Drink,2.47,2025-05-02,3.25,Retail,,,False,False,,,2025-05-02 17:38:32+00:00,Square,0.0
+Revel Berry,4.05,0.33,0.45,Guayaki Yerba Mate,4.38,2025-05-02,4.5,Retail,,,False,False,,,2025-05-02 17:26:44+00:00,Square,0.0
+CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,10.0,0.82,0.0,CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,10.82,2025-05-02,10.0,Day Pass,,,False,False,,,2025-05-02 00:08:15+00:00,Square,1.0
+Regular,2.27,0.19,0.98,Fairlife Protein Shake Chocolate 11.5fl oz,2.46,2025-05-02,3.25,Retail,,,False,False,,,2025-05-02 00:01:18+00:00,Square,0.0
+CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,10.0,0.82,0.0,CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,10.82,2025-05-01,10.0,Day Pass,,,False,False,,,2025-05-01 23:44:53+00:00,Square,1.0
+CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,21.0,1.73,9.0,CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,22.73,2025-05-01,10.0,Day Pass,,,False,False,,,2025-05-01 23:43:52+00:00,Square,2.0
+CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,10.0,0.82,0.0,CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,10.82,2025-05-01,10.0,Day Pass,,,False,False,,,2025-05-01 23:12:11+00:00,Square,1.0
+CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-05-01,26.0,Day Pass,,,False,False,,,2025-05-01 22:41:36+00:00,Square,2.0
+CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,10.0,0.82,0.0,CAPITAN: Mid-Day Membership WEEKNIGHT and WEEKEND PASS,10.82,2025-05-01,10.0,Day Pass,,,False,False,,,2025-05-01 22:32:37+00:00,Square,1.0
+(1.2 oz)54,1.5699999999999998,0.13,0.18,CLIF Zbar - Chocolate Brownie,1.7,2025-05-01,1.75,Retail,,,False,False,,,2025-05-01 22:26:18+00:00,Square,0.0
+Regular,2.0,0.16,0.0,Ozarka Water Bottle 16.9oz,2.16,2025-05-01,2.0,Retail,,,False,False,,,2025-05-01 22:12:23+00:00,Square,0.0
+5 oz,5.2,0.43,0.0,Pipsnacks Truffle Fries,5.63,2025-05-01,5.2,Retail,,,False,False,,,2025-05-01 22:12:23+00:00,Square,0.0
+Enlighten Mint,3.1500000000000004,0.26,1.35,Guayaki Yerba Mate,3.41,2025-05-01,4.5,Retail,,,False,False,,,2025-05-01 22:04:13+00:00,Square,0.0
 Regular,1.67,0.14,0.72,Honey Stinger Organic Salted Caramel Flavored Waffle,1.81,2025-05-01,2.39,Retail,,,False,False,,,2025-05-01 20:52:51+00:00,Square,0.0
 Lemon Lime,2.25,0.19,0.25,Gatorade Thirst Quencher Sports Drink 20oz,2.44,2025-05-01,2.5,Retail,,,False,False,,,2025-05-01 20:26:09+00:00,Square,0.0
 Fruit Punch,2.5,0.21,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.71,2025-05-01,2.5,Retail,,,False,False,,,2025-05-01 17:05:31+00:00,Square,0.0
@@ -1345,7 +1467,7 @@ CAPITAN: Day Pass (Adult 14 and Up),11.0,0.91,11.0,CAPITAN: Day Pass (Adult 14 a
 CAPITAN: Day Pass with Gear (Adult 14 and Up),52.0,4.29,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),56.29,2025-03-04,26.0,Day Pass,,,False,False,,,2025-03-04 23:53:47+00:00,Square,2.0
 Chocolate Chip,1.5699999999999998,0.13,0.18,CLIF Z Bar Chocolate Chip,1.7,2025-03-04,1.75,Retail,,,False,False,,,2025-03-04 23:14:44+00:00,Square,0.0
 Regular,2.3899999999999997,0.2,0.0,Honey Stinger Gluten Free Organic Waffle: Cinnamon,2.59,2025-03-04,2.39,Retail,,,False,False,,,2025-03-04 22:33:20+00:00,Square,0.0
-CAPITAN: Spring Break Kids Camp- - Kids Day Camp,390.0,32.18,0.0,CAPITAN: Spring Break Kids Camp- - Kids Day Camp,422.18,2025-03-04,65.0,Day Pass,,,False,False,,,2025-03-04 22:05:12+00:00,Square,6.0
+CAPITAN: Spring Break Kids Camp- - Kids Day Camp,390.0,32.18,0.0,CAPITAN: Spring Break Kids Camp- - Kids Day Camp,422.18,2025-03-04,65.0,programming,,,False,False,,,2025-03-04 22:05:12+00:00,Square,0.0
 Regular,50.400000000000006,4.16,5.6,Organic Deluxe Bucket Chalk Bag,54.56,2025-03-04,56.0,Retail,,,False,False,,,2025-03-04 20:54:27+00:00,Square,0.0
 Mocha Latte,3.1399999999999997,0.26,1.35,Great Lakes Cold Brew,3.4,2025-03-04,4.49,Retail,,,False,False,,,2025-03-04 19:16:42+00:00,Square,0.0
 Regular,2.06,0.17,0.23,Lightly Peppered Turkey Stick,2.23,2025-03-04,2.29,Retail,,,False,False,,,2025-03-04 17:38:38+00:00,Square,0.0
@@ -3066,7 +3188,7 @@ CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass wi
 CAPITAN: Day Pass with Gear (Adult 14 and Up),26.0,2.14,0.0,CAPITAN: Day Pass with Gear (Adult 14 and Up),28.14,2024-12-29,26.0,Day Pass,,,False,False,,,2024-12-29 20:14:33+00:00,Square,1.0
 CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2024-12-29,20.0,Day Pass,,,False,False,,,2024-12-29 20:09:58+00:00,Square,1.0
 CAPITAN: Day Pass (Adult 14 and Up),40.0,3.3,0.0,CAPITAN: Day Pass (Adult 14 and Up),43.3,2024-12-29,20.0,Day Pass,,,False,False,,,2024-12-29 00:23:25+00:00,Square,2.0
-CAPITAN: Winter Camp AM Package,198.0,16.34,0.0,CAPITAN: Winter Camp AM Package,214.34,2024-12-28,99.0,Day Pass,,,False,False,,,2024-12-28 23:34:31+00:00,Square,2.0
+CAPITAN: Winter Camp AM Package,198.0,16.34,0.0,CAPITAN: Winter Camp AM Package,214.34,2024-12-28,99.0,programming,,,False,False,,,2024-12-28 23:34:31+00:00,Square,0.0
 CAPITAN: Day Pass (Adult 14 and Up),20.0,1.65,0.0,CAPITAN: Day Pass (Adult 14 and Up),21.65,2024-12-28,20.0,Day Pass,,,False,False,,,2024-12-28 23:12:23+00:00,Square,1.0
 CAPITAN: Youth Day Pass (Under 14y/o),28.0,2.31,0.0,CAPITAN: Youth Day Pass (Under 14y/o),30.31,2024-12-28,14.0,Day Pass,,,False,False,,,2024-12-28 23:12:23+00:00,Square,2.0
 Cool Blue,2.5,0.2,0.0,Gatorade Thirst Quencher Sports Drink 20oz,2.7,2024-12-28,2.5,Retail,,,False,False,,,2024-12-28 22:40:15+00:00,Square,0.0
@@ -5402,6 +5524,172 @@ ADPi’s Chapter Retreat x Basin,0.0,0.0,0.0,No Name,0.0,2024-11-08T22:28:32Z,0.
 Room Reservation Fee,0.0,0.0,0.0,No Name,0.0,2024-10-28T21:43:02Z,0.0,,,,,,,,,,
 GAIN Event,0.0,0.0,0.0,No Name,0.0,2024-10-28T21:11:40Z,0.0,,,,,,,,,,
 Private Event Deposit,0.0,0.0,0.0,No Name,0.0,2024-10-02T22:14:05Z,0.0,,,,,,,,,,
+Capitan membership #168095 initial payment: Mid Day Membership - Family,28.0,2.3099999999999987,0.0,,30.31,2025-05-07,,New Membership,Family,,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #130497 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,Gavin M Morgenegg,38.97,2025-05-07,,Membership Renewal,Solo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #147496 renewal payment: Mid Day Discounted -Solo,12.0,0.9900000000000002,0.0,Katherine Cebalo,12.99,2025-05-07,,Membership Renewal,Solo,,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #149686 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,Maggie Goeglein,59.54,2025-05-07,,Membership Renewal,,Monthly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #126046 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,Max Caldwell,59.54,2025-05-07,,Membership Renewal,,Monthly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #126043 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,Jacob t caldwell,59.54,2025-05-07,,Membership Renewal,,Monthly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #126012 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-05-07,,Membership Renewal,,Monthly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #143198 renewal payment: Family Weekly,105.99538106235565,8.744618937644347,0.0,,114.74,2025-05-07,,Membership Renewal,Family,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #122893 renewal payment: Duo Weekly,68.0,5.609999999999999,0.0,,73.61,2025-05-07,,Membership Renewal,Duo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #150063 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-05-07,,Membership Renewal,Solo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #147473 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,Kaitlin Riley,38.97,2025-05-07,,Membership Renewal,Solo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #145504 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,D Rodriguez Aguirre,43.3,2025-05-07,,Membership Renewal,Solo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #139893 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,Mercy  Adams ,43.3,2025-05-07,,Membership Renewal,Solo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #137287 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,Elise Jordan,43.3,2025-05-07,,Membership Renewal,Solo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #118206 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-05-07,,Membership Renewal,Solo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #112455 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-05-07,,Membership Renewal,Solo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan membership #111737 renewal payment: Solo Weekly,32.39722863741339,2.6727713625866087,0.0,,35.07,2025-05-07,,Membership Renewal,Solo,weekly,False,False,,,2025-05-07 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8813471: Summer Camp Session 7 (July 21-24),207.85219399538107,17.14780600461893,0.0,Meredith Croyle,225.0,2025-05-06,,programming,,,False,False,camps,Summer Camp Session 7,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8813446: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Bruton,10.0,2025-05-06,,programming,,,False,False,fitness,hyrox,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8813063: BOULDERING LEAGUE,20.0,1.6499999999999986,0.0,Townes Latendresse,21.65,2025-05-06,,Event Booking,,,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan entry pass #1356917: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-05-06,,Day Pass,,,False,False,,,2025-05-06 00:00:00+00:00,Stripe,1.0
+Capitan membership #167871 initial payment: Solo Weekly,75.00230946882216,6.187690531177836,0.0,,81.19,2025-05-06,,New Membership,Solo,weekly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+[Calendly] Basin 2 Hour Birthday Party Rental with Nicole Reynolds,184.75750577367205,15.242494226327949,0.0,Nicole Reynolds,200.0,2025-05-06,,Event Booking,,,False,False,birthday,initial payment,2025-05-06 00:00:00+00:00,Stripe,0.0
+[Calendly] Basin 2 Hour Birthday Party Rental with Nicole Reynolds,184.75750577367205,15.242494226327949,0.0,Nicole Reynolds,200.0,2025-05-06,,Event Booking,,,False,False,birthday,initial payment,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8811563: Summer Camp Session 8 (July 28-31),207.85219399538107,17.14780600461893,0.0,Mollie Callahan,225.0,2025-05-06,,programming,,,False,False,camps,Summer Camp Session 8,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #157958 renewal payment: Mid Day Membership - Family,17.99538106235566,1.484618937644342,0.0,Courtney G Williams,19.48,2025-05-06,,Membership Renewal,Family,,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #148237 renewal payment: Mid Day Membership - Family,36.0,2.969999999999999,0.0,,38.97,2025-05-06,,Membership Renewal,Family,,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #145348 renewal payment: Fitness Only- Unlimited,59.122401847575055,4.8775981524249445,0.0,JACOB S FOSDICK,64.0,2025-05-06,,Membership Renewal,,,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #149598 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-05-06,,Membership Renewal,,Monthly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #149597 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-05-06,,Membership Renewal,,Monthly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #131612 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-05-06,,Membership Renewal,,Monthly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #115706 renewal payment: Duo Weekly,72.0,5.939999999999998,0.0,,77.94,2025-05-06,,Membership Renewal,Duo,weekly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #120604 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,,2.16,2025-05-06,,Membership Renewal,Solo,weekly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #147278 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-05-06,,Membership Renewal,Solo,weekly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #137740 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-05-06,,Membership Renewal,Solo,weekly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #120584 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,0.0,,39.4,2025-05-06,,Membership Renewal,Solo,weekly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #110204 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,Glen Prior,43.3,2025-05-06,,Membership Renewal,Solo,weekly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #95216 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,0.0,Garrison Lancster,36.8,2025-05-06,,Membership Renewal,Solo,weekly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan membership #94790 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Mary Blair,32.48,2025-05-06,,Membership Renewal,Solo,weekly,False,False,,,2025-05-06 00:00:00+00:00,Stripe,0.0
+Capitan entry pass #1356410: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-05-05,,Day Pass,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,1.0
+Capitan reservation #8810584: BOULDERING LEAGUE,60.0,4.950000000000003,0.0,Allyson Bayer,64.95,2025-05-05,,Event Booking,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8810581: BOULDERING LEAGUE,20.0,1.6499999999999986,0.0,Roma A Castellanos,21.65,2025-05-05,,Event Booking,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8810563: BOULDERING LEAGUE,30.004618937644338,2.475381062355659,0.0,Corrine Marchesano,32.48,2025-05-05,,Event Booking,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan entry pass #1356297: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,Sofia Camarena,23.82,2025-05-05,,Day Pass,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,1.0
+Capitan reservation #8810052: BOULDERING LEAGUE,30.004618937644338,2.475381062355659,0.0,,32.48,2025-05-05,,Event Booking,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan entry pass #1356168: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-05-05,,Day Pass,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1356038: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-05-05,,Day Pass,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,1.0
+Capitan reservation #8809553: BOULDERING LEAGUE,20.0,1.6499999999999986,0.0,Nicholas C Ladd,21.65,2025-05-05,,Event Booking,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #167616 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-05-05,,New Membership,,Monthly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #125720 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-05-05,,Membership Renewal,,Monthly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #138880 renewal payment: Youth Rec Team Dues,148.99769053117782,12.292309468822168,0.0,Lorin Sherman,161.29,2025-05-05,,Team,,,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #133368 renewal payment: Family Weekly,52.0,4.289999999999999,0.0,,56.29,2025-05-05,,Membership Renewal,Family,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #93351 renewal payment: Family Weekly,91.00230946882218,7.507690531177829,0.0,Matthew smith,98.51,2025-05-05,,Membership Renewal,Family,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #79444 renewal payment: Family Weekly,75.7228637413395,6.247136258660504,0.0,Ben Otis,81.97,2025-05-05,,Membership Renewal,Family,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #94196 renewal payment: Duo Weekly,64.0,5.280000000000001,0.0,PEYTON POWERS,69.28,2025-05-05,,Membership Renewal,Duo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #92769 renewal payment: Duo Weekly,56.0,4.619999999999997,0.0,Jared Bissell,60.62,2025-05-05,,Membership Renewal,Duo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #92197 renewal payment: Duo Weekly,64.0,5.280000000000001,0.0,Michelle Cola,69.28,2025-05-05,,Membership Renewal,Duo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #92190 renewal payment: Duo Weekly,60.0,4.950000000000003,0.0,Michelle Cola,64.95,2025-05-05,,Membership Renewal,Duo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #92082 renewal payment: Duo Weekly,64.0,5.280000000000001,0.0,Grant Swingler,69.28,2025-05-05,,Membership Renewal,Duo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #86132 renewal payment: Duo Weekly,56.0,4.619999999999997,0.0,Holly Eaker,60.62,2025-05-05,,Membership Renewal,Duo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #77949 renewal payment: Duo Weekly,56.0,4.619999999999997,0.0,Meghan L. McInaney,60.62,2025-05-05,,Membership Renewal,Duo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #77936 renewal payment: Duo Weekly,56.0,4.619999999999997,0.0,Kaitlin Ig,60.62,2025-05-05,,Membership Renewal,Duo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #115465 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,Brian Chen,2.16,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #92112 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,Paige Sullivan,2.16,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #127075 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,Pedro Leao,38.97,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #120347 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,0.0,Collin R O'Neill,36.8,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #117894 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Graeson Griffin,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #112939 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Irvin Harris,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #109697 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #94966 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Victor F Torres III,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #94860 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Nicholas C Ladd,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #94780 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,0.0,Mary g mcgee,36.8,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #94650 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Alexander Davenport,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #94447 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Roma A Castellanos,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #92945 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Dylan Boucher,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #92891 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Wray Jones,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #92561 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Alan Shipp,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #92516 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Collin Redepenning,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #91998 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Natasha Marcum,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #91971 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Gregory Vanderheiden,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #91253 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,James M Cole,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #91095 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Aaron James,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #90935 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,0.0,anthony martin,36.8,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #90190 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,0.0,James Corbin Myers,36.8,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #89567 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,John-Mark McKethan,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #83210 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Mark Nickels,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #79530 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Lauren M Roller,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #78497 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,0.0,Lisa Corcoran,36.8,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #78476 renewal payment: Solo Weekly,47.98152424942263,3.958475750577371,0.0,Grayson Palmer,51.94,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan membership #78136 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Stacy A Kuehn,32.48,2025-05-05,,Membership Renewal,Solo,weekly,False,False,,,2025-05-05 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8806928: HYROX CLASS,18.475750577367204,1.5242494226327956,0.0,Jacquelyn Woosley,20.0,2025-05-04,,programming,,,False,False,fitness,hyrox,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8806888: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Bruton,10.0,2025-05-04,,programming,,,False,False,fitness,hyrox,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan entry pass #1354762: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-05-04,,Day Pass,,,False,False,,,2025-05-04 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1354761: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-05-04,,Day Pass,,,False,False,,,2025-05-04 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1354754: Day Pass with Gear (Adult 14 and Up),18.198614318706696,1.5013856812933035,0.0,,19.7,2025-05-04,,Day Pass,,,False,False,,,2025-05-04 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1354735: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,Alicia Jasinski,28.14,2025-05-04,,Day Pass,,,False,False,,,2025-05-04 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1354730: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-05-04,,Day Pass,,,False,False,,,2025-05-04 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1354726: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-05-04,,Day Pass,,,False,False,,,2025-05-04 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1354696: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-05-04,,Day Pass,,,False,False,,,2025-05-04 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1354555: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-05-04,,Day Pass,,,False,False,,,2025-05-04 00:00:00+00:00,Stripe,1.0
+Capitan reservation #8805447: BOULDERING LEAGUE,20.0,1.6499999999999986,0.0,Staci Smith,21.65,2025-05-04,,Event Booking,,,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #138734 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,James Cunningham,59.54,2025-05-04,,Membership Renewal,,Monthly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #131147 renewal payment: Founders - Family,164.99769053117785,13.612309468822161,0.0,Renee Jordan Emus,178.61,2025-05-04,,Membership Renewal,Family,monthly,True,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #135894 renewal payment: Family Weekly,54.004618937644345,4.455381062355656,0.0,Michal Peichl,58.46,2025-05-04,,Membership Renewal,Family,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #135865 renewal payment: Family Weekly,89.99538106235566,7.42461893764434,0.0,Monika Fincher,97.42,2025-05-04,,Membership Renewal,Family,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #142723 renewal payment: Duo Weekly,102.00461893764434,8.415381062355664,0.0,,110.42,2025-05-04,,Membership Renewal,Duo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #135898 renewal payment: Duo Weekly,72.0,5.939999999999998,0.0,Landon Lupfer,77.94,2025-05-04,,Membership Renewal,Duo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #122359 renewal payment: Duo Weekly,72.0,5.939999999999998,0.0,,77.94,2025-05-04,,Membership Renewal,Duo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #144067 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,Jennifer Ferreter,2.16,2025-05-04,,Membership Renewal,Solo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #112753 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,William Benjamin Wells III,2.16,2025-05-04,,Membership Renewal,Solo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #78008 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,Matthew Vaillancourt,2.16,2025-05-04,,Membership Renewal,Solo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #142714 renewal payment: Solo Weekly,53.8568129330254,4.443187066974595,0.0,,58.3,2025-05-04,,Membership Renewal,Solo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #139497 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-05-04,,Membership Renewal,Solo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #135892 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-05-04,,Membership Renewal,Solo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #135866 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-05-04,,Membership Renewal,Solo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan membership #120194 renewal payment: Solo Weekly,49.8568129330254,4.1131870669745965,0.0,,53.97,2025-05-04,,Membership Renewal,Solo,weekly,False,False,,,2025-05-04 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8802557: BOULDERING LEAGUE,30.004618937644338,2.475381062355659,0.0,Diego Masato Beissel,32.48,2025-05-03,,Event Booking,,,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan entry pass #1352710: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-05-03,,Day Pass,,,False,False,,,2025-05-03 00:00:00+00:00,Stripe,1.0
+Capitan reservation #8801987: Summer Camp Session 7 (July 21-24),207.85219399538107,17.14780600461893,0.0,Kyle Dietz,225.0,2025-05-03,,programming,,,False,False,camps,Summer Camp Session 7,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8801926: Summer Camp Session 7 (July 21-24),346.4203233256351,28.57967667436492,0.0,Jessica Benton,375.0,2025-05-03,,programming,,,False,False,camps,Summer Camp Session 7,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #167362 initial payment: College Student Monthly,41.801385681293304,3.4486143187066958,0.0,Lincoln A Pascual,45.25,2025-05-03,,New Membership,,Monthly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan entry pass #1352405: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-05-03,,Day Pass,,,False,False,,,2025-05-03 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1352276: Day Pass with Gear (Adult 14 and Up),18.198614318706696,1.5013856812933035,0.0,,19.7,2025-05-03,,Day Pass,,,False,False,,,2025-05-03 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1351976: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-05-03,,Day Pass,,,False,False,,,2025-05-03 00:00:00+00:00,Stripe,1.0
+Capitan membership #144065 renewal payment: Youth Rec Team Dues,179.00230946882218,14.767690531177834,0.0,,193.77,2025-05-03,,Team,,,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #135701 renewal payment: Family Weekly,84.0,6.930000000000007,0.0,,90.93,2025-05-03,,Membership Renewal,Family,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #135631 renewal payment: Family Weekly,89.99538106235566,7.42461893764434,0.0,Tiffany P Scarborough,97.42,2025-05-03,,Membership Renewal,Family,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #119960 renewal payment: Family Weekly,126.00461893764434,10.395381062355668,0.0,Leah Bower,136.4,2025-05-03,,Membership Renewal,Family,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #112586 renewal payment: Family Weekly,62.438799076212476,5.151200923787528,0.0,J Purcell,67.59,2025-05-03,,Membership Renewal,Family,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #139347 renewal payment: Duo Weekly,68.0,5.609999999999999,0.0,,73.61,2025-05-03,,Membership Renewal,Duo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #112611 renewal payment: Duo Weekly,72.0,5.939999999999998,0.0,Brandy Mascheck,77.94,2025-05-03,,Membership Renewal,Duo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #112527 renewal payment: Duo Weekly,72.0,5.939999999999998,0.0,James Cotie,77.94,2025-05-03,,Membership Renewal,Duo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #146909 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-05-03,,Membership Renewal,Solo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #146905 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,James K Snedden,38.97,2025-05-03,,Membership Renewal,Solo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #146895 renewal payment: Solo Weekly,33.70900692840647,2.780993071593535,0.0,Shaun Bruner,36.49,2025-05-03,,Membership Renewal,Solo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #132871 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,Sebastian JP Mahfood,43.3,2025-05-03,,Membership Renewal,Solo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #112587 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,BROOKE A FARRELL,43.3,2025-05-03,,Membership Renewal,Solo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #112554 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-05-03,,Membership Renewal,Solo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan membership #112215 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,Michael Morales-Gomez,43.3,2025-05-03,,Membership Renewal,Solo,weekly,False,False,,,2025-05-03 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8798605: BOULDERING LEAGUE,30.004618937644338,2.475381062355659,0.0,Meghan L. McInaney,32.48,2025-05-02,,Event Booking,,,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8798603: BOULDERING LEAGUE,30.004618937644338,2.475381062355659,0.0,Madi McCaleb,32.48,2025-05-02,,Event Booking,,,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8798587: BOULDERING LEAGUE,30.004618937644338,2.475381062355659,0.0,,32.48,2025-05-02,,Event Booking,,,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #167196 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-05-02,,New Membership,,Monthly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan entry pass #1350230: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-05-02,,Day Pass,,,False,False,,,2025-05-02 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1350200: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-05-02,,Day Pass,,,False,False,,,2025-05-02 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1350194: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-05-02,,Day Pass,,,False,False,,,2025-05-02 00:00:00+00:00,Stripe,1.0
+Capitan entry pass #1350186: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-05-02,,Day Pass,,,False,False,,,2025-05-02 00:00:00+00:00,Stripe,1.0
+Capitan reservation #8796337: Summer Camp Session 2 (June 9-12),346.4203233256351,28.57967667436492,0.0,Hannah A Swartz,375.0,2025-05-02,,programming,,,False,False,camps,Summer Camp Session 2,2025-05-02 00:00:00+00:00,Stripe,0.0
+[Calendly] Basin 2 Hour Birthday Party Rental with Neeley Duty,184.75750577367205,15.242494226327949,0.0,Justin Duty,200.0,2025-05-02,,Event Booking,,,False,False,birthday,initial payment,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #132738 payment retry: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Brad Ahrens,32.48,2025-05-02,,Membership Renewal,Solo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #147658 renewal payment: Mid Day Membership - Family,12.0,0.9900000000000002,0.0,,12.99,2025-05-02,,Membership Renewal,Family,,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #143846 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-05-02,,Membership Renewal,,Monthly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #143845 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,Daegan Sauve-Cadarc,59.54,2025-05-02,,Membership Renewal,,Monthly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #138305 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-05-02,,Membership Renewal,,Monthly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #125221 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,Andrew P Crotwell,59.54,2025-05-02,,Membership Renewal,,Monthly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #115077 renewal payment: Duo Weekly,68.0,5.609999999999999,0.0,Joseph Rios,73.61,2025-05-02,,Membership Renewal,Duo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #139235 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-05-02,,Membership Renewal,Solo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #135508 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,Jessica M Kincaid,38.97,2025-05-02,,Membership Renewal,Solo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #132738 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Brad ahrens,32.48,2025-05-02,,Membership Renewal,Solo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #132716 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-05-02,,Membership Renewal,Solo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #132632 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,0.0,JAY A HOWARD,39.4,2025-05-02,,Membership Renewal,Solo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #109288 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-05-02,,Membership Renewal,Solo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #99984 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Isaac P Baker,32.48,2025-05-02,,Membership Renewal,Solo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan membership #96680 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Robert Scrivner,32.48,2025-05-02,,Membership Renewal,Solo,weekly,False,False,,,2025-05-02 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8795198: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Bruton,10.0,2025-05-01,,programming,,,False,False,fitness,hyrox,2025-05-01 00:00:00+00:00,Stripe,0.0
+Capitan reservation #8795189: BOULDERING LEAGUE,30.004618937644338,2.475381062355659,0.0,,32.48,2025-05-01,,Event Booking,,,False,False,,,2025-05-01 00:00:00+00:00,Stripe,0.0
 Capitan reservation #7430388: BOULDERING LEAGUE,10.004618937644342,0.8253810623556586,0.0,Rylee ,10.83,2025-05-01,,Event Booking,,,False,False,,,2025-05-01 00:00:00+00:00,Stripe,0.0
 Capitan reservation #7429871: BOULDERING LEAGUE,30.004618937644338,2.475381062355659,0.0,,32.48,2025-05-01,,Event Booking,,,False,False,,,2025-05-01 00:00:00+00:00,Stripe,0.0
 Capitan reservation #7429846: BOULDERING LEAGUE,10.004618937644342,0.8253810623556586,0.0,,10.83,2025-05-01,,Event Booking,,,False,False,,,2025-05-01 00:00:00+00:00,Stripe,0.0
@@ -5466,7 +5754,7 @@ Capitan membership #108057 renewal payment: Solo Weekly,36.0,2.969999999999999,0
 Capitan membership #157975 initial payment: Youth Development Team Dues,188.99769053117782,15.59230946882218,0.0,Danielle Milam,204.59,2025-04-29,,Team,,,False,False,,,2025-04-29 00:00:00+00:00,Stripe,0.0
 Capitan membership #157958 initial payment: Mid Day Membership - Family,17.99538106235566,1.484618937644342,0.0,Courtney G Williams,19.48,2025-04-29,,New Membership,Family,,False,False,,,2025-04-29 00:00:00+00:00,Stripe,0.0
 Capitan membership #140426 renewal payment: Family Weekly,72.0,5.939999999999998,0.0,Micah Simmons,77.94,2025-04-29,,Membership Renewal,Family,weekly,False,False,,,2025-04-29 00:00:00+00:00,Stripe,0.0
-Capitan reservation #6287092: Summer Camp Session 4 (June 23-26),429.5612009237875,35.43879907621249,0.0,Paul Wirth,465.0,2025-04-29,,Event Booking,,,False,False,camps,Summer Camp Session 4,2025-04-29 00:00:00+00:00,Stripe,0.0
+Capitan reservation #6287092: Summer Camp Session 4 (June 23-26),429.5612009237875,35.43879907621249,0.0,Paul Wirth,465.0,2025-04-29,,programming,,,False,False,camps,Summer Camp Session 4,2025-04-29 00:00:00+00:00,Stripe,0.0
 Capitan reservation #6286887: BOULDERING LEAGUE,10.004618937644342,0.8253810623556586,0.0,,10.83,2025-04-29,,Event Booking,,,False,False,,,2025-04-29 00:00:00+00:00,Stripe,0.0
 Capitan membership #157894 initial payment: Solo Weekly,45.71824480369515,3.771755196304852,0.0,,49.49,2025-04-29,,New Membership,Solo,weekly,False,False,,,2025-04-29 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1315223: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-04-29,,Day Pass,,,False,False,,,2025-04-29 00:00:00+00:00,Stripe,1.0
@@ -5538,7 +5826,7 @@ Capitan entry pass #1312513: Day Pass (Adult 14 and Up),22.00461893764434,1.8153
 Capitan entry pass #1312440: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-04-26,,Day Pass,,,False,False,,,2025-04-26 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1311993: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-04-26,,Day Pass,,,False,False,,,2025-04-26 00:00:00+00:00,Stripe,1.0
 Capitan membership #157411 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-04-26,,New Membership,,Monthly,False,False,,,2025-04-26 00:00:00+00:00,Stripe,0.0
-Capitan reservation #6277421: Summer Camp Session 7 (July 21-24),346.4203233256351,28.57967667436492,0.0,Jennifer Sims,375.0,2025-04-26,,Event Booking,,,False,False,camps,Summer Camp Session 7,2025-04-26 00:00:00+00:00,Stripe,0.0
+Capitan reservation #6277421: Summer Camp Session 7 (July 21-24),346.4203233256351,28.57967667436492,0.0,Jennifer Sims,375.0,2025-04-26,,programming,,,False,False,camps,Summer Camp Session 7,2025-04-26 00:00:00+00:00,Stripe,0.0
 Capitan membership #147465 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-04-26,,Membership Renewal,,Monthly,False,False,,,2025-04-26 00:00:00+00:00,Stripe,0.0
 Capitan membership #147418 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-04-26,,Membership Renewal,,Monthly,False,False,,,2025-04-26 00:00:00+00:00,Stripe,0.0
 Capitan membership #140426 renewal payment: Family Weekly,105.99538106235565,8.744618937644347,0.0,Micah Simmons,114.74,2025-04-26,,Membership Renewal,Family,weekly,False,False,,,2025-04-26 00:00:00+00:00,Stripe,0.0
@@ -5554,8 +5842,8 @@ Capitan entry pass #1310762: Youth Day Pass with Gear (Under 14 y/o),14.00461893
 Capitan membership #150190 payment retry: Solo Weekly,36.0,2.969999999999999,0.0,Diego Masato Beissel,38.97,2025-04-25,,Membership Renewal,Solo,weekly,False,False,,,2025-04-25 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1310484: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-04-25,,Day Pass,,,False,False,,,2025-04-25 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1310483: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-04-25,,Day Pass,,,False,False,,,2025-04-25 00:00:00+00:00,Stripe,1.0
-Capitan reservation #6274866: Summer Camp Session 2 (June 9-12),207.85219399538107,17.14780600461893,0.0,Courtney Barton,225.0,2025-04-25,,Event Booking,,,False,False,camps,Summer Camp Session 2,2025-04-25 00:00:00+00:00,Stripe,0.0
-Capitan reservation #6274866: Summer Camp Session 2 (June 9-12),207.85219399538107,17.14780600461893,0.0,Courtney Barton,225.0,2025-04-25,,Event Booking,,,False,False,camps,Summer Camp Session 2,2025-04-25 00:00:00+00:00,Stripe,0.0
+Capitan reservation #6274866: Summer Camp Session 2 (June 9-12),207.85219399538107,17.14780600461893,0.0,Courtney Barton,225.0,2025-04-25,,programming,,,False,False,camps,Summer Camp Session 2,2025-04-25 00:00:00+00:00,Stripe,0.0
+Capitan reservation #6274866: Summer Camp Session 2 (June 9-12),207.85219399538107,17.14780600461893,0.0,Courtney Barton,225.0,2025-04-25,,programming,,,False,False,camps,Summer Camp Session 2,2025-04-25 00:00:00+00:00,Stripe,0.0
 Capitan membership #139060 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-04-25,,Membership Renewal,Solo,weekly,False,False,,,2025-04-25 00:00:00+00:00,Stripe,0.0
 Capitan membership #150289 renewal payment: Mid-Day Discounted-Duo,22.00461893764434,1.8153810623556588,0.0,Courtney G Williams,23.82,2025-04-25,,Membership Renewal,Duo,,False,False,,,2025-04-25 00:00:00+00:00,Stripe,0.0
 Capitan membership #147658 renewal payment: Mid Day Membership - Family,12.0,0.9900000000000002,0.0,,12.99,2025-04-25,,Membership Renewal,Family,,False,False,,,2025-04-25 00:00:00+00:00,Stripe,0.0
@@ -5595,7 +5883,7 @@ Capitan membership #119045 freeze payment: Duo Weekly,4.0,0.33000000000000007,0.
 Capitan membership #118431 renewal payment: Duo Weekly,72.0,5.939999999999998,0.0,Corrine Marchesano,77.94,2025-04-24,,Membership Renewal,Duo,weekly,False,False,,,2025-04-24 00:00:00+00:00,Stripe,0.0
 Capitan membership #115944 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,,2.16,2025-04-24,,Membership Renewal,Solo,weekly,False,False,,,2025-04-24 00:00:00+00:00,Stripe,0.0
 Capitan membership #91890 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,Anuj Sanghvi,2.16,2025-04-24,,Membership Renewal,Solo,weekly,False,False,,,2025-04-24 00:00:00+00:00,Stripe,0.0
-Capitan reservation #6269748: Summer Camp Session 5 (July 7-10),207.85219399538107,17.14780600461893,0.0,Blaire Thornton,225.0,2025-04-23,,Event Booking,,,False,False,camps,Summer Camp Session 5,2025-04-23 00:00:00+00:00,Stripe,0.0
+Capitan reservation #6269748: Summer Camp Session 5 (July 7-10),207.85219399538107,17.14780600461893,0.0,Blaire Thornton,225.0,2025-04-23,,programming,,,False,False,camps,Summer Camp Session 5,2025-04-23 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1308279: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-04-23,,Day Pass,,,False,False,,,2025-04-23 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1308278: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-04-23,,Day Pass,,,False,False,,,2025-04-23 00:00:00+00:00,Stripe,1.0
 [Calendly] Basin 2 Hour Birthday Party Rental with Michael Jarrett,184.75750577367205,15.242494226327949,0.0,Kendal  Jarrett,200.0,2025-04-23,,Event Booking,,,False,False,birthday,initial payment,2025-04-23 00:00:00+00:00,Stripe,0.0
@@ -5816,7 +6104,7 @@ Capitan membership #114289 renewal payment: Solo Weekly,32.39722863741339,2.6727
 Capitan membership #111516 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,0.0,,39.4,2025-04-15,,Membership Renewal,Solo,weekly,False,False,,,2025-04-15 00:00:00+00:00,Stripe,0.0
 Capitan membership #109085 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-04-15,,Membership Renewal,Solo,weekly,False,False,,,2025-04-15 00:00:00+00:00,Stripe,0.0
 Capitan membership #90927 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,Raul A Lejarza,2.16,2025-04-15,,Membership Renewal,Solo,weekly,False,False,,,2025-04-15 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4671940: Summer Camp Session 4 (June 23-26),207.85219399538107,17.14780600461893,0.0,Wyndi Daily,225.0,2025-04-14,,Event Booking,,,False,False,camps,Summer Camp Session 4,2025-04-14 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4671940: Summer Camp Session 4 (June 23-26),207.85219399538107,17.14780600461893,0.0,Wyndi Daily,225.0,2025-04-14,,programming,,,False,False,camps,Summer Camp Session 4,2025-04-14 00:00:00+00:00,Stripe,0.0
 Capitan membership #150608 initial payment: Youth Rec Team Dues,148.99769053117782,12.292309468822168,0.0,,161.29,2025-04-14,,Team,,,False,False,,,2025-04-14 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1281344: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-04-14,,Day Pass,,,False,False,,,2025-04-14 00:00:00+00:00,Stripe,1.0
 Capitan membership #140283 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-04-14,,Membership Renewal,,Monthly,False,False,,,2025-04-14 00:00:00+00:00,Stripe,0.0
@@ -5830,7 +6118,7 @@ Capitan membership #134706 renewal payment: Duo Weekly,33.995381062355655,2.8046
 Capitan membership #131715 renewal payment: Duo Weekly,68.0,5.609999999999999,0.0,,73.61,2025-04-14,,Membership Renewal,Duo,weekly,False,False,,,2025-04-14 00:00:00+00:00,Stripe,0.0
 Capitan membership #123753 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,0.0,,39.4,2025-04-14,,Membership Renewal,Solo,weekly,False,False,,,2025-04-14 00:00:00+00:00,Stripe,0.0
 Capitan membership #111373 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-04-14,,Membership Renewal,Solo,weekly,False,False,,,2025-04-14 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4669288: Summer Camp Session 5 (July 7-10),207.85219399538107,17.14780600461893,0.0,Hannah Requa,225.0,2025-04-13,,Event Booking,,,False,False,camps,Summer Camp Session 5,2025-04-13 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4669288: Summer Camp Session 5 (July 7-10),207.85219399538107,17.14780600461893,0.0,Hannah Requa,225.0,2025-04-13,,programming,,,False,False,camps,Summer Camp Session 5,2025-04-13 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4669151: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Bruton,10.0,2025-04-13,,programming,,,False,False,fitness,hyrox,2025-04-13 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4668980: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,,10.0,2025-04-13,,programming,,,False,False,fitness,hyrox,2025-04-13 00:00:00+00:00,Stripe,0.0
 Capitan membership #137804 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,Jordanna woosley,43.3,2025-04-13,,Membership Renewal,Solo,weekly,False,False,,,2025-04-13 00:00:00+00:00,Stripe,0.0
@@ -5878,10 +6166,10 @@ Capitan membership #107116 renewal payment: Solo Weekly,36.0,2.969999999999999,0
 [Calendly] Basin 2 Hour Birthday Party Rental with Cara Decker,184.75750577367205,15.242494226327949,0.0,Cara Decker,200.0,2025-04-11,,Event Booking,,,False,False,birthday,initial payment,2025-04-11 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4660904: Top Rope Belay Class,13.856812933025404,1.1431870669745958,0.0,Micah Simmons,15.0,2025-04-11,,programming,,,False,False,,,2025-04-11 00:00:00+00:00,Stripe,0.0
 Capitan membership #150289 initial payment: Mid-Day Discounted-Duo,22.00461893764434,1.8153810623556588,0.0,Courtney G Williams,23.82,2025-04-11,,New Membership,Duo,,False,False,,,2025-04-11 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4659503: Summer Camp Session 5 (July 7-10),207.85219399538107,17.14780600461893,0.0,Alison Sloan,225.0,2025-04-11,,Event Booking,,,False,False,camps,Summer Camp Session 5,2025-04-11 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4659503: Summer Camp Session 5 (July 7-10),207.85219399538107,17.14780600461893,0.0,Alison Sloan,225.0,2025-04-11,,programming,,,False,False,camps,Summer Camp Session 5,2025-04-11 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1276223: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-04-11,,Day Pass,,,False,False,,,2025-04-11 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1276220: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-04-11,,Day Pass,,,False,False,,,2025-04-11 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4659317: Summer Camp Session 5 (July 7-10),346.4203233256351,28.57967667436492,0.0,Erin Washburn,375.0,2025-04-11,,Event Booking,,,False,False,camps,Summer Camp Session 5,2025-04-11 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4659317: Summer Camp Session 5 (July 7-10),346.4203233256351,28.57967667436492,0.0,Erin Washburn,375.0,2025-04-11,,programming,,,False,False,camps,Summer Camp Session 5,2025-04-11 00:00:00+00:00,Stripe,0.0
 [Calendly] Basin 2 Hour Birthday Party Rental with Katherine King,184.75750577367205,15.242494226327949,0.0,Katherine King,200.0,2025-04-11,,Event Booking,,,False,False,birthday,initial payment,2025-04-11 00:00:00+00:00,Stripe,0.0
 Capitan membership #145318 renewal payment: TFNB Family Monthly,92.99769053117782,7.672309468822178,0.0,Caleb Croft,100.67,2025-04-11,,Membership Renewal,Family,Monthly,False,False,,,2025-04-11 00:00:00+00:00,Stripe,0.0
 Capitan membership #147658 renewal payment: Mid Day Membership - Family,12.0,0.9900000000000002,0.0,,12.99,2025-04-11,,Membership Renewal,Family,,False,False,,,2025-04-11 00:00:00+00:00,Stripe,0.0
@@ -5903,14 +6191,14 @@ Capitan reservation #4658099: Top Rope Belay Class,13.856812933025404,1.14318706
 Capitan membership #150193 initial payment: Duo Weekly,135.00230946882215,11.137690531177839,0.0,,146.14,2025-04-10,,New Membership,Duo,weekly,False,False,,,2025-04-10 00:00:00+00:00,Stripe,0.0
 Capitan membership #150190 initial payment: Solo Weekly,54.35565819861432,4.484341801385682,0.0,,58.84,2025-04-10,,New Membership,Solo,weekly,False,False,,,2025-04-10 00:00:00+00:00,Stripe,0.0
 Capitan membership #91890 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,Anuj Sanghvi,2.16,2025-04-10,,Membership Renewal,Solo,weekly,False,False,,,2025-04-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4657919: Summer Camp Session 5 (July 7-10),207.85219399538107,17.14780600461893,0.0,Samantha Blackshear,225.0,2025-04-10,,Event Booking,,,False,False,camps,Summer Camp Session 5,2025-04-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4657919: Summer Camp Session 5 (July 7-10),207.85219399538107,17.14780600461893,0.0,Samantha Blackshear,225.0,2025-04-10,,programming,,,False,False,camps,Summer Camp Session 5,2025-04-10 00:00:00+00:00,Stripe,0.0
 [Calendly] Basin 2 Hour Birthday Party Rental with allison vieger,184.75750577367205,15.242494226327949,0.0,allison vieger,200.0,2025-04-10,,Event Booking,,,False,False,birthday,initial payment,2025-04-10 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1275577: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-04-10,,Day Pass,,,False,False,,,2025-04-10 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1275289: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-04-10,,Day Pass,,,False,False,,,2025-04-10 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1275232: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-04-10,,Day Pass,,,False,False,,,2025-04-10 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4656963: Summer Camp Session 6 (July 14-17),207.85219399538107,17.14780600461893,0.0,Elizabeth Burnett,225.0,2025-04-10,,Event Booking,,,False,False,camps,Summer Camp Session 6,2025-04-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4656855: Summer Camp Session 4 (June 23-26),346.4203233256351,28.57967667436492,0.0,Jane L Parks,375.0,2025-04-10,,Event Booking,,,False,False,camps,Summer Camp Session 4,2025-04-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4656555: Summer Camp Session 6 (July 14-17),207.85219399538107,17.14780600461893,0.0,,225.0,2025-04-10,,Event Booking,,,False,False,camps,Summer Camp Session 6,2025-04-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4656963: Summer Camp Session 6 (July 14-17),207.85219399538107,17.14780600461893,0.0,Elizabeth Burnett,225.0,2025-04-10,,programming,,,False,False,camps,Summer Camp Session 6,2025-04-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4656855: Summer Camp Session 4 (June 23-26),346.4203233256351,28.57967667436492,0.0,Jane L Parks,375.0,2025-04-10,,programming,,,False,False,camps,Summer Camp Session 4,2025-04-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4656555: Summer Camp Session 6 (July 14-17),207.85219399538107,17.14780600461893,0.0,,225.0,2025-04-10,,programming,,,False,False,camps,Summer Camp Session 6,2025-04-10 00:00:00+00:00,Stripe,0.0
 [Calendly] Basin 2 Hour Birthday Party Rental with Aaron Clark,184.75750577367205,15.242494226327949,0.0,Aaron S Clark,200.0,2025-04-10,,Event Booking,,,False,False,birthday,initial payment,2025-04-10 00:00:00+00:00,Stripe,0.0
 Capitan membership #134632 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-04-10,,Membership Renewal,Solo,weekly,False,False,,,2025-04-10 00:00:00+00:00,Stripe,0.0
 Capitan membership #143319 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,Isabel Gallegos,38.97,2025-04-10,,Membership Renewal,Solo,weekly,False,False,,,2025-04-10 00:00:00+00:00,Stripe,0.0
@@ -5937,7 +6225,7 @@ Capitan reservation #4655224: Top Rope Belay Class,13.856812933025404,1.14318706
 Capitan membership #137804 payment retry: Solo Weekly,40.0,3.299999999999997,0.0,Jordanna woosley,43.3,2025-04-09,,Membership Renewal,Solo,weekly,False,False,,,2025-04-09 00:00:00+00:00,Stripe,0.0
 Capitan membership #150063 initial payment: Solo Weekly,115.00230946882216,9.487690531177833,0.0,,124.49,2025-04-09,,New Membership,Solo,weekly,False,False,,,2025-04-09 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4654657: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Otis,10.0,2025-04-09,,programming,,,False,False,fitness,hyrox,2025-04-09 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4654642: Summer Camp Session 6 (July 14-17),207.85219399538107,17.14780600461893,0.0,Rachel A Rudloff,225.0,2025-04-09,,Event Booking,,,False,False,camps,Summer Camp Session 6,2025-04-09 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4654642: Summer Camp Session 6 (July 14-17),207.85219399538107,17.14780600461893,0.0,Rachel A Rudloff,225.0,2025-04-09,,programming,,,False,False,camps,Summer Camp Session 6,2025-04-09 00:00:00+00:00,Stripe,0.0
 Capitan membership #150050 initial payment: Youth Rec Team Dues,148.99769053117782,12.292309468822168,0.0,Andy Soukup,161.29,2025-04-09,,Team,,,False,False,,,2025-04-09 00:00:00+00:00,Stripe,0.0
 Capitan membership #150030 initial payment: Solo Annual,884.9976905311778,73.0123094688222,0.0,,958.01,2025-04-09,,New Membership,Solo,Annual,False,False,,,2025-04-09 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1274436: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-04-09,,Day Pass,,,False,False,,,2025-04-09 00:00:00+00:00,Stripe,1.0
@@ -6065,7 +6353,7 @@ Capitan membership #120194 renewal payment: Solo Weekly,49.8568129330254,4.11318
 Capitan membership #112753 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,William Benjamin Wells III,43.3,2025-04-06,,Membership Renewal,Solo,weekly,False,False,,,2025-04-06 00:00:00+00:00,Stripe,0.0
 Capitan membership #133154 payment retry: Solo Weekly,40.0,3.299999999999997,0.0,Darryl Barton,43.3,2025-04-05,,Membership Renewal,Solo,weekly,False,False,,,2025-04-05 00:00:00+00:00,Stripe,0.0
 Capitan membership #133154 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-04-05,,Membership Renewal,Solo,weekly,False,False,,,2025-04-05 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4642831: Summer Camp Session 6 (July 14-17),346.4203233256351,28.57967667436492,0.0,Natalie Y Fjellanger,375.0,2025-04-05,,Event Booking,,,False,False,camps,Summer Camp Session 6,2025-04-05 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4642831: Summer Camp Session 6 (July 14-17),346.4203233256351,28.57967667436492,0.0,Natalie Y Fjellanger,375.0,2025-04-05,,programming,,,False,False,camps,Summer Camp Session 6,2025-04-05 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1269634: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-04-05,,Day Pass,,,False,False,,,2025-04-05 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1269629: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-04-05,,Day Pass,,,False,False,,,2025-04-05 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1269586: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-04-05,,Day Pass,,,False,False,,,2025-04-05 00:00:00+00:00,Stripe,1.0
@@ -6118,7 +6406,7 @@ Capitan membership #144067 renewal payment: Solo Weekly,36.0,2.969999999999999,0
 Capitan membership #143845 payment retry: College Student Monthly,55.00230946882217,4.53769053117783,0.0,Daegan Sauve-Cadarc,59.54,2025-04-03,,Membership Renewal,,Monthly,False,False,,,2025-04-03 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1266618: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-04-03,,Day Pass,,,False,False,,,2025-04-03 00:00:00+00:00,Stripe,1.0
 [Calendly] Basin 2 Hour Birthday Party Rental with Tiffany Ferguson,184.75750577367205,15.242494226327949,0.0,Tiffany R. Ferguson,200.0,2025-04-03,,Event Booking,,,False,False,birthday,initial payment,2025-04-03 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4634935: Summer Camp Session 5 (July 7-10),346.4203233256351,28.57967667436492,0.0,Joy Eichhorn,375.0,2025-04-03,,Event Booking,,,False,False,camps,Summer Camp Session 5,2025-04-03 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4634935: Summer Camp Session 5 (July 7-10),346.4203233256351,28.57967667436492,0.0,Joy Eichhorn,375.0,2025-04-03,,programming,,,False,False,camps,Summer Camp Session 5,2025-04-03 00:00:00+00:00,Stripe,0.0
 Capitan membership #149173 initial payment: Solo Weekly,111.00230946882216,9.157690531177835,0.0,Caroline Nickle,120.16,2025-04-03,,New Membership,Solo,weekly,False,False,,,2025-04-03 00:00:00+00:00,Stripe,0.0
 Capitan membership #147619 renewal payment: Mid Day Discounted -Solo,12.0,0.9900000000000002,0.0,Omar Ramirez,12.99,2025-04-03,,Membership Renewal,Solo,,False,False,,,2025-04-03 00:00:00+00:00,Stripe,0.0
 Capitan membership #146638 renewal payment: Fitness Only- Unlimited,59.122401847575055,4.8775981524249445,0.0,Carole Fergusson,64.0,2025-04-03,,Membership Renewal,,,False,False,,,2025-04-03 00:00:00+00:00,Stripe,0.0
@@ -6145,7 +6433,7 @@ Capitan reservation #4331190: HYROX CLASS,9.237875288683602,0.7621247113163978,0
 Capitan membership #148403 initial payment: Mid-Day Discounted-Duo,22.00461893764434,1.8153810623556588,0.0,,23.82,2025-04-02,,New Membership,Duo,,False,False,,,2025-04-02 00:00:00+00:00,Stripe,0.0
 Capitan membership #148384 initial payment: Mid Day Membership - Family,28.0,2.3099999999999987,0.0,,30.31,2025-04-02,,New Membership,Family,,False,False,,,2025-04-02 00:00:00+00:00,Stripe,0.0
 [Calendly] Basin 2 Hour Birthday Party Rental with Ashton Neubert,184.75750577367205,15.242494226327949,0.0,Ashton Neubert,200.0,2025-04-02,,Event Booking,,,False,False,birthday,initial payment,2025-04-02 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4330163: Summer Camp Session 5 (July 7-10),346.4203233256351,28.57967667436492,0.0,Ashton Neubert,375.0,2025-04-02,,Event Booking,,,False,False,camps,Summer Camp Session 5,2025-04-02 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4330163: Summer Camp Session 5 (July 7-10),346.4203233256351,28.57967667436492,0.0,Ashton Neubert,375.0,2025-04-02,,programming,,,False,False,camps,Summer Camp Session 5,2025-04-02 00:00:00+00:00,Stripe,0.0
 Capitan membership #143846 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-04-02,,Membership Renewal,,Monthly,False,False,,,2025-04-02 00:00:00+00:00,Stripe,0.0
 Capitan membership #138305 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-04-02,,Membership Renewal,,Monthly,False,False,,,2025-04-02 00:00:00+00:00,Stripe,0.0
 Capitan membership #125221 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,Andrew P Crotwell,59.54,2025-04-02,,Membership Renewal,,Monthly,False,False,,,2025-04-02 00:00:00+00:00,Stripe,0.0
@@ -6180,12 +6468,12 @@ Capitan membership #114289 renewal payment: Solo Weekly,32.39722863741339,2.6727
 Capitan membership #111516 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,0.0,,39.4,2025-04-01,,Membership Renewal,Solo,weekly,False,False,,,2025-04-01 00:00:00+00:00,Stripe,0.0
 Capitan membership #109085 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-04-01,,Membership Renewal,Solo,weekly,False,False,,,2025-04-01 00:00:00+00:00,Stripe,0.0
 Capitan membership #90927 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Raul A Lejarza,32.48,2025-04-01,,Membership Renewal,Solo,weekly,False,False,,,2025-04-01 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4325203: Summer Camp Session 8 (July 28-31),346.4203233256351,28.57967667436492,0.0,Lauren T Beard,375.0,2025-03-31,,Event Booking,,,False,False,camps,Summer Camp Session 8,2025-03-31 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4325203: Summer Camp Session 8 (July 28-31),346.4203233256351,28.57967667436492,0.0,Lauren T Beard,375.0,2025-03-31,,programming,,,False,False,camps,Summer Camp Session 8,2025-03-31 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4325029: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Bruton,10.0,2025-03-31,,programming,,,False,False,fitness,hyrox,2025-03-31 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4325026: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Bruton,10.0,2025-03-31,,programming,,,False,False,fitness,hyrox,2025-03-31 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4324911: Summer Camp Session 8 (July 28-31),346.4203233256351,28.57967667436492,0.0,Stephanie Mabry,375.0,2025-03-31,,Event Booking,,,False,False,camps,Summer Camp Session 8,2025-03-31 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4324911: Summer Camp Session 8 (July 28-31),346.4203233256351,28.57967667436492,0.0,Stephanie Mabry,375.0,2025-03-31,,programming,,,False,False,camps,Summer Camp Session 8,2025-03-31 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1261054: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-31,,Day Pass,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4324013: Summer Camp Session 8 (July 28-31),346.4203233256351,28.57967667436492,0.0,Kelly Woods,375.0,2025-03-31,,Event Booking,,,False,False,camps,Summer Camp Session 8,2025-03-31 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4324013: Summer Camp Session 8 (July 28-31),346.4203233256351,28.57967667436492,0.0,Kelly Woods,375.0,2025-03-31,,programming,,,False,False,camps,Summer Camp Session 8,2025-03-31 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1260860: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-31,,Day Pass,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1260858: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-31,,Day Pass,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1260845: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-31,,Day Pass,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,1.0
@@ -6193,11 +6481,11 @@ Capitan entry pass #1260618: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499
 Capitan entry pass #1260566: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-03-31,,Day Pass,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1260507: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,Meghan Bias,21.65,2025-03-31,,Day Pass,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1260491: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,Meghan Bias,28.14,2025-03-31,,Day Pass,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4323146: Summer Camp Session 2 (June 9-12),207.85219399538107,17.14780600461893,0.0,Heather Veach,225.0,2025-03-31,,Event Booking,,,False,False,camps,Summer Camp Session 2,2025-03-31 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4323030: Summer Camp Session 7 (July 21-24),207.85219399538107,17.14780600461893,0.0,Kelsi Caraway,225.0,2025-03-31,,Event Booking,,,False,False,camps,Summer Camp Session 7,2025-03-31 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4323014: Summer Camp Session 7 (July 21-24),346.4203233256351,28.57967667436492,0.0,Lauren Somerville,375.0,2025-03-31,,Event Booking,,,False,False,camps,Summer Camp Session 7,2025-03-31 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4323146: Summer Camp Session 2 (June 9-12),207.85219399538107,17.14780600461893,0.0,Heather Veach,225.0,2025-03-31,,programming,,,False,False,camps,Summer Camp Session 2,2025-03-31 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4323030: Summer Camp Session 7 (July 21-24),207.85219399538107,17.14780600461893,0.0,Kelsi Caraway,225.0,2025-03-31,,programming,,,False,False,camps,Summer Camp Session 7,2025-03-31 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4323014: Summer Camp Session 7 (July 21-24),346.4203233256351,28.57967667436492,0.0,Lauren Somerville,375.0,2025-03-31,,programming,,,False,False,camps,Summer Camp Session 7,2025-03-31 00:00:00+00:00,Stripe,0.0
 Capitan membership #148047 initial payment: Youth Development Team Dues,188.99769053117782,15.59230946882218,0.0,Courtney G Williams,204.59,2025-03-31,,Team,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4322822: Summer Camp Session 8 (July 28-31),346.4203233256351,28.57967667436492,0.0,Matthew Griffey,375.0,2025-03-31,,Event Booking,,,False,False,camps,Summer Camp Session 8,2025-03-31 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4322822: Summer Camp Session 8 (July 28-31),346.4203233256351,28.57967667436492,0.0,Matthew Griffey,375.0,2025-03-31,,programming,,,False,False,camps,Summer Camp Session 8,2025-03-31 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4322750: Top Rope Belay Class,13.856812933025404,1.1431870669745958,0.0,James Snedden,15.0,2025-03-31,,programming,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1260205: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,Erica Ellis,21.65,2025-03-31,,Day Pass,,,False,False,,,2025-03-31 00:00:00+00:00,Stripe,1.0
 Capitan membership #138104 freeze payment: Duo Weekly,4.0,0.33000000000000007,0.0,Keren Vazquez,4.33,2025-03-31,,Membership Renewal,Duo,weekly,False,False,,,2025-03-31 00:00:00+00:00,Stripe,0.0
@@ -6224,7 +6512,7 @@ Capitan reservation #4321214: Top Rope Belay Class,13.856812933025404,1.14318706
 Capitan entry pass #1259809: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-30,,Day Pass,,,False,False,,,2025-03-30 00:00:00+00:00,Stripe,1.0
 Capitan membership #147948 initial payment: Solo Annual,935.0023094688221,77.1376905311779,0.0,Ethan Goertzen,1012.14,2025-03-30,,New Membership,Solo,Annual,False,False,,,2025-03-30 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1259611: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,Rose Barnett,23.82,2025-03-30,,Day Pass,,,False,False,,,2025-03-30 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4320695: Summer Camp Session 4 (June 23-26),484.98845265588915,40.01154734411085,0.0,Kami Claiborne,525.0,2025-03-30,,Event Booking,,,False,False,camps,Summer Camp Session 4,2025-03-30 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4320695: Summer Camp Session 4 (June 23-26),484.98845265588915,40.01154734411085,0.0,Kami Claiborne,525.0,2025-03-30,,programming,,,False,False,camps,Summer Camp Session 4,2025-03-30 00:00:00+00:00,Stripe,0.0
 [Calendly] Basin 2 Hour Birthday Party Rental with Cindy Preuninger,184.75750577367205,15.242494226327949,0.0,Cindy Preuninger,200.0,2025-03-30,,Event Booking,,,False,False,birthday,initial payment,2025-03-30 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4319775: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,,10.0,2025-03-30,,programming,,,False,False,fitness,hyrox,2025-03-30 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4319760: Top Rope Belay Class,13.856812933025404,1.1431870669745958,0.0,,15.0,2025-03-30,,programming,,,False,False,,,2025-03-30 00:00:00+00:00,Stripe,0.0
@@ -6362,7 +6650,7 @@ Capitan reservation #4301178: HYROX CLASS,9.237875288683602,0.7621247113163978,0
 [Calendly] Basin 2 Hour Birthday Party Rental with Brittany Folsom,184.75750577367205,15.242494226327949,0.0,Brittany Folsom,200.0,2025-03-24,,Event Booking,,,False,False,birthday,initial payment,2025-03-24 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1250699: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-03-24,,Day Pass,,,False,False,,,2025-03-24 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1250498: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-24,,Day Pass,,,False,False,,,2025-03-24 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4299722: Summer Camp Session 4 (June 23-26),207.85219399538107,17.14780600461893,0.0,Leah Bower,225.0,2025-03-24,,Event Booking,,,False,False,camps,Summer Camp Session 4,2025-03-24 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4299722: Summer Camp Session 4 (June 23-26),207.85219399538107,17.14780600461893,0.0,Leah Bower,225.0,2025-03-24,,programming,,,False,False,camps,Summer Camp Session 4,2025-03-24 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4299566: Top Rope Belay Class,27.71362586605081,2.2863741339491916,0.0,,30.0,2025-03-24,,programming,,,False,False,,,2025-03-24 00:00:00+00:00,Stripe,0.0
 Capitan membership #135479 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-03-24,,Membership Renewal,,Monthly,False,False,,,2025-03-24 00:00:00+00:00,Stripe,0.0
 Capitan membership #135477 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-03-24,,Membership Renewal,,Monthly,False,False,,,2025-03-24 00:00:00+00:00,Stripe,0.0
@@ -6654,7 +6942,7 @@ Capitan entry pass #1234058: Day Pass (Adult 14 and Up),22.00461893764434,1.8153
 Capitan reservation #4260179: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Otis,10.0,2025-03-12,,programming,,,False,False,fitness,hyrox,2025-03-12 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1233537: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-03-12,,Day Pass,,,False,False,,,2025-03-12 00:00:00+00:00,Stripe,1.0
 Capitan membership #145420 initial payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-03-12,,New Membership,,Monthly,False,False,,,2025-03-12 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4258504: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,,65.0,2025-03-12,,Event Booking,,,False,False,,,2025-03-12 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4258504: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,,65.0,2025-03-12,,programming,,,False,False,,,2025-03-12 00:00:00+00:00,Stripe,0.0
 Capitan membership #133168 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-03-12,,Membership Renewal,,Monthly,False,False,,,2025-03-12 00:00:00+00:00,Stripe,0.0
 Capitan membership #133149 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-03-12,,Membership Renewal,,Monthly,False,False,,,2025-03-12 00:00:00+00:00,Stripe,0.0
 Capitan membership #121647 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,Stefanie Tannous,59.54,2025-03-12,,Membership Renewal,,Monthly,False,False,,,2025-03-12 00:00:00+00:00,Stripe,0.0
@@ -6667,16 +6955,16 @@ Capitan membership #137287 renewal payment: Solo Weekly,40.0,3.299999999999997,0
 Capitan membership #118206 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-03-12,,Membership Renewal,Solo,weekly,False,False,,,2025-03-12 00:00:00+00:00,Stripe,0.0
 Capitan membership #114149 renewal payment: Solo Weekly,36.39722863741339,3.002771362586607,0.0,,39.4,2025-03-12,,Membership Renewal,Solo,weekly,False,False,,,2025-03-12 00:00:00+00:00,Stripe,0.0
 Capitan membership #112455 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-03-12,,Membership Renewal,Solo,weekly,False,False,,,2025-03-12 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4256968: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Visa,65.0,2025-03-11,,Event Booking,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4256956: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Crystal N Pham,130.0,2025-03-11,,Event Booking,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4256939: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Hailey alvarado,65.0,2025-03-11,,Event Booking,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4256968: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Visa,65.0,2025-03-11,,programming,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4256956: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Crystal N Pham,130.0,2025-03-11,,programming,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4256939: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Hailey alvarado,65.0,2025-03-11,,programming,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1232716: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-11,,Day Pass,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1232714: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-11,,Day Pass,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,1.0
 Capitan reservation #4256584: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Bruton,10.0,2025-03-11,,programming,,,False,False,fitness,hyrox,2025-03-11 00:00:00+00:00,Stripe,0.0
 Capitan membership #145318 initial payment: TFNB Family Monthly,92.99769053117782,7.672309468822178,0.0,Caleb Croft,100.67,2025-03-11,,New Membership,Family,Monthly,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4256308: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Paul Wirth,195.0,2025-03-11,,Event Booking,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4255728: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Ana Barnett,65.0,2025-03-11,,Event Booking,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4255640: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Anne Merchant,65.0,2025-03-11,,Event Booking,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4256308: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Paul Wirth,195.0,2025-03-11,,programming,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4255728: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Ana Barnett,65.0,2025-03-11,,programming,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4255640: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Anne Merchant,65.0,2025-03-11,,programming,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1232129: Day Pass with Gear (Adult 14 and Up),18.198614318706696,1.5013856812933035,0.0,,19.7,2025-03-11,,Day Pass,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1232023: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-03-11,,Day Pass,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1231968: Youth Day Pass (Under 14y/o),16.0,1.3200000000000003,0.0,Melinda Sanchez,17.32,2025-03-11,,Day Pass,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,1.0
@@ -6686,7 +6974,7 @@ Capitan entry pass #1231956: Youth Day Pass (Under 14y/o),16.0,1.320000000000000
 Capitan entry pass #1231931: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-11,,Day Pass,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1231925: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-11,,Day Pass,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1231790: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,Sidney Maricle,21.65,2025-03-11,,Day Pass,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4254825: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,,65.0,2025-03-11,,Event Booking,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4254825: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,,65.0,2025-03-11,,programming,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
 Capitan membership #116724 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,Alecia Johnson,2.16,2025-03-11,,Membership Renewal,Solo,weekly,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
 Capitan membership #139826 renewal payment: Youth Development Team Dues,159.00230946882218,13.117690531177828,0.0,Bradley swann,172.12,2025-03-11,,Team,,,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
 Capitan membership #139735 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-03-11,,Membership Renewal,,Monthly,False,False,,,2025-03-11 00:00:00+00:00,Stripe,0.0
@@ -6705,13 +6993,13 @@ Capitan membership #95216 renewal payment: Solo Weekly,33.995381062355655,2.8046
 Capitan reservation #4253683: Top Rope Belay Class,27.71362586605081,2.2863741339491916,0.0,,30.0,2025-03-10,,programming,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1231427: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-10,,Day Pass,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,1.0
 Capitan reservation #4253203: Top Rope Belay Class,13.856812933025404,1.1431870669745958,0.0,,15.0,2025-03-10,,programming,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4253046: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Revekah Kim,65.0,2025-03-10,,Event Booking,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4253029: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Revekah Kim,65.0,2025-03-10,,Event Booking,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4252225: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,,65.0,2025-03-10,,Event Booking,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4252196: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Deanna bates,130.0,2025-03-10,,Event Booking,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4251779: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Adneris Laracuente,65.0,2025-03-10,,Event Booking,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4251779: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Adneris Laracuente,65.0,2025-03-10,,Event Booking,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4251684: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Lindsey Reed,195.0,2025-03-10,,Event Booking,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4253046: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Revekah Kim,65.0,2025-03-10,,programming,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4253029: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Revekah Kim,65.0,2025-03-10,,programming,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4252225: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,,65.0,2025-03-10,,programming,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4252196: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Deanna bates,130.0,2025-03-10,,programming,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4251779: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Adneris Laracuente,65.0,2025-03-10,,programming,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4251779: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Adneris Laracuente,65.0,2025-03-10,,programming,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4251684: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Lindsey Reed,195.0,2025-03-10,,programming,,,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
 Capitan membership #139694 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-03-10,,Membership Renewal,,Monthly,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
 Capitan membership #91133 renewal payment: Founders - Solo,60.0,4.950000000000003,0.0,Danielle Sanchez,64.95,2025-03-10,,Membership Renewal,Solo,monthly,True,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
 Capitan membership #133368 renewal payment: Family Weekly,52.0,4.289999999999999,0.0,,56.29,2025-03-10,,Membership Renewal,Family,weekly,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
@@ -6767,18 +7055,18 @@ Capitan membership #78497 renewal payment: Solo Weekly,33.995381062355655,2.8046
 Capitan membership #78476 renewal payment: Solo Weekly,47.98152424942263,3.958475750577371,0.0,Grayson Palmer,51.94,2025-03-10,,Membership Renewal,Solo,weekly,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
 Capitan membership #78008 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Matthew Vaillancourt,32.48,2025-03-10,,Membership Renewal,Solo,weekly,False,False,,,2025-03-10 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4250499: HYROX CLASS,9.237875288683602,0.7621247113163978,0.0,Ben Bruton,10.0,2025-03-09,,programming,,,False,False,fitness,hyrox,2025-03-09 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4250482: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Stephanie Davis,130.0,2025-03-09,,Event Booking,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4250482: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Stephanie Davis,130.0,2025-03-09,,programming,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1230155: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-09,,Day Pass,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1230153: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-09,,Day Pass,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4250182: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Katherine Flowers,195.0,2025-03-09,,Event Booking,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4250106: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Morgan M Purcell,65.0,2025-03-09,,Event Booking,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4250182: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Katherine Flowers,195.0,2025-03-09,,programming,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4250106: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Morgan M Purcell,65.0,2025-03-09,,programming,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1230056: 5 Climb Punch Pass,104.98845265588915,8.661547344110858,0.0,,113.65,2025-03-09,,Day Pass,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,1.0
 Capitan membership #136107 payment retry: Solo Weekly,40.0,3.299999999999997,0.0,Sharon B Weiner,43.3,2025-03-09,,Membership Renewal,Solo,weekly,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1229927: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-03-09,,Day Pass,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1229926: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-03-09,,Day Pass,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1229921: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-09,,Day Pass,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1229919: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-09,,Day Pass,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4249314: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Jennifer M B Warren,65.0,2025-03-09,,Event Booking,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4249314: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Jennifer M B Warren,65.0,2025-03-09,,programming,,,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
 Capitan membership #111737 freeze payment: Solo Weekly,1.9953810623556583,0.16461893764434188,0.0,,2.16,2025-03-09,,Membership Renewal,Solo,weekly,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
 Capitan membership #126205 renewal payment: Founders - Solo,60.0,4.950000000000003,0.0,,64.95,2025-03-09,,Membership Renewal,Solo,monthly,True,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
 Capitan membership #135894 renewal payment: Family Weekly,54.004618937644345,4.455381062355656,0.0,Michal Peichl,58.46,2025-03-09,,Membership Renewal,Family,weekly,False,False,,,2025-03-09 00:00:00+00:00,Stripe,0.0
@@ -6825,8 +7113,8 @@ Capitan reservation #4241258: HYROX CLASS,9.237875288683602,0.7621247113163978,0
 Capitan entry pass #1225527: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-07,,Day Pass,,,False,False,,,2025-03-07 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1225062: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-03-07,,Day Pass,,,False,False,,,2025-03-07 00:00:00+00:00,Stripe,1.0
 [Calendly] Basin 2 Hour Birthday Party Rental with Maggi Calhoun,184.75750577367205,15.242494226327949,0.0,Maggi Calhoun ,200.0,2025-03-07,,Event Booking,,,False,False,birthday,initial payment,2025-03-07 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4239641: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Lauren T Beard,130.0,2025-03-07,,Event Booking,,,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4239633: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Lauren T Beard,130.0,2025-03-07,,Event Booking,,,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4239641: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Lauren T Beard,130.0,2025-03-07,,programming,,,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4239633: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Lauren T Beard,130.0,2025-03-07,,programming,,,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
 Capitan membership #142247 payment retry: Family Weekly,88.0,7.260000000000005,0.0,Shaun Bruner,95.26,2025-03-07,,Membership Renewal,Family,weekly,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
 Capitan membership #139235 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-03-07,,Membership Renewal,Solo,weekly,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
 Capitan membership #139181 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,,59.54,2025-03-07,,Membership Renewal,,Monthly,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
@@ -6844,13 +7132,13 @@ Capitan membership #112309 renewal payment: Duo Weekly,68.0,5.609999999999999,0.
 Capitan membership #109288 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-03-07,,Membership Renewal,Solo,weekly,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
 Capitan membership #99984 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Isaac P Baker,32.48,2025-03-07,,Membership Renewal,Solo,weekly,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
 Capitan membership #96680 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Robert Scrivner,32.48,2025-03-07,,Membership Renewal,Solo,weekly,False,False,,,2025-03-07 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4238504: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Allison Kreder,130.0,2025-03-06,,Event Booking,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4238504: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Allison Kreder,130.0,2025-03-06,,programming,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1223977: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-06,,Day Pass,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1223972: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-03-06,,Day Pass,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1223926: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-06,,Day Pass,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,1.0
 Capitan reservation #4237942: HYROX CLASS,36.95150115473441,3.0484988452655912,0.0,Catherine Scott,40.0,2025-03-06,,programming,,,False,False,fitness,hyrox,2025-03-06 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1223914: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-03-06,,Day Pass,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4237700: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Tiffany Scarborough,65.0,2025-03-06,,Event Booking,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4237700: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Tiffany Scarborough,65.0,2025-03-06,,programming,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1223815: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-06,,Day Pass,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,1.0
 Capitan reservation #4237440: Intro to Climbing,138.56812933025404,11.431870669745962,0.0,,150.0,2025-03-06,,Event Booking,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1223287: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-06,,Day Pass,,,False,False,,,2025-03-06 00:00:00+00:00,Stripe,1.0
@@ -6873,11 +7161,11 @@ Capitan membership #109607 renewal payment: Duo Weekly,68.0,5.609999999999999,0.
 Capitan membership #109474 renewal payment: Solo Weekly,30.004618937644338,2.475381062355659,0.0,Brenda S Lewis,32.48,2025-03-06,,Membership Renewal,Solo,weekly,False,False,,,2025-03-06 00:00:00+00:00,Stripe,0.0
 Capitan membership #108312 renewal payment: Duo Weekly,68.0,5.609999999999999,0.0,,73.61,2025-03-06,,Membership Renewal,Duo,weekly,False,False,,,2025-03-06 00:00:00+00:00,Stripe,0.0
 Capitan membership #99855 renewal payment: Solo Weekly,33.995381062355655,2.8046189376443422,0.0,Daniel Haddock,36.8,2025-03-06,,Membership Renewal,Solo,weekly,False,False,,,2025-03-06 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4235306: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Monika Fincher,65.0,2025-03-05,,Event Booking,,,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4235302: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Monika Fincher,65.0,2025-03-05,,Event Booking,,,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4235306: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Monika Fincher,65.0,2025-03-05,,programming,,,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4235302: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Monika Fincher,65.0,2025-03-05,,programming,,,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
 Capitan membership #144478 initial payment: Solo Weekly,75.00230946882216,6.187690531177836,0.0,,81.19,2025-03-05,,New Membership,Solo,weekly,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4235233: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Devin Gifford,130.0,2025-03-05,,Event Booking,,,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4233431: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Becky Shumake,65.0,2025-03-05,,Event Booking,,,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4235233: Spring Break Kids Camp-,120.09237875288683,9.90762124711317,0.0,Devin Gifford,130.0,2025-03-05,,programming,,,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4233431: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Becky Shumake,65.0,2025-03-05,,programming,,,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1222107: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-05,,Day Pass,,,False,False,,,2025-03-05 00:00:00+00:00,Stripe,1.0
 Capitan membership #144351 initial payment: Duo Weekly,14.300230946882218,1.1797690531177825,0.0,,15.48,2025-03-05,,New Membership,Duo,weekly,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
 Capitan membership #141842 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-03-05,,Membership Renewal,Solo,weekly,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
@@ -6895,17 +7183,17 @@ Capitan membership #99713 renewal payment: Family Weekly,71.7228637413395,5.9171
 Capitan membership #92293 freeze payment: Duo Weekly,4.0,0.33000000000000007,0.0,Lauren Sereno,4.33,2025-03-05,,Membership Renewal,Duo,weekly,False,False,,,2025-03-05 00:00:00+00:00,Stripe,0.0
 [Calendly] Basin 2 Hour Birthday Party Rental with Crystal Hernandez,184.75750577367205,15.242494226327949,0.0,Crystal Hernandez,200.0,2025-03-04,,Event Booking,,,False,False,birthday,initial payment,2025-03-04 00:00:00+00:00,Stripe,0.0
 [Calendly] Basin 2 Hour Birthday Party Rental with Alexa Van Hal,184.75750577367205,15.242494226327949,0.0,Alexa Van Hal,200.0,2025-03-04,,Event Booking,,,False,False,birthday,initial payment,2025-03-04 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4231361: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Paul Wirth,195.0,2025-03-04,,Event Booking,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4231361: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Paul Wirth,195.0,2025-03-04,,programming,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1221419: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-04,,Day Pass,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,1.0
 Capitan membership #144311 initial payment: Solo Weekly,45.71824480369515,3.771755196304852,0.0,,49.49,2025-03-04,,New Membership,Solo,weekly,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1221332: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-04,,Day Pass,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,1.0
 Capitan reservation #4230745: Intro to Climbing,138.56812933025404,11.431870669745962,0.0,,150.0,2025-03-04,,Event Booking,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4230001: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Genesis Luna,195.0,2025-03-04,,Event Booking,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4229457: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Lauren munoz,65.0,2025-03-04,,Event Booking,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4230001: Spring Break Kids Camp-,180.13856812933025,14.861431870669747,0.0,Genesis Luna,195.0,2025-03-04,,programming,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4229457: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Lauren munoz,65.0,2025-03-04,,programming,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1220664: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-03-04,,Day Pass,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4229175: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Jordan E. Stroud,65.0,2025-03-04,,Event Booking,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4229171: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Jordan E. Stroud,65.0,2025-03-04,,Event Booking,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4229167: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Jordan E. Stroud,65.0,2025-03-04,,Event Booking,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4229175: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Jordan E. Stroud,65.0,2025-03-04,,programming,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4229171: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Jordan E. Stroud,65.0,2025-03-04,,programming,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4229167: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Jordan E. Stroud,65.0,2025-03-04,,programming,,,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
 Capitan membership #138734 renewal payment: College Student Monthly,55.00230946882217,4.53769053117783,0.0,James Cunningham,59.54,2025-03-04,,Membership Renewal,,Monthly,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
 Capitan membership #138678 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,,43.3,2025-03-04,,Membership Renewal,Solo,weekly,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
 Capitan membership #135010 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-03-04,,Membership Renewal,Solo,weekly,False,False,,,2025-03-04 00:00:00+00:00,Stripe,0.0
@@ -6920,10 +7208,10 @@ Capitan membership #90927 renewal payment: Solo Weekly,30.004618937644338,2.4753
 Capitan entry pass #1220282: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-03-03,,Day Pass,,,False,False,,,2025-03-03 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1220263: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-03,,Day Pass,,,False,False,,,2025-03-03 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1220260: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-03-03,,Day Pass,,,False,False,,,2025-03-03 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4227546: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Caroline Martin,65.0,2025-03-03,,Event Booking,,,False,False,,,2025-03-03 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4227546: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Caroline Martin,65.0,2025-03-03,,programming,,,False,False,,,2025-03-03 00:00:00+00:00,Stripe,0.0
 Capitan reservation #4227518: HYROX CLASS,18.475750577367204,1.5242494226327956,0.0,,20.0,2025-03-03,,programming,,,False,False,fitness,hyrox,2025-03-03 00:00:00+00:00,Stripe,0.0
 Capitan membership #144067 initial payment: Solo Weekly,75.00230946882216,6.187690531177836,0.0,,81.19,2025-03-03,,New Membership,Solo,weekly,False,False,,,2025-03-03 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4227417: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Leah Bower,65.0,2025-03-03,,Event Booking,,,False,False,,,2025-03-03 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4227417: Spring Break Kids Camp-,60.046189376443415,4.953810623556585,0.0,Leah Bower,65.0,2025-03-03,,programming,,,False,False,,,2025-03-03 00:00:00+00:00,Stripe,0.0
 Capitan membership #144065 initial payment: Youth Rec Team Dues,128.99769053117782,10.642309468822162,0.0,,139.64,2025-03-03,,Team,,,False,False,,,2025-03-03 00:00:00+00:00,Stripe,0.0
 Capitan membership #140426 payment retry: Family Weekly,105.99538106235565,8.744618937644347,0.0,Micah Simmons,114.74,2025-03-03,,Membership Renewal,Family,weekly,False,False,,,2025-03-03 00:00:00+00:00,Stripe,0.0
 Pro-rated Membership Add-on Fee: Solo Weekly,6.4295612009237875,0.5304387990762125,0.0,,6.96,2025-03-03,,Membership Renewal,Solo,weekly,False,False,,,2025-03-03 00:00:00+00:00,Stripe,0.0
@@ -7280,7 +7568,7 @@ Capitan entry pass #1193334: ONLINE 90 day discounted day pass (promo),15.002309
 Capitan entry pass #1193327: ONLINE 90 day discounted day pass (promo),15.002309468822169,1.2376905311778295,0.0,Teresa Machina,16.24,2025-02-17,,Day Pass,,,False,False,,,2025-02-17 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1193093: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,0.0,Jeremy Pruitt,70.36,2025-02-17,,Day Pass,,,False,False,,,2025-02-17 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1193073: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,0.0,Diamond Athletics,70.36,2025-02-17,,Day Pass,,,False,False,,,2025-02-17 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4169358: Feb 17th Day Camp 9am-12pm,60.046189376443415,4.953810623556585,0.0,Rebecca Kramm,65.0,2025-02-17,,Event Booking,,,False,False,,,2025-02-17 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4169358: Feb 17th Day Camp 9am-12pm,60.046189376443415,4.953810623556585,0.0,Rebecca Kramm,65.0,2025-02-17,,programming,,,False,False,,,2025-02-17 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1192978: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,0.0,Jill Fischer,70.36,2025-02-17,,Day Pass,,,False,False,,,2025-02-17 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1192977: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,0.0,Rebecca Kramm,70.36,2025-02-17,,Day Pass,,,False,False,,,2025-02-17 00:00:00+00:00,Stripe,1.0
 Capitan membership #134706 renewal payment: Duo Weekly,68.0,5.609999999999999,0.0,,73.61,2025-02-17,,Membership Renewal,Duo,weekly,False,False,,,2025-02-17 00:00:00+00:00,Stripe,0.0
@@ -7291,14 +7579,14 @@ Capitan membership #123753 renewal payment: Solo Weekly,36.39722863741339,3.0027
 Capitan membership #111373 renewal payment: Solo Weekly,36.0,2.969999999999999,0.0,,38.97,2025-02-17,,Membership Renewal,Solo,weekly,False,False,,,2025-02-17 00:00:00+00:00,Stripe,0.0
 Capitan membership #99304 renewal payment: Duo Weekly,64.0,5.280000000000001,0.0,William Connor Wroten,69.28,2025-02-17,,Membership Renewal,Duo,weekly,False,False,,,2025-02-17 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1192529: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,CAROLYN S DOOLITTLE,28.14,2025-02-16,,Day Pass,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4168217: Feb 17th Day Camp 9am-12pm,60.046189376443415,4.953810623556585,0.0,Marissa Maguire,65.0,2025-02-16,,Event Booking,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4168217: Feb 17th Day Camp 9am-12pm,60.046189376443415,4.953810623556585,0.0,Marissa Maguire,65.0,2025-02-16,,programming,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1192454: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-02-16,,Day Pass,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,1.0
 Capitan membership #138104 renewal payment: Duo Weekly,72.0,5.939999999999998,0.0,Keren Vazquez,77.94,2025-02-16,,Membership Renewal,Duo,weekly,False,False,,,2025-02-16 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1192400: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-02-16,,Day Pass,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1192376: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-02-16,,Day Pass,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1192372: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-02-16,,Day Pass,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1192371: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-02-16,,Day Pass,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,1.0
-Capitan reservation #4167751: Feb 17th Day Camp 9am-12pm,60.046189376443415,4.953810623556585,0.0,Carie Smith,65.0,2025-02-16,,Event Booking,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4167751: Feb 17th Day Camp 9am-12pm,60.046189376443415,4.953810623556585,0.0,Carie Smith,65.0,2025-02-16,,programming,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,0.0
 Capitan membership #137804 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,Jordanna woosley,43.3,2025-02-16,,Membership Renewal,Solo,weekly,False,False,,,2025-02-16 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1192058: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-02-16,,Day Pass,,,False,False,,,2025-02-16 00:00:00+00:00,Stripe,1.0
 Capitan membership #138290 renewal payment: Solo Weekly,40.0,3.299999999999997,0.0,Rhiannon Frontiero,43.3,2025-02-16,,Membership Renewal,Solo,weekly,False,False,,,2025-02-16 00:00:00+00:00,Stripe,0.0
@@ -7317,7 +7605,7 @@ Capitan entry pass #1190150: Day Pass (Adult 14 and Up),22.00461893764434,1.8153
 Capitan entry pass #1190107: Day Pass with Gear (Adult 14 and Up),25.99538106235566,2.144618937644342,0.0,,28.14,2025-02-15,,Day Pass,,,False,False,,,2025-02-15 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1190009: Day Pass (Adult 14 and Up),22.00461893764434,1.8153810623556588,0.0,,23.82,2025-02-15,,Day Pass,,,False,False,,,2025-02-15 00:00:00+00:00,Stripe,1.0
 Capitan reservation #4163242: Intro to Lead Climbing Class,157.04387990762123,12.956120092378768,0.0,Hannah Zajicek,170.0,2025-02-15,,programming,,,False,False,,,2025-02-15 00:00:00+00:00,Stripe,0.0
-Capitan reservation #4163191: Feb 17th Day Camp 9am-12pm,60.046189376443415,4.953810623556585,0.0,Caitlin Young,65.0,2025-02-15,,Event Booking,,,False,False,,,2025-02-15 00:00:00+00:00,Stripe,0.0
+Capitan reservation #4163191: Feb 17th Day Camp 9am-12pm,60.046189376443415,4.953810623556585,0.0,Caitlin Young,65.0,2025-02-15,,programming,,,False,False,,,2025-02-15 00:00:00+00:00,Stripe,0.0
 Capitan entry pass #1189886: Youth Day Pass with Gear (Under 14 y/o),20.0,1.6499999999999986,0.0,,21.65,2025-02-15,,Day Pass,,,False,False,,,2025-02-15 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1189665: Feb 17th Day Camp 9am-12pm,64.99769053117782,5.3623094688221755,0.0,George Ohmstede,70.36,2025-02-15,,Day Pass,,,False,False,,,2025-02-15 00:00:00+00:00,Stripe,1.0
 Capitan entry pass #1189628: Youth Day Pass (Under 14y/o),16.0,1.3200000000000003,0.0,,17.32,2025-02-15,,Day Pass,,,False,False,,,2025-02-15 00:00:00+00:00,Stripe,1.0
@@ -12008,4 +12296,3 @@ Capitan membership #86132 initial payment: Duo Weekly,191.00230946882215,15.7576
 Capitan membership #83210 initial payment: Solo Weekly,105.00692840646651,8.663071593533488,0.0,Mark Nickels,113.67,2024-05-13,,New Membership,Solo,weekly,False,False,,,2024-05-13 00:00:00+00:00,Stripe,0.0
 Capitan membership #82642 initial payment: Solo Annual,750.0046189376443,61.8753810623557,0.0,Heather L Fletcher,811.88,2024-05-07,,New Membership,Solo,Annual,False,False,,,2024-05-07 00:00:00+00:00,Stripe,0.0
 Capitan membership #82639 initial payment: Family Annual,3530.7990762124714,291.29092378752875,0.0,Heather Fletcher,3822.09,2024-05-07,,New Membership,Family,Annual,False,False,,,2024-05-07 00:00:00+00:00,Stripe,0.0
-Capitan membership #82423 initial payment: Solo Weekly,105.00692840646651,8.663071593533488,0.0,Evan Graves,113.67,2024-05-06,,New Membership,Solo,weekly,False,False,,,2024-05-06 00:00:00+00:00,Stripe,0.0
