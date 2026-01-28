@@ -1964,7 +1964,7 @@ with tab2:
             texttemplate='%{text}%',
             textfont=dict(size=15),
             hoverongaps=False,
-            colorbar=dict(title='Retained %', titlefont=dict(size=14), tickfont=dict(size=13))
+            colorbar=dict(title=dict(text='Retained %', font=dict(size=14)), tickfont=dict(size=13))
         ))
         fig_heatmap.update_layout(
             title=dict(text='Cohort Retention Heatmap (% still members at month N)', font=dict(size=18)),
