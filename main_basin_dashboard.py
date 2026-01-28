@@ -12,7 +12,6 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from data_pipeline import upload_data
 from data_pipeline import config
-from data_pipeline import categorize_expenses
 import os
 
 # Page config
