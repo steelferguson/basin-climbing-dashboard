@@ -6,7 +6,7 @@ to calculate failure rates by membership category (college, founder, etc.)
 """
 
 import pandas as pd
-from data_pipeline import config, upload_data
+from . import config, upload_data
 
 
 def enrich_failed_payments_with_membership_data(

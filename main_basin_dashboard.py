@@ -10,8 +10,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-from data_pipeline import upload_data
-from data_pipeline import config
+from utils import upload_data
+from utils import config
 import os
 
 # Page config
@@ -846,7 +846,7 @@ with tab1:
     st.markdown('Analysis of failed membership payments over the last 180 days')
 
     if not df_failed_payments.empty and not df_memberships.empty:
-        from data_pipeline.process_failed_payments import calculate_failure_rates_by_type
+        from utils.process_failed_payments import calculate_failure_rates_by_type
 
         # Calculate failure rates
         df_failure_rates = calculate_failure_rates_by_type(df_failed_payments, df_memberships)
