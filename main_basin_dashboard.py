@@ -639,7 +639,7 @@ with tab1:
     def map_to_accounting_group(category):
         if category in ['New Membership', 'Membership Renewal']:
             return 'Memberships'
-        elif category in ['Team Dues', 'Programming']:
+        elif category in ['Team', 'Team Dues', 'Programming']:
             return 'Team & Programming'
         else:
             return category
