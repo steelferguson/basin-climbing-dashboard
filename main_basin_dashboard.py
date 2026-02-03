@@ -224,6 +224,7 @@ def load_data():
     df_shopify_synced_flags = load_df(config.aws_bucket_name, config.s3_path_shopify_synced_flags)
     df_experiment_entries = load_df(config.aws_bucket_name, config.s3_path_experiment_entries)
     df_day_pass_checkin_recency = load_df(config.aws_bucket_name, config.s3_path_day_pass_checkin_recency)
+    df_day_pass_visits_enriched = load_df(config.aws_bucket_name, config.s3_path_day_pass_visits_enriched)
 
     # Load Shopify orders and convert to transaction format
     df_shopify = load_df(config.aws_bucket_name, config.s3_path_shopify_orders)
@@ -233,7 +234,7 @@ def load_data():
         # Merge with existing transactions
         df_transactions = pd.concat([df_transactions, shopify_transactions], ignore_index=True)
 
-    return df_transactions, df_memberships, df_members, df_projection, df_at_risk, df_new_members, df_facebook_ads, df_events, df_checkins, df_instagram, df_mailchimp, df_failed_payments, df_expenses, df_twilio_messages, df_customer_identifiers, df_customers_master, df_customer_events, df_customer_flags, df_day_pass_engagement, df_membership_conversion, df_mailchimp_member_tags, df_shopify_synced_flags, df_experiment_entries, df_day_pass_checkin_recency
+    return df_transactions, df_memberships, df_members, df_projection, df_at_risk, df_new_members, df_facebook_ads, df_events, df_checkins, df_instagram, df_mailchimp, df_failed_payments, df_expenses, df_twilio_messages, df_customer_identifiers, df_customers_master, df_customer_events, df_customer_flags, df_day_pass_engagement, df_membership_conversion, df_mailchimp_member_tags, df_shopify_synced_flags, df_experiment_entries, df_day_pass_checkin_recency, df_day_pass_visits_enriched
 
 
 # TODO: Re-enable password protection after testing
@@ -242,7 +243,7 @@ def load_data():
 
 # Load data
 with st.spinner('Loading data from S3...'):
-    df_transactions, df_memberships, df_members, df_projection, df_at_risk, df_new_members, df_facebook_ads, df_events, df_checkins, df_instagram, df_mailchimp, df_failed_payments, df_expenses, df_twilio_messages, df_customer_identifiers, df_customers_master, df_customer_events, df_customer_flags, df_day_pass_engagement, df_membership_conversion, df_mailchimp_member_tags, df_shopify_synced_flags, df_experiment_entries, df_day_pass_checkin_recency = load_data()
+    df_transactions, df_memberships, df_members, df_projection, df_at_risk, df_new_members, df_facebook_ads, df_events, df_checkins, df_instagram, df_mailchimp, df_failed_payments, df_expenses, df_twilio_messages, df_customer_identifiers, df_customers_master, df_customer_events, df_customer_flags, df_day_pass_engagement, df_membership_conversion, df_mailchimp_member_tags, df_shopify_synced_flags, df_experiment_entries, df_day_pass_checkin_recency, df_day_pass_visits_enriched = load_data()
 
 # Prepare at-risk members data
 if not df_at_risk.empty:
@@ -311,6 +312,9 @@ with tab0:
     df_mem_sc['start_date'] = pd.to_datetime(df_mem_sc.get('start_date'), errors='coerce')
     df_mem_sc['end_date'] = pd.to_datetime(df_mem_sc.get('end_date'), errors='coerce')
 
+    # Build lookup of each customer's FIRST membership date (to identify truly new members)
+    first_membership_by_customer = df_mem_sc.groupby('owner_id')['start_date'].min().to_dict()
+
     # Prepare birthday filter
     bday_mask = (
         (df_transactions['Description'].str.contains('Birthday Party', case=False, na=False)) |
@@ -323,6 +327,19 @@ with tab0:
             (df_transactions['Description'].str.contains('Calendly', case=False, na=False))
         )
     df_bday = df_transactions[bday_mask].copy()
+
+    # Prepare enriched day pass visits for check-in metrics
+    df_visits_sc = df_day_pass_visits_enriched.copy()
+    if not df_visits_sc.empty and 'visit_datetime' in df_visits_sc.columns:
+        df_visits_sc['visit_datetime'] = pd.to_datetime(df_visits_sc['visit_datetime'], errors='coerce')
+        df_visits_sc = df_visits_sc[df_visits_sc['visit_datetime'].notna()].copy()
+
+    # Prepare all check-ins for member vs non-member counts
+    df_checkins_sc = df_checkins.copy()
+    if not df_checkins_sc.empty and 'checkin_datetime' in df_checkins_sc.columns:
+        df_checkins_sc['checkin_datetime'] = pd.to_datetime(df_checkins_sc['checkin_datetime'], errors='coerce', utc=True)
+        df_checkins_sc = df_checkins_sc[df_checkins_sc['checkin_datetime'].notna()].copy()
+        df_checkins_sc['checkin_datetime'] = df_checkins_sc['checkin_datetime'].dt.tz_localize(None)
 
     scorecard_rows = []
     for ws, we in week_ranges:
@@ -340,16 +357,32 @@ with tab0:
         ]
         dp_units = dp['Day Pass Count'].sum() if 'Day Pass Count' in dp.columns else len(dp)
 
-        # New memberships
-        new_mem = len(df_mem_sc[
-            (df_mem_sc['start_date'] >= ws) & (df_mem_sc['start_date'] < we_exclusive)
-        ]) if 'start_date' in df_mem_sc.columns else 0
+        # New memberships (truly new - first ever membership for this customer)
+        new_mem = 0
+        if 'start_date' in df_mem_sc.columns:
+            # Count unique customers whose FIRST-EVER membership started this week
+            new_mem = sum(
+                1 for owner_id, first_date in first_membership_by_customer.items()
+                if pd.notna(first_date) and first_date >= ws and first_date < we_exclusive
+            )
 
-        # Attrited memberships
-        att_mem = len(df_mem_sc[
-            (df_mem_sc['status'] == 'END') &
-            (df_mem_sc['end_date'] >= ws) & (df_mem_sc['end_date'] < we_exclusive)
-        ]) if 'end_date' in df_mem_sc.columns and 'status' in df_mem_sc.columns else 0
+        # Attrited members (people who ended membership and have NO active membership now)
+        att_mem = 0
+        if 'end_date' in df_mem_sc.columns and 'status' in df_mem_sc.columns:
+            # Get memberships that ended this week
+            ended_this_week = df_mem_sc[
+                (df_mem_sc['end_date'] >= ws) & (df_mem_sc['end_date'] < we_exclusive)
+            ]
+            # For each customer with an ended membership, check if they have any active membership
+            active_statuses = ['ACT', 'ACTIVE', 'FRO', 'FROZEN']  # Include frozen as still "active"
+            for owner_id in ended_this_week['owner_id'].unique():
+                # Check if this customer has any active membership
+                has_active = df_mem_sc[
+                    (df_mem_sc['owner_id'] == owner_id) &
+                    (df_mem_sc['status'].isin(active_statuses))
+                ]
+                if len(has_active) == 0:
+                    att_mem += 1
 
         # Birthday parties
         bday_count = len(df_bday[
@@ -364,27 +397,86 @@ with tab0:
                 (df_transactions['fitness_amount'] > 0)
             ]['fitness_amount'].sum()
 
+        # New visitors (first-time day pass users)
+        new_visitors = 0
+        non_member_checkins = 0
+        if not df_visits_sc.empty:
+            week_visits = df_visits_sc[
+                (df_visits_sc['visit_datetime'] >= ws) & (df_visits_sc['visit_datetime'] < we_exclusive)
+            ]
+            new_visitors = len(week_visits[week_visits['visit_number'] == 1])
+            non_member_checkins = len(week_visits)
+
+        # Total check-ins and member check-ins
+        total_checkins = 0
+        member_checkins = 0
+        if not df_checkins_sc.empty:
+            week_checkins = df_checkins_sc[
+                (df_checkins_sc['checkin_datetime'] >= ws) & (df_checkins_sc['checkin_datetime'] < we_exclusive)
+            ]
+            total_checkins = len(week_checkins)
+            member_checkins = total_checkins - non_member_checkins
+
+        # 2nd Visit Return % - first-timers from 4 weeks ago who came back
+        return_rate = None
+        returned_count = 0
+        if not df_visits_sc.empty:
+            # Look at first-timers from 4 weeks ago
+            prior_ws = ws - timedelta(weeks=4)
+            prior_we = prior_ws + timedelta(days=6)
+            prior_we_exclusive = prior_we + timedelta(days=1)
+
+            # Get first-timers from that week
+            prior_first_timers = df_visits_sc[
+                (df_visits_sc['visit_datetime'] >= prior_ws) &
+                (df_visits_sc['visit_datetime'] < prior_we_exclusive) &
+                (df_visits_sc['visit_number'] == 1)
+            ]
+            first_timer_ids = set(prior_first_timers['customer_id'].unique())
+
+            if len(first_timer_ids) > 0:
+                # Check how many have visit_number >= 2 (meaning they came back)
+                returned_count = df_visits_sc[
+                    (df_visits_sc['customer_id'].isin(first_timer_ids)) &
+                    (df_visits_sc['visit_number'] >= 2)
+                ]['customer_id'].nunique()
+                return_rate = (returned_count / len(first_timer_ids)) * 100
+
         scorecard_rows.append({
             'Week': f"{ws.strftime('%b %d')} - {we.strftime('%b %d')}",
             'Revenue': rev,
             'Day Passes': int(dp_units),
             'New Members': int(new_mem),
             'Attrition': int(att_mem),
-            'Birthdays': int(bday_count),
-            'Fitness $': fit
+            'Birthdays Booked': int(bday_count),
+            'Fitness $': fit,
+            'New Visitors': int(new_visitors),
+            'Non-Mbr Check-ins': int(non_member_checkins),
+            'Member Check-ins': int(member_checkins),
+            '# 2nd Visitors': int(returned_count),
+            '% 2nd Visit (4wk ago)': return_rate
         })
 
     df_scorecard = pd.DataFrame(scorecard_rows)
 
     # Add 4-week average column
+    # Calculate average for % 2nd Visit (4wk ago) excluding None values
+    return_rates = [r['% 2nd Visit (4wk ago)'] for r in scorecard_rows if r['% 2nd Visit (4wk ago)'] is not None]
+    avg_return_rate = sum(return_rates) / len(return_rates) if return_rates else None
+
     avg_col = {
         'Week': '4-Wk Avg',
         'Revenue': df_scorecard['Revenue'].mean(),
         'Day Passes': int(round(df_scorecard['Day Passes'].mean())),
         'New Members': int(round(df_scorecard['New Members'].mean())),
         'Attrition': int(round(df_scorecard['Attrition'].mean())),
-        'Birthdays': int(round(df_scorecard['Birthdays'].mean())),
-        'Fitness $': df_scorecard['Fitness $'].mean()
+        'Birthdays Booked': int(round(df_scorecard['Birthdays Booked'].mean())),
+        'Fitness $': df_scorecard['Fitness $'].mean(),
+        'New Visitors': int(round(df_scorecard['New Visitors'].mean())),
+        'Non-Mbr Check-ins': int(round(df_scorecard['Non-Mbr Check-ins'].mean())),
+        'Member Check-ins': int(round(df_scorecard['Member Check-ins'].mean())),
+        '# 2nd Visitors': int(round(df_scorecard['# 2nd Visitors'].mean())),
+        '% 2nd Visit (4wk ago)': avg_return_rate
     }
     df_scorecard = pd.concat([df_scorecard, pd.DataFrame([avg_col])], ignore_index=True)
 
@@ -396,20 +488,28 @@ with tab0:
     for col in df_scorecard.columns:
         df_scorecard.loc['Revenue', col] = f"${df_scorecard.loc['Revenue', col]:,.0f}"
         df_scorecard.loc['Fitness $', col] = f"${df_scorecard.loc['Fitness $', col]:,.0f}"
-        for metric in ['Day Passes', 'New Members', 'Attrition', 'Birthdays']:
+        for metric in ['Day Passes', 'New Members', 'Attrition', 'Birthdays Booked', 'New Visitors', 'Non-Mbr Check-ins', 'Member Check-ins', '# 2nd Visitors']:
             df_scorecard.loc[metric, col] = f"{int(df_scorecard.loc[metric, col]):,}"
+        # Format % 2nd Visit (4wk ago) as percentage
+        val = df_scorecard.loc['% 2nd Visit (4wk ago)', col]
+        if pd.notna(val) and val is not None:
+            df_scorecard.loc['% 2nd Visit (4wk ago)', col] = f"{val:.1f}%"
+        else:
+            df_scorecard.loc['% 2nd Visit (4wk ago)', col] = "—"
 
     # Render as styled HTML table for larger font and centered values
-    header_row = '<tr><th style="text-align:left; padding:10px 16px; font-size:18px; border-bottom:2px solid #213B3F;">Metric</th>'
+    # Use branded dark teal color for text: #213B3F
+    text_color = '#213B3F'
+    header_row = f'<tr><th style="text-align:left; padding:14px 20px; font-size:26px; border-bottom:2px solid #213B3F; color:{text_color};">Metric</th>'
     for col in df_scorecard.columns:
-        header_row += f'<th style="text-align:center; padding:10px 16px; font-size:18px; border-bottom:2px solid #213B3F;">{col}</th>'
+        header_row += f'<th style="text-align:center; padding:14px 20px; font-size:26px; border-bottom:2px solid #213B3F; color:{text_color};">{col}</th>'
     header_row += '</tr>'
 
     body_rows = ''
     for metric in df_scorecard.index:
-        body_rows += f'<tr><td style="text-align:left; padding:8px 16px; font-size:17px; font-weight:600; border-bottom:1px solid #E0E0E0;">{metric}</td>'
+        body_rows += f'<tr><td style="text-align:left; padding:12px 20px; font-size:24px; font-weight:600; border-bottom:1px solid #E0E0E0; color:{text_color};">{metric}</td>'
         for col in df_scorecard.columns:
-            body_rows += f'<td style="text-align:center; padding:8px 16px; font-size:17px; border-bottom:1px solid #E0E0E0;">{df_scorecard.loc[metric, col]}</td>'
+            body_rows += f'<td style="text-align:center; padding:12px 20px; font-size:24px; border-bottom:1px solid #E0E0E0; color:{text_color};">{df_scorecard.loc[metric, col]}</td>'
         body_rows += '</tr>'
 
     scorecard_html = f'''
