@@ -262,7 +262,7 @@ st.title('🧗 Basin Climbing & Fitness Dashboard')
 st.markdown('---')
 
 # Create tabs
-tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([
+tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "📋 Overview",
     "📊 Revenue",
     "👥 Membership",
@@ -270,7 +270,6 @@ tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([
     "🎉 Rentals",
     "💪 Programming",
     "📱 Marketing",
-    "🎯 Lead Flow",
     "🧪 AB Tests"
 ])
 
@@ -3879,79 +3878,6 @@ with tab6:
     else:
         st.info('No customer flags data available')
 
-# ============================================================================
-# TAB 7: LEAD FLOW (Day Pass → Membership Conversion Funnel)
-# ============================================================================
-with tab7:
-    st.header('🎯 Tag Syncs')
-    st.markdown('Tags synced to Shopify for marketing automation triggers')
-
-    if not df_shopify_synced_flags.empty:
-        # Show sync statistics
-        total_synced = len(df_shopify_synced_flags)
-        unique_customers = df_shopify_synced_flags['capitan_customer_id'].nunique() if 'capitan_customer_id' in df_shopify_synced_flags.columns else 0
-
-        col1, col2 = st.columns(2)
-        with col1:
-            st.metric("Total Tags Synced", f"{total_synced:,}")
-        with col2:
-            st.metric("Unique Customers", f"{unique_customers:,}")
-
-        st.markdown('---')
-
-        # Show breakdown by tag
-        if 'tag_name' in df_shopify_synced_flags.columns:
-            st.subheader("Tags by Type")
-            tag_counts = df_shopify_synced_flags['tag_name'].value_counts().reset_index()
-            tag_counts.columns = ['Tag Name', 'Count']
-
-            # Create a bar chart
-            fig = px.bar(
-                tag_counts,
-                x='Tag Name',
-                y='Count',
-                title='Tags Synced to Shopify',
-                color='Count',
-                color_continuous_scale=['#96A682', '#8B4229']
-            )
-            fig.update_layout(
-                xaxis_tickangle=-45,
-                showlegend=False,
-                coloraxis_showscale=False
-            )
-            st.plotly_chart(fig, use_container_width=True)
-
-            # Also show as a table
-            st.dataframe(tag_counts, use_container_width=True, hide_index=True)
-
-        st.markdown('---')
-
-        # Recent syncs
-        st.subheader("Recent Syncs")
-        df_sync_display = df_shopify_synced_flags.copy()
-        if 'synced_at' in df_sync_display.columns:
-            df_sync_display['synced_at'] = pd.to_datetime(df_sync_display['synced_at'], errors='coerce')
-            df_sync_display = df_sync_display.sort_values('synced_at', ascending=False)
-
-        # Select display columns
-        display_cols = ['capitan_customer_id', 'tag_name', 'synced_at', 'shopify_customer_id']
-        available_cols = [c for c in display_cols if c in df_sync_display.columns]
-        df_sync_display = df_sync_display[available_cols].head(100)
-
-        # Rename for display
-        col_rename = {
-            'capitan_customer_id': 'Customer ID',
-            'tag_name': 'Tag',
-            'synced_at': 'Synced At',
-            'shopify_customer_id': 'Shopify ID'
-        }
-        df_sync_display = df_sync_display.rename(columns={k: v for k, v in col_rename.items() if k in df_sync_display.columns})
-
-        st.dataframe(df_sync_display, use_container_width=True, hide_index=True)
-        st.caption("Showing most recent 100 syncs")
-
-    else:
-        st.info("No Shopify sync tracking data available yet. Run the flag sync pipeline to populate this data.")
 
 # ============================================================================
 # TAB 8: EXPENSES (HIDDEN FOR NOW)
@@ -4101,9 +4027,9 @@ with tab7:
 #         st.info('No expense data available. Run the QuickBooks pipeline to fetch data.')
 
 # ============================================================================
-# TAB 8: AB TESTS
+# TAB 7: AB TESTS
 # ============================================================================
-with tab8:
+with tab7:
     st.header("🧪 AB Test Results")
     st.markdown("Compare conversion rates between test groups to measure experiment effectiveness.")
 
