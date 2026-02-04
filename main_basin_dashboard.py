@@ -262,7 +262,7 @@ st.title('🧗 Basin Climbing & Fitness Dashboard')
 st.markdown('---')
 
 # Create tabs
-tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
+tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([
     "📋 Overview",
     "📊 Revenue",
     "👥 Membership",
@@ -270,7 +270,8 @@ tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "🎉 Rentals",
     "💪 Programming",
     "📱 Marketing",
-    "🎯 Lead Flow"
+    "🎯 Lead Flow",
+    "🧪 AB Tests"
 ])
 
 # ============================================================================
@@ -3882,120 +3883,8 @@ with tab6:
 # TAB 7: LEAD FLOW (Day Pass → Membership Conversion Funnel)
 # ============================================================================
 with tab7:
-    st.header('🎯 Lead Flow: Day Pass → Membership Funnel (2026+)')
-    st.markdown('Track how day pass customers move through the conversion funnel to membership')
-
-    # Filter flags to 2026+ only
-    df_flags_2026 = df_customer_flags.copy()
-    if not df_flags_2026.empty and 'flag_added_date' in df_flags_2026.columns:
-        df_flags_2026['flag_added_date'] = pd.to_datetime(df_flags_2026['flag_added_date'], errors='coerce')
-        df_flags_2026 = df_flags_2026[df_flags_2026['flag_added_date'] >= '2026-01-01']
-
-    # ========== ENTRY POINT: DAY PASS CUSTOMERS ==========
-    st.subheader('1️⃣ Entry Point: Day Pass Customers')
-
-    # Get total day pass customers from 2026+
-    if not df_day_pass_engagement.empty:
-        if 'latest_day_pass_date' in df_day_pass_engagement.columns:
-            df_day_pass_engagement['latest_day_pass_date'] = pd.to_datetime(df_day_pass_engagement['latest_day_pass_date'], errors='coerce')
-            df_day_pass_2026 = df_day_pass_engagement[df_day_pass_engagement['latest_day_pass_date'] >= '2026-01-01']
-            total_day_pass_customers = len(df_day_pass_2026)
-
-            # Calculate engagement metrics
-            # Multiple visits (came back at least once)
-            returning_customers = 0
-            if 'total_day_pass_checkins' in df_day_pass_2026.columns:
-                returning_customers = len(df_day_pass_2026[df_day_pass_2026['total_day_pass_checkins'] > 1])
-
-            # 2-week membership purchases (look in transactions)
-            two_week_purchases = 0
-            if not df_transactions.empty and 'customer_id' in df_day_pass_2026.columns and 'customer_id' in df_transactions.columns:
-                day_pass_customer_ids = set(df_day_pass_2026['customer_id'].dropna())
-                two_week_txns = df_transactions[
-                    (df_transactions['customer_id'].isin(day_pass_customer_ids)) &
-                    (df_transactions['Description'].str.contains('2-Week|Two Week|2 Week', case=False, na=False))
-                ]
-                two_week_purchases = two_week_txns['customer_id'].nunique() if not two_week_txns.empty else 0
-
-            # Full membership conversions (look in memberships)
-            membership_conversions = 0
-            if not df_memberships.empty and 'customer_id' in df_day_pass_2026.columns and 'customer_id' in df_memberships.columns:
-                day_pass_customer_ids = set(df_day_pass_2026['customer_id'].dropna())
-                active_members = df_memberships[
-                    (df_memberships['customer_id'].isin(day_pass_customer_ids)) &
-                    (df_memberships['status'] == 'active')
-                ]
-                membership_conversions = len(active_members)
-
-            # Display metrics
-            col1, col2, col3, col4 = st.columns(4)
-            with col1:
-                st.metric("Total Day Pass Customers", f"{total_day_pass_customers:,}")
-            with col2:
-                st.metric("Returned for 2nd Visit", f"{returning_customers:,}")
-            with col3:
-                st.metric("Bought 2-Week Pass", f"{two_week_purchases:,}")
-            with col4:
-                st.metric("Converted to Membership", f"{membership_conversions:,}")
-
-        else:
-            st.info("Date information not available")
-    else:
-        st.info("No day pass engagement data available")
-
-    st.markdown('---')
-
-    # ========== FLAG EVALUATION ==========
-    st.subheader('2️⃣ A/B Test Entry: Who Qualifies?')
-    st.markdown('Customers who enter the A/B test based on business rules')
-
-    if not df_flags_2026.empty:
-        # Filter to only the two A/B test flags
-        ab_test_flags = df_flags_2026[df_flags_2026['flag_type'].isin(['first_time_day_pass_2wk_offer', 'second_visit_offer_eligible'])]
-
-        if not ab_test_flags.empty:
-            # Count by flag type
-            flag_counts = ab_test_flags['flag_type'].value_counts().to_dict()
-
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                first_time_count = flag_counts.get('first_time_day_pass_2wk_offer', 0)
-                st.metric("First-Time 2wk Offer (Group A)", f"{first_time_count:,}")
-            with col2:
-                second_visit_eligible = flag_counts.get('second_visit_offer_eligible', 0)
-                st.metric("2nd Visit Eligible (Group B)", f"{second_visit_eligible:,}")
-            with col3:
-                total_ab = first_time_count + second_visit_eligible
-                st.metric("Total in A/B Test", f"{total_ab:,}")
-        else:
-            st.info("No A/B test flags found for 2026")
-    else:
-        st.info("No customer flags data available for 2026")
-
-    # Add flag history expander within section 2
-    if not df_customer_events.empty:
-        # Filter to flag_set events only
-        flag_events = df_customer_events[df_customer_events['event_type'].str.contains('flag_set', na=False)].copy()
-        if not flag_events.empty:
-            with st.expander(f"📜 Flag History ({len(flag_events):,} flag events)"):
-                flag_events_display = flag_events.copy()
-                if 'event_date' in flag_events_display.columns:
-                    flag_events_display['event_date'] = pd.to_datetime(flag_events_display['event_date'], errors='coerce')
-                    flag_events_display = flag_events_display.sort_values('event_date', ascending=False)
-
-                # Select columns for display
-                display_cols = ['customer_id', 'event_type', 'event_date', 'event_source']
-                available_cols = [c for c in display_cols if c in flag_events_display.columns]
-                flag_events_display = flag_events_display[available_cols].head(100)
-
-                flag_events_display.columns = [c.replace('_', ' ').title() for c in flag_events_display.columns]
-                st.dataframe(flag_events_display, use_container_width=True, hide_index=True)
-                st.caption("Showing most recent 100 flag events")
-
-    st.markdown('---')
-
-    # ========== SHOPIFY SYNC ==========
-    st.subheader('3️⃣ Shopify Sync Status')
+    st.header('🎯 Tag Syncs')
+    st.markdown('Tags synced to Shopify for marketing automation triggers')
 
     if not df_shopify_synced_flags.empty:
         # Show sync statistics
@@ -4004,267 +3893,65 @@ with tab7:
 
         col1, col2 = st.columns(2)
         with col1:
-            st.metric("Total Synced Tags", f"{total_synced:,}")
+            st.metric("Total Tags Synced", f"{total_synced:,}")
         with col2:
-            st.metric("Unique Customers Synced", f"{unique_customers:,}")
+            st.metric("Unique Customers", f"{unique_customers:,}")
+
+        st.markdown('---')
 
         # Show breakdown by tag
         if 'tag_name' in df_shopify_synced_flags.columns:
-            tag_counts = df_shopify_synced_flags['tag_name'].value_counts()
-            st.markdown("**Tags Synced to Shopify:**")
-            for tag, count in tag_counts.items():
-                st.write(f"  - `{tag}`: {count:,} customers")
+            st.subheader("Tags by Type")
+            tag_counts = df_shopify_synced_flags['tag_name'].value_counts().reset_index()
+            tag_counts.columns = ['Tag Name', 'Count']
 
-        # Expandable detail view
-        with st.expander("View Sync Details"):
-            df_sync_display = df_shopify_synced_flags.copy()
-            if 'synced_at' in df_sync_display.columns:
-                df_sync_display = df_sync_display.sort_values('synced_at', ascending=False)
-            st.dataframe(df_sync_display.head(50), use_container_width=True, hide_index=True)
-            st.caption("Showing most recent 50 syncs")
+            # Create a bar chart
+            fig = px.bar(
+                tag_counts,
+                x='Tag Name',
+                y='Count',
+                title='Tags Synced to Shopify',
+                color='Count',
+                color_continuous_scale=['#96A682', '#8B4229']
+            )
+            fig.update_layout(
+                xaxis_tickangle=-45,
+                showlegend=False,
+                coloraxis_showscale=False
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+            # Also show as a table
+            st.dataframe(tag_counts, use_container_width=True, hide_index=True)
+
+        st.markdown('---')
+
+        # Recent syncs
+        st.subheader("Recent Syncs")
+        df_sync_display = df_shopify_synced_flags.copy()
+        if 'synced_at' in df_sync_display.columns:
+            df_sync_display['synced_at'] = pd.to_datetime(df_sync_display['synced_at'], errors='coerce')
+            df_sync_display = df_sync_display.sort_values('synced_at', ascending=False)
+
+        # Select display columns
+        display_cols = ['capitan_customer_id', 'tag_name', 'synced_at', 'shopify_customer_id']
+        available_cols = [c for c in display_cols if c in df_sync_display.columns]
+        df_sync_display = df_sync_display[available_cols].head(100)
+
+        # Rename for display
+        col_rename = {
+            'capitan_customer_id': 'Customer ID',
+            'tag_name': 'Tag',
+            'synced_at': 'Synced At',
+            'shopify_customer_id': 'Shopify ID'
+        }
+        df_sync_display = df_sync_display.rename(columns={k: v for k, v in col_rename.items() if k in df_sync_display.columns})
+
+        st.dataframe(df_sync_display, use_container_width=True, hide_index=True)
+        st.caption("Showing most recent 100 syncs")
+
     else:
         st.info("No Shopify sync tracking data available yet. Run the flag sync pipeline to populate this data.")
-
-    st.markdown('---')
-
-    # ========== DISTRIBUTION CHANNELS ==========
-    st.subheader('4️⃣ Distribution Channels')
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.markdown('**📧 Group A → SendGrid Emails**')
-        # This would need email send logs - placeholder for now
-        st.info("SendGrid send data not yet integrated")
-        # TODO: Add email send log data when available
-
-    with col2:
-        st.markdown('**📨 Group B → Mailchimp Tags**')
-        st.info("📝 Mailchimp tag data needs to be added to data pipeline. Current data is campaign-level only (opens/clicks), not member-level with tags.")
-
-    st.markdown('---')
-
-    # ========== OFFER RESPONSE: SECOND VISIT AFTER EMAIL ==========
-    st.subheader('5️⃣ Offer Response: Second Visit After Email')
-    st.markdown('Track which customers who received an offer email came back for a second visit')
-
-    if not df_flags_2026.empty and not df_checkins.empty:
-        # Find all customers with "_sent" flags (offers that were actually sent)
-        sent_flags = df_flags_2026[df_flags_2026['flag_type'].str.endswith('_sent', na=False)].copy()
-
-        if not sent_flags.empty and 'flag_added_date' in sent_flags.columns and 'customer_id' in sent_flags.columns:
-            # Ensure dates are datetime
-            sent_flags['flag_added_date'] = pd.to_datetime(sent_flags['flag_added_date'], errors='coerce')
-            sent_flags = sent_flags[sent_flags['flag_added_date'].notna()]
-
-            # Prepare checkins data
-            df_checkins_analysis = df_checkins.copy()
-            if 'checkin_datetime' in df_checkins_analysis.columns:
-                df_checkins_analysis['checkin_datetime'] = pd.to_datetime(df_checkins_analysis['checkin_datetime'], errors='coerce')
-                df_checkins_analysis = df_checkins_analysis[df_checkins_analysis['checkin_datetime'].notna()]
-
-                # For each customer with a sent flag, check if they had a check-in AFTER the offer was sent
-                customers_with_offers = sent_flags['customer_id'].unique()
-                returned_after_offer = []
-
-                for customer_id in customers_with_offers:
-                    # Get the date the offer was sent (most recent _sent flag for this customer)
-                    customer_flags = sent_flags[sent_flags['customer_id'] == customer_id]
-                    offer_sent_date = customer_flags['flag_added_date'].max()
-
-                    # Check if they have any check-ins AFTER the offer was sent
-                    customer_checkins = df_checkins_analysis[
-                        (df_checkins_analysis['customer_id'] == customer_id) &
-                        (df_checkins_analysis['checkin_datetime'] > offer_sent_date)
-                    ]
-
-                    if not customer_checkins.empty:
-                        returned_after_offer.append({
-                            'customer_id': customer_id,
-                            'offer_sent_date': offer_sent_date,
-                            'first_return_date': customer_checkins['checkin_datetime'].min(),
-                            'days_to_return': (customer_checkins['checkin_datetime'].min() - offer_sent_date).days,
-                            'total_visits_after_offer': len(customer_checkins),
-                            'flag_type': customer_flags['flag_type'].iloc[-1]  # Most recent flag
-                        })
-
-                df_returned = pd.DataFrame(returned_after_offer)
-
-                # Calculate metrics
-                total_offers_sent = len(customers_with_offers)
-                total_returned = len(df_returned)
-                conversion_rate = (total_returned / total_offers_sent * 100) if total_offers_sent > 0 else 0
-
-                # Breakdown by flag type
-                flag_type_breakdown = {}
-                if not df_returned.empty:
-                    for flag_type in sent_flags['flag_type'].unique():
-                        customers_with_this_flag = sent_flags[sent_flags['flag_type'] == flag_type]['customer_id'].unique()
-                        returned_with_this_flag = len(df_returned[df_returned['flag_type'] == flag_type])
-                        total_with_this_flag = len(customers_with_this_flag)
-                        flag_conversion = (returned_with_this_flag / total_with_this_flag * 100) if total_with_this_flag > 0 else 0
-
-                        flag_type_breakdown[flag_type] = {
-                            'sent': total_with_this_flag,
-                            'returned': returned_with_this_flag,
-                            'conversion': flag_conversion
-                        }
-
-                # Display summary metrics
-                col1, col2, col3 = st.columns(3)
-                with col1:
-                    st.metric("Offers Sent", f"{total_offers_sent:,}")
-                with col2:
-                    st.metric("Returned for Visit", f"{total_returned:,}")
-                with col3:
-                    st.metric("Conversion Rate", f"{conversion_rate:.1f}%")
-
-                # Show breakdown by offer type
-                if flag_type_breakdown:
-                    st.markdown("**Conversion by Offer Type:**")
-
-                    breakdown_data = []
-                    for flag_type, stats in flag_type_breakdown.items():
-                        # Clean up flag name for display
-                        display_name = flag_type.replace('_sent', '').replace('_', ' ').title()
-                        breakdown_data.append({
-                            'Offer Type': display_name,
-                            'Sent': stats['sent'],
-                            'Returned': stats['returned'],
-                            'Conversion': f"{stats['conversion']:.1f}%"
-                        })
-
-                    df_breakdown_display = pd.DataFrame(breakdown_data)
-                    st.dataframe(df_breakdown_display, use_container_width=True, hide_index=True)
-
-                # Show details of customers who returned
-                if not df_returned.empty:
-                    with st.expander(f"View {len(df_returned)} Customers Who Returned"):
-                        df_returned_display = df_returned.copy()
-                        df_returned_display['offer_sent_date'] = df_returned_display['offer_sent_date'].dt.strftime('%Y-%m-%d')
-                        df_returned_display['first_return_date'] = df_returned_display['first_return_date'].dt.strftime('%Y-%m-%d')
-                        df_returned_display['flag_type'] = df_returned_display['flag_type'].str.replace('_sent', '').str.replace('_', ' ').str.title()
-
-                        df_returned_display = df_returned_display[[
-                            'customer_id', 'flag_type', 'offer_sent_date', 'first_return_date',
-                            'days_to_return', 'total_visits_after_offer'
-                        ]]
-                        df_returned_display.columns = [
-                            'Customer ID', 'Offer Type', 'Offer Sent', 'First Return',
-                            'Days to Return', 'Total Visits After'
-                        ]
-
-                        st.dataframe(df_returned_display, use_container_width=True, hide_index=True)
-            else:
-                st.info("Check-in datetime information not available")
-        else:
-            st.info("No offer email sends found for 2026 (looking for flags ending in '_sent')")
-    else:
-        st.info("Customer flags or check-in data not available")
-
-    st.markdown('---')
-
-    # ========== AB TEST RESULTS ==========
-    st.subheader('6️⃣ A/B Test Results: Group A vs Group B')
-
-    if not df_experiment_entries.empty:
-        # Show experiment entry statistics
-        st.markdown("**Experiment Group Distribution:**")
-
-        if 'experiment_group' in df_experiment_entries.columns:
-            group_counts = df_experiment_entries['experiment_group'].value_counts()
-
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                group_a_count = group_counts.get('A', 0)
-                st.metric("Group A (Immediate 2wk Offer)", f"{group_a_count:,}")
-            with col2:
-                group_b_count = group_counts.get('B', 0)
-                st.metric("Group B (Wait for 2nd Visit)", f"{group_b_count:,}")
-            with col3:
-                total_in_experiment = len(df_experiment_entries)
-                st.metric("Total in Experiment", f"{total_in_experiment:,}")
-
-            # Calculate conversion rates if we have checkin data
-            if not df_checkins.empty and 'customer_id' in df_experiment_entries.columns:
-                st.markdown("**Conversion Analysis (Return Visit Rate):**")
-
-                # Get customer IDs in each group
-                group_a_customers = set(df_experiment_entries[df_experiment_entries['experiment_group'] == 'A']['customer_id'].dropna())
-                group_b_customers = set(df_experiment_entries[df_experiment_entries['experiment_group'] == 'B']['customer_id'].dropna())
-
-                # Prepare checkins for analysis
-                df_checkins_analysis = df_checkins.copy()
-                if 'checkin_datetime' in df_checkins_analysis.columns:
-                    df_checkins_analysis['checkin_datetime'] = pd.to_datetime(df_checkins_analysis['checkin_datetime'], errors='coerce')
-
-                    # Count customers in each group who had a return visit
-                    # (any checkin after their experiment entry date)
-                    group_a_returned = 0
-                    group_b_returned = 0
-
-                    if 'entry_date' in df_experiment_entries.columns:
-                        df_experiment_entries['entry_date'] = pd.to_datetime(df_experiment_entries['entry_date'], errors='coerce')
-
-                        for _, row in df_experiment_entries.iterrows():
-                            customer_id = row['customer_id']
-                            entry_date = row['entry_date']
-                            group = row['experiment_group']
-
-                            if pd.isna(entry_date):
-                                continue
-
-                            # Check for checkins after entry date
-                            return_visits = df_checkins_analysis[
-                                (df_checkins_analysis['customer_id'] == customer_id) &
-                                (df_checkins_analysis['checkin_datetime'] > entry_date)
-                            ]
-
-                            if not return_visits.empty:
-                                if group == 'A':
-                                    group_a_returned += 1
-                                elif group == 'B':
-                                    group_b_returned += 1
-
-                        # Calculate conversion rates
-                        group_a_rate = (group_a_returned / group_a_count * 100) if group_a_count > 0 else 0
-                        group_b_rate = (group_b_returned / group_b_count * 100) if group_b_count > 0 else 0
-
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            st.metric(
-                                "Group A Return Rate",
-                                f"{group_a_rate:.1f}%",
-                                delta=f"{group_a_returned}/{group_a_count} customers"
-                            )
-                        with col2:
-                            st.metric(
-                                "Group B Return Rate",
-                                f"{group_b_rate:.1f}%",
-                                delta=f"{group_b_returned}/{group_b_count} customers"
-                            )
-
-                        # Show winner
-                        if group_a_rate > group_b_rate:
-                            st.success(f"🏆 Group A (Immediate Offer) is performing {group_a_rate - group_b_rate:.1f}% better")
-                        elif group_b_rate > group_a_rate:
-                            st.success(f"🏆 Group B (Wait Strategy) is performing {group_b_rate - group_a_rate:.1f}% better")
-                        else:
-                            st.info("Both groups have equal return rates")
-                    else:
-                        st.info("Entry date not available for conversion analysis")
-
-            # Show experiment entries detail
-            with st.expander(f"View Experiment Entries ({len(df_experiment_entries):,} total)"):
-                df_exp_display = df_experiment_entries.copy()
-                if 'entry_date' in df_exp_display.columns:
-                    df_exp_display = df_exp_display.sort_values('entry_date', ascending=False)
-                st.dataframe(df_exp_display.head(50), use_container_width=True, hide_index=True)
-                st.caption("Showing most recent 50 entries")
-        else:
-            st.info("Experiment group data not available")
-    else:
-        st.info("No A/B test experiment data available yet. Run the customer flagging pipeline to populate this data.")
 
 # ============================================================================
 # TAB 8: EXPENSES (HIDDEN FOR NOW)
@@ -4412,6 +4099,169 @@ with tab7:
 # 
 #     else:
 #         st.info('No expense data available. Run the QuickBooks pipeline to fetch data.')
+
+# ============================================================================
+# TAB 8: AB TESTS
+# ============================================================================
+with tab8:
+    st.header("🧪 AB Test Results")
+    st.markdown("Compare conversion rates between test groups to measure experiment effectiveness.")
+
+    # Load AB test data
+    @st.cache_data(ttl=300)
+    def load_ab_test_data():
+        """Load AB test experiments and entries from S3."""
+        uploader = upload_data.DataUploader()
+
+        try:
+            csv_content = uploader.download_from_s3(config.aws_bucket_name, config.s3_path_ab_test_experiments)
+            df_experiments = uploader.convert_csv_to_df(csv_content)
+        except Exception:
+            df_experiments = pd.DataFrame()
+
+        try:
+            csv_content = uploader.download_from_s3(config.aws_bucket_name, config.s3_path_experiment_entries)
+            df_entries = uploader.convert_csv_to_df(csv_content)
+        except Exception:
+            df_entries = pd.DataFrame()
+
+        try:
+            csv_content = uploader.download_from_s3(config.aws_bucket_name, config.s3_path_capitan_memberships)
+            df_memberships = uploader.convert_csv_to_df(csv_content)
+        except Exception:
+            df_memberships = pd.DataFrame()
+
+        return df_experiments, df_entries, df_memberships
+
+    df_experiments, df_entries, df_memberships = load_ab_test_data()
+
+    if df_experiments.empty:
+        st.info("No AB test experiments found.")
+    else:
+        # Create experiment selector
+        experiment_options = {}
+        for _, exp in df_experiments.iterrows():
+            status = exp.get('status', 'unknown')
+            label = f"{exp['experiment_name']} [{status.upper()}]"
+            experiment_options[label] = exp['experiment_id']
+
+        # Default to active experiment
+        active_exp = df_experiments[df_experiments['status'] == 'active']
+        default_label = None
+        if len(active_exp) > 0:
+            for label, exp_id in experiment_options.items():
+                if exp_id == active_exp['experiment_id'].iloc[0]:
+                    default_label = label
+                    break
+
+        selected_label = st.selectbox(
+            "Select Experiment",
+            options=list(experiment_options.keys()),
+            index=list(experiment_options.keys()).index(default_label) if default_label else 0
+        )
+        selected_experiment = experiment_options[selected_label]
+
+        # Get selected experiment details
+        exp_row = df_experiments[df_experiments['experiment_id'] == selected_experiment].iloc[0]
+        status = exp_row.get('status', 'unknown')
+
+        # Status styling
+        status_colors = {
+            'active': '🟢',
+            'in_progress': '🟢',
+            'ended': '⚪',
+            'invalidated': '🔴',
+            'paused': '🟡',
+        }
+        status_icon = status_colors.get(status, '⚪')
+
+        st.markdown("---")
+
+        # Warning for invalidated experiments
+        if status == 'invalidated':
+            st.error("⚠️ **This experiment was invalidated.** Results should not be used for decision-making. The test had issues (e.g., emails not sending correctly).")
+
+        # Experiment header
+        col1, col2, col3 = st.columns([2, 1, 1])
+        with col1:
+            st.subheader(f"{status_icon} {exp_row['experiment_name']}")
+        with col2:
+            st.metric("Start Date", str(exp_row.get('start_date', 'N/A')))
+        with col3:
+            end_date = exp_row.get('end_date', '')
+            st.metric("End Date", str(end_date) if pd.notna(end_date) and end_date else "Ongoing")
+
+        # Entry criteria
+        entry_criteria = exp_row.get('entry_criteria', '')
+        if entry_criteria:
+            st.markdown(f"**Entry Criteria:** {entry_criteria}")
+
+        st.markdown("---")
+
+        # Group definitions
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown("### Group A (Control)")
+            st.info(exp_row.get('group_a_definition', 'No definition'))
+        with col2:
+            st.markdown("### Group B (Treatment)")
+            st.info(exp_row.get('group_b_definition', 'No definition'))
+
+        st.markdown("---")
+
+        # Calculate results
+        exp_entries = df_entries[df_entries['experiment_id'] == selected_experiment] if not df_entries.empty else pd.DataFrame()
+
+        if exp_entries.empty:
+            st.warning("No customers have entered this experiment yet.")
+        else:
+            group_a = exp_entries[exp_entries['group'] == 'A']
+            group_b = exp_entries[exp_entries['group'] == 'B']
+
+            # Get active member IDs for conversion check
+            active_member_ids = set()
+            if not df_memberships.empty:
+                active_member_ids = set(df_memberships[df_memberships['status'] == 'ACT']['owner_id'].astype(str))
+
+            # Count conversions
+            group_a_count = len(group_a)
+            group_b_count = len(group_b)
+            group_a_converted = len([c for c in group_a['customer_id'].astype(str) if c in active_member_ids])
+            group_b_converted = len([c for c in group_b['customer_id'].astype(str) if c in active_member_ids])
+
+            group_a_rate = round(100 * group_a_converted / group_a_count, 1) if group_a_count > 0 else 0.0
+            group_b_rate = round(100 * group_b_converted / group_b_count, 1) if group_b_count > 0 else 0.0
+
+            # Results table
+            st.markdown("### Conversion Results")
+
+            col1, col2, col3, col4 = st.columns(4)
+            with col1:
+                st.metric("Group A Entered", group_a_count)
+            with col2:
+                st.metric("Group A Converted", group_a_converted, f"{group_a_rate}%")
+            with col3:
+                st.metric("Group B Entered", group_b_count)
+            with col4:
+                st.metric("Group B Converted", group_b_converted, f"{group_b_rate}%")
+
+            # Winner indicator
+            st.markdown("---")
+            if group_a_count > 0 and group_b_count > 0:
+                diff = abs(group_a_rate - group_b_rate)
+                if group_a_rate > group_b_rate:
+                    st.success(f"📈 **Group A leads by {diff:.1f} percentage points**")
+                elif group_b_rate > group_a_rate:
+                    st.success(f"📈 **Group B leads by {diff:.1f} percentage points**")
+                else:
+                    st.info("📊 **Groups are currently tied**")
+            else:
+                st.info("⏳ Waiting for more data...")
+
+            # Detailed breakdown by entry flag
+            with st.expander("📋 Entry Breakdown by Flag"):
+                entry_breakdown = exp_entries.groupby(['group', 'entry_flag']).size().reset_index(name='count')
+                st.dataframe(entry_breakdown, use_container_width=True, hide_index=True)
 
 # Footer
 st.markdown('---')
