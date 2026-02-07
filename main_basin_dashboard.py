@@ -262,7 +262,7 @@ st.title('🧗 Basin Climbing & Fitness Dashboard')
 st.markdown('---')
 
 # Create tabs
-tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
+tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([
     "📋 Overview",
     "📊 Revenue",
     "👥 Membership",
@@ -270,7 +270,8 @@ tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "🎉 Rentals",
     "💪 Programming",
     "📱 Marketing",
-    "🧪 AB Tests"
+    "🧪 AB Tests",
+    "🏷️ Tag Syncs"
 ])
 
 # ============================================================================
@@ -4188,6 +4189,58 @@ with tab7:
             with st.expander("📋 Entry Breakdown by Flag"):
                 entry_breakdown = exp_entries.groupby(['group', 'entry_flag']).size().reset_index(name='count')
                 st.dataframe(entry_breakdown, use_container_width=True, hide_index=True)
+
+# ==============================================================================
+# TAB 8: TAG SYNCS
+# ==============================================================================
+with tab8:
+    st.header("🏷️ Shopify Tag Syncs")
+    st.markdown("Track which customer flags have been synced to Shopify for marketing automation.")
+
+    if df_shopify_synced_flags.empty:
+        st.info("No tag syncs found yet.")
+    else:
+        # Add month column for grouping
+        df_syncs = df_shopify_synced_flags.copy()
+        df_syncs['synced_at'] = pd.to_datetime(df_syncs['synced_at'])
+        df_syncs['month'] = df_syncs['synced_at'].dt.to_period('M').astype(str)
+
+        # Monthly breakdown by tag
+        st.subheader("Tag Syncs by Month")
+
+        monthly_tag_syncs = df_syncs.groupby(['month', 'tag_name']).agg(
+            unique_customers=('capitan_customer_id', 'nunique')
+        ).reset_index()
+
+        # Pivot to get months as columns, tags as rows
+        pivot_table = monthly_tag_syncs.pivot(
+            index='tag_name',
+            columns='month',
+            values='unique_customers'
+        ).fillna(0).astype(int)
+
+        # Sort columns by month descending (most recent first)
+        pivot_table = pivot_table[sorted(pivot_table.columns, reverse=True)]
+
+        # Add total column at the end
+        pivot_table['Total'] = pivot_table.sum(axis=1)
+
+        # Sort rows by total descending
+        pivot_table = pivot_table.sort_values('Total', ascending=False)
+
+        # Rename index for display
+        pivot_table.index.name = 'Tag Name'
+
+        st.dataframe(pivot_table, use_container_width=True, height=400)
+
+        # Total metrics
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Total Tags", df_syncs['tag_name'].nunique())
+        with col2:
+            st.metric("Total Unique Customers", df_syncs['capitan_customer_id'].nunique())
+        with col3:
+            st.metric("Total Sync Records", len(df_syncs))
 
 # Footer
 st.markdown('---')
