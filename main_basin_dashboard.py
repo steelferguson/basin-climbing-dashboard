@@ -2545,6 +2545,198 @@ with tab3:
     else:
         st.info('Conversion metrics not available')
 
+    # Conversion Rate Charts (30-day window)
+    st.markdown('---')
+    st.subheader('Conversion Rates (30-Day Window)')
+    st.markdown('Shows the percentage of visitors who converted within 30 days of their first visit in each cohort.')
+
+    if not df_day_pass_visits_enriched.empty:
+        df_conv = df_day_pass_visits_enriched.copy()
+        df_conv['visit_date'] = pd.to_datetime(df_conv['visit_date'], errors='coerce')
+
+        # Only include first visits (visit_number == 1) for accurate cohort tracking
+        df_first_visits = df_conv[df_conv['visit_number'] == 1].copy()
+
+        # Filter to cohorts that have had 30+ days to convert
+        cutoff_date = pd.Timestamp.now() - pd.Timedelta(days=30)
+        df_mature = df_first_visits[df_first_visits['visit_date'] <= cutoff_date].copy()
+
+        if not df_mature.empty:
+            # Group by month for cohort analysis
+            df_mature['cohort_month'] = df_mature['visit_date'].dt.to_period('M').dt.start_time
+
+            # Day Pass → 2-Week Pass conversion rate by month
+            conv_2wk = df_mature.groupby('cohort_month').agg(
+                total_visitors=('customer_id', 'nunique'),
+                converted_2wk=('converted_2wk_30d', 'sum')
+            ).reset_index()
+            conv_2wk['conversion_rate'] = (conv_2wk['converted_2wk'] / conv_2wk['total_visitors'] * 100).round(1)
+
+            # Day Pass → Membership conversion rate by month
+            conv_mem = df_mature.groupby('cohort_month').agg(
+                total_visitors=('customer_id', 'nunique'),
+                converted_member=('converted_member_30d', 'sum')
+            ).reset_index()
+            conv_mem['conversion_rate'] = (conv_mem['converted_member'] / conv_mem['total_visitors'] * 100).round(1)
+
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.markdown("#### Day Pass → 2-Week Pass")
+                if not conv_2wk.empty:
+                    fig_2wk = px.bar(
+                        conv_2wk,
+                        x='cohort_month',
+                        y='conversion_rate',
+                        title='Day Pass to 2-Week Pass (30-Day Window)',
+                        text='conversion_rate',
+                        color_discrete_sequence=[COLORS['secondary']]
+                    )
+                    fig_2wk.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
+                    fig_2wk.update_layout(
+                        yaxis_title='Conversion Rate (%)',
+                        xaxis_title='First Visit Month',
+                        yaxis=dict(range=[0, max(conv_2wk['conversion_rate'].max() * 1.2, 10)])
+                    )
+                    fig_2wk = apply_axis_styling(fig_2wk)
+                    st.plotly_chart(fig_2wk, use_container_width=True)
+
+                    # Metrics
+                    overall_rate = conv_2wk['converted_2wk'].sum() / conv_2wk['total_visitors'].sum() * 100
+                    st.metric("Overall Rate", f"{overall_rate:.1f}%", help="Across all mature cohorts")
+
+            with col2:
+                st.markdown("#### Day Pass → Membership")
+                if not conv_mem.empty:
+                    fig_mem = px.bar(
+                        conv_mem,
+                        x='cohort_month',
+                        y='conversion_rate',
+                        title='Day Pass to Membership (30-Day Window)',
+                        text='conversion_rate',
+                        color_discrete_sequence=[COLORS['primary']]
+                    )
+                    fig_mem.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
+                    fig_mem.update_layout(
+                        yaxis_title='Conversion Rate (%)',
+                        xaxis_title='First Visit Month',
+                        yaxis=dict(range=[0, max(conv_mem['conversion_rate'].max() * 1.2, 10)])
+                    )
+                    fig_mem = apply_axis_styling(fig_mem)
+                    st.plotly_chart(fig_mem, use_container_width=True)
+
+                    # Metrics
+                    overall_rate = conv_mem['converted_member'].sum() / conv_mem['total_visitors'].sum() * 100
+                    st.metric("Overall Rate", f"{overall_rate:.1f}%", help="Across all mature cohorts")
+
+            st.caption("Note: Only includes cohorts with 30+ days of data. Recent visitors are excluded until they've had time to convert.")
+        else:
+            st.info("Not enough data yet - need 30+ days of visitor history.")
+    else:
+        st.info("Day pass visit data not available.")
+
+    # 2-Week Pass → Membership Conversion
+    st.markdown('---')
+    st.subheader('2-Week Pass → Membership Conversion (30-Day Window)')
+    st.markdown('Shows the percentage of 2-week pass buyers who became full members within 30 days.')
+
+    # Calculate 2-week to membership conversion from memberships data
+    # We need ALL memberships including 2-week passes for this calculation
+    @st.cache_data(ttl=300)
+    def load_all_memberships_for_conversion():
+        """Load all memberships including 2-week passes for conversion analysis."""
+        uploader = upload_data.DataUploader()
+        try:
+            from data_pipeline import fetch_capitan_membership_data
+            capitan_fetcher = fetch_capitan_membership_data.CapitanDataFetcher(config.capitan_token)
+            json_response = capitan_fetcher.get_results_from_api("customer-memberships")
+            return capitan_fetcher.process_membership_data(json_response)
+        except Exception:
+            return pd.DataFrame()
+
+    df_all_memberships = load_all_memberships_for_conversion()
+
+    if not df_all_memberships.empty and 'is_2_week_pass' in df_all_memberships.columns:
+        df_2wk = df_all_memberships[df_all_memberships['is_2_week_pass'] == True].copy()
+        df_full = df_all_memberships[df_all_memberships['is_2_week_pass'] == False].copy()
+
+        if not df_2wk.empty:
+            df_2wk['start_date'] = pd.to_datetime(df_2wk['start_date'], errors='coerce')
+            df_full['start_date'] = pd.to_datetime(df_full['start_date'], errors='coerce')
+
+            # Filter to 2-week passes with 30+ days to convert
+            cutoff = pd.Timestamp.now() - pd.Timedelta(days=30)
+            df_2wk_mature = df_2wk[df_2wk['start_date'] <= cutoff].copy()
+
+            if not df_2wk_mature.empty:
+                df_2wk_mature['cohort_month'] = df_2wk_mature['start_date'].dt.to_period('M').dt.start_time
+
+                # For each 2-week pass buyer, check if they got a full membership within 30 days
+                conversion_data = []
+                for owner_id in df_2wk_mature['owner_id'].unique():
+                    two_wk_date = df_2wk_mature[df_2wk_mature['owner_id'] == owner_id]['start_date'].min()
+                    cohort = two_wk_date.to_period('M').start_time
+
+                    # Check for full membership
+                    full_mem = df_full[df_full['owner_id'] == owner_id]
+                    converted_30d = False
+                    if not full_mem.empty:
+                        full_date = full_mem['start_date'].min()
+                        days_diff = (full_date - two_wk_date).days
+                        if 0 <= days_diff <= 30:
+                            converted_30d = True
+
+                    conversion_data.append({
+                        'owner_id': owner_id,
+                        'cohort_month': cohort,
+                        'converted_30d': converted_30d
+                    })
+
+                df_conv_2wk = pd.DataFrame(conversion_data)
+
+                # Aggregate by month
+                conv_by_month = df_conv_2wk.groupby('cohort_month').agg(
+                    total_2wk_buyers=('owner_id', 'nunique'),
+                    converted=('converted_30d', 'sum')
+                ).reset_index()
+                conv_by_month['conversion_rate'] = (conv_by_month['converted'] / conv_by_month['total_2wk_buyers'] * 100).round(1)
+
+                fig_2wk_mem = px.bar(
+                    conv_by_month,
+                    x='cohort_month',
+                    y='conversion_rate',
+                    title='2-Week Pass to Membership (30-Day Window)',
+                    text='conversion_rate',
+                    color_discrete_sequence=[COLORS['tertiary']]
+                )
+                fig_2wk_mem.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
+                fig_2wk_mem.update_layout(
+                    yaxis_title='Conversion Rate (%)',
+                    xaxis_title='2-Week Pass Purchase Month',
+                    yaxis=dict(range=[0, max(conv_by_month['conversion_rate'].max() * 1.2, 30)])
+                )
+                fig_2wk_mem = apply_axis_styling(fig_2wk_mem)
+                st.plotly_chart(fig_2wk_mem, use_container_width=True)
+
+                # Summary metrics
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("Total 2-Week Pass Buyers", len(df_2wk_mature['owner_id'].unique()))
+                with col2:
+                    total_converted = conv_by_month['converted'].sum()
+                    st.metric("Converted to Membership", int(total_converted))
+                with col3:
+                    overall_rate = total_converted / len(df_2wk_mature['owner_id'].unique()) * 100
+                    st.metric("Overall Conversion Rate", f"{overall_rate:.1f}%")
+
+                st.caption("Note: Only includes 2-week pass cohorts with 30+ days of data.")
+            else:
+                st.info("Not enough data yet - need 30+ days since 2-week pass purchases.")
+        else:
+            st.info("No 2-week pass purchases found.")
+    else:
+        st.info("Membership data not available for 2-week pass analysis.")
+
     # Day Passes Used (from checkins)
     st.subheader('Day Passes Used (Check-ins)')
 
