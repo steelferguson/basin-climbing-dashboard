@@ -13,6 +13,12 @@ from plotly.subplots import make_subplots
 from utils import upload_data
 from utils import config
 import os
+import sys
+
+# Add data pipeline to path for API access
+pipeline_path = os.path.expanduser('~/daily_sessions/projects/basin-climbing-data-pipeline')
+if pipeline_path not in sys.path:
+    sys.path.insert(0, pipeline_path)
 
 # Page config
 st.set_page_config(
@@ -262,17 +268,15 @@ st.title('🧗 Basin Climbing & Fitness Dashboard')
 st.markdown('---')
 
 # Create tabs
-tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([
+tab0, tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "📋 Overview",
     "📊 Revenue",
     "👥 Membership",
     "🎟️ Day Passes & Check-ins",
     "🎉 Rentals",
-    "💪 Programming",
-    "📱 Marketing",
-    "🧪 AB Tests",
-    "🏷️ Tag Syncs"
+    "💪 Programming"
 ])
+# Hidden tabs: "📱 Marketing", "🧪 AB Tests", "🏷️ Tag Syncs"
 
 # ============================================================================
 # TAB 0: OVERVIEW
@@ -2359,72 +2363,6 @@ with tab3:
                             long_pct = 100 * total_by_category_recent.get('Returning (6+mo)', 0) / total_passes_recent if total_passes_recent > 0 else 0
                             st.metric('Returning (6+ mo)', f"{long_pct:.1f}%", help=f"Most recent period: {latest_period.strftime('%Y-%m-%d')}")
 
-                    # Detailed engagement table
-                    st.markdown('---')
-                    st.subheader('Day Pass User Engagement Details')
-
-                    if not df_day_pass_engagement.empty:
-                        df_engagement = df_day_pass_engagement.copy()
-
-                        # Convert dates
-                        df_engagement['latest_day_pass_date'] = pd.to_datetime(df_engagement['latest_day_pass_date'], errors='coerce')
-                        df_engagement['previous_visit_date'] = pd.to_datetime(df_engagement['previous_visit_date'], errors='coerce')
-
-                        # Show filters
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            show_recent_only = st.checkbox('Show last 30 days only', value=True, key='day_pass_recent_filter')
-                        with col2:
-                            min_visits = st.slider('Min visits in last 6 months', 0, 20, 0, key='day_pass_visits_filter')
-
-                        # Apply filters
-                        df_filtered = df_engagement.copy()
-                        if show_recent_only:
-                            cutoff = pd.Timestamp.now() - pd.Timedelta(days=30)
-                            df_filtered = df_filtered[df_filtered['latest_day_pass_date'] >= cutoff]
-
-                        df_filtered = df_filtered[df_filtered['visits_last_6mo'] >= min_visits]
-
-                        # Format for display
-                        if not df_filtered.empty:
-                            df_display = df_filtered.copy()
-
-                            # Combine name
-                            df_display['name'] = (df_display['customer_first_name'] + ' ' + df_display['customer_last_name']).str.strip()
-
-                            # Format dates and numbers
-                            df_display['latest_day_pass_date'] = df_display['latest_day_pass_date'].dt.strftime('%Y-%m-%d')
-                            df_display['previous_visit_date'] = df_display['previous_visit_date'].apply(
-                                lambda x: x.strftime('%Y-%m-%d') if pd.notna(x) else 'First Visit'
-                            )
-                            df_display['days_since_last_visit'] = df_display['days_since_last_visit'].apply(
-                                lambda x: f"{int(x)}" if pd.notna(x) else 'N/A'
-                            )
-
-                            # Select and rename columns
-                            df_display = df_display[[
-                                'customer_id', 'name', 'customer_email', 'latest_day_pass_date',
-                                'previous_visit_date', 'days_since_last_visit',
-                                'visits_last_2mo', 'visits_last_6mo', 'visits_last_12mo'
-                            ]]
-                            df_display.columns = [
-                                'Customer ID', 'Name', 'Email', 'Latest Day Pass',
-                                'Previous Visit', 'Days Since', 'Visits (2mo)', 'Visits (6mo)', 'Visits (12mo)'
-                            ]
-
-                            st.dataframe(
-                                df_display,
-                                use_container_width=True,
-                                hide_index=True,
-                                height=400
-                            )
-
-                            st.caption(f'Showing {len(df_filtered):,} of {len(df_engagement):,} total non-member day pass users')
-                        else:
-                            st.info('No customers match the current filters')
-                    else:
-                        st.info('Engagement data not available')
-
                 else:
                     st.info('No day pass check-ins to analyze')
             else:
@@ -2437,305 +2375,17 @@ with tab3:
     else:
         st.info('Check-in data required for day pass analysis')
 
-    # Membership Conversion Funnel
+    # Average Day Passes Before Membership
     st.markdown('---')
-    st.subheader('Path to Membership: Check-ins Before Joining')
-    st.markdown('How many visits did new members have before purchasing their first membership?')
-
     if not df_membership_conversion.empty:
         df_conversion = df_membership_conversion.copy()
         df_conversion['membership_start_date'] = pd.to_datetime(df_conversion['membership_start_date'], errors='coerce')
-
-        # Filter to only memberships that have already started (no future memberships)
         today = pd.Timestamp.now()
         df_conversion = df_conversion[df_conversion['membership_start_date'] <= today].copy()
 
         if not df_conversion.empty:
-            # Aggregate by time period for trend analysis
-            df_conversion['period'] = df_conversion['membership_start_date'].dt.to_period(timeframe_daypass).dt.start_time
-
-            # Calculate average check-ins per period
-            avg_by_period = df_conversion.groupby('period')['previous_checkins_count'].mean().reset_index()
-            avg_by_period.columns = ['period', 'avg_checkins']
-
-            # Distribution by bucket over time
-            bucket_by_period = df_conversion.groupby(['period', 'checkins_bucket']).size().reset_index(name='count')
-
-            # Overall metrics
-            col1, col2, col3, col4 = st.columns(4)
-            with col1:
-                avg_overall = df_conversion['previous_checkins_count'].mean()
-                st.metric('Avg Check-ins Before Membership', f"{avg_overall:.1f}")
-            with col2:
-                median_overall = df_conversion['previous_checkins_count'].median()
-                st.metric('Median Check-ins', f"{int(median_overall)}")
-            with col3:
-                zero_checkins = len(df_conversion[df_conversion['previous_checkins_count'] == 0])
-                zero_pct = 100 * zero_checkins / len(df_conversion)
-                st.metric('Joined Without Visiting', f"{zero_pct:.1f}%")
-            with col4:
-                st.metric('Total New Memberships', f"{len(df_conversion):,}")
-
-            # Line chart: Average check-ins over time
-            if not avg_by_period.empty:
-                fig_avg = px.line(
-                    avg_by_period,
-                    x='period',
-                    y='avg_checkins',
-                    title='Average Check-ins Before Membership (Over Time)',
-                    markers=True
-                )
-                fig_avg.update_traces(line_color=COLORS['primary'], line_width=3)
-                fig_avg.update_layout(
-                    plot_bgcolor=COLORS['background'],
-                    paper_bgcolor=COLORS['background'],
-                    font_color=COLORS['text'],
-                    yaxis_title='Average Check-ins',
-                    xaxis_title='Membership Start Date',
-                    showlegend=False
-                )
-                fig_avg = apply_axis_styling(fig_avg)
-                st.plotly_chart(fig_avg, use_container_width=True)
-
-            # Stacked bar chart: Distribution by bucket
-            if not bucket_by_period.empty:
-                # Define bucket order
-                bucket_order = ['0', '1', '2', '3', '4', '5+']
-
-                # Define colors for buckets (gradient from new to experienced)
-                color_map = {
-                    '0': COLORS['primary'],      # Rust - brand new
-                    '1': COLORS['secondary'],    # Gold
-                    '2': COLORS['quaternary'],   # Teal
-                    '3': COLORS['tertiary'],     # Sage
-                    '4': '#8B7355',              # Muted brown
-                    '5+': '#4A4A4A'              # Dark gray - experienced
-                }
-
-                fig_dist = px.bar(
-                    bucket_by_period,
-                    x='period',
-                    y='count',
-                    color='checkins_bucket',
-                    title='New Members by Previous Check-in Count',
-                    barmode='stack',
-                    category_orders={'checkins_bucket': bucket_order},
-                    color_discrete_map=color_map
-                )
-                fig_dist.update_layout(
-                    plot_bgcolor=COLORS['background'],
-                    paper_bgcolor=COLORS['background'],
-                    font_color=COLORS['text'],
-                    yaxis_title='Number of New Members',
-                    xaxis_title='Membership Start Date',
-                    legend_title='Check-ins Before',
-                    legend=dict(
-                        orientation='h',
-                        yanchor='bottom',
-                        y=-0.3,
-                        xanchor='center',
-                        x=0.5
-                    )
-                )
-                fig_dist = apply_axis_styling(fig_dist)
-                st.plotly_chart(fig_dist, use_container_width=True)
-        else:
-            st.info('No memberships have started yet')
-
-    else:
-        st.info('Conversion metrics not available')
-
-    # Conversion Rate Charts (30-day window)
-    st.markdown('---')
-    st.subheader('Conversion Rates (30-Day Window)')
-    st.markdown('Shows the percentage of visitors who converted within 30 days of their first visit in each cohort.')
-
-    if not df_day_pass_visits_enriched.empty:
-        df_conv = df_day_pass_visits_enriched.copy()
-        df_conv['visit_date'] = pd.to_datetime(df_conv['visit_date'], errors='coerce')
-
-        # Only include first visits (visit_number == 1) for accurate cohort tracking
-        df_first_visits = df_conv[df_conv['visit_number'] == 1].copy()
-
-        # Filter to cohorts that have had 30+ days to convert
-        cutoff_date = pd.Timestamp.now() - pd.Timedelta(days=30)
-        df_mature = df_first_visits[df_first_visits['visit_date'] <= cutoff_date].copy()
-
-        if not df_mature.empty:
-            # Group by month for cohort analysis
-            df_mature['cohort_month'] = df_mature['visit_date'].dt.to_period('M').dt.start_time
-
-            # Day Pass → 2-Week Pass conversion rate by month
-            conv_2wk = df_mature.groupby('cohort_month').agg(
-                total_visitors=('customer_id', 'nunique'),
-                converted_2wk=('converted_2wk_30d', 'sum')
-            ).reset_index()
-            conv_2wk['conversion_rate'] = (conv_2wk['converted_2wk'] / conv_2wk['total_visitors'] * 100).round(1)
-
-            # Day Pass → Membership conversion rate by month
-            conv_mem = df_mature.groupby('cohort_month').agg(
-                total_visitors=('customer_id', 'nunique'),
-                converted_member=('converted_member_30d', 'sum')
-            ).reset_index()
-            conv_mem['conversion_rate'] = (conv_mem['converted_member'] / conv_mem['total_visitors'] * 100).round(1)
-
-            col1, col2 = st.columns(2)
-
-            with col1:
-                st.markdown("#### Day Pass → 2-Week Pass")
-                if not conv_2wk.empty:
-                    fig_2wk = px.bar(
-                        conv_2wk,
-                        x='cohort_month',
-                        y='conversion_rate',
-                        title='Day Pass to 2-Week Pass (30-Day Window)',
-                        text='conversion_rate',
-                        color_discrete_sequence=[COLORS['secondary']]
-                    )
-                    fig_2wk.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
-                    fig_2wk.update_layout(
-                        yaxis_title='Conversion Rate (%)',
-                        xaxis_title='First Visit Month',
-                        yaxis=dict(range=[0, max(conv_2wk['conversion_rate'].max() * 1.2, 10)])
-                    )
-                    fig_2wk = apply_axis_styling(fig_2wk)
-                    st.plotly_chart(fig_2wk, use_container_width=True)
-
-                    # Metrics
-                    overall_rate = conv_2wk['converted_2wk'].sum() / conv_2wk['total_visitors'].sum() * 100
-                    st.metric("Overall Rate", f"{overall_rate:.1f}%", help="Across all mature cohorts")
-
-            with col2:
-                st.markdown("#### Day Pass → Membership")
-                if not conv_mem.empty:
-                    fig_mem = px.bar(
-                        conv_mem,
-                        x='cohort_month',
-                        y='conversion_rate',
-                        title='Day Pass to Membership (30-Day Window)',
-                        text='conversion_rate',
-                        color_discrete_sequence=[COLORS['primary']]
-                    )
-                    fig_mem.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
-                    fig_mem.update_layout(
-                        yaxis_title='Conversion Rate (%)',
-                        xaxis_title='First Visit Month',
-                        yaxis=dict(range=[0, max(conv_mem['conversion_rate'].max() * 1.2, 10)])
-                    )
-                    fig_mem = apply_axis_styling(fig_mem)
-                    st.plotly_chart(fig_mem, use_container_width=True)
-
-                    # Metrics
-                    overall_rate = conv_mem['converted_member'].sum() / conv_mem['total_visitors'].sum() * 100
-                    st.metric("Overall Rate", f"{overall_rate:.1f}%", help="Across all mature cohorts")
-
-            st.caption("Note: Only includes cohorts with 30+ days of data. Recent visitors are excluded until they've had time to convert.")
-        else:
-            st.info("Not enough data yet - need 30+ days of visitor history.")
-    else:
-        st.info("Day pass visit data not available.")
-
-    # 2-Week Pass → Membership Conversion
-    st.markdown('---')
-    st.subheader('2-Week Pass → Membership Conversion (30-Day Window)')
-    st.markdown('Shows the percentage of 2-week pass buyers who became full members within 30 days.')
-
-    # Calculate 2-week to membership conversion from memberships data
-    # We need ALL memberships including 2-week passes for this calculation
-    @st.cache_data(ttl=300)
-    def load_all_memberships_for_conversion():
-        """Load all memberships including 2-week passes for conversion analysis."""
-        uploader = upload_data.DataUploader()
-        try:
-            from data_pipeline import fetch_capitan_membership_data
-            capitan_fetcher = fetch_capitan_membership_data.CapitanDataFetcher(config.capitan_token)
-            json_response = capitan_fetcher.get_results_from_api("customer-memberships")
-            return capitan_fetcher.process_membership_data(json_response)
-        except Exception:
-            return pd.DataFrame()
-
-    df_all_memberships = load_all_memberships_for_conversion()
-
-    if not df_all_memberships.empty and 'is_2_week_pass' in df_all_memberships.columns:
-        df_2wk = df_all_memberships[df_all_memberships['is_2_week_pass'] == True].copy()
-        df_full = df_all_memberships[df_all_memberships['is_2_week_pass'] == False].copy()
-
-        if not df_2wk.empty:
-            df_2wk['start_date'] = pd.to_datetime(df_2wk['start_date'], errors='coerce')
-            df_full['start_date'] = pd.to_datetime(df_full['start_date'], errors='coerce')
-
-            # Filter to 2-week passes with 30+ days to convert
-            cutoff = pd.Timestamp.now() - pd.Timedelta(days=30)
-            df_2wk_mature = df_2wk[df_2wk['start_date'] <= cutoff].copy()
-
-            if not df_2wk_mature.empty:
-                df_2wk_mature['cohort_month'] = df_2wk_mature['start_date'].dt.to_period('M').dt.start_time
-
-                # For each 2-week pass buyer, check if they got a full membership within 30 days
-                conversion_data = []
-                for owner_id in df_2wk_mature['owner_id'].unique():
-                    two_wk_date = df_2wk_mature[df_2wk_mature['owner_id'] == owner_id]['start_date'].min()
-                    cohort = two_wk_date.to_period('M').start_time
-
-                    # Check for full membership
-                    full_mem = df_full[df_full['owner_id'] == owner_id]
-                    converted_30d = False
-                    if not full_mem.empty:
-                        full_date = full_mem['start_date'].min()
-                        days_diff = (full_date - two_wk_date).days
-                        if 0 <= days_diff <= 30:
-                            converted_30d = True
-
-                    conversion_data.append({
-                        'owner_id': owner_id,
-                        'cohort_month': cohort,
-                        'converted_30d': converted_30d
-                    })
-
-                df_conv_2wk = pd.DataFrame(conversion_data)
-
-                # Aggregate by month
-                conv_by_month = df_conv_2wk.groupby('cohort_month').agg(
-                    total_2wk_buyers=('owner_id', 'nunique'),
-                    converted=('converted_30d', 'sum')
-                ).reset_index()
-                conv_by_month['conversion_rate'] = (conv_by_month['converted'] / conv_by_month['total_2wk_buyers'] * 100).round(1)
-
-                fig_2wk_mem = px.bar(
-                    conv_by_month,
-                    x='cohort_month',
-                    y='conversion_rate',
-                    title='2-Week Pass to Membership (30-Day Window)',
-                    text='conversion_rate',
-                    color_discrete_sequence=[COLORS['tertiary']]
-                )
-                fig_2wk_mem.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
-                fig_2wk_mem.update_layout(
-                    yaxis_title='Conversion Rate (%)',
-                    xaxis_title='2-Week Pass Purchase Month',
-                    yaxis=dict(range=[0, max(conv_by_month['conversion_rate'].max() * 1.2, 30)])
-                )
-                fig_2wk_mem = apply_axis_styling(fig_2wk_mem)
-                st.plotly_chart(fig_2wk_mem, use_container_width=True)
-
-                # Summary metrics
-                col1, col2, col3 = st.columns(3)
-                with col1:
-                    st.metric("Total 2-Week Pass Buyers", len(df_2wk_mature['owner_id'].unique()))
-                with col2:
-                    total_converted = conv_by_month['converted'].sum()
-                    st.metric("Converted to Membership", int(total_converted))
-                with col3:
-                    overall_rate = total_converted / len(df_2wk_mature['owner_id'].unique()) * 100
-                    st.metric("Overall Conversion Rate", f"{overall_rate:.1f}%")
-
-                st.caption("Note: Only includes 2-week pass cohorts with 30+ days of data.")
-            else:
-                st.info("Not enough data yet - need 30+ days since 2-week pass purchases.")
-        else:
-            st.info("No 2-week pass purchases found.")
-    else:
-        st.info("Membership data not available for 2-week pass analysis.")
+            avg_checkins = df_conversion['previous_checkins_count'].mean()
+            st.metric('Avg Day Passes Before Membership', f"{avg_checkins:.1f}")
 
     # Day Passes Used (from checkins)
     st.subheader('Day Passes Used (Check-ins)')
@@ -2799,6 +2449,244 @@ with tab3:
         st.caption(f'Total day passes used: {int(total_used):,}')
     else:
         st.info('No check-in data available')
+
+    # Conversion Funnel Tables (30-day window)
+    st.markdown('---')
+    st.subheader('Conversion Funnels (30-Day Window)')
+
+    # Day Pass → Membership table (main conversion funnel)
+    if not df_day_pass_visits_enriched.empty:
+        df_conv = df_day_pass_visits_enriched.copy()
+        df_conv['visit_date'] = pd.to_datetime(df_conv['visit_date'], errors='coerce')
+
+        # Only include first visits (visit_number == 1) for accurate cohort tracking
+        df_first_visits = df_conv[df_conv['visit_number'] == 1].copy()
+
+        # Filter to cohorts that have had 30+ days to convert
+        cutoff_date = pd.Timestamp.now() - pd.Timedelta(days=30)
+        df_mature = df_first_visits[df_first_visits['visit_date'] <= cutoff_date].copy()
+
+        if not df_mature.empty:
+            # Group by month for cohort analysis
+            df_mature['cohort_month'] = df_mature['visit_date'].dt.to_period('M').dt.start_time
+
+            # Day Pass → Membership conversion by month
+            conv_mem = df_mature.groupby('cohort_month').agg(
+                day_pass_visitors=('customer_id', 'nunique'),
+                converted_to_member=('converted_member_30d', 'sum')
+            ).reset_index()
+            conv_mem['conversion_rate'] = (conv_mem['converted_to_member'] / conv_mem['day_pass_visitors'] * 100).round(1)
+            conv_mem['cohort_month'] = conv_mem['cohort_month'].dt.strftime('%b %Y')
+
+            st.markdown("#### Day Pass → Membership")
+            # Build funnel table
+            funnel_mem = conv_mem[['cohort_month', 'day_pass_visitors', 'converted_to_member', 'conversion_rate']].copy()
+            funnel_mem.columns = ['Month', 'Day Pass Visitors', 'Got Membership', 'Rate']
+
+            # Add totals row
+            totals_mem = pd.DataFrame([{
+                'Month': 'TOTAL',
+                'Day Pass Visitors': funnel_mem['Day Pass Visitors'].sum(),
+                'Got Membership': funnel_mem['Got Membership'].sum(),
+                'Rate': round(funnel_mem['Got Membership'].sum() / funnel_mem['Day Pass Visitors'].sum() * 100, 1)
+            }])
+            funnel_mem = pd.concat([funnel_mem, totals_mem], ignore_index=True)
+
+            # Format rate as percentage string
+            funnel_mem['Rate'] = funnel_mem['Rate'].apply(lambda x: f"{x}%" if pd.notna(x) else '-')
+
+            styled_funnel_mem = funnel_mem.style.set_properties(**{'font-size': '32px', 'font-weight': 'bold'}).set_table_styles([
+                {'selector': 'th', 'props': [('font-size', '32px'), ('font-weight', 'bold')]}
+            ])
+            st.dataframe(styled_funnel_mem, use_container_width=True, hide_index=True)
+            st.caption("Shows unique first-time visitors who became members within 30 days.")
+        else:
+            st.info("Not enough data yet - need 30+ days of visitor history.")
+    else:
+        st.info("Day pass visit data not available.")
+
+    # 2-Week Pass Conversion Funnels (Dec 2025+)
+    st.markdown('---')
+    st.subheader('2-Week Pass Conversion Funnels')
+    st.markdown('Tracking the 2-week pass journey from Dec 2025 onwards.')
+
+    # Load 2-week passes and memberships from S3 (fast)
+    @st.cache_data(ttl=300)
+    def load_2wk_passes_from_s3():
+        """Load 2-week passes from S3."""
+        try:
+            uploader = upload_data.DataUploader()
+            csv_content = uploader.download_from_s3(config.aws_bucket_name, 'capitan/2_week_passes.csv')
+            return uploader.convert_csv_to_df(csv_content)
+        except Exception:
+            return pd.DataFrame()
+
+    df_2wk_passes = load_2wk_passes_from_s3()
+
+    col1, col2 = st.columns(2)
+
+    # Table 1: Day Pass → 2-Week Pass (Last Year) - Ever Converted
+    with col1:
+        st.markdown("#### Day Pass → 2-Week Pass (Ever)")
+        if not df_day_pass_visits_enriched.empty:
+            df_conv = df_day_pass_visits_enriched.copy()
+            df_conv['visit_date'] = pd.to_datetime(df_conv['visit_date'], errors='coerce')
+
+            # Only include first visits (visit_number == 1)
+            df_first_visits = df_conv[df_conv['visit_number'] == 1].copy()
+
+            # Filter to last 12 months
+            one_year_ago = (pd.Timestamp.now() - pd.DateOffset(months=12)).to_period('M').start_time
+            df_filtered = df_first_visits[df_first_visits['visit_date'] >= one_year_ago].copy()
+
+            # Build months to show (last 12 months through current month)
+            current_month = pd.Timestamp.now().to_period('M').start_time
+            all_months = pd.date_range(start=one_year_ago, end=current_month, freq='MS')
+
+            if len(all_months) > 0:
+                # Count ALL visitors by month
+                df_filtered['cohort_month'] = df_filtered['visit_date'].dt.to_period('M').dt.start_time
+                all_visitors = df_filtered.groupby('cohort_month').agg(
+                    day_pass_visitors=('customer_id', 'nunique')
+                ).reset_index()
+                visitors_by_month = {row['cohort_month']: row['day_pass_visitors'] for _, row in all_visitors.iterrows()}
+
+                # Calculate conversions using "ever" instead of 30-day window
+                conv_by_month = {}
+                conv_2wk = df_filtered.groupby('cohort_month').agg(
+                    converted_to_2wk=('converted_2wk_ever', 'sum')
+                ).reset_index()
+                for _, row in conv_2wk.iterrows():
+                    conv_by_month[row['cohort_month']] = row['converted_to_2wk']
+
+                # Build table with all months
+                rows = []
+                for month in all_months:
+                    visitors = visitors_by_month.get(month, 0)
+                    converted = int(conv_by_month.get(month, 0))
+                    rate_val = round(converted / visitors * 100, 1) if visitors > 0 else 0
+                    rows.append({
+                        'Month': month.strftime('%b %Y'),
+                        'Day Pass Visitors': visitors,
+                        'Got 2-Week': converted,
+                        'Rate': f"{rate_val}%"
+                    })
+
+                funnel = pd.DataFrame(rows)
+
+                # Add totals
+                total_visitors = sum(r['Day Pass Visitors'] for r in rows)
+                total_converted = sum(r['Got 2-Week'] for r in rows)
+                total_rate = round(total_converted / total_visitors * 100, 1) if total_visitors > 0 else 0
+                totals = pd.DataFrame([{
+                    'Month': 'TOTAL',
+                    'Day Pass Visitors': total_visitors,
+                    'Got 2-Week': total_converted,
+                    'Rate': f"{total_rate}%"
+                }])
+                funnel = pd.concat([funnel, totals], ignore_index=True)
+
+                styled_funnel = funnel.style.set_properties(**{'font-size': '32px', 'font-weight': 'bold'}).set_table_styles([
+                    {'selector': 'th', 'props': [('font-size', '32px'), ('font-weight', 'bold')]}
+                ])
+                st.dataframe(styled_funnel, use_container_width=True, hide_index=True)
+            else:
+                st.info("No months to display")
+        else:
+            st.info("Day pass data not available")
+
+    # Table 2: 2-Week Pass → Membership (using S3-cached data)
+    with col2:
+        st.markdown("#### 2-Week Pass → Membership")
+        if not df_2wk_passes.empty:
+            df_2wk = df_2wk_passes.copy()
+            df_2wk['start_date'] = pd.to_datetime(df_2wk['start_date'], errors='coerce')
+
+            # Use df_memberships for checking full membership conversions
+            df_full = df_memberships.copy()
+            df_full['start_date'] = pd.to_datetime(df_full['start_date'], errors='coerce')
+
+            # Filter to Dec 2025+
+            dec_2025 = pd.Timestamp('2025-12-01')
+            cutoff = pd.Timestamp.now() - pd.Timedelta(days=30)
+            df_2wk_filtered = df_2wk[df_2wk['start_date'] >= dec_2025].copy()
+            df_2wk_mature = df_2wk_filtered[df_2wk_filtered['start_date'] <= cutoff].copy()
+
+            # Build months to show (Dec 2025 through current month)
+            current_month = pd.Timestamp.now().to_period('M').start_time
+            all_months = pd.date_range(start=dec_2025, end=current_month, freq='MS')
+
+            if len(all_months) > 0:
+                # Count ALL 2-week buyers by month (including recent)
+                df_2wk_filtered['cohort_month'] = df_2wk_filtered['start_date'].dt.to_period('M').dt.start_time
+                all_buyers = df_2wk_filtered.groupby('cohort_month').agg(
+                    total_buyers=('owner_id', 'nunique')
+                ).reset_index()
+                buyers_by_month = {row['cohort_month']: row['total_buyers'] for _, row in all_buyers.iterrows()}
+
+                # For mature 2-week passes, check if they got a full membership within 30 days
+                conv_by_month = {}
+                if not df_2wk_mature.empty:
+                    for owner_id in df_2wk_mature['owner_id'].unique():
+                        two_wk_date = df_2wk_mature[df_2wk_mature['owner_id'] == owner_id]['start_date'].min()
+                        cohort = two_wk_date.to_period('M').start_time
+
+                        # Check for full membership
+                        full_mem = df_full[df_full['owner_id'] == owner_id]
+                        converted_30d = False
+                        if not full_mem.empty:
+                            full_date = full_mem['start_date'].min()
+                            days_diff = (full_date - two_wk_date).days
+                            if 0 <= days_diff <= 30:
+                                converted_30d = True
+
+                        if cohort not in conv_by_month:
+                            conv_by_month[cohort] = {'converted': 0}
+                        if converted_30d:
+                            conv_by_month[cohort]['converted'] += 1
+
+                # Build table with all months
+                rows = []
+                for month in all_months:
+                    buyers = buyers_by_month.get(month, 0)
+                    converted = conv_by_month.get(month, {}).get('converted', 0)
+                    is_recent = month > cutoff
+
+                    rate_val = round(converted / buyers * 100, 1) if buyers > 0 and not is_recent else None
+                    rows.append({
+                        'Month': month.strftime('%b %Y'),
+                        '2-Week Buyers': buyers,
+                        'Got Membership': converted if not is_recent else '-',
+                        'Rate': f"{rate_val}%" if rate_val is not None else ('-' if is_recent else '0%')
+                    })
+
+                funnel = pd.DataFrame(rows)
+
+                # Add totals - show all buyers, but only mature conversions
+                all_buyers_total = sum(r['2-Week Buyers'] for r in rows)
+                mature_rows = [r for r in rows if r['Got Membership'] != '-']
+                if len(mature_rows) > 0:
+                    mature_buyers = sum(r['2-Week Buyers'] for r in mature_rows)
+                    total_converted = sum(r['Got Membership'] for r in mature_rows)
+                    total_rate = round(total_converted / mature_buyers * 100, 1) if mature_buyers > 0 else 0
+                    totals = pd.DataFrame([{
+                        'Month': 'TOTAL',
+                        '2-Week Buyers': all_buyers_total,
+                        'Got Membership': total_converted,
+                        'Rate': f"{total_rate}%"
+                    }])
+                    funnel = pd.concat([funnel, totals], ignore_index=True)
+
+                styled_funnel = funnel.style.set_properties(**{'font-size': '32px', 'font-weight': 'bold'}).set_table_styles([
+                    {'selector': 'th', 'props': [('font-size', '32px'), ('font-weight', 'bold')]}
+                ])
+                st.dataframe(styled_funnel, use_container_width=True, hide_index=True)
+            else:
+                st.info("No months to display")
+        else:
+            st.info("No 2-week pass data available")
+
+    st.caption("Note: Left table shows last 12 months, day pass users who EVER bought a 2-week pass. Right table shows Dec 2025+ ALL 2-week buyers → membership (30-day window).")
 
     # Check-ins by Member vs Non-Member
     st.subheader('Check-ins: Members vs Non-Members')
@@ -3143,14 +3031,10 @@ with tab5:
     st.subheader('Youth Team Members Over Time')
 
     # Extract team type from membership name in df_memberships
+    # Include ALL memberships (not just active) so we can show historical counts
     youth_memberships = []
     for _, membership in df_memberships.iterrows():
         name = str(membership.get('name', '')).lower()
-        status = membership.get('status')
-
-        # Only include active memberships
-        if status != 'ACT':
-            continue
 
         # Determine team type
         team_type = None
@@ -3552,9 +3436,9 @@ with tab5:
         st.info('No camp events found')
 
 # ============================================================================
-# TAB 6: MARKETING
+# TAB 6: MARKETING (HIDDEN)
 # ============================================================================
-with tab6:
+if False:  # with tab6: - HIDDEN
     st.header('Marketing Performance')
 
     # Timeframe selector
@@ -4223,9 +4107,9 @@ with tab6:
 #         st.info('No expense data available. Run the QuickBooks pipeline to fetch data.')
 
 # ============================================================================
-# TAB 7: AB TESTS
+# TAB 7: AB TESTS (HIDDEN)
 # ============================================================================
-with tab7:
+if False:  # with tab7: - HIDDEN
     st.header("🧪 AB Test Results")
     st.markdown("Compare conversion rates between test groups to measure experiment effectiveness.")
 
@@ -4386,9 +4270,9 @@ with tab7:
                 st.dataframe(entry_breakdown, use_container_width=True, hide_index=True)
 
 # ==============================================================================
-# TAB 8: TAG SYNCS
+# TAB 8: TAG SYNCS (HIDDEN)
 # ==============================================================================
-with tab8:
+if False:  # with tab8: - HIDDEN
     st.header("🏷️ Shopify Tag Syncs")
     st.markdown("Track which customer flags have been synced to Shopify for marketing automation.")
 
