@@ -3154,11 +3154,11 @@ with tab5:
 
         # Determine team type
         team_type = None
-        if 'recreation' in name or 'rec team' in name:
+        if 'youth rec' in name or 'recreation' in name or 'rec team' in name:
             team_type = 'Recreation'
-        elif 'development' in name or 'dev team' in name:
+        elif 'youth development' in name or 'development' in name or 'dev team' in name:
             team_type = 'Development'
-        elif 'competitive' in name or 'comp team' in name:
+        elif 'youth comp' in name or 'competitive' in name or 'comp team' in name:
             team_type = 'Competitive'
 
         if team_type:
@@ -3196,34 +3196,37 @@ with tab5:
 
         youth_df = pd.DataFrame(youth_counts)
 
-        # Reshape for stacked area chart
-        youth_melted = youth_df.melt(id_vars='date',
-                                      value_vars=['Recreation', 'Development', 'Competitive'],
-                                      var_name='Team Type',
-                                      value_name='Members')
+        if youth_df.empty:
+            st.info('No youth team activity found in date range')
+        else:
+            # Reshape for stacked area chart
+            youth_melted = youth_df.melt(id_vars='date',
+                                          value_vars=['Recreation', 'Development', 'Competitive'],
+                                          var_name='Team Type',
+                                          value_name='Members')
 
-        fig_youth = px.area(
-            youth_melted,
-            x='date',
-            y='Members',
-            color='Team Type',
-            title='Active Youth Team Members by Team Type',
-            color_discrete_map={
-                'Recreation': COLORS['primary'],
-                'Development': COLORS['secondary'],
-                'Competitive': COLORS['tertiary']
-            }
-        )
-        fig_youth.update_layout(
-            plot_bgcolor=COLORS['background'],
-            paper_bgcolor=COLORS['background'],
-            font_color=COLORS['text'],
-            yaxis_title='Number of Team Members',
-            xaxis_title='Date',
-            hovermode='x unified'
-        )
-        fig_youth = apply_axis_styling(fig_youth)
-        st.plotly_chart(fig_youth, use_container_width=True)
+            fig_youth = px.area(
+                youth_melted,
+                x='date',
+                y='Members',
+                color='Team Type',
+                title='Active Youth Team Members by Team Type',
+                color_discrete_map={
+                    'Recreation': COLORS['primary'],
+                    'Development': COLORS['secondary'],
+                    'Competitive': COLORS['tertiary']
+                }
+            )
+            fig_youth.update_layout(
+                plot_bgcolor=COLORS['background'],
+                paper_bgcolor=COLORS['background'],
+                font_color=COLORS['text'],
+                yaxis_title='Number of Team Members',
+                xaxis_title='Date',
+                hovermode='x unified'
+            )
+            fig_youth = apply_axis_styling(fig_youth)
+            st.plotly_chart(fig_youth, use_container_width=True)
     else:
         st.info('No youth team data available')
 
