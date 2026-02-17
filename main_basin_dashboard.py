@@ -191,7 +191,7 @@ def convert_shopify_to_transactions(df_shopify: pd.DataFrame) -> pd.DataFrame:
     return shopify_transactions
 
 
-@st.cache_data(ttl=300)  # Cache for 5 minutes
+@st.cache_data(ttl=60)  # Cache for 1 minute
 def load_data():
     """Load all data from S3 with caching."""
     uploader = upload_data.DataUploader()
