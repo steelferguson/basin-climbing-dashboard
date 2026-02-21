@@ -1533,9 +1533,13 @@ with tab2:
         df_regular_memberships['start_date'] = pd.to_datetime(df_regular_memberships['start_date'], errors='coerce')
         df_regular_memberships['end_date'] = pd.to_datetime(df_regular_memberships['end_date'], errors='coerce')
 
-        # Find 2-week pass owners who converted to regular membership
+        # Use conversion tracking from pipeline if available, otherwise calculate
         two_week_owners = set(df_2wk_tracking['owner_id'].unique())
-        converted_owners = two_week_owners.intersection(set(df_regular_memberships['owner_id'].unique()))
+        if 'converted_to_membership' in df_2wk_tracking.columns:
+            converted_owners = set(df_2wk_tracking[df_2wk_tracking['converted_to_membership'] == True]['owner_id'].unique())
+        else:
+            # Fallback: calculate from membership intersection
+            converted_owners = two_week_owners.intersection(set(df_regular_memberships['owner_id'].unique()))
 
         # Build daily data
         # Start from earliest 2-week pass or Dec 2025
