@@ -1508,6 +1508,120 @@ with tab2:
     else:
         st.info('No memberships match the selected filters')
 
+    # 2-Week Pass Tracking
+    st.subheader('2-Week Pass Tracking')
+
+    # Load 2-week passes from S3
+    @st.cache_data(ttl=300)
+    def load_2wk_passes_for_tracking():
+        """Load 2-week passes from S3 for tracking chart."""
+        try:
+            uploader = upload_data.DataUploader()
+            csv_content = uploader.download_from_s3(config.aws_bucket_name, 'capitan/2_week_passes.csv')
+            return uploader.convert_csv_to_df(csv_content)
+        except Exception:
+            return pd.DataFrame()
+
+    df_2wk_tracking = load_2wk_passes_for_tracking()
+
+    if not df_2wk_tracking.empty and not df_memberships.empty:
+        df_2wk_tracking['start_date'] = pd.to_datetime(df_2wk_tracking['start_date'], errors='coerce')
+        df_2wk_tracking['end_date'] = pd.to_datetime(df_2wk_tracking['end_date'], errors='coerce')
+
+        # Get regular memberships (excluding 2-week passes)
+        df_regular_memberships = df_memberships[~df_memberships['name'].str.contains('2-Week|2 Week', case=False, na=False)].copy()
+        df_regular_memberships['start_date'] = pd.to_datetime(df_regular_memberships['start_date'], errors='coerce')
+        df_regular_memberships['end_date'] = pd.to_datetime(df_regular_memberships['end_date'], errors='coerce')
+
+        # Find 2-week pass owners who converted to regular membership
+        two_week_owners = set(df_2wk_tracking['owner_id'].unique())
+        converted_owners = two_week_owners.intersection(set(df_regular_memberships['owner_id'].unique()))
+
+        # Build daily data
+        # Start from earliest 2-week pass or Dec 2025
+        min_date = max(df_2wk_tracking['start_date'].min(), pd.Timestamp('2025-12-01'))
+        date_range_2wk = pd.date_range(start=min_date, end=pd.Timestamp.now(), freq='D')
+
+        daily_2wk_data = []
+        for date in date_range_2wk:
+            # Active 2-week passes on this date
+            active_2wk = df_2wk_tracking[
+                (df_2wk_tracking['start_date'] <= date) &
+                (df_2wk_tracking['end_date'] >= date)
+            ]['owner_id'].nunique()
+
+            # Converted members with active regular membership on this date
+            active_converted = df_regular_memberships[
+                (df_regular_memberships['owner_id'].isin(converted_owners)) &
+                (df_regular_memberships['start_date'] <= date) &
+                ((df_regular_memberships['end_date'] >= date) | (df_regular_memberships['status'] == 'ACT'))
+            ]['owner_id'].nunique()
+
+            daily_2wk_data.append({
+                'date': date,
+                'active_2wk_passes': active_2wk,
+                'converted_to_membership': active_converted
+            })
+
+        df_2wk_daily = pd.DataFrame(daily_2wk_data)
+
+        # Create the chart
+        fig_2wk = go.Figure()
+
+        fig_2wk.add_trace(go.Scatter(
+            x=df_2wk_daily['date'],
+            y=df_2wk_daily['active_2wk_passes'],
+            mode='lines',
+            name='Active 2-Week Passes',
+            line=dict(color=COLORS['primary'], width=3)
+        ))
+
+        fig_2wk.add_trace(go.Scatter(
+            x=df_2wk_daily['date'],
+            y=df_2wk_daily['converted_to_membership'],
+            mode='lines',
+            name='Converted to Membership',
+            line=dict(color=COLORS['tertiary'], width=3)
+        ))
+
+        fig_2wk.update_layout(
+            title='2-Week Pass Activity',
+            plot_bgcolor=COLORS['background'],
+            paper_bgcolor=COLORS['background'],
+            font_color=COLORS['text'],
+            height=400,
+            xaxis_title='Date',
+            yaxis_title='Count',
+            hovermode='x unified',
+            legend=dict(
+                orientation='h',
+                yanchor='bottom',
+                y=1.02,
+                xanchor='right',
+                x=1
+            )
+        )
+
+        fig_2wk = apply_axis_styling(fig_2wk)
+        st.plotly_chart(fig_2wk, use_container_width=True)
+
+        # Show current stats
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            current_active = df_2wk_daily['active_2wk_passes'].iloc[-1] if not df_2wk_daily.empty else 0
+            st.metric("Current Active 2-Week Passes", current_active)
+        with col2:
+            total_converted = len(converted_owners)
+            st.metric("Total Converted to Membership", total_converted)
+        with col3:
+            total_2wk_owners = len(two_week_owners)
+            conversion_rate = round(total_converted / total_2wk_owners * 100, 1) if total_2wk_owners > 0 else 0
+            st.metric("Conversion Rate", f"{conversion_rate}%")
+
+        st.caption("'Active 2-Week Passes' shows current holders. 'Converted to Membership' shows people who had a 2-week pass and later got a regular membership.")
+    else:
+        st.info('No 2-week pass data available')
+
     # 90 for 90 Conversion
     st.subheader('90 for 90 Conversion Summary')
 
@@ -2602,8 +2716,8 @@ with tab3:
             df_2wk = df_2wk_passes.copy()
             df_2wk['start_date'] = pd.to_datetime(df_2wk['start_date'], errors='coerce')
 
-            # Use df_memberships for checking full membership conversions
-            df_full = df_memberships.copy()
+            # Use df_memberships EXCLUDING 2-week passes for checking full membership conversions
+            df_full = df_memberships[~df_memberships['name'].str.contains('2-Week|2 Week', case=False, na=False)].copy()
             df_full['start_date'] = pd.to_datetime(df_full['start_date'], errors='coerce')
 
             # Filter to Dec 2025+
