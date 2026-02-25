@@ -3058,6 +3058,69 @@ with tab4:
     else:
         st.info('No birthday party data available')
 
+    # Birthday Parties by Party Date (from Firebase)
+    st.subheader('Birthday Parties by Party Date')
+
+    @st.cache_data(ttl=300)
+    def load_firebase_birthday_parties():
+        """Load birthday parties from Firebase via S3."""
+        try:
+            uploader = upload_data.DataUploader()
+            csv_content = uploader.download_from_s3(config.aws_bucket_name, 'firebase/birthday_parties.csv')
+            return uploader.convert_csv_to_df(csv_content)
+        except Exception:
+            return pd.DataFrame()
+
+    df_firebase_parties = load_firebase_birthday_parties()
+
+    if not df_firebase_parties.empty and 'party_date' in df_firebase_parties.columns:
+        df_firebase_parties['party_date'] = pd.to_datetime(df_firebase_parties['party_date'], errors='coerce')
+        df_firebase_parties = df_firebase_parties[df_firebase_parties['party_date'].notna()]
+
+        # Filter to 2026 onwards
+        df_firebase_parties = df_firebase_parties[df_firebase_parties['party_date'] >= '2026-01-01']
+
+        # Group by month (birthday parties make more sense monthly)
+        df_firebase_parties['date'] = df_firebase_parties['party_date'].dt.to_period('M').dt.start_time
+
+        party_by_date = (
+            df_firebase_parties.groupby('date')
+            .size()
+            .reset_index(name='num_parties')
+        )
+
+        fig_party_date = px.bar(
+            party_by_date,
+            x='date',
+            y='num_parties',
+            title='Birthday Parties by Party Date (When Party Happens)',
+            text='num_parties'
+        )
+        fig_party_date.update_traces(
+            marker_color=COLORS['tertiary'],
+            textposition='outside',
+            textfont=dict(size=14)
+        )
+        fig_party_date.update_layout(
+            plot_bgcolor=COLORS['background'],
+            paper_bgcolor=COLORS['background'],
+            font_color=COLORS['text'],
+            yaxis_title='Number of Parties',
+            xaxis_title='Month',
+            xaxis=dict(
+                tickformat='%b %Y',
+                dtick='M1'
+            )
+        )
+        fig_party_date = apply_axis_styling(fig_party_date)
+        st.plotly_chart(fig_party_date, use_container_width=True)
+
+        # Show upcoming parties
+        upcoming = df_firebase_parties[df_firebase_parties['party_date'] >= pd.Timestamp.now()].sort_values('party_date')
+        st.caption(f'Total parties in data: {len(df_firebase_parties)} | Upcoming: {len(upcoming)}')
+    else:
+        st.info('No Firebase birthday party data available')
+
     # Birthday Party Revenue
     st.subheader('Birthday Party Revenue')
 
