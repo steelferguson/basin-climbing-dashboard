@@ -150,6 +150,16 @@ def convert_shopify_to_transactions(df_shopify: pd.DataFrame) -> pd.DataFrame:
     if df_shopify.empty:
         return pd.DataFrame()
 
+    # Filter to paid orders only and exclude test orders
+    df_shopify = df_shopify[df_shopify['financial_status'] == 'paid'].copy()
+    df_shopify = df_shopify[
+        ~df_shopify['customer_email'].str.contains('steel', case=False, na=False) |
+        (df_shopify['price'] >= 50)
+    ]
+
+    if df_shopify.empty:
+        return pd.DataFrame()
+
     # Map Shopify categories to dashboard revenue categories
     # Shopify uses "Birthday Party" but dashboard uses "Event Booking"
     category_map = {
@@ -159,10 +169,19 @@ def convert_shopify_to_transactions(df_shopify: pd.DataFrame) -> pd.DataFrame:
     }
     mapped_category = df_shopify['category'].map(category_map).fillna('Other')
 
+    # Set sub_category properly for birthday parties
+    # Birthday bookings on Shopify are initial deposits (not day-of payments)
+    sub_category = df_shopify['category'].apply(
+        lambda x: 'birthday' if x == 'Birthday Party' else None
+    )
+    sub_category_detail = df_shopify['category'].apply(
+        lambda x: 'initial payment' if x == 'Birthday Party' else None
+    )
+
     # Create transactions dataframe from Shopify orders
     shopify_transactions = pd.DataFrame({
-        'transaction_id': df_shopify['line_item_id'].astype(str),
-        'Description': df_shopify['product_title'],
+        'transaction_id': 'shopify_' + df_shopify['line_item_id'].astype(str),
+        'Description': 'Shopify: ' + df_shopify['product_title'],
         'Pre-Tax Amount': df_shopify['price'] - (df_shopify['total_tax'] / df_shopify['quantity']),  # Approximate per-item tax
         'Tax Amount': df_shopify['total_tax'] / df_shopify['quantity'],  # Approximate per-item tax
         'Total Amount': df_shopify['price'],
@@ -175,17 +194,21 @@ def convert_shopify_to_transactions(df_shopify: pd.DataFrame) -> pd.DataFrame:
         'membership_freq': None,
         'is_founder': False,
         'is_free_membership': False,
-        'sub_category': df_shopify['variant_title'],
-        'sub_category_detail': df_shopify['product_title'],
+        'sub_category': sub_category,
+        'sub_category_detail': sub_category_detail,
         'date_': df_shopify['transaction_date'],
         'Data Source': 'Shopify',
-        'Day Pass Count': df_shopify['quantity'].where(df_shopify['category'] == 'Day Pass', 0),
+        'Day Pass Count': df_shopify.apply(
+            lambda row: row['Day Pass Count'] if row['category'] == 'Day Pass' else 0, axis=1
+        ),
         'base_price_amount': df_shopify['price'],
         'status': df_shopify['financial_status'],
         'payment_id': df_shopify['order_id'].astype(str),
         'order_id': df_shopify['order_id'].astype(str),
         'quantity': df_shopify['quantity'],
-        'fitness_amount': 0.0
+        'fitness_amount': 0.0,
+        'receipt_email': df_shopify['customer_email'],
+        'billing_email': df_shopify['customer_email']
     })
 
     return shopify_transactions
