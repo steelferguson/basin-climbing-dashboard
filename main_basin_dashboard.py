@@ -1142,9 +1142,9 @@ with tab2:
     with col2:
         frequency_filter = st.multiselect(
             'Frequency',
-            options=['bi_weekly', 'monthly', 'annual', 'prepaid_3mo', 'prepaid_6mo', 'prepaid_12mo'],
-            default=['bi_weekly', 'monthly', 'annual', 'prepaid_3mo', 'prepaid_6mo', 'prepaid_12mo'],
-            format_func=lambda x: x.replace('_', ' ').title()
+            options=['bi_weekly', 'monthly', 'annual', 'prepaid_3mo', 'prepaid_6mo', 'prepaid_12mo', 'unknown'],
+            default=['bi_weekly', 'monthly', 'annual', 'prepaid_3mo', 'prepaid_6mo', 'prepaid_12mo', 'unknown'],
+            format_func=lambda x: 'Other' if x == 'unknown' else x.replace('_', ' ').title()
         )
 
     with col3:
