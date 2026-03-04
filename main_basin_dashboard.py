@@ -255,13 +255,8 @@ def load_data():
     df_day_pass_checkin_recency = load_df(config.aws_bucket_name, config.s3_path_day_pass_checkin_recency)
     df_day_pass_visits_enriched = load_df(config.aws_bucket_name, config.s3_path_day_pass_visits_enriched)
 
-    # Load Shopify orders and convert to transaction format
-    df_shopify = load_df(config.aws_bucket_name, config.s3_path_shopify_orders)
-    if not df_shopify.empty:
-        # Convert Shopify to transaction format
-        shopify_transactions = convert_shopify_to_transactions(df_shopify)
-        # Merge with existing transactions
-        df_transactions = pd.concat([df_transactions, shopify_transactions], ignore_index=True)
+    # NOTE: Shopify is now included in combined_transaction_data.csv via the pipeline
+    # No need to load separately - that was causing double-counting
 
     return df_transactions, df_memberships, df_members, df_projection, df_at_risk, df_new_members, df_facebook_ads, df_events, df_checkins, df_instagram, df_mailchimp, df_failed_payments, df_expenses, df_twilio_messages, df_customer_identifiers, df_customers_master, df_customer_events, df_customer_flags, df_day_pass_engagement, df_membership_conversion, df_mailchimp_member_tags, df_shopify_synced_flags, df_experiment_entries, df_day_pass_checkin_recency, df_day_pass_visits_enriched
 
