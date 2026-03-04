@@ -343,18 +343,32 @@ with tab0:
     # Build lookup of each customer's FIRST membership date (to identify truly new members)
     first_membership_by_customer = df_mem_sc.groupby('owner_id')['start_date'].min().to_dict()
 
-    # Prepare birthday filter
-    bday_mask = (
-        (df_transactions['Description'].str.contains('Birthday Party', case=False, na=False)) |
-        ((df_transactions['revenue_category'] == 'Event Booking') &
-         (df_transactions['Description'].str.contains('birthday', case=False, na=False)))
-    )
-    if 'sub_category' in df_transactions.columns:
-        bday_mask = bday_mask | (
-            (df_transactions['sub_category'] == 'birthday') &
-            (df_transactions['Description'].str.contains('Calendly', case=False, na=False))
+    # Prepare birthday BOOKING filter (only initial payments/deposits, not day-of payments)
+    # Sources:
+    # 1. Calendly/Stripe: sub_category_detail == 'initial payment'
+    # 2. Shopify: Data Source == 'Shopify' and sub_category == 'birthday' (all Shopify birthday orders are bookings)
+    # 3. Capitan direct: Description contains 'Birthday Party Rental' (old capitan bookings)
+    bday_booking_mask = pd.Series(False, index=df_transactions.index)
+
+    # Calendly/Stripe bookings
+    if 'sub_category_detail' in df_transactions.columns:
+        bday_booking_mask = bday_booking_mask | (
+            (df_transactions['sub_category_detail'] == 'initial payment') &
+            (df_transactions['sub_category'] == 'birthday')
         )
-    df_bday = df_transactions[bday_mask].copy()
+
+    # Shopify bookings (all Shopify birthday orders are deposits/bookings)
+    bday_booking_mask = bday_booking_mask | (
+        (df_transactions['Data Source'] == 'Shopify') &
+        (df_transactions['sub_category'] == 'birthday')
+    )
+
+    # Capitan direct bookings (old format)
+    bday_booking_mask = bday_booking_mask | (
+        df_transactions['Description'].str.contains('Birthday Party Rental', case=False, na=False)
+    )
+
+    df_bday = df_transactions[bday_booking_mask].copy()
 
     # Prepare enriched day pass visits for check-in metrics
     df_visits_sc = df_day_pass_visits_enriched.copy()
