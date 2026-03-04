@@ -1160,13 +1160,14 @@ with tab2:
         'has_fitness_addon': 'Has Fitness Addon',
         'team_dues': 'Team Dues',
         '90_for_90': '90 for 90',
+        'bcf': 'BCF Staff',
         'not_special': 'Not in Special Category'
     }
 
     category_filter = st.multiselect(
         'Special Categories',
         options=list(category_options.keys()),
-        default=['founder', 'college', 'corporate', 'mid_day', 'fitness_only', 'has_fitness_addon', 'team_dues', '90_for_90', 'not_special'],
+        default=['founder', 'college', 'corporate', 'mid_day', 'fitness_only', 'has_fitness_addon', 'team_dues', '90_for_90', 'not_special'],  # BCF excluded by default
         format_func=lambda x: category_options[x]
     )
 
@@ -1198,6 +1199,8 @@ with tab2:
         df_memberships_filtered = df_memberships_filtered[~df_memberships_filtered['is_team_dues']]
     if '90_for_90' not in category_filter:
         df_memberships_filtered = df_memberships_filtered[~df_memberships_filtered['is_90_for_90']]
+    if 'bcf' not in category_filter:
+        df_memberships_filtered = df_memberships_filtered[~df_memberships_filtered['is_bcf']]
     if 'not_special' not in category_filter:
         # Exclude members NOT in any special category (i.e., only show special category members)
         special_mask = (
@@ -1208,7 +1211,8 @@ with tab2:
             df_memberships_filtered['is_fitness_only'] |
             df_memberships_filtered['has_fitness_addon'] |
             df_memberships_filtered['is_team_dues'] |
-            df_memberships_filtered['is_90_for_90']
+            df_memberships_filtered['is_90_for_90'] |
+            df_memberships_filtered['is_bcf']
         )
         df_memberships_filtered = df_memberships_filtered[special_mask]
 
@@ -1313,6 +1317,8 @@ with tab2:
         df_members_filtered = df_members_filtered[~df_members_filtered['is_team_dues']]
     if '90_for_90' not in category_filter:
         df_members_filtered = df_members_filtered[~df_members_filtered['is_90_for_90']]
+    if 'bcf' not in category_filter:
+        df_members_filtered = df_members_filtered[~df_members_filtered['is_bcf']]
     if 'not_special' not in category_filter:
         # Exclude members NOT in any special category (i.e., only show special category members)
         special_mask = (
@@ -1323,7 +1329,8 @@ with tab2:
             df_members_filtered['is_fitness_only'] |
             df_members_filtered['has_fitness_addon'] |
             df_members_filtered['is_team_dues'] |
-            df_members_filtered['is_90_for_90']
+            df_members_filtered['is_90_for_90'] |
+            df_members_filtered['is_bcf']
         )
         df_members_filtered = df_members_filtered[special_mask]
 
