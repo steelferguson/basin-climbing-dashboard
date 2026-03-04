@@ -1813,15 +1813,14 @@ with tab2:
             textfont=dict(size=14)
         ))
 
-        # Add net change line
+        # Add net change line (same axis as bars - Net Change = New - Attrition)
         fig_attrition.add_trace(go.Scatter(
             x=df_period['period'],
             y=df_period['Net Change'],
             name='Net Change',
             mode='lines+markers',
             line=dict(color=COLORS['quaternary'], width=3),
-            marker=dict(size=8),
-            yaxis='y2'
+            marker=dict(size=8)
         ))
 
         period_label = 'Month' if attrition_period == 'Monthly' else 'Week'
@@ -1833,12 +1832,6 @@ with tab2:
             height=500,
             xaxis_title=period_label,
             yaxis_title='Count',
-            yaxis2=dict(
-                title='Net Change',
-                overlaying='y',
-                side='right',
-                showgrid=False
-            ),
             hovermode='x unified',
             barmode='relative',
             legend=dict(
