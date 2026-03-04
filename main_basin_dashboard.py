@@ -3041,22 +3041,32 @@ with tab4:
         st.write("Unique sub_category:", df_transactions['sub_category'].unique().tolist())
         st.write("Unique Data Source:", df_transactions['Data Source'].unique().tolist())
 
-    # Combine old birthday data (Calendly) with new Shopify birthday purchases
-    # Old: sub_category == 'birthday' with Calendly in description (deposit payments)
-    df_birthday_old = df_transactions[
-        (df_transactions['sub_category'] == 'birthday') &
-        (df_transactions['Description'].str.contains('Calendly', case=False, na=False))
-    ].copy()
+    # Birthday BOOKINGS only (initial payments/deposits, not day-of payments)
+    # Sources:
+    # 1. Calendly/Stripe: sub_category_detail == 'initial payment' with sub_category == 'birthday'
+    # 2. Shopify: Data Source == 'Shopify' and sub_category == 'birthday'
+    # 3. Capitan direct: Description contains 'Birthday Party Rental'
+    bday_chart_mask = pd.Series(False, index=df_transactions.index)
 
-    # New: Shopify purchases with 'Birthday Party' in product name or revenue_category == 'Event Booking' with birthday in description
-    df_birthday_shopify = df_transactions[
-        (df_transactions['Description'].str.contains('Birthday Party', case=False, na=False)) |
-        ((df_transactions['revenue_category'] == 'Event Booking') &
-         (df_transactions['Description'].str.contains('birthday', case=False, na=False)))
-    ].copy()
+    # Calendly/Stripe bookings
+    if 'sub_category_detail' in df_transactions.columns:
+        bday_chart_mask = bday_chart_mask | (
+            (df_transactions['sub_category_detail'] == 'initial payment') &
+            (df_transactions['sub_category'] == 'birthday')
+        )
 
-    # Combine both sources and remove duplicates
-    df_birthday = pd.concat([df_birthday_old, df_birthday_shopify], ignore_index=True).drop_duplicates()
+    # Shopify bookings
+    bday_chart_mask = bday_chart_mask | (
+        (df_transactions['Data Source'] == 'Shopify') &
+        (df_transactions['sub_category'] == 'birthday')
+    )
+
+    # Capitan direct bookings
+    bday_chart_mask = bday_chart_mask | (
+        df_transactions['Description'].str.contains('Birthday Party Rental', case=False, na=False)
+    )
+
+    df_birthday = df_transactions[bday_chart_mask].copy()
 
     df_birthday['Date'] = pd.to_datetime(df_birthday['Date'], errors='coerce')
     df_birthday = df_birthday[df_birthday['Date'].notna()]
