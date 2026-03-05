@@ -41,6 +41,9 @@ COLORS = {
     'gridline': '#E0E0E0'      # Light grey for gridlines (subtle)
 }
 
+# 2-Week Pass tracking start date (when the program was properly configured)
+TWO_WEEK_PASS_START_DATE = pd.Timestamp('2025-12-01')
+
 # Set default Plotly template for consistent chart styling across all charts
 import plotly.io as pio
 import plotly.graph_objects as go
@@ -71,7 +74,7 @@ REVENUE_CATEGORY_COLORS = {
     'New Membership': COLORS['primary'],      # Rust
     'Membership Renewal': '#D4AF6A',          # Lighter gold (different from secondary)
     'Programming': COLORS['tertiary'],        # Sage green
-    'Team Dues': '#C85A3E',                   # Lighter rust (different from primary)
+    'Team': '#C85A3E',                        # Lighter rust (matches pipeline data)
     'Retail': COLORS['dark_grey'],            # Dark grey
     'Event Booking': '#B8C9A8',               # Lighter sage (different from tertiary)
 }
@@ -152,9 +155,9 @@ def convert_shopify_to_transactions(df_shopify: pd.DataFrame) -> pd.DataFrame:
 
     # Filter to paid orders only and exclude test orders
     df_shopify = df_shopify[df_shopify['financial_status'] == 'paid'].copy()
+    # Exclude test orders from "steel" emails (these are internal test transactions)
     df_shopify = df_shopify[
-        ~df_shopify['customer_email'].str.contains('steel', case=False, na=False) |
-        (df_shopify['price'] >= 50)
+        ~df_shopify['customer_email'].str.contains('steel', case=False, na=False)
     ]
 
     if df_shopify.empty:
@@ -179,13 +182,16 @@ def convert_shopify_to_transactions(df_shopify: pd.DataFrame) -> pd.DataFrame:
     )
 
     # Create transactions dataframe from Shopify orders
+    # Safely divide by quantity, defaulting to 1 if quantity is 0 or missing
+    safe_quantity = df_shopify['quantity'].replace(0, 1).fillna(1)
+
     shopify_transactions = pd.DataFrame({
         'transaction_id': 'shopify_' + df_shopify['line_item_id'].astype(str),
         'Description': 'Shopify: ' + df_shopify['product_title'],
-        'Pre-Tax Amount': df_shopify['price'] - (df_shopify['total_tax'] / df_shopify['quantity']),  # Approximate per-item tax
-        'Tax Amount': df_shopify['total_tax'] / df_shopify['quantity'],  # Approximate per-item tax
+        'Pre-Tax Amount': df_shopify['price'] - (df_shopify['total_tax'] / safe_quantity),
+        'Tax Amount': df_shopify['total_tax'] / safe_quantity,
         'Total Amount': df_shopify['price'],
-        'Discount Amount': df_shopify['total_discounts'] / df_shopify['quantity'],  # Approximate per-item discount
+        'Discount Amount': df_shopify['total_discounts'] / safe_quantity,
         'Name': df_shopify['customer_first_name'].fillna('') + ' ' + df_shopify['customer_last_name'].fillna(''),
         'Date': df_shopify['transaction_date'],
         'payment_intent_status': 'succeeded',  # Shopify orders are completed
@@ -261,9 +267,9 @@ def load_data():
     return df_transactions, df_memberships, df_members, df_projection, df_at_risk, df_new_members, df_facebook_ads, df_events, df_checkins, df_instagram, df_mailchimp, df_failed_payments, df_expenses, df_twilio_messages, df_customer_identifiers, df_customers_master, df_customer_events, df_customer_flags, df_day_pass_engagement, df_membership_conversion, df_mailchimp_member_tags, df_shopify_synced_flags, df_experiment_entries, df_day_pass_checkin_recency, df_day_pass_visits_enriched
 
 
-# TODO: Re-enable password protection after testing
-# if not check_password():
-#     st.stop()
+# Password protection
+if not check_password():
+    st.stop()
 
 # Load data
 with st.spinner('Loading data from S3...'):
@@ -593,7 +599,7 @@ with tab1:
 
     category_order = [
         'Day Pass', 'New Membership', 'Membership Renewal',
-        'Programming', 'Team Dues', 'Retail', 'Event Booking'
+        'Programming', 'Team', 'Retail', 'Event Booking'
     ]
 
     # Line chart - Total Revenue Over Time
@@ -776,7 +782,7 @@ with tab1:
     def map_to_accounting_group(category):
         if category in ['New Membership', 'Membership Renewal']:
             return 'Memberships'
-        elif category in ['Team', 'Team Dues', 'Programming']:
+        elif category in ['Team', 'Programming']:
             return 'Team & Programming'
         else:
             return category
@@ -1581,8 +1587,8 @@ with tab2:
             converted_owners = two_week_owners.intersection(set(df_regular_memberships['owner_id'].unique()))
 
         # Build daily data
-        # Start from earliest 2-week pass or Dec 2025
-        min_date = max(df_2wk_tracking['start_date'].min(), pd.Timestamp('2025-12-01'))
+        # Start from earliest 2-week pass or configured start date
+        min_date = max(df_2wk_tracking['start_date'].min(), TWO_WEEK_PASS_START_DATE)
         date_range_2wk = pd.date_range(start=min_date, end=pd.Timestamp.now(), freq='D')
 
         daily_2wk_data = []
@@ -1769,13 +1775,22 @@ with tab2:
             (df_memberships_dates['start_date'] < period_end)
         ])
 
-        # Count memberships that ended in this period (attrition)
-        # ONLY count memberships with status='END' to avoid counting active memberships' billing dates
-        attrited = len(df_memberships_dates[
+        # Count attrited CUSTOMERS (not just memberships) in this period
+        # A customer is attrited if their membership ended AND they have no other active membership
+        ended_this_period = df_memberships_dates[
             (df_memberships_dates['status'] == 'END') &
             (df_memberships_dates['end_date'] >= period_start) &
             (df_memberships_dates['end_date'] < period_end)
-        ])
+        ]
+        active_statuses = ['ACT', 'ACTIVE', 'FRO', 'FROZEN']
+        attrited = 0
+        for owner_id in ended_this_period['owner_id'].unique():
+            has_active = df_memberships_dates[
+                (df_memberships_dates['owner_id'] == owner_id) &
+                (df_memberships_dates['status'].isin(active_statuses))
+            ]
+            if len(has_active) == 0:
+                attrited += 1
 
         # Net change
         net_change = new_members - attrited
@@ -2756,15 +2771,14 @@ with tab3:
             df_full = df_memberships[~df_memberships['name'].str.contains('2-Week|2 Week', case=False, na=False)].copy()
             df_full['start_date'] = pd.to_datetime(df_full['start_date'], errors='coerce')
 
-            # Filter to Dec 2025+
-            dec_2025 = pd.Timestamp('2025-12-01')
+            # Filter to 2-week pass program start date
             cutoff = pd.Timestamp.now() - pd.Timedelta(days=30)
-            df_2wk_filtered = df_2wk[df_2wk['start_date'] >= dec_2025].copy()
+            df_2wk_filtered = df_2wk[df_2wk['start_date'] >= TWO_WEEK_PASS_START_DATE].copy()
             df_2wk_mature = df_2wk_filtered[df_2wk_filtered['start_date'] <= cutoff].copy()
 
-            # Build months to show (Dec 2025 through current month)
+            # Build months to show (program start through current month)
             current_month = pd.Timestamp.now().to_period('M').start_time
-            all_months = pd.date_range(start=dec_2025, end=current_month, freq='MS')
+            all_months = pd.date_range(start=TWO_WEEK_PASS_START_DATE, end=current_month, freq='MS')
 
             if len(all_months) > 0:
                 # Count ALL 2-week buyers by month (including recent)
